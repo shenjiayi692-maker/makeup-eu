@@ -65,3 +65,10 @@ docs/    schema.md          表结构与字段含义
 `data/review_queue.csv`（64 条）：c/d/e 三列数量对不上、无法安全一一配对的条目。
 这些条目**没有做任何猜测性配对**，三列各自完整保留，等人工判断。
 其余 2 426 条（共 2 490 条）物质记录是干净的一一对应。详见 [docs/validation.md](docs/validation.md)。
+
+## 许可
+
+代码与提取脚本以 MIT 许可发布，见 [LICENSE](LICENSE)。
+
+法规文本本身来自 EUR-Lex，依 Decision 2011/833/EU 可自由复用（需标注来源），
+不在 MIT 覆盖范围内。
