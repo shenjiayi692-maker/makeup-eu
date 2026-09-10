@@ -17,10 +17,13 @@
 - **下一步：人工核对 `data/review_queue.csv`（64 条）。**
   这些是 c/d/e 三列数量对不上、代码刻意不做猜测性配对的条目，三列内容都完整保留着。
   核对完可以把结果写回 substances 表并把 split_ok 置 1。
+- 已发布：https://github.com/shenjiayi692-maker/makeup-eu （public，MIT）。
 - 残留状态：venv 在 scratchpad（pdfplumber + pymupdf），项目本身没有 venv；
-  重跑需 `pip install pdfplumber pymupdf` 后
-  `CELEX_OUT=./data python src/build.py II III IV V VI`。
-  不是 git 仓库。
+  重跑需 `pip install pdfplumber pymupdf`，PDF 路径用 `CELEX_PDF` 指定，
+  然后 `CELEX_OUT=./data python src/build.py II III IV V VI`。
+- 构建是确定性的：同一份 PDF 全量重建产出的 SQLite 和 CSV 逐字节一致
+  （sha256 `029f191b…`）。所以重跑之后 `git status` 是干净的，
+  `data/` 留在版本控制里不会让仓库变大。
 
 ## 本轮相对第一版（只跑附件 V）的重要修正
 
