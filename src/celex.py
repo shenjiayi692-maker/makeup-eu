@@ -1,8 +1,12 @@
 """Cell-level extractor for the annex tables of consolidated EU Reg. 1223/2009."""
-import pdfplumber, re, statistics
+import os, re, statistics
+import pdfplumber
 from collections import defaultdict, Counter
 
-PDF = "/Users/jiayishen/Downloads/CELEX_02009R1223-20260518_EN_TXT.pdf"
+# Path to the source PDF; override with CELEX_PDF.
+PDF = os.environ.get(
+    'CELEX_PDF',
+    os.path.expanduser('~/Downloads/CELEX_02009R1223-20260518_EN_TXT.pdf'))
 _pdf = None
 def doc():
     global _pdf

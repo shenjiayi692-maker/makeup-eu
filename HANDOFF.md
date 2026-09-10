@@ -1,7 +1,7 @@
 # HANDOFF — EU 化妆品法规 1223/2009 附件提取
 
-源 PDF：`/Users/jiayishen/Downloads/CELEX_02009R1223-20260518_EN_TXT.pdf`
-（合并版 041.001，449 页）
+源 PDF：`CELEX_02009R1223-20260518_EN_TXT.pdf`（合并版 041.001，449 页），
+路径由环境变量 `CELEX_PDF` 指定，默认 `~/Downloads/` 下同名文件。
 
 代码 `src/`，输出 `data/`，文档 `docs/`。总览见 `README.md`。
 

@@ -3,7 +3,8 @@
 把合并版 PDF（`02009R1223 — EN — 18.05.2026 — 041.001`，449 页）的附件 II–VI
 表格提取成 SQLite + CSV。
 
-源文件：`/Users/jiayishen/Downloads/CELEX_02009R1223-20260518_EN_TXT.pdf`
+源文件：EUR-Lex 合并版 PDF `CELEX_02009R1223-20260518_EN_TXT.pdf`，
+路径用环境变量 `CELEX_PDF` 指定（默认 `~/Downloads/` 下同名文件）。
 
 ## 结果
 
@@ -24,9 +25,15 @@
 
 ```bash
 pip install pdfplumber pymupdf
+export CELEX_PDF=/path/to/CELEX_02009R1223-20260518_EN_TXT.pdf
 CELEX_OUT=./data python src/build.py II III IV V VI
 CELEX_OUT=./data python src/coverage.py II III IV V VI   # 字符级自校验
 ```
+
+PDF 可从 EUR-Lex 下载：<https://eur-lex.europa.eu/eli/reg/2009/1223/consolidated>
+
+> 法规文本来自 EUR-Lex，依 Decision 2011/833/EU 可自由复用（需标注来源）。
+> 合并版本身仅供参考，具有法律效力的是《欧盟官方公报》上发布的版本。
 
 查询示例：
 
