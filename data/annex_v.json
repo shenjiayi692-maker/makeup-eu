@@ -1,0 +1,3120 @@
+[
+ {
+  "annex": "V",
+  "ref_no": "1",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "413",
+  "chemical_name": "Benzoic acid and its\nsodium salt",
+  "colour_index": null,
+  "inci_name": "Benzoic acid\nSodium Benzoate",
+  "cas": "65-85-0\n532-32-1",
+  "ec": "200-618-2\n208-534-8",
+  "colour": null,
+  "product_type": "Rinse-off products,\nexcept oral\nproducts\nOral products\nLeave-on products",
+  "max_concentration": "2,5 % (acid)\n1,7 % (acid)\n0,5 % (acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzoic acid",
+    "cas": "65-85-0",
+    "ec": "200-618-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "Sodium Benzoate",
+    "cas": "532-32-1",
+    "ec": "208-534-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "aligned",
+    "product_type": "Rinse-off products,\nexcept oral\nproducts",
+    "max_concentration": "2,5 % (acid)",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": null,
+    "tier_source": "aligned",
+    "product_type": "Oral products",
+    "max_concentration": "1,7 % (acid)",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": null,
+    "tier_source": "aligned",
+    "product_type": "Leave-on products",
+    "max_concentration": "0,5 % (acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 1
+ },
+ {
+  "annex": "V",
+  "ref_no": "1a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "413,414",
+  "chemical_name": "Salts of benzoic acid\nother than that listed\nunder reference\nnumber 1 and esters\nof benzoic acid",
+  "colour_index": null,
+  "inci_name": "Ammonium benzoate,\ncalcium benzoate,\npotassium benzoate,\nmagnesium benzoate,\nMEA-benzoate, methyl\nbenzoate, ethyl\nbenzoate, propyl\nbenzoate, butyl\nbenzoate, isobutyl\nbenzoate, isopropyl\nbenzoate, phenyl\nbenzoate",
+  "cas": "1863-63-4, 2090-05-3,\n582-25-2, 553-70-8,\n4337-66-0, 93-58-3,\n93-89-0, 2315-68-6,\n136-60-7, 120-50-3,\n939-48-0, 93-99-2",
+  "ec": "217-468-9,\n218-235-4,\n209-481-3,\n209-045-2,\n224-387-2,\n202-259-7,\n202-284-3,\n219-020-8,\n205-252-7,\n204-401-3,\n213-361-6,\n202-293-2",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 % (acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ammonium benzoate",
+    "cas": "1863-63-4",
+    "ec": "217-468-9",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "calcium benzoate",
+    "cas": "2090-05-3",
+    "ec": "218-235-4",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "potassium benzoate",
+    "cas": "582-25-2",
+    "ec": "209-481-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "magnesium benzoate",
+    "cas": "553-70-8",
+    "ec": "209-045-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "MEA-benzoate",
+    "cas": "4337-66-0",
+    "ec": "224-387-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "methyl benzoate",
+    "cas": "93-58-3",
+    "ec": "202-259-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 7,
+    "colour_index": null,
+    "inci_name": "ethyl benzoate",
+    "cas": "93-89-0",
+    "ec": "202-284-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 8,
+    "colour_index": null,
+    "inci_name": "propyl benzoate",
+    "cas": "2315-68-6",
+    "ec": "219-020-8",
+    "split_ok": 1
+   },
+   {
+    "seq": 9,
+    "colour_index": null,
+    "inci_name": "butyl benzoate",
+    "cas": "136-60-7",
+    "ec": "205-252-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 10,
+    "colour_index": null,
+    "inci_name": "isobutyl benzoate",
+    "cas": "120-50-3",
+    "ec": "204-401-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 11,
+    "colour_index": null,
+    "inci_name": "isopropyl benzoate",
+    "cas": "939-48-0",
+    "ec": "213-361-6",
+    "split_ok": 1
+   },
+   {
+    "seq": 12,
+    "colour_index": null,
+    "inci_name": "phenyl benzoate",
+    "cas": "93-99-2",
+    "ec": "202-293-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 % (acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 2
+ },
+ {
+  "annex": "V",
+  "ref_no": "2",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "414",
+  "chemical_name": "Propionic acid and its\nsalts",
+  "colour_index": null,
+  "inci_name": "Propionic acid,\nammonium propionate,\ncalcium propionate,\nmagnesium propionate,\npotassium propionate,\nsodium propionate",
+  "cas": "79-09-4, 17496-08-1,\n4075-81-4, 557-27-7,\n327-62-8, 137-40-6",
+  "ec": "201-176-3,\n241-503-7,\n223-795-8,\n209-166-0,\n206-323-5,\n205-290-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "2 % (acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Propionic acid",
+    "cas": "79-09-4",
+    "ec": "201-176-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "ammonium propionate",
+    "cas": "17496-08-1",
+    "ec": "241-503-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "calcium propionate",
+    "cas": "4075-81-4",
+    "ec": "223-795-8",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "magnesium propionate",
+    "cas": "557-27-7",
+    "ec": "209-166-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "potassium propionate",
+    "cas": "327-62-8",
+    "ec": "206-323-5",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "sodium propionate",
+    "cas": "137-40-6",
+    "ec": "205-290-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "2 % (acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 3
+ },
+ {
+  "annex": "V",
+  "ref_no": "3",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M36 ▼C6",
+  "mid_amendments": "",
+  "pages": "414",
+  "chemical_name": "Salicylic acid (1) and\nits salts",
+  "colour_index": null,
+  "inci_name": "Salicylic acid\nCalcium salicylate,\nmagnesium salicylate,\nMEA- salicylate,\nsodium salicylate,\npotassium salicylate,\nTEA- salicylate",
+  "cas": "69-72-7\n824-35-1, 18917-89-0,\n59866- 70-5, 54-21-7,\n578-36-9, 2174-16-5",
+  "ec": "200-712-3\n212-525-4,\n242-669-3,\n261-963-2,\n200-198-0,\n209-421-6,\n218-531-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 % (acid)\n0,5 % (acid)",
+  "other": "Not to be used in\nproducts for\nchildren under 3\nyears of age.\nNot to be used in\noral products.\nNot to be used in\napplications that\nmay lead to\nexposure of the\nend-user’s lungs\nby inhalation.\nNot to be used in\nproducts for\nchildren under 3\nyears of age,\nexcept for\nshampoos.",
+  "wording": "Not to be used\nfor children\nunder 3 years of\nage (12)\nNot to be used\nfor children\nunder 3 years of\nage (2)",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Salicylic acid",
+    "cas": "69-72-7",
+    "ec": "200-712-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "Calcium salicylate",
+    "cas": "824-35-1",
+    "ec": "212-525-4",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "magnesium salicylate",
+    "cas": "18917-89-0",
+    "ec": "242-669-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "MEA- salicylate",
+    "cas": "59866-70-5",
+    "ec": "261-963-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "sodium salicylate",
+    "cas": "54-21-7",
+    "ec": "200-198-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "potassium salicylate",
+    "cas": "578-36-9",
+    "ec": "209-421-6",
+    "split_ok": 1
+   },
+   {
+    "seq": 7,
+    "colour_index": null,
+    "inci_name": "TEA- salicylate",
+    "cas": "2174-16-5",
+    "ec": "218-531-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "rule",
+    "product_type": "",
+    "max_concentration": "0,5 % (acid)",
+    "other": "Not to be used in\nproducts for\nchildren under 3\nyears of age.\nNot to be used in\noral products.\nNot to be used in\napplications that\nmay lead to\nexposure of the\nend-user’s lungs\nby inhalation.",
+    "wording": "Not to be used\nfor children\nunder 3 years of\nage (12)"
+   },
+   {
+    "tier": null,
+    "tier_source": "rule",
+    "product_type": "",
+    "max_concentration": "0,5 % (acid)",
+    "other": "Not to be used in\nproducts for\nchildren under 3\nyears of age,\nexcept for\nshampoos.",
+    "wording": "Not to be used\nfor children\nunder 3 years of\nage (2)"
+   }
+  ],
+  "entry_seq": 4
+ },
+ {
+  "annex": "V",
+  "ref_no": "4",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "415",
+  "chemical_name": "Hexa-2,4-dienoic acid\nand its salts",
+  "colour_index": null,
+  "inci_name": "Sorbic acid, calcium\nsorbate, sodium\nsorbate, potassium\nsorbate",
+  "cas": "110-44-1, 7492-55-9,\n7757-81-5, 24634-61-5",
+  "ec": "203-768-7,\n231-321-6,\n231-819-3,\n246-376-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,6 % (acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Sorbic acid",
+    "cas": "110-44-1",
+    "ec": "203-768-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "calcium sorbate",
+    "cas": "7492-55-9",
+    "ec": "231-321-6",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "sodium sorbate",
+    "cas": "7757-81-5",
+    "ec": "231-819-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "potassium sorbate",
+    "cas": "24634-61-5",
+    "ec": "246-376-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,6 % (acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 5
+ },
+ {
+  "annex": "V",
+  "ref_no": "5",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M32",
+  "mid_amendments": "",
+  "pages": "415",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 6
+ },
+ {
+  "annex": "V",
+  "ref_no": "6",
+  "ref_inferred": 0,
+  "status": "moved_or_deleted",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "415",
+  "chemical_name": "Moved or deleted",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 7
+ },
+ {
+  "annex": "V",
+  "ref_no": "7",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M53",
+  "mid_amendments": "",
+  "pages": "415",
+  "chemical_name": "Biphenyl-2-ol; 2-\nphenylphenol; 2-\nhydroxybiphenyl\nSodium 2-biphenylate",
+  "colour_index": null,
+  "inci_name": "o-Phenylphenol\nSodium o-Phenylphenate",
+  "cas": "90-43-7\n132-27-4",
+  "ec": "201-993-5\n205-055-6",
+  "colour": null,
+  "product_type": "(a) Rinse-off\nproducts\n(b) Leave-on\nproducts",
+  "max_concentration": "(a) 0,2 % (as\nphenol\n(b) 0,15 % (as\nphenol)",
+  "other": "When o-\nPhenylphenol and\nSodium o-\nPhenylphenate are\nused together, the\ncombined concentration (as phenol)\nshall not exceed\n0,2 % in rinse-off\nand 0,15 % in\nleave-on products.\nNot to be used in\napplications that\nmay lead to\nexposure of the\nend-user’s lungs\nby inhalation. Not\nto be used in oral\nproducts.",
+  "wording": "Avoid contact\nwith eyes",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "o-Phenylphenol",
+    "cas": "90-43-7",
+    "ec": "201-993-5",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "Sodium o-Phenylphenate",
+    "cas": "132-27-4",
+    "ec": "205-055-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Rinse-off\nproducts",
+    "max_concentration": "(a) 0,2 % (as\nphenol",
+    "other": "When o-\nPhenylphenol and\nSodium o-\nPhenylphenate are\nused together, the\ncombined concentration (as phenol)\nshall not exceed\n0,2 % in rinse-off\nand 0,15 % in\nleave-on products.\nNot to be used in\napplications that\nmay lead to\nexposure of the\nend-user’s lungs\nby inhalation. Not\nto be used in oral\nproducts.",
+    "wording": "Avoid contact\nwith eyes"
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Leave-on\nproducts",
+    "max_concentration": "(b) 0,15 % (as\nphenol)",
+    "other": "When o-\nPhenylphenol and\nSodium o-\nPhenylphenate are\nused together, the\ncombined concentration (as phenol)\nshall not exceed\n0,2 % in rinse-off\nand 0,15 % in\nleave-on products.\nNot to be used in\napplications that\nmay lead to\nexposure of the\nend-user’s lungs\nby inhalation. Not\nto be used in oral\nproducts.",
+    "wording": "Avoid contact\nwith eyes"
+   }
+  ],
+  "entry_seq": 8
+ },
+ {
+  "annex": "V",
+  "ref_no": "8",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M42",
+  "mid_amendments": "",
+  "pages": "416",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 9
+ },
+ {
+  "annex": "V",
+  "ref_no": "9",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "416",
+  "chemical_name": "Inorganic sulphites\nand hydrogen-\nsulphites (5)",
+  "colour_index": null,
+  "inci_name": "Sodium sulfite,\nammonium bisulfite,\nammonium sulfite,\npotassium sulfite,\npotassium hydrogen\nsulfite, sodium\nbisulfite, sodium\nmetabisulfite,\npotassium metabisulfite",
+  "cas": "7757-83-7, 10192-30-\n0, 10196-04-0, 10117-\n38-1, 7773-03-7,\n7631-90-5, 7681-57-4,\n16731-55-8",
+  "ec": "231-821-4,\n233-469-7,\n233-484-9,\n233-321-1,\n231-870-1,\n231-548-0,\n231-673-0,\n240-795-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,2 % (as free SO2)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Sodium sulfite",
+    "cas": "7757-83-7",
+    "ec": "231-821-4",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "ammonium bisulfite",
+    "cas": "10192-30-0",
+    "ec": "233-469-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "ammonium sulfite",
+    "cas": "10196-04-0",
+    "ec": "233-484-9",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "potassium sulfite",
+    "cas": "10117-38-1",
+    "ec": "233-321-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "potassium hydrogen sulfite",
+    "cas": "7773-03-7",
+    "ec": "231-870-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "sodium bisulfite",
+    "cas": "7631-90-5",
+    "ec": "231-548-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 7,
+    "colour_index": null,
+    "inci_name": "sodium metabisulfite",
+    "cas": "7681-57-4",
+    "ec": "231-673-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 8,
+    "colour_index": null,
+    "inci_name": "potassium metabisulfite",
+    "cas": "16731-55-8",
+    "ec": "240-795-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,2 % (as free SO2)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 10
+ },
+ {
+  "annex": "V",
+  "ref_no": "10",
+  "ref_inferred": 0,
+  "status": "moved_or_deleted",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "416",
+  "chemical_name": "Moved or deleted",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 11
+ },
+ {
+  "annex": "V",
+  "ref_no": "11",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "416",
+  "chemical_name": "Chlorobutanol",
+  "colour_index": null,
+  "inci_name": "Chlorobutanol",
+  "cas": "57-15-8",
+  "ec": "200-317-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 %",
+  "other": "Not to be used in\naerosol dispensers\n(sprays)",
+  "wording": "Contains Chlorobutanol",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Chlorobutanol",
+    "cas": "57-15-8",
+    "ec": "200-317-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 %",
+    "other": "Not to be used in\naerosol dispensers\n(sprays)",
+    "wording": "Contains Chlorobutanol"
+   }
+  ],
+  "entry_seq": 12
+ },
+ {
+  "annex": "V",
+  "ref_no": "12",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M8",
+  "mid_amendments": "",
+  "pages": "417",
+  "chemical_name": "4-Hydroxybenzoic\nacid and its Methyl-\nand Ethyl-esters, and\ntheir salts",
+  "colour_index": null,
+  "inci_name": "4-Hydroxybenzoic acid\nmethylparaben\npotassium ethylparaben\npotassium paraben\nsodium methylparaben\nsodium ethylparaben\nethylparaben\nsodium paraben\npotassium methylparaben\ncalcium paraben",
+  "cas": "99-96-7\n99-76-3\n36457-19-9\n16782-08-4\n5026-62-0\n35285-68-8\n120-47-8\n114-63-6\n26112-07-2\n69959-44-0",
+  "ec": "202-804-9\n202-785-7\n253-048-1\n240-830-2\n225-714-1\n252-487-6\n204-399-4\n204-051-1\n247-464-2\n274-235-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,4 % (as acid) for\nsingle ester\n0,8 % (as acid) for\nmixtures of esters",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "4-Hydroxybenzoic acid",
+    "cas": "99-96-7",
+    "ec": "202-804-9",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "methylparaben",
+    "cas": "99-76-3",
+    "ec": "202-785-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "potassium ethylparaben",
+    "cas": "36457-19-9",
+    "ec": "253-048-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "potassium paraben",
+    "cas": "16782-08-4",
+    "ec": "240-830-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "sodium methylparaben",
+    "cas": "5026-62-0",
+    "ec": "225-714-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "sodium ethylparaben",
+    "cas": "35285-68-8",
+    "ec": "252-487-6",
+    "split_ok": 1
+   },
+   {
+    "seq": 7,
+    "colour_index": null,
+    "inci_name": "ethylparaben",
+    "cas": "120-47-8",
+    "ec": "204-399-4",
+    "split_ok": 1
+   },
+   {
+    "seq": 8,
+    "colour_index": null,
+    "inci_name": "sodium paraben",
+    "cas": "114-63-6",
+    "ec": "204-051-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 9,
+    "colour_index": null,
+    "inci_name": "potassium methylparaben",
+    "cas": "26112-07-2",
+    "ec": "247-464-2",
+    "split_ok": 1
+   },
+   {
+    "seq": 10,
+    "colour_index": null,
+    "inci_name": "calcium paraben",
+    "cas": "69959-44-0",
+    "ec": "274-235-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,4 % (as acid) for\nsingle ester\n0,8 % (as acid) for\nmixtures of esters",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 13
+ },
+ {
+  "annex": "V",
+  "ref_no": "12a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M8",
+  "mid_amendments": "",
+  "pages": "417",
+  "chemical_name": "Butyl 4-hydroxybenzoate and its salts\nPropyl 4-hydroxybenzoate and its salts",
+  "colour_index": null,
+  "inci_name": "Butylparaben\npropylparaben\nsodium propylparaben\nsodium butylparaben\npotassium butylparaben\npotassium\npropylparaben",
+  "cas": "94-26-8\n94-13-3\n35285-69-9\n36457-20-2\n38566-94-8\n84930-16-5",
+  "ec": "202-318-7\n202-307-7\n252-488-1\n253-049-7\n254-009-1\n284-597-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,14 % (as acid) for\nthe sum of the individual concentrations\n0,8 % (as acid) for\nmixtures of\nsubstances\nmentioned in entry\n12 and 12a, where\nthe sum of the individual concentrations of butyl-\nand propylparaben\nand their salts does\nnot exceed 0,14 %",
+  "other": "Not to be used in\nleave-on products\ndesigned for\napplication on the\nnappy area of\nchildren under\nthree years of age.",
+  "wording": "For leave-on\nproducts\ndesigned for\nchildren under\nthree years of\nage:\n‘Do not use on\nthe nappy area’",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Butylparaben",
+    "cas": "94-26-8",
+    "ec": "202-318-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "propylparaben",
+    "cas": "94-13-3",
+    "ec": "202-307-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "sodium propylparaben",
+    "cas": "35285-69-9",
+    "ec": "252-488-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "sodium butylparaben",
+    "cas": "36457-20-2",
+    "ec": "253-049-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "potassium butylparaben",
+    "cas": "38566-94-8",
+    "ec": "254-009-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "potassium propylparaben",
+    "cas": "84930-16-5",
+    "ec": "284-597-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,14 % (as acid) for\nthe sum of the individual concentrations\n0,8 % (as acid) for\nmixtures of\nsubstances\nmentioned in entry\n12 and 12a, where\nthe sum of the individual concentrations of butyl-\nand propylparaben\nand their salts does\nnot exceed 0,14 %",
+    "other": "Not to be used in\nleave-on products\ndesigned for\napplication on the\nnappy area of\nchildren under\nthree years of age.",
+    "wording": "For leave-on\nproducts\ndesigned for\nchildren under\nthree years of\nage:\n‘Do not use on\nthe nappy area’"
+   }
+  ],
+  "entry_seq": 14
+ },
+ {
+  "annex": "V",
+  "ref_no": "13",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "418",
+  "chemical_name": "3-Acetyl-6-methylpyran-2,4 (3H)-dione\nand its salts",
+  "colour_index": null,
+  "inci_name": "Dehydroacetic acid,\nsodium dehydroacetate",
+  "cas": "520-45-6, 4418-26-2,\n16807-48-0",
+  "ec": "208-293-9,\n224-580-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,6 % (as acid)",
+  "other": "Not to be used in\naerosol dispensers\n(sprays)",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Dehydroacetic acid sodium dehydroacetate",
+    "cas": "520-45-6, 4418-26-2, 16807-48-0",
+    "ec": "208-293-9, 224-580-1",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,6 % (as acid)",
+    "other": "Not to be used in\naerosol dispensers\n(sprays)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 15
+ },
+ {
+  "annex": "V",
+  "ref_no": "14",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "418",
+  "chemical_name": "Formic acid and its\nsodium salt",
+  "colour_index": null,
+  "inci_name": "Formic acid, sodium\nformate",
+  "cas": "64-18-6, 141-53-7",
+  "ec": "200-579-1,\n205-488-0",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 % (as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Formic acid",
+    "cas": "64-18-6",
+    "ec": "200-579-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "sodium formate",
+    "cas": "141-53-7",
+    "ec": "205-488-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 % (as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 16
+ },
+ {
+  "annex": "V",
+  "ref_no": "15",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "418",
+  "chemical_name": "3,3'-Dibromo-4,4'-\nhexamethylenedioxydi-benzamidine\nand its salts (including\nisethionate)",
+  "colour_index": null,
+  "inci_name": "Dibromohexamidine\nIsethionate",
+  "cas": "93856-83-8",
+  "ec": "299-116-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Dibromohexamidine Isethionate",
+    "cas": "93856-83-8",
+    "ec": "299-116-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 17
+ },
+ {
+  "annex": "V",
+  "ref_no": "16",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "418",
+  "chemical_name": "Thiomersal",
+  "colour_index": null,
+  "inci_name": "Thimerosal",
+  "cas": "54-64-8",
+  "ec": "200-210-4",
+  "colour": null,
+  "product_type": "Eye products",
+  "max_concentration": "0,007 % (of Hg)\nIf mixed with other\nmercurial\ncompounds authorised by this\nRegulation, the\nmaximum concentration of Hg\nremains fixed at\n0,007 %",
+  "other": "",
+  "wording": "Contains\nThiomersal",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Thimerosal",
+    "cas": "54-64-8",
+    "ec": "200-210-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Eye products",
+    "max_concentration": "0,007 % (of Hg)\nIf mixed with other\nmercurial\ncompounds authorised by this\nRegulation, the\nmaximum concentration of Hg\nremains fixed at\n0,007 %",
+    "other": "",
+    "wording": "Contains\nThiomersal"
+   }
+  ],
+  "entry_seq": 18
+ },
+ {
+  "annex": "V",
+  "ref_no": "17",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "418",
+  "chemical_name": "Phenylmercuric salts\n(including borate)",
+  "colour_index": null,
+  "inci_name": "Phenyl Mercuric\nAcetate, Phenyl\nMercuric Benzoate",
+  "cas": "62-38-4, 94-43-9",
+  "ec": "200-532-5,\n202-331-8",
+  "colour": null,
+  "product_type": "Eye products",
+  "max_concentration": "0,007 % (of Hg)\nIf mixed with other\nmercurial\ncompounds authorised by this\nRegulation, the\nmaximum concentration of Hg\nremains fixed at\n0,007 %",
+  "other": "",
+  "wording": "Contains\nPhenylmercuric\ncompounds",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Phenyl Mercuric Acetate",
+    "cas": "62-38-4",
+    "ec": "200-532-5",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "Phenyl Mercuric Benzoate",
+    "cas": "94-43-9",
+    "ec": "202-331-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Eye products",
+    "max_concentration": "0,007 % (of Hg)\nIf mixed with other\nmercurial\ncompounds authorised by this\nRegulation, the\nmaximum concentration of Hg\nremains fixed at\n0,007 %",
+    "other": "",
+    "wording": "Contains\nPhenylmercuric\ncompounds"
+   }
+  ],
+  "entry_seq": 19
+ },
+ {
+  "annex": "V",
+  "ref_no": "18",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "Undec-10-enoic acid\nand its salts",
+  "colour_index": null,
+  "inci_name": "Undecylenic acid,\npotassium undecylenate, sodium undecylenate, calcium undecylenate, TEA-undecylenate, MEA-undecylenate",
+  "cas": "112-38-9, 6159-41-7,\n3398-33-2, 1322-14-1,\n84471-25-0, 56532-\n40-2",
+  "ec": "203-965-8,\n222-264-8,\n215-331-8,\n282-908-9,\n260-247-7",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,2 % (as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Undecylenic acid potassium undecylenate sodium undecylenate calcium undecylenate TEA-undecylenate MEA-undecylenate",
+    "cas": "112-38-9, 6159-41-7, 3398-33-2, 1322-14-1, 84471-25-0, 56532-40-2",
+    "ec": "203-965-8, 222-264-8, 215-331-8, 282-908-9, 260-247-7",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,2 % (as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 20
+ },
+ {
+  "annex": "V",
+  "ref_no": "19",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "5- Pyrimidinamine,\n1,3-bis (2-ethylhexyl)\nhexahydro-5-methyl-",
+  "colour_index": null,
+  "inci_name": "Hexetidine",
+  "cas": "141-94-6",
+  "ec": "205-513-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Hexetidine",
+    "cas": "141-94-6",
+    "ec": "205-513-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 21
+ },
+ {
+  "annex": "V",
+  "ref_no": "20",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "5-Bromo-5-nitro-1,3-\ndioxane",
+  "colour_index": null,
+  "inci_name": "5-Bromo-5-nitro-1,3-\ndioxane",
+  "cas": "30007-47-7",
+  "ec": "250-001-7",
+  "colour": null,
+  "product_type": "Rinse-off products",
+  "max_concentration": "0,1 %",
+  "other": "Avoid formation\nof nitrosamines",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "5-Bromo-5-nitro-1,3- dioxane",
+    "cas": "30007-47-7",
+    "ec": "250-001-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "0,1 %",
+    "other": "Avoid formation\nof nitrosamines",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 22
+ },
+ {
+  "annex": "V",
+  "ref_no": "21",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "Bronopol",
+  "colour_index": null,
+  "inci_name": "2-Bromo-2-nitropropane-1,3-diol",
+  "cas": "52-51-7",
+  "ec": "200-143-0",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "Avoid formation\nof nitrosamines",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "2-Bromo-2-nitropropane-1,3-diol",
+    "cas": "52-51-7",
+    "ec": "200-143-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "Avoid formation\nof nitrosamines",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 23
+ },
+ {
+  "annex": "V",
+  "ref_no": "22",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "2,4-Dichlorobenzyl\nalcohol",
+  "colour_index": null,
+  "inci_name": "Dichlorobenzyl\nAlcohol",
+  "cas": "1777-82-8",
+  "ec": "217-210-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,15 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Dichlorobenzyl Alcohol",
+    "cas": "1777-82-8",
+    "ec": "217-210-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,15 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 24
+ },
+ {
+  "annex": "V",
+  "ref_no": "23",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M51",
+  "mid_amendments": "",
+  "pages": "419",
+  "chemical_name": "1-(4-Chlorophenyl)-3-\n(3,4-dichlorophenyl)\nurea (22) (6)",
+  "colour_index": null,
+  "inci_name": "Triclocarban",
+  "cas": "101-20-2",
+  "ec": "202-924-1",
+  "colour": null,
+  "product_type": "All cosmetic\nproducts, with the\nexception of\nmouthwash.",
+  "max_concentration": "0,2 %",
+  "other": "Purity criteria:\n3,3',4,4'-Tetrachloroazobenzene\n≤ 1 ppm\n3,3',4,4'-Tetrachloroazoxybenzene\n≤ 1 ppm\nNot to be used in\ntoothpaste\nintended for\nchildren under 6\nyears of age.",
+  "wording": "For toothpaste\ncontaining Triclocarban the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 6\nyears of age’.",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Triclocarban",
+    "cas": "101-20-2",
+    "ec": "202-924-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "All cosmetic\nproducts, with the\nexception of\nmouthwash.",
+    "max_concentration": "0,2 %",
+    "other": "Purity criteria:\n3,3',4,4'-Tetrachloroazobenzene\n≤ 1 ppm\n3,3',4,4'-Tetrachloroazoxybenzene\n≤ 1 ppm\nNot to be used in\ntoothpaste\nintended for\nchildren under 6\nyears of age.",
+    "wording": "For toothpaste\ncontaining Triclocarban the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 6\nyears of age’."
+   }
+  ],
+  "entry_seq": 25
+ },
+ {
+  "annex": "V",
+  "ref_no": "24",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "420",
+  "chemical_name": "Chlorocresol",
+  "colour_index": null,
+  "inci_name": "p-Chloro-m-Cresol",
+  "cas": "59-50-7",
+  "ec": "200-431-6",
+  "colour": null,
+  "product_type": "Not to be used in\nproducts applied on\nmucuous\nmembranes",
+  "max_concentration": "0,2 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "p-Chloro-m-Cresol",
+    "cas": "59-50-7",
+    "ec": "200-431-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in\nproducts applied on\nmucuous\nmembranes",
+    "max_concentration": "0,2 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 26
+ },
+ {
+  "annex": "V",
+  "ref_no": "25",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M51",
+  "mid_amendments": "",
+  "pages": "420",
+  "chemical_name": "5-Chloro-2- (2,4-\ndichlorophenoxy)\nphenol (22)",
+  "colour_index": null,
+  "inci_name": "Triclosan",
+  "cas": "3380-34-5",
+  "ec": "222-182-2",
+  "colour": null,
+  "product_type": "Toothpastes; Hand\nsoaps; Body soaps/\nShower gels;\nDeodorants (non-\nspray); Face\npowders and\nblemish concealers;\nNail products for\ncleaning the\nfingernails and\ntoenails before the\napplication of\nartificial nail\nsystems;",
+  "max_concentration": "0,3 %",
+  "other": "Not to be used in\ntoothpaste\nintended for\nchildren under 3\nyears of age.",
+  "wording": "For toothpaste\ncontaining\nTriclosan the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 3\nyears of age’.",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Triclosan",
+    "cas": "3380-34-5",
+    "ec": "222-182-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Toothpastes; Hand\nsoaps; Body soaps/\nShower gels;\nDeodorants (non-\nspray); Face\npowders and\nblemish concealers;\nNail products for\ncleaning the\nfingernails and\ntoenails before the\napplication of\nartificial nail\nsystems;",
+    "max_concentration": "0,3 %",
+    "other": "Not to be used in\ntoothpaste\nintended for\nchildren under 3\nyears of age.",
+    "wording": "For toothpaste\ncontaining\nTriclosan the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 3\nyears of age’."
+   }
+  ],
+  "entry_seq": 27
+ },
+ {
+  "annex": "V",
+  "ref_no": "26",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "Chloro-xylenol",
+  "colour_index": null,
+  "inci_name": "Chloroxylenol",
+  "cas": "88-04-0",
+  "ec": "201-793-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Chloroxylenol",
+    "cas": "88-04-0",
+    "ec": "201-793-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 28
+ },
+ {
+  "annex": "V",
+  "ref_no": "27",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "N,N″-methylene-\nbis[N′-[3-(hydroxymethyl)-2,5-dioxoimidazolidin-4-yl]urea]",
+  "colour_index": null,
+  "inci_name": "Imidazolidinyl urea",
+  "cas": "39236-46-9",
+  "ec": "254-372-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,6 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Imidazolidinyl urea",
+    "cas": "39236-46-9",
+    "ec": "254-372-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,6 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 29
+ },
+ {
+  "annex": "V",
+  "ref_no": "28",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M32",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "Polyhexamethylene\nbiguanide hydrochloride",
+  "colour_index": null,
+  "inci_name": "Polyaminopropyl\nbiguanide",
+  "cas": "32289-58-0,\n27083-27-8,\n28757-47-3,\n133029-32-0",
+  "ec": "608-723-9\n608-042-7",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "Not to be used in\napplications that\nmay lead to\nexposure of the\nend-user's lungs\nby inhalation",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Polyaminopropyl biguanide",
+    "cas": "32289-58-0, 27083-27-8, 28757-47-3, 133029-32-0",
+    "ec": "608-723-9, 608-042-7",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "Not to be used in\napplications that\nmay lead to\nexposure of the\nend-user's lungs\nby inhalation",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 30
+ },
+ {
+  "annex": "V",
+  "ref_no": "29",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "2-Phenoxyethanol",
+  "colour_index": null,
+  "inci_name": "Phenoxyethanol",
+  "cas": "122-99-6",
+  "ec": "204-589-7",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "1,0 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Phenoxyethanol",
+    "cas": "122-99-6",
+    "ec": "204-589-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "1,0 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 31
+ },
+ {
+  "annex": "V",
+  "ref_no": "30",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "Methenamine",
+  "colour_index": null,
+  "inci_name": "Methenamine",
+  "cas": "100-97-0",
+  "ec": "202-905-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,15 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methenamine",
+    "cas": "100-97-0",
+    "ec": "202-905-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,15 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 32
+ },
+ {
+  "annex": "V",
+  "ref_no": "31",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M32",
+  "mid_amendments": "",
+  "pages": "421",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 33
+ },
+ {
+  "annex": "V",
+  "ref_no": "32",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M31",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "1-(4-Chlorophenoxy)-\n1-(imidazol-1-yl)-3,3-\ndimethylbutan-2-\none (20)",
+  "colour_index": null,
+  "inci_name": "Climbazole",
+  "cas": "38083-17-9",
+  "ec": "253-775-4",
+  "colour": null,
+  "product_type": "(a) Hair lotions (21)\n(b) Face creams (21)\n(c) Foot care\nproducts (21)\n(d) Rinse-off\nshampoo (21)",
+  "max_concentration": "(a) 0,2 % (21)\n(b) 0,2 % (21)\n(c) 0,2 % (21)\n(d) 0,5 % (21)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Climbazole",
+    "cas": "38083-17-9",
+    "ec": "253-775-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Hair lotions (21)",
+    "max_concentration": "(a) 0,2 % (21)",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Face creams (21)",
+    "max_concentration": "(b) 0,2 % (21)",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "c",
+    "tier_source": "label",
+    "product_type": "(c) Foot care\nproducts (21)",
+    "max_concentration": "(c) 0,2 % (21)",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "d",
+    "tier_source": "label",
+    "product_type": "(d) Rinse-off\nshampoo (21)",
+    "max_concentration": "(d) 0,5 % (21)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 34
+ },
+ {
+  "annex": "V",
+  "ref_no": "33",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "1,3-Bis (hydroxymethyl)-5,5-dimethylimidazolidine-2,4-\ndione",
+  "colour_index": null,
+  "inci_name": "DMDM Hydantoin",
+  "cas": "6440-58-0",
+  "ec": "229-222-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,6 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "DMDM Hydantoin",
+    "cas": "6440-58-0",
+    "ec": "229-222-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,6 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 35
+ },
+ {
+  "annex": "V",
+  "ref_no": "34",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M1",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "Benzyl alcohol (7)",
+  "colour_index": null,
+  "inci_name": "Benzyl Alcohol",
+  "cas": "100-51-6",
+  "ec": "202-859-9",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "1,0 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzyl Alcohol",
+    "cas": "100-51-6",
+    "ec": "202-859-9",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "1,0 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 36
+ },
+ {
+  "annex": "V",
+  "ref_no": "35",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "1-Hydroxy-4-methyl-\n6-(2,4,4-trimethylpentyl) 2-pyridon and\nits monoethanolamine\nsalt",
+  "colour_index": null,
+  "inci_name": "1-Hydroxy-4-methyl-6-\n(2,4,4-trimethylpentyl)\n2-pyridon, Piroctone\nOlamine",
+  "cas": "50650-76-5, 68890-\n66-4",
+  "ec": "272-574-2",
+  "colour": null,
+  "product_type": "Rinse-off products\nOther products",
+  "max_concentration": "1,0 %\n0,5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "1-Hydroxy-4-methyl-6- (2,4,4-trimethylpentyl) 2-pyridon Piroctone Olamine",
+    "cas": "50650-76-5, 68890-66-4",
+    "ec": "272-574-2",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "aligned",
+    "product_type": "Rinse-off products",
+    "max_concentration": "1,0 %",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": null,
+    "tier_source": "aligned",
+    "product_type": "Other products",
+    "max_concentration": "0,5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 37
+ },
+ {
+  "annex": "V",
+  "ref_no": "36",
+  "ref_inferred": 0,
+  "status": "moved_or_deleted",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "Moved or deleted",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 38
+ },
+ {
+  "annex": "V",
+  "ref_no": "37",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "2,2'-methylenebis(6-\nbromo-4-chlorophenol)",
+  "colour_index": null,
+  "inci_name": "Bromochlorophene",
+  "cas": "15435-29-7",
+  "ec": "239-446-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bromochlorophene",
+    "cas": "15435-29-7",
+    "ec": "239-446-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 39
+ },
+ {
+  "annex": "V",
+  "ref_no": "38",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "422",
+  "chemical_name": "4-Isopropyl-m-cresol",
+  "colour_index": null,
+  "inci_name": "o-Cymen-5-ol",
+  "cas": "3228-02-2",
+  "ec": "221-761-7",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "o-Cymen-5-ol",
+    "cas": "3228-02-2",
+    "ec": "221-761-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 40
+ },
+ {
+  "annex": "V",
+  "ref_no": "39",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M7",
+  "mid_amendments": "",
+  "pages": "423",
+  "chemical_name": "Mixture of 5-Chloro-\n2-methyl-isothiazol-3\n(2H)-one and 2-\nmethylisothiazol-3\n(2H)-one",
+  "colour_index": null,
+  "inci_name": "Methylchloroisothiazolinone (and) Methylisothiazolinone (17)",
+  "cas": "26172-55-4, 2682-20-\n4, 55965-84-9",
+  "ec": "247-500-7,\n220-239-6",
+  "colour": null,
+  "product_type": "Rinse-off products",
+  "max_concentration": "0,0015 % (of a\nmixture in the ratio\n3:1 of 5-chloro-2-\nmethylisothiazol 3\n(2H)-one and 2-\nmethylisothiazol-3\n(2H)-one)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methylchloroisothiazolinone (and) Methylisothiazolinone (17)",
+    "cas": "26172-55-4, 2682-20-4, 55965-84-9",
+    "ec": "247-500-7, 220-239-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "0,0015 % (of a\nmixture in the ratio\n3:1 of 5-chloro-2-\nmethylisothiazol 3\n(2H)-one and 2-\nmethylisothiazol-3\n(2H)-one)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 41
+ },
+ {
+  "annex": "V",
+  "ref_no": "40-41",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M32",
+  "mid_amendments": "",
+  "pages": "423",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 42
+ },
+ {
+  "annex": "V",
+  "ref_no": "42",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "423",
+  "chemical_name": "N,N″-bis(4-chlorophenyl)-3,12-diimino-\n2,4,11,13-tetraazatetradecanediamidine\nand its digluconate,\ndiacetate and dihydrochloride",
+  "colour_index": null,
+  "inci_name": "Chlorhexidine, Chlorhexidine Diacetate,\nChlorhexidine Digluconate, Chlorhexidine\nDihydrochloride",
+  "cas": "55-56-1, 56-95-1,\n18472-51-0, 3697-42-\n5",
+  "ec": "200-238-7,\n200-302-4,\n242-354-0,\n223-026-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,3 % (as chlorhexidine)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Chlorhexidine",
+    "cas": "55-56-1",
+    "ec": "200-238-7",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "Chlorhexidine Diacetate",
+    "cas": "56-95-1",
+    "ec": "200-302-4",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "Chlorhexidine Digluconate",
+    "cas": "18472-51-0",
+    "ec": "242-354-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "Chlorhexidine Dihydrochloride",
+    "cas": "3697-42-5",
+    "ec": "223-026-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,3 % (as chlorhexidine)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 43
+ },
+ {
+  "annex": "V",
+  "ref_no": "43",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "423",
+  "chemical_name": "1-Phenoxypropan-2-\nol (8)",
+  "colour_index": null,
+  "inci_name": "Phenoxyisopropanol",
+  "cas": "770-35-4",
+  "ec": "212-222-7",
+  "colour": null,
+  "product_type": "Only for rinse-off\nproducts",
+  "max_concentration": "1,0 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Phenoxyisopropanol",
+    "cas": "770-35-4",
+    "ec": "212-222-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Only for rinse-off\nproducts",
+    "max_concentration": "1,0 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 44
+ },
+ {
+  "annex": "V",
+  "ref_no": "44",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M6 ▼C2",
+  "mid_amendments": "",
+  "pages": "423,424",
+  "chemical_name": "Alkyl (C12-22)\ntrimethyl ammonium\nbromide and chloride",
+  "colour_index": null,
+  "inci_name": "Behentrimonium\nchloride (15),\ncetrimonium bromide,\ncetrimonium chlor-\nide (16),\nlaurtrimonium bromide,\nlaurtrimonium chloride,\nsteartrimonium\nbromide,\nsteartrimonium\nchloride (16)",
+  "cas": "17301-53-0,\n57-09-0,\n112-02-7,\n1119-94-4,\n112-00-5,\n1120-02-1,\n112-03-8",
+  "ec": "241-327-0,\n200-311-3,\n203-928-6,\n214-290-3,\n203-927-0,\n214-294-5,\n203-929-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Behentrimonium chloride (15)",
+    "cas": "17301-53-0",
+    "ec": "241-327-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "cetrimonium bromide",
+    "cas": "57-09-0",
+    "ec": "200-311-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 3,
+    "colour_index": null,
+    "inci_name": "cetrimonium chlor- ide (16)",
+    "cas": "112-02-7",
+    "ec": "203-928-6",
+    "split_ok": 1
+   },
+   {
+    "seq": 4,
+    "colour_index": null,
+    "inci_name": "laurtrimonium bromide",
+    "cas": "1119-94-4",
+    "ec": "214-290-3",
+    "split_ok": 1
+   },
+   {
+    "seq": 5,
+    "colour_index": null,
+    "inci_name": "laurtrimonium chloride",
+    "cas": "112-00-5",
+    "ec": "203-927-0",
+    "split_ok": 1
+   },
+   {
+    "seq": 6,
+    "colour_index": null,
+    "inci_name": "steartrimonium bromide",
+    "cas": "1120-02-1",
+    "ec": "214-294-5",
+    "split_ok": 1
+   },
+   {
+    "seq": 7,
+    "colour_index": null,
+    "inci_name": "steartrimonium chloride (16)",
+    "cas": "112-03-8",
+    "ec": "203-929-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 45
+ },
+ {
+  "annex": "V",
+  "ref_no": "45",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "4,4-Dimethyl-1,3-\noxazolidine",
+  "colour_index": null,
+  "inci_name": "Dimethyl Oxazolidine",
+  "cas": "51200-87-4",
+  "ec": "257-048-2",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "pH > 6",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Dimethyl Oxazolidine",
+    "cas": "51200-87-4",
+    "ec": "257-048-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "pH > 6",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 46
+ },
+ {
+  "annex": "V",
+  "ref_no": "46",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "N-(Hydroxymethyl)-\nN-(dihydroxymethyl-\n1,3-dioxo-2,5-imidazolidinyl-4)-N'-\n(hydroxymethyl) urea",
+  "colour_index": null,
+  "inci_name": "Diazolidinyl Urea",
+  "cas": "78491-02-8",
+  "ec": "278-928-2",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Diazolidinyl Urea",
+    "cas": "78491-02-8",
+    "ec": "278-928-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 47
+ },
+ {
+  "annex": "V",
+  "ref_no": "47",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "Benzenecarboximidamide, 4,4'-(1,6-\nhexanediylbis (oxy))\nbis- and its salts\n(including isethionate\nand p-hydroxybenzoate)",
+  "colour_index": null,
+  "inci_name": "Hexamidine,\nHexamidine diisethionate, Hexamidine\nparaben",
+  "cas": "3811-75-4, 659-40-5,\n93841-83-9",
+  "ec": "211-533-5,\n299-055-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Hexamidine Hexamidine diisethionate Hexamidine paraben",
+    "cas": "3811-75-4, 659-40-5, 93841-83-9",
+    "ec": "211-533-5, 299-055-3",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 48
+ },
+ {
+  "annex": "V",
+  "ref_no": "48",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "Glutaraldehyde\n(Pentane-1,5-dial)",
+  "colour_index": null,
+  "inci_name": "Glutaral",
+  "cas": "111-30-8",
+  "ec": "203-856-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 %",
+  "other": "Not to be used in\naerosols (sprays)",
+  "wording": "Contains gluta-\nral (9)",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Glutaral",
+    "cas": "111-30-8",
+    "ec": "203-856-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 %",
+    "other": "Not to be used in\naerosols (sprays)",
+    "wording": "Contains gluta-\nral (9)"
+   }
+  ],
+  "entry_seq": 49
+ },
+ {
+  "annex": "V",
+  "ref_no": "49",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "5-Ethyl-3,7-dioxa-1-\nazabicyclo [3.3.0]\noctane",
+  "colour_index": null,
+  "inci_name": "7-Ethylbicyclooxazolidine",
+  "cas": "7747-35-5",
+  "ec": "231-810-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,3 %",
+  "other": "Not to be used in\noral products and\nin products\napplied on\nmucous\nmembranes",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "7-Ethylbicyclooxazolidine",
+    "cas": "7747-35-5",
+    "ec": "231-810-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,3 %",
+    "other": "Not to be used in\noral products and\nin products\napplied on\nmucous\nmembranes",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 50
+ },
+ {
+  "annex": "V",
+  "ref_no": "50",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "424",
+  "chemical_name": "3-(p-Chlorophenoxy)-\npropane-1,2 diol",
+  "colour_index": null,
+  "inci_name": "Chlorphenesin",
+  "cas": "104-29-0",
+  "ec": "203-192-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,3 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Chlorphenesin",
+    "cas": "104-29-0",
+    "ec": "203-192-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,3 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 51
+ },
+ {
+  "annex": "V",
+  "ref_no": "51",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M46",
+  "mid_amendments": "",
+  "pages": "425",
+  "chemical_name": "Sodium N-(hydroxymethyl) glycinate",
+  "colour_index": null,
+  "inci_name": "Sodium Hydroxymethylglycinate",
+  "cas": "70161-44-3",
+  "ec": "274-357-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,5 %",
+  "other": "Not to be used unless\nit can be shown that\nthe maximum theoretical concentration\nof releasable formaldehyde, irrespective\nof the source, in the\nmixture as placed on\nthe market is < 0,1 %\nw/w",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Sodium Hydroxymethylglycinate",
+    "cas": "70161-44-3",
+    "ec": "274-357-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,5 %",
+    "other": "Not to be used unless\nit can be shown that\nthe maximum theoretical concentration\nof releasable formaldehyde, irrespective\nof the source, in the\nmixture as placed on\nthe market is < 0,1 %\nw/w",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 52
+ },
+ {
+  "annex": "V",
+  "ref_no": "52",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "425",
+  "chemical_name": "Silver chloride\ndeposited on titanium\ndioxide",
+  "colour_index": null,
+  "inci_name": "Silver chloride",
+  "cas": "7783-90-6",
+  "ec": "232-033-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,004 % (as AgCl)",
+  "other": "20 % AgCl (w/w)\non TiO2. Not to\nbe used in\nproducts for\nchildren under 3\nyears of age, in\noral products and\nin eye and lip\nproducts",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Silver chloride",
+    "cas": "7783-90-6",
+    "ec": "232-033-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,004 % (as AgCl)",
+    "other": "20 % AgCl (w/w)\non TiO2. Not to\nbe used in\nproducts for\nchildren under 3\nyears of age, in\noral products and\nin eye and lip\nproducts",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 53
+ },
+ {
+  "annex": "V",
+  "ref_no": "53",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "425",
+  "chemical_name": "Benzenemethanaminium, N,N-\ndimethyl-N-[2-[2-[4-\n(1,1,3,3,-tetramethylbutyl)phenoxy]\nethoxy] ethyl]-,\nchloride",
+  "colour_index": null,
+  "inci_name": "Benzethonium Chloride",
+  "cas": "121-54-0",
+  "ec": "204-479-9",
+  "colour": null,
+  "product_type": "(a) Rinse-off\nproducts\n(b) Leave-on\nproducts other\nthan oral\nproducts",
+  "max_concentration": "0,1 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzethonium Chloride",
+    "cas": "121-54-0",
+    "ec": "204-479-9",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Rinse-off\nproducts",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Leave-on\nproducts other\nthan oral\nproducts",
+    "max_concentration": "0,1 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 54
+ },
+ {
+  "annex": "V",
+  "ref_no": "54",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "425",
+  "chemical_name": "Benzalkonium\nchloride, bromide and\nsaccharinate (10)",
+  "colour_index": null,
+  "inci_name": "Benzalkonium chloride,\nbenzalkonium bromide,\nbenzalkonium\nsaccharinate",
+  "cas": "8001-54-5, 63449-41-\n2, 91080-29-4, 68989-\n01-5, 68424-85-1,\n68391-01-5, 61789-\n71-7, 85409-22-9",
+  "ec": "264-151-6,\n293-522-5,\n273-545-7,\n270-325-2,\n269-919-4,\n263-080-8,\n287-089-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,1 % (as benzalkonium chloride)",
+  "other": "",
+  "wording": "Avoid contact\nwith eyes",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzalkonium chloride benzalkonium bromide benzalkonium saccharinate",
+    "cas": "8001-54-5, 63449-41-2, 91080-29-4, 68989-01-5, 68424-85-1, 68391-01-5, 61789-71-7, 85409-22-9",
+    "ec": "264-151-6, 293-522-5, 273-545-7, 270-325-2, 269-919-4, 263-080-8, 287-089-1",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,1 % (as benzalkonium chloride)",
+    "other": "",
+    "wording": "Avoid contact\nwith eyes"
+   }
+  ],
+  "entry_seq": 55
+ },
+ {
+  "annex": "V",
+  "ref_no": "55",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "426",
+  "chemical_name": "Methanol, (phenylmethoxy-)",
+  "colour_index": null,
+  "inci_name": "Benzylhemiformal",
+  "cas": "14548-60-8",
+  "ec": "238-588-8",
+  "colour": null,
+  "product_type": "Rinse-off products",
+  "max_concentration": "0,15 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzylhemiformal",
+    "cas": "14548-60-8",
+    "ec": "238-588-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "0,15 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 56
+ },
+ {
+  "annex": "V",
+  "ref_no": "56",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "426",
+  "chemical_name": "3-Iodo-2-propynylbutylcarbamate",
+  "colour_index": null,
+  "inci_name": "Iodopropynyl butylcarbamate",
+  "cas": "55406-53-6",
+  "ec": "259-627-5",
+  "colour": null,
+  "product_type": "(a) Rinse-off\nproducts\n(b) Leave-on\nproducts\n(c) Deo-dorants/\nanti-perspirants",
+  "max_concentration": "(a) 0,02 %\n(b) 0,01 %,\n(c) 0,0075 %",
+  "other": "Not to be used in\noral and lip\nproducts\n(a) Not to be\nused in\nproducts for\nchildren under\n3 years of\nage, except in\nbath products/\nshower gels\nand shampoo\n(b) Not to be used\nin body lotion\nand body\ncream (13)\n(b) and (c) Not to\nbe used in\nproducts for\nchildren under 3\nyears of age",
+  "wording": "(a) Not to be\nused for\nchildren\nunder 3 years\nof age (11)\n(b) and (c) Not\nto be used for\nchildren under 3\nyears of age (12)",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Iodopropynyl butylcarbamate",
+    "cas": "55406-53-6",
+    "ec": "259-627-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Rinse-off\nproducts",
+    "max_concentration": "(a) 0,02 %",
+    "other": "Not to be used in\noral and lip\nproducts\n(a) Not to be\nused in\nproducts for\nchildren under\n3 years of\nage, except in\nbath products/\nshower gels\nand shampoo",
+    "wording": "(a) Not to be\nused for\nchildren\nunder 3 years\nof age (11)"
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Leave-on\nproducts",
+    "max_concentration": "(b) 0,01 %,",
+    "other": "Not to be used in\noral and lip\nproducts\n(b) Not to be used\nin body lotion\nand body\ncream (13)\n(b) and (c) Not to\nbe used in\nproducts for\nchildren under 3\nyears of age",
+    "wording": "(b) and (c) Not\nto be used for\nchildren under 3\nyears of age (12)"
+   },
+   {
+    "tier": "c",
+    "tier_source": "label",
+    "product_type": "(c) Deo-dorants/\nanti-perspirants",
+    "max_concentration": "(c) 0,0075 %",
+    "other": "Not to be used in\noral and lip\nproducts\n(b) and (c) Not to\nbe used in\nproducts for\nchildren under 3\nyears of age",
+    "wording": "(b) and (c) Not\nto be used for\nchildren under 3\nyears of age (12)"
+   }
+  ],
+  "entry_seq": 57
+ },
+ {
+  "annex": "V",
+  "ref_no": "57",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M22",
+  "mid_amendments": "",
+  "pages": "427",
+  "chemical_name": "2-Methyl-2H-\nisothiazol-3-one",
+  "colour_index": null,
+  "inci_name": "Methylisothiazoli-\nnone (18)",
+  "cas": "2682-20-4",
+  "ec": "220-239-6",
+  "colour": null,
+  "product_type": "Rinse-off products",
+  "max_concentration": "0,0015 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methylisothiazoli- none (18)",
+    "cas": "2682-20-4",
+    "ec": "220-239-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "0,0015 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 58
+ },
+ {
+  "annex": "V",
+  "ref_no": "58",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M15",
+  "mid_amendments": "",
+  "pages": "427",
+  "chemical_name": "Ethyl-N-alpha-dodecanoyl-L-arginate\nhydrochloride (14)",
+  "colour_index": null,
+  "inci_name": "Ethyl Lauroyl Arginate\nHCl",
+  "cas": "60372-77-2",
+  "ec": "434-630-6",
+  "colour": null,
+  "product_type": "(a) Mouthwashes\n(b) Other products",
+  "max_concentration": "(a) 0,15 %\n(b) 0,4 %",
+  "other": "(a) Not to be used\nin preparations\nfor children\nunder 10 years\nof age\n(b) Not to be used\nin lip products,\noral products\n(other than\nmouthwashes), and\nspray products",
+  "wording": "(a) Not to be\nused for\nchildren\nunder 10\nyears of age",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ethyl Lauroyl Arginate HCl",
+    "cas": "60372-77-2",
+    "ec": "434-630-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Mouthwashes",
+    "max_concentration": "(a) 0,15 %",
+    "other": "(a) Not to be used\nin preparations\nfor children\nunder 10 years\nof age",
+    "wording": "(a) Not to be\nused for\nchildren\nunder 10\nyears of age"
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Other products",
+    "max_concentration": "(b) 0,4 %",
+    "other": "(b) Not to be used\nin lip products,\noral products\n(other than\nmouthwashes), and\nspray products",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 59
+ },
+ {
+  "annex": "V",
+  "ref_no": "59",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼C2",
+  "mid_amendments": "",
+  "pages": "427",
+  "chemical_name": "1,2,3-Propanetricarboxylic acid, 2-\nhydroxy-,\nmonohydrate and\n1,2,3-Propanetricarboxylic acid, 2-\nhydroxy-, silver(1+)\nsalt, monohydrate",
+  "colour_index": null,
+  "inci_name": "Citric acid (and) Silver\ncitrate",
+  "cas": "—",
+  "ec": "460-890-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,2 %,\ncorresponding to\n0,0024 % of silver",
+  "other": "Not to be used in\noral products and\neye products",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Citric acid (and) Silver citrate",
+    "cas": null,
+    "ec": "460-890-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,2 %,\ncorresponding to\n0,0024 % of silver",
+    "other": "Not to be used in\noral products and\neye products",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 60
+ },
+ {
+  "annex": "V",
+  "ref_no": "60",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M35",
+  "mid_amendments": "",
+  "pages": "427",
+  "chemical_name": "4-(3-ethoxy-4-hydroxyphenyl)butan-2-one",
+  "colour_index": null,
+  "inci_name": "Hydroxyethoxyphenyl\nButanone",
+  "cas": "569646-79-3",
+  "ec": "933-435-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "0,7 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Hydroxyethoxyphenyl Butanone",
+    "cas": "569646-79-3",
+    "ec": "933-435-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "0,7 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 61
+ },
+ {
+  "annex": "V",
+  "ref_no": "61",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M54",
+  "mid_amendments": "",
+  "pages": "428",
+  "chemical_name": "Silver zinc zeolite",
+  "colour_index": null,
+  "inci_name": "Ammonium Silver Zinc\nAluminium Silicate",
+  "cas": "130328-20-0",
+  "ec": "603-404-0",
+  "colour": null,
+  "product_type": "(a) Deodorant\nspray\n(b) Powder foundation",
+  "max_concentration": "(a) and (b)\n1 %",
+  "other": "For (a) and (b) the\nsilver content in\nAmmonium Silver\nZinc Aluminium\nSilicate must not\nexceed 2,5 %.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ammonium Silver Zinc Aluminium Silicate",
+    "cas": "130328-20-0",
+    "ec": "603-404-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Deodorant\nspray",
+    "max_concentration": "(a) and (b)\n1 %",
+    "other": "For (a) and (b) the\nsilver content in\nAmmonium Silver\nZinc Aluminium\nSilicate must not\nexceed 2,5 %.",
+    "wording": ""
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Powder foundation",
+    "max_concentration": "(a) and (b)\n1 %",
+    "other": "For (a) and (b) the\nsilver content in\nAmmonium Silver\nZinc Aluminium\nSilicate must not\nexceed 2,5 %.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 62
+ }
+]

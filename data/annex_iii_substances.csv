@@ -1,0 +1,412 @@
+﻿annex,entry_seq,ref_no,seq,colour_index,inci_name,cas,ec,split_ok
+III,1,1,1,,,,,1
+III,2,2a,1,,Thioglycolic acid,68-11-1,200-677-4,1
+III,3,2b,1,,,,,1
+III,4,3,1,,Oxalic acid,144-62-7,205-634-3,1
+III,5,4,1,,Ammonia,"7664-41-7, 1336-21-6","231-635-3, 215-647-6",1
+III,6,5,1,,Chloramine-T,127-65-1,204-854-7,1
+III,7,6,1,,Sodium chlorate,7775-09-9,231-887-4,1
+III,7,6,2,,Potassium chlorate,3811-04-9,223-289-7,1
+III,8,7,1,,,,,1
+III,9,8,1,,,,,1
+III,10,8a,1,,p-Phenylenediamine; p-Phenylenediamine HCl; p-Phenylenediamine Sulphate,"106-50-3, 624-18-0, 16245-77-5","203-404-7, 210-834-9, 240-357-1",0
+III,11,8b,1,,p-Phenylenediamine; p-Phenylenediamine HCl; p-Phenylenediamine Sulphate,"106-50-3, 624-18-0, 16245-77-5","203-404-7, 210-834-9, 240-357-1",0
+III,12,8c,1,,N N′-Bis(2- Hydroxyethyl)- 2-Nitro-p- Phenylenediamine,84041-77-0,281-856-4,0
+III,13,9,1,,,,,1
+III,14,9a,1,,"Toluene-2,5- Diamine",95-70-5,202-442-1,1
+III,14,9a,2,,"Toluene-2,5- Diamine Sulfate (1)",615-50-9,210-431-8,1
+III,15,9b,1,,"2,6-Dihydroxyethylaminotoluene",149330-25-6,443-210-1,1
+III,16,10,1,,,,,1
+III,17,11,1,,Dichlorophen,97-23-4,202-567-1,1
+III,18,12,1,,Hydrogen peroxide,7722-84-1,231-765-0,1
+III,19,13,1,,,,,1
+III,20,14,1,,Hydroquinone,123-31-9,204-617-8,1
+III,21,15a,1,,Potassium,1310-58-3,215-181-3,1
+III,21,15a,2,,hydroxide/ sodium hydroxide,1310-73-2,215-185-5,1
+III,22,15b,1,,Lithium hydroxide,1310-65-2,215-183-4,1
+III,23,15c,1,,Calcium hydroxide,1305-62-0,215-137-3,1
+III,24,15d,1,,Potassium hydroxide,1310-58-3,215-181-3,1
+III,25,16,1,,1-Naphthol,90-15-3,201-969-4,1
+III,26,17,1,,Sodium nitrite,7632-00-0,231-555-9,1
+III,27,18,1,,Nitromethane,75-52-5,200-876-6,1
+III,28,19,1,,,,,1
+III,29,20,1,,,,,1
+III,30,21,1,,Quinine,130-95-0,205-003-2,1
+III,31,22,1,,Resorcinol,108-46-3,203-585-2,1
+III,32,23,1,,,,,1
+III,33,24,1,,Zinc Acetate Zinc Chloride Zinc Gluconate Zinc Glutamate Zinc Citrate Zinc Sulphate,"557-34-6, 5970-45-6, 7646-85-7, 4468-02-4, 1949-15-1, 546-46-3, 7733-02-0, 7446-19-7, 7446-20-0","209-170-2, 231-592-0, 224-736-9, 208-901-2, 231-793-3",0
+III,34,25,1,,Zinc phenolsulfonate,127-82-2,204-867-8,1
+III,35,26,1,,Ammonium Monofluorophosphate,"20859-38-5, 66115-19-3",— / —,0
+III,36,27,1,,Sodium Monofluorophosphate,"10163-15-2, 7631-97-2","233-433-0, 231-552-2",1
+III,37,28,1,,Potassium Monofluorophosphate,14104-28-0,237-957-0,1
+III,38,29,1,,Calcium Monofluorophosphate,7789-74-4,232-187-1,1
+III,39,30,1,,Calcium Fluoride,7789-75-5,232-188-7,1
+III,40,31,1,,Sodium Fluoride,7681-49-4,231-667-8,1
+III,41,32,1,,Potassium Fluoride,7789-23-3,232-151-5,1
+III,42,33,1,,Ammonium Fluoride,12125-01-8,235-185-9,1
+III,43,34,1,,Aluminum Fluoride,7784-18-1,232-051-1,1
+III,44,35,1,,Stannous Fluoride,7783-47-3,231-999-3,1
+III,45,36,1,,Cetylamine Hydrofluoride,3151-59-5,221-588-7,1
+III,46,37,1,,—,,,1
+III,47,38,1,,—,,,1
+III,48,39,1,,Octadecenyl- Ammonium Fluoride,36505-83-6,,1
+III,49,40,1,,Sodium Fluorosilicate,16893-85-9,240-934-8,1
+III,50,41,1,,Potassium Fluorosilicate,16871-90-2,240-896-2,1
+III,51,42,1,,Ammonium Fluorosilicate,16919-19-0,240-968-3,1
+III,52,43,1,,Magnesium Fluorosilicate,16949-65-8,241-022-2,1
+III,53,44,1,,Dimethylol ethylene thiourea,15534-95-9,239-579-1,1
+III,54,45,1,,Benzyl Alcohol,100-51-6,202-859-9,1
+III,55,46,1,,6-Methyl Coumarin,92-48-8,202-158-8,1
+III,56,47,1,,Nicomethanol Hydrofluoride,62756-44-9,,1
+III,57,48,1,,Silver nitrate,7761-88-8,231-853-9,1
+III,58,49,1,,Selenium disulphide,7488-56-4,231-303-8,1
+III,59,50,1,,,,,1
+III,60,,1,,,,,1
+III,61,51,1,,Oxyqui-noline sulphate,134-31-6,205-137-1,1
+III,62,52,1,,Methyl alcohol,67-56-1,200-659-6,1
+III,63,53,1,,Etidronic acid,2809-21-4,220-552-8,1
+III,64,54,1,,Phenoxyisopropanol,770-35-4,212-222-7,1
+III,65,55,1,,,,,1
+III,66,56,1,,Magnesium Fluoride,7783-40-6,231-995-1,1
+III,67,57,1,,Strontium chloride,10476-85-4,233-971-6,1
+III,68,58,1,,Strontium acetate,543-94-2,208-854-8,1
+III,69,59,1,,Talc,14807-96-6,238-877-9,1
+III,70,60,1,,,,,1
+III,71,61,1,,,,,1
+III,72,62,1,,,,,1
+III,73,63,1,,Strontium hydroxide,18480-07-4,242-367-1,1
+III,74,64,1,,Strontium peroxide,1314-18-7,215-224-6,1
+III,75,65,1,,Benzalkonium bromide Benzalkonium chloride Benzalkonium saccharinate,"91080-29-4, 63449-41-2, 68391-01-5, 68424-85-1, 85409-22-9, 68989-01-5","293-522-5, 264-151-6, 269-919-4, 270-325-2, 287-089-1, 273-545-7",0
+III,76,66,1,,,,,1
+III,77,67,1,,Amyl cinnamal,122-40-7,204-541-5,1
+III,78,68,1,,,,,1
+III,79,69,1,,Cinnamyl alcohol,104-54-1,203-212-3,1
+III,80,70,1,,Citral,5392-40-5,226-394-6,1
+III,80,70,2,,Geranial,141-27-5,205-476-5,1
+III,80,70,3,,Neral,106-26-3,203-379-2,1
+III,81,71,1,,Eugenol,97-53-0,202-589-1,1
+III,82,72,1,,Hydroxycitronellal,107-75-5,203-518-7,1
+III,83,73,1,,Isoeugenol,"97-54-1, 5932-68-3, 5912-86-7","202-590-7, 227-678-2, 227-633-7",1
+III,84,74,1,,Amylcinnamyl alcohol,101-85-9,202-982-8,1
+III,85,75,1,,Benzyl Salicylate,118-58-1,204-262-9,1
+III,86,76,1,,Cinnamal,104-55-2,203-213-9,1
+III,87,77,1,,Coumarin,91-64-5,202-086-7,1
+III,88,78,1,,Geraniol,106-24-1,203-377-1,1
+III,89,79,1,,,,,1
+III,90,80,1,,Anise alcohol,105-13-5,203-273-6,1
+III,91,81,1,,Benzyl cinnamate,103-41-3,203-109-3,1
+III,92,82,1,,Farnesol,4602-84-0,225-004-1,1
+III,93,83,1,,,,,1
+III,94,84,1,,Linalool,78-70-6,201-134-4,1
+III,95,85,1,,Benzyl benzoate,120-51-4,204-402-9,1
+III,96,86,1,,Citronellol,"106-22-9, 26489-01-0, 1117-61-9, 7540-51-4","203-375-0, 247-737-6, 214-250-5, 231-415-7",1
+III,97,87,1,,Hexyl cinnamal,101-86-0,202-983-3,1
+III,98,88,1,,Limonene,"138-86-3, 7705-14-8, 5989-27-5, 5989-54-8","205-341-0, 231-732-0, 227-813-5, 227-815-6",1
+III,99,89,1,,Methyl 2- Octynoate,111-12-6,203-836-6,1
+III,100,90,1,,alpha- Isomethyl ionone,127-51-5,204-846-3,1
+III,101,91,1,,Evernia prunastri extract,90028-68-5,289-861-3,1
+III,102,92,1,,Evernia furfuracea extract,90028-67-4,289-860-8,1
+III,103,93,1,,Diaminopyrimidine oxide,74638-76-9,,1
+III,104,94,1,,Benzoyl peroxide,94-36-0,202-327-6,1
+III,105,95,1,,p-Hydroxyanisol,150-76-5,205-769-8,1
+III,106,96,1,,Musk xylene,81-15-2,201-329-4,1
+III,107,97,1,,Musk ketone,81-14-1,201-328-9,1
+III,108,98,1,,Salicylic acid,69-72-7,200-712-3,1
+III,109,99,1,,,,,1
+III,110,100,1,,Triclocarban,101-20-2,202-924-1,1
+III,111,101,1,,,,,1
+III,112,102,1,,Methyl eugenol,93-15-2,202-223-0,1
+III,113,103,1,,Abies Alba Cone Oil; Abies Alba Cone Extract; Abies Alba Leaf Oil; Abies Alba Leaf Cera; Abies Alba Needle Extract; Abies Alba Needle Oil,90028-76-5,289-870-2,1
+III,114,104,1,,,,,1
+III,115,105,1,,Abies Pectinata Oil; Abies Pectinata Leaf Extract; Abies Pectinata Needle Extract Abies Pectinata Needle Oil,92128-34-2,295-728-0,1
+III,116,106,1,,Abies Sibirica Oil; Abies Sibirica Needle Extract Abies Sibirica Needle Oil,91697-89-1,294-351-9,1
+III,117,107,1,,Abies Balsamea Needle Oil; Abies Balsamea Needle Extract Abies Balsamea Resin; Abies Balsamea Extract Abies Balsamea Balsam Extract,85085-34-3,285-364-0,1
+III,118,108,1,,Pinus Mugo Pumilio Twig Leaf Extract; Pinus Mugo Pumilio Twig Leaf Oil,90082-73-8,290-164-1,1
+III,119,109,1,,Pinus Mugo Leaf Oil; Pinus Mugo Twig Leaf Extract; Pinus Mugo Twig Oil,90082-72-7,290-163-6,1
+III,120,110,1,,Pinus Sylvestris Oil; Pinus Sylvestris Leaf extract; Pinus Sylvestris Leaf Oil; Pinus Sylvestris Leaf Water; Pinus Sylvestris Cone Extract; Pinus Sylvestris Bark Extract; Pinus Sylvestris Bud Extract Pinus Sylvestris Twig Leaf Extract Pinus Sylvestris twig Leaf Oil,84012-35-1,281-679-2,1
+III,121,111,1,,Pinus Nigra Bud/Needle Extract Pinus Nigra Twig Leaf Extract Pinus Nigra Twig Leaf Oil,90082-74-9,290-165-7,1
+III,122,112,1,,Pinus Palustris Leaf Extract; Pinus Palustris Oil Pinus Palustris Twig Leaf Extract Pinus Palustris Twig Leaf Oil,"97435-14-8, 8002-09-3",306-895-7,0
+III,123,113,1,,Pinus Pinaster Twig Leaf Oil; Pinus Pinaster Twig Leaf Extract,90082-75-0,290-166-2,1
+III,124,114,1,,Pinus Pumila Needle Extract; Pinus Pumila Twig Leaf Extract; Pinus Pumila Twig Leaf Oil,97676-05-6,307-681-6,1
+III,125,115,1,,Pinus Strobus Bark Extract; Pinus Strobus Cone Extract; Pinus Strobus Twig Oil Pinus Species Twig Leaf Extract Pinus Species Twig Leaf Oil,94266-48-5,304-455-9,1
+III,126,116,1,,Pinus Cembra Twig Leaf Oil Pinus Cembra Twig Leaf Extract,92202-04-5,296-036-1,1
+III,127,117,1,,Pinus Cembra Twig Leaf Extract Acetylated,94334-26-6,305-102-1,1
+III,128,118,1,,Picea Mariana Leaf Extract; Picea Mariana Leaf Oil,91722-19-9,294-420-3,1
+III,129,119,1,,Thuja Occidentalis Bark Extract; Thuja Occidentalis Leaf; Thuja Occidentalis Leaf Extract; Thuja Occidentalis Leaf Oil; Thuja Occidentalis Stem Extract; Thuja Occidentalis Stem Oil; Thuja Occidentalis Root Extract,90131-58-1,290-370-1,1
+III,130,120,1,,,,,1
+III,131,121,1,,,13466-78-9,236-719-3,1
+III,132,122,1,,Cedrus Atlantica Bark Extract; Cedrus Atlantica Bark Oil; Cedrus Atlantica Bark Water; Cedrus Atlantica Leaf Extract; Cedrus Atlantica Wood Extract; Cedrus Atlantica Wood Oil,"92201-55-3, 8023-85-6",295-985-9,0
+III,133,123,1,,Cupressus Sempervirens Leaf Oil; Cupressus Sempervirens Bark Extract; Cupressus Sempervirens Cone Extract; Cupressus Sempervirens Fruit Extract; Cupressus Sempervirens Leaf Extract; Cupressus Sempervirens Leaf/Nut/Stem Oil; Cupressus Sempervirens Leaf/Stem Extract; Cupressus Sempervirens Leaf Water; Cupressus Sempervirens Seed Extract; Cupressus Sempervirens Oil,84696-07-1,283-626-9,1
+III,134,124,1,,Turpentine,"9005-90-7, 8006-64-2, 8052-14-0","232-688-5, 232-350-7",1
+III,135,125-126,1,,,,,1
+III,136,127,1,,Terpene alcohols acetates,69103-01-1,273-868-3,1
+III,137,128,1,,Terpene hydrocarbons,68956-56-9,273-309-3,1
+III,138,129,1,,Terpenes and terpenoids,65996-98-7,266-034-5,1
+III,139,130,1,,,68917-63-5,272-842-9,1
+III,140,131,1,,Alpha- Terpinene,99-86-5,202-795-1,1
+III,141,132,1,,gamma- Terpinene,99-85-4,202-794-6,1
+III,142,133,1,,Terpinolene,586-62-9,209-578-0,1
+III,143,134,1,,Acetyl Hexamethyl indan,15323-35-0,239-360-0,1
+III,144,135,1,,Allyl butyrate,2051-78-7,218-129-8,1
+III,145,136,1,,Allyl cinnamate,1866-31-5,217-477-8,1
+III,146,137,1,,Allyl cyclohexylacetate,4728-82-9,225-230-0,1
+III,147,138,1,,Allyl cyclohexylpropionate,2705-87-5,220-292-5,1
+III,148,139,1,,Allyl heptanoate,142-19-8,205-527-1,1
+III,149,140,1,,Allyl Caproate,123-68-2,204-642-4,1
+III,150,141,1,,Allyl isovalerate,2835-39-4,220-609-7,1
+III,151,142,1,,Allyl octanoate,4230-97-1,224-184-9,1
+III,152,143,1,,Allyl phenoxyacetate,7493-74-5,231-335-2,1
+III,153,144,1,,Allyl phenylacetate,1797-74-6,217-281-2,1
+III,154,145,1,,"Allyl 3,5,5- trimethylhexanoate",71500-37-3,275-536-3,1
+III,155,146,1,,Allyl cyclohexyloxyacetate,68901-15-5,272-657-3,1
+III,156,147,1,,Isoamyl Allylglycolate,67634-00-8,266-803-5,1
+III,157,148,1,,Allyl 2-methylbutoxyacetate,67634-01-9,266-804-0,1
+III,158,149,1,,Allyl nonanoate,7493-72-3,231-334-7,1
+III,159,150,1,,Allyl propionate,2408-20-0,219-307-8,1
+III,160,151,1,,Allyl trimethylhexanoate,68132-80-9,268-648-9,1
+III,161,151a,1,,Allyl phenethyl ether,14289-65-7,238-212-2,1
+III,162,152,1,,Allyl heptine carbonate,73157-43-4,277-303-1,1
+III,163,153,1,,Amylcyclopentenone,25564-22-1,247-104-4,1
+III,164,154,1,,Myroxylon Balsamum Pereirae Balsam Extract; Myroxylon Balsamum Pereirae Balsam Oil; Myroxylon Pereirae Oil; Myroxylon Pereirae Resin Extract; Myroxylon Pereirae Resin,8007-00-9,232-352-8,1
+III,165,155,1,,4-tert.- Butyldihydrocinnamaldehyde,18127-01-0,242-016-2,1
+III,166,156,1,,Cuminum Cyminum Fruit Oil; Cuminum Cyminum Fruit Extract; Cuminum Cyminum Seed Oil; Cuminum Cyminum Seed Extract; Cuminum Cyminum Seed Powder,84775-51-9,283-881-6,1
+III,167,157,1,,Alpha- Damascone; cis-Rose ket- one 1 trans-Rose ketone 1 Rose ketone 4 (Damascenone) Rose ketone 3 (delta- Damascone) trans-Rose ketone 3 cis-Rose ketone 2 (cis-beta- Damascone) trans-Rose ketone 2 (trans-beta- Damascone),"43052-87-5, 23726-94-5, 24720-09-0, 23696-85-7, 57378-68-4, 71048-82-3, 23726-92-3, 23726-91-2","245-845-8, 246-430-4, 245-833-2, 260-709-8, 275-156-8, 245-843-7, 245-842-1",0
+III,168,158,1,,,,,1
+III,169,159,1,,trans-Rose ketone-5,39872-57-6,254-663-8,1
+III,170,160-163,1,,,,,1
+III,171,164,1,,Rose ketone-5,33673-71-1,251-632-0,1
+III,172,165,1,,,,,1
+III,173,166,1,,trans-2-hexenal,6728-26-3,229-778-1,1
+III,174,167-168,1,,,,,1
+III,175,169,1,,Perillaldehyde,2111-75-3,218-302-8,1
+III,176,170,1,,Isobergamate,68683-20-5,272-066-0,1
+III,177,171,1,,Scentenal,86803-90-9,,1
+III,178,172,1,,3-Methylnon-2- enenitrile,53153-66-5,258-398-9,1
+III,179,173,1,,Methyl octine carbonate,111-80-8,203-909-2,1
+III,180,174,1,,Amylvinylcarbinyl acetate,2442-10-6,219-474-7,1
+III,181,175,1,,3-Propylidenephthalide,17369-59-4,241-402-8,1
+III,182,176,1,,Isocyclogeraniol,68527-77-5,271-282-2,1
+III,183,177,1,,2-Hexylidene cyclopentanone,17373-89-6,241-411-7,1
+III,184,178,1,,Methyl heptadienone,1604-28-0,216-507-7,1
+III,185,179,1,,p-methylhydrocinnamic aldehyde,5406-12-2,226-460-4,1
+III,186,180,1,,Liquidambar Orientalis Resin Extract; Liquidambar Orientalis Balsam Extract; Liquidambar Orientalis Balsam Oil,94891-27-7,305-627-6,1
+III,187,181,1,,Liquidambar Styraciflua Oil;,8046-19-3,232-458-4,1
+III,187,181,2,,Liquidambar Styraciflua Balsam Extract; Liquidambar Styraciflua Balsam Oil,94891-28-8,305-628-1,1
+III,188,182,1,,Acetyl,21145-77-7,244-240-6,1
+III,188,182,2,,hexamethyl tetralin,1506-02-1,216-133-4,1
+III,189,183,1,,Opoponax oil,93686-00-1,297-649-7,1
+III,190,184,1,,,93384-32-8,,1
+III,191,185,1,,Toluene,108-88-3,203-625-9,1
+III,192,186,1,,Diethylene glycol,111-46-6,203-872-2,1
+III,193,187,1,,Butoxydiglycol,112-34-5,203-961-6,1
+III,194,188,1,,Butoxyethanol,111-76-2,203-905-0,1
+III,195,189,1,,Acid,1934-21-0,217-699-5,1
+III,195,189,2,,Yellow 23; Acid Yellow 23 Aluminum lake,12225-21-7,235-428-9,1
+III,196,190,1,,Acid Blue 9;,3844-45-9,223-339-8,1
+III,196,190,2,,Acid Blue 9,2650-18-2,220-168-0,1
+III,196,190,3,,Ammonium Salt; Acid Blue 9 Aluminum Lake,68921-42-6,272-939-6,1
+III,197,191,1,,Curry Red,25956-17-6,247-368-0,1
+III,198,192,1,,Acid Red 18;,2611-82-7,220-036-2,1
+III,198,192,2,,Acid Red 18 Aluminum Lake,12227-64-4,235-438-3,1
+III,199,193,1,,Acid Red 52,3520-42-1,222-529-8,1
+III,200,194,1,,Glyoxal,107-22-2,203-474-9,1
+III,201,195,1,,Acid Blue 62,4368-56-3,224-460-9,1
+III,202,196,1,,Lippia citriodora absolute,"8024-12-2, 85116-63-8",285-515-0,0
+III,203,197,1,,Ethyl Lauroyl Arginate HCl,60372-77-2,434-630-6,1
+III,204,198,1,,N N-bis(2- Hydroxyethyl)- p-Phenylenediamine Sulfate,54381-16-7,259-134-5,0
+III,205,199,1,,4-Chlororesorcinol,95-88-5,202-462-0,1
+III,206,200,1,,Tetraaminopyrimidine Sulfate,5392-28-9,226-393-0,1
+III,207,201,1,,2-Chloro-6- ethylamino-4- nitrophenol,131657-78-8,411-440-1,1
+III,208,202,1,,,,,1
+III,209,203,1,,6-Methoxy-2-,90817-34-8,,1
+III,209,203,2,,Methylamino- 3-Aminopyridine HCl,83732-72-3,280-622-9,1
+III,210,204,1,,Dihydroxy indoline Dihydroxy indoline HBr,"29539-03-5, 138937-28-7",421-170-6,0
+III,211,205,1,,,,,1
+III,212,206,1,,Hydroxyethyl- p- Phenylenediamine Sulfate,93841-25-9,298-995-1,1
+III,213,207,1,,Dihydroxyindole,3131-52-0,412-130-9,1
+III,214,208,1,,5-Amino-4- Chloro-o- Cresol HCl,110102-85-7,,1
+III,215,209,1,,6-Hydroxyindole,2380-86-1,417-020-4,1
+III,216,210,1,,Isatin,91-56-5,202-077-8,1
+III,217,211,1,,2-Amino-3- Hydroxypyridine,16867-03-1,240-886-8,1
+III,218,212,1,,1-Acetoxy-2- Methylnaphthalene,5697-02-9,454-690-7,1
+III,219,213,1,,2-Methyl-1- Naphthol,7469-77-4,231-265-2,1
+III,220,214,1,,Acid Yellow 1,846-70-8,212-690-2,1
+III,221,215,1,,4-Amino-3- nitrophenol,610-81-1,210-236-8,1
+III,222,216,1,,"2,7-Naphthalenediol",582-17-2,209-478-7,1
+III,223,217,1,,m-Aminophenol m-Aminophenol HCl m-Aminophenol sulfate,"591-27-5, 51-81-0, 68239-81-6, 38171-54-9","209-711-2, 200-125-2, 269-475-1",0
+III,224,218,1,,"2,6-Dihydroxy- 3,4-dimethylpyridine",84540-47-6,283-141-2,1
+III,225,219,1,,4-Hydroxypropylamino-3- nitrophenol,92952-81-3,406-305-9,1
+III,226,220,1,,HC Blue No 11,23920-15-2,459-980-7,1
+III,227,221,1,,Hydroxyethyl- 2-Nitro-p- Toluidine,100418-33-5,408-090-7,1
+III,228,222,1,,2-Hydroxyethylpicramic acid,99610-72-7,412-520-9,1
+III,229,223,1,,p-Methylaminophenol p-Methylaminophenol sulphate,"150-75-4, 55-55-0, 1936-57-8","205-768-2, 200-237-1, 217-706-1",0
+III,230,224,1,,HC Violet No 2,104226-19-9,410-910-3,0
+III,231,225,1,,HC Blue,104516-93-0,,1
+III,231,225,2,,No 12,132885-85-9,407-020-2,1
+III,232,226,1,,"1,3-bis-(2,4- Diaminophenoxy) propane 1,3-bis-(2,4- Diaminophenoxy) propane HCl","81892-72-0, 74918-21-1","279-845-4, 278-022-7",0
+III,233,227,1,,"3-Amino-2,4- dichlorophenol 3-Amino-2,4- dichlorophenol HCl","61693-42-3, 61693-43-4",262-909-0,0
+III,234,228,1,,Phenyl methyl pyrazoloné,89-25-8,201-891-0,1
+III,235,229,1,,2-Methyl-5- Hydroxyethyl Aminophenol,55302-96-0,259-583-7,1
+III,236,230,1,,Hydroxybenzomorpholine,26021-57-8,247-415-5,1
+III,237,231,1,,HC Yellow No 10,109023-83-8,416-940-3,1
+III,238,232,1,,"2,6-Dimethoxy- 3,5-pyridinediamine 2,6-Dimethoxy- 3,5-pyridinediamine HCl","56216-28-5, 85679-78-3",260-062-1,0
+III,239,233,1,,HC Orange No 2,85765-48-6,416-410-1,1
+III,240,234,1,,HC Violet No 1,82576-75-8,417-600-7,1
+III,241,235,1,,3-Methylamino-4-nitrophenoxyethanol,59820-63-2,261-940-7,1
+III,242,236,1,,2-Hydroxyethylamino-5- nitroanisole,66095-81-6,266-138-0,1
+III,243,237,1,,HC Red No 13,"29705-39-3, 94158-13-1",303-083-4,0
+III,244,238,1,,"1,5-Naphthalenediol",83-56-7,201-487-4,1
+III,245,239,1,,Hydroxypropyl bis(N-hydroxyethyl-p- phenylenediamine) HCl,"128729-30-6, 128729-28-2",416-320-2,0
+III,246,240,1,,4-Nitro-o- Phenylenediamine,99-56-9,202-766-3,1
+III,247,241,1,,4-Amino-2- Hydroxytoluene,2835-95-2,220-618-6,1
+III,248,242,1,,"2,4-Diaminophenoxyethanol",70643-19-5,,1
+III,248,242,2,,HCl,66422-95-5,266-357-1,1
+III,248,242,3,,"2,4-Diaminophenoxyethanol sulfate",70643-20-8,274-713-2,1
+III,249,243,1,,2-Methylresorcinol,608-25-3,210-155-8,1
+III,250,244,1,,4-Amino-m- Cresol,2835-99-6,220-621-2,1
+III,251,245,1,,2-Amino-4- Hydroxyethylaminoanisole 2-Amino-4- Hydroxyethylaminoanisole sulfate,"83763-47-7, 83763-48-8","280-733-2, 280-734-8",0
+III,252,246,1,,"Hydroxyethyl- 3,4-methylenedioxyaniline HCl",94158-14-2,303-085-5,1
+III,253,247,1,,HC Blue No 2,33229-34-4,251-410-3,1
+III,254,248,1,,3-Nitro-p- hydroxyethylaminophenol,65235-31-6,265-648-0,1
+III,255,249,1,,4-Nitrophenyl aminoethylurea,27080-42-8,410-700-1,1
+III,256,250,1,,HC Red No 10 + HC Red No 11,"95576-89-9, 95576-92-4",,0
+III,257,251,1,,HC Red No 7,24905-87-1,246-521-9,1
+III,258,252,1,,2-Amino-6- chloro-4-nitrophenol,6358-09-4,228-762-1,1
+III,259,253,1,,HC Yellow No 4,59820-43-8,428-840-7,1
+III,260,254,1,,Acid Red 33,3567-66-6,222-656-9,1
+III,261,255,1,,HC Yellow No 2,4926-55-0,225-555-8,1
+III,262,256,1,,HC Orange No 1,54381-08-7,259-132-4,1
+III,263,257,1,,Laureth-9,3055-99-0,221-284-4,1
+III,264,258,1,,HC Red No 1,2784-89-6,220-494-3,1
+III,265,259,1,,HC Yellow No 9,86419-69-4,415-480-1,1
+III,266,260,1,,HC Yellow No 7,104226-21-3,146-420-6,1
+III,267,261,1,,HC Yellow No 13,10442-83-8,443-760-2,1
+III,268,262,1,,Basic Yellow 57,68391-31-1,269-943-5,1
+III,269,263,1,,Disperse Black 9,20721-50-0,243-987-5,1
+III,270,264,1,,HC Blue No 14,99788-75-7,421-470-7,1
+III,271,265,1,,Disperse Violet 1,128-95-0,204-922-6,1
+III,272,266,1,,HC Red No 3,2871-01-4,220-701-7,1
+III,273,267,1,,Basic Red 76,68391-30-0,269-941-4,1
+III,274,268,1,,Basic Red 51,77061-58-6,278-601-4,1
+III,275,269,1,,2-Amino-5- Ethylphenol HCl,149861-22-3,,1
+III,276,270,1,,Acid Red 92,18472-87-2,242-355-6,1
+III,277,271,1,,"Disperse Blue 377 is a mixture of three dyes: (1) 1,4-bis[(2- hydroxyethyl) amino] anthra- 9,10- quinone (2) 1-[(2- hydroxyethyl) amino]-4- [(3- hydroxypropyl) amino] anthra- 9,10- quinone (3) 1,4-bis[(3- hydroxypropyl) amino] anthra- 9,10- quinone","4471-41-4, 67674-26-4, 67701-36-4","224-743-7, 266-865-3, 266-954-7",0
+III,278,272,1,,p-Aminophenol,123-30-8,204-616-2,1
+III,279,273,1,,"1-Hydroxyethyl-4,5- Diamino Pyrazole Sulfate",155601-30-2,429-300-3,1
+III,280,274,1,,4-Formyl-1- Methylquinolinium-p- Toluenesulfonate,223398-02-5,453-790-8,1
+III,281,275,1,,Basic Yellow 87,68259-00-7,269-503-2,1
+III,282,276,1,,Basic Orange 31,97404-02-9,306-764-4,1
+III,283,277,1,,"2,6-Diamino-3- ((Pyridine-3-yl) azo)Pyridine",28365-08-4,421-430-9,1
+III,284,278,1,,Basic Violet 2,3248-91-7,221-831-7,1
+III,285,279,1,,"2,3-Diaminodihydropyrazolopyrazolone Dimethosulfonate",857035-95-1,469-500-8,1
+III,286,280,1,,Picramic Acid and Sodium,96-91-3,202-544-6,1
+III,286,280,2,,Picramate,831-52-7,212-603-8,1
+III,287,281,1,,2-Nitro-5- Glyceryl Methylaniline,80062-31-3,279-383-3,1
+III,288,282,1,,HC Blue 16,502453-61-4,481-170-7,1
+III,289,283,1,,5-Amino-6- Chloro-o- Cresol 5-Amino-6- Chloro-o- Cresol HCl,"84540-50-1, 80419-48-3",283-144-9,0
+III,290,284,1,,"2,2'-Methylenebis-4-aminophenol HCl","27311-52-0, 63969-46-0",440-850-3,1
+III,291,285,1,,"2,6-Diaminopyridine",141-86-6,205-507-2,1
+III,292,286,1,,Cetrimonium chloride (19),112-02-7,203-928-6,1
+III,292,286,2,,Steartrimonium chloride (19),112-03-8,203-929-1,1
+III,293,287,1,,Behentrimonium chloride (19),17301-53-0,241-327-0,1
+III,294,288,1,,HC Blue No 17,16517-75-2,605-392-2,1
+III,295,289,1,,HC Blue No 15,74578-10-2,277-929-5,1
+III,296,290,1,,Acid Green 25,4403-90-1,224-546-6,1
+III,297,291,1,,Acid Violet 43,4430-18-6,224-618-7,1
+III,298,292,1,,2-Methoxymethyl-p-,337906-36-2,679-526-3,1
+III,298,292,2,,Phenylenediamine 2-Methoxymethyl-p- Phenylenediamine Sulfate,337906-37-3,638-749-6,1
+III,299,293,1,,Hydroxyanthraquinone-aminopropyl Methyl Morpholinium Methosulfate,38866-20-5,254-161-9,1
+III,300,294,1,,Disperse Red 17,3179-89-3,221-665-5,1
+III,301,295,1,,Acid Black 1,1064-48-8,213-903-1,1
+III,302,296,1,,Pigment Red 57,5858-81-1,227-497-9,1
+III,303,297,1,,Ethoxydiglycol,111-90-0,203-919-7,1
+III,304,298,1,,HC Red No 17,1449471-67-3,,1
+III,305,299,1,,HC Yellow No 17,1450801-55-4,,0
+III,306,300,1,,"1-Hexyl 4,5- Diamino Pyrazole Sulfate",1361000-03-4,,0
+III,307,301,1,,"2,5,6-Triamino- 4-Pyrimidinol Sulfate",1603-02-7,216-500-9,1
+III,308,302,1,,Hydroxyethoxy Aminopyrazo lopyridine HCl,1079221-49-0,695-745-7,0
+III,309,303,1,,"3-Amino-2,6- Dimethylphenol",6994-64-5,230-268-6,1
+III,310,304,1,,Basic Brown 17,68391-32-2,269-944-0,1
+III,311,305,1,,Basic Blue 124,67846-56-4,267-370-5,1
+III,312,306,1,,Arachis Hypogaea Oil Arachis Hypogaea Seedcoat Extract Arachis Hypogaea Flour Arachis Hypogaea Fruit Extract Arachis Hypogaea Sprout Extract Hydrogenated Peanut Oil Peanut Acid Peanut Glycerides Peanut Oil PEG-6 Esters Peanutamide MEA Peanutamide MIPA Potassium Peanutate Sodium Peanutamphoacetate Sodium Peanutate Sulfated Peanut Oil,"8002-03-7, 8002-03-7, 8002-03-7, 8002-03-7, 68425-36-5, 91051-35-3, 91744-77-3, 68440-49-3, 93572-05-5, 61789-56-8, 61789-57-9, 73138-79-1","232-296-4, 232-296-4, 232-296-4, 232-296-4, 270-350-9, 293-087-1, 294-643-6, 297-433-2, 263-069-8, 263-070-3, 277-298-6",0
+III,313,307,1,,Hydrolyzed Wheat Protein,"94350-06-8, 222400-28-4, 70084-87-6, 100209-50-5","305-225-0, 309-358-5",0
+III,314,308,1,,Tagetes minuta flower extract Tagetes minuta flower oil,"91770-75-1, 91770-75-1, 8016-84-0","294-862-7, 294-862-7",0
+III,315,309,1,,Tagetes patula flower extract Tagetes patula flower oil,"91722-29-1, 91722-29-1, 8016-84-0","294-431-3, 294-431-3",0
+III,316,310,1,,Climbazole,38083-17-9,253-775-4,1
+III,317,311,1,,,,,1
+III,318,312,1,,Furfural,98-01-1,202-627-7,1
+III,319,313,1,,HEMA,868-77-9,212-782-2,1
+III,320,314,1,,DI-HEMA,41137-60-4,255-239-5,1
+III,320,314,2,,TRIMETHYLHEXYL DICARBAMATE,72869-86-4,276-957-5,1
+III,321,315,1,,Dimethylpiperazinium Aminopyrazolopyridine HCl,1256553-33-9,813-255-5,1
+III,322,316,1,,Methylimidazoliumpropyl p- phenylenediamine HCl,220158-86-1,,1
+III,323,317,1,,HC Orange No 6,1449653-83-1,,0
+III,324,318,1,,Acid Orange 7,633-96-5,211-199-0,1
+III,325,319,1,,Tetrabromophenol Blue,4430-25-5,224-622-9,1
+III,326,320,1,,Indigofera tinctoria leaf Indigofera tinctoria leaf powder Indigofera tinctoria leaf extract Indigofera tinctoria extract,84775-63-3,283-892-6,1
+III,327,321,1,,Titanium Dioxide,"13463-67-7, 1317-70-0, 1317-80-2","236-675-5, 215-280-1, 215-282-2",0
+III,328,322,1,,Dihydroxyacetone,96-26-4,202-494-5,1
+III,329,323,1,,,85-91-6,201-642-6,1
+III,330,324,1,,Methyl Salicylate,119-36-8,204-317-7,1
+III,331,325,1,,BHT,128-37-0,204-881-4,1
+III,332,326,1,,Acid Yellow 3,8004-92-0,305-897-5,1
+III,333,327,1,,Acetyl Cedrene,32388-55-9,251-020-3,1
+III,334,328,1,,Amyl Salicylate,2050-08-0,218-080-2,1
+III,335,329,1,,Anethole,"104-46-1, 4180-23-8","203-205-5, 224-052-0",1
+III,336,330,1,,Benzaldehyde,100-52-7,202-860-4,1
+III,337,331,1,,Camphor,"76-22-2, 21368-68-3, 464-49-3, 464-48-2","200-945-0, 244-350-4, 207-355-2, 207-354-7",1
+III,338,332,1,,Beta-Caryophyllene,87-44-5,201-746-1,1
+III,339,333,1,,Carvone,"99-49-0, 6485-40-1, 2244-16-8","202-759-5, 229-352-5, 218-827-2",1
+III,340,334,1,,Dimethyl Phenethyl Acetate,151-05-3,205-781-3,1
+III,341,335,1,,Hexadecanolactone,109-29-5,203-662-0,1
+III,342,336,1,,Hexamethylindanopyran,1222-05-5,214-946-9,1
+III,343,337,1,,Linalyl Acetate,115-95-7,204-116-4,1
+III,344,338,1,,Menthol,"89-78-1, 1490-04-6, 2216-51-5, 15356-60-2","201-939-0, 216-074-4, 218-690-9, 239-387-8",1
+III,345,339,1,,Trimethylcyclopentenyl Methylisopentenol,67801-20-1,267-140-4,1
+III,346,340,1,,Salicylaldehyde,90-02-8,201-961-0,1
+III,347,341,1,,Santalol,"11031-45-1, 115-71-9, 77-42-9","234-262-4, 204-102-8, 201-027-2",1
+III,348,342,1,,Sclareol,515-03-7,208-194-0,1
+III,349,343,1,,Terpineol,"8000-41-7, 98-55-5, 138-87-4, 586-81-2","232-268-1, 202-680-6, 205-342-6, 209-584-3",1
+III,350,344,1,,Tetramethyl acetyloctahydronaphthalenes,"54464-57-2, 54464-59-4, 68155-66-8, 68155-67-9","259-174-3, 259-175-9, 268-978-3, 268-979-9",0
+III,351,345,1,,Trimethylbenzenepropanol,103694-68-4,403-140-4,1
+III,352,346,1,,Vanillin,121-33-5,204-465-2,1
+III,353,347,1,,Cananga Odorata Flower Extract; Cananga Odorata Flower Oil,"83863-30-3, 8006-81-3, 68606-83-7, 93686-30-7","281-092-1, 297-681-1",0
+III,354,348,1,,Cinnamomum Cassia Leaf Oil,"8007-80-5, 84961-46-6",284-635-0,1
+III,355,349,1,,Cinnamomum Zeylanicum Bark Oil,"8015-91-6, 84649-98-9",283-479-0,0
+III,356,350,1,,Citrus Aurantium Amara Flower Oil Citrus Aurantium Dulcis Flower Oil,"72968-50-4, 8028-48-6, 8016-38-4","277-143-2, 232-433-8",0
+III,357,351,1,,Citrus Aurantium Amara Peel Oil Citrus Aurantium Dulcis Peel Oil; Citrus Sinensis Peel Oil,"68916-04-1, 72968-50-4, 97766-30-8, 8028-48-6, 8008-57-9","277-143-2, 307-891-8, 232-433-8",0
+III,358,352,1,,Citrus Aurantium Bergamia Peel Oil,"8007-75-8, 89957-91-5, 68648-33-9, 8007-75-8, 85049-52-1","616-915-9, 289-612-9, 616-915-9",0
+III,359,353,1,,Citrus Limon Peel Oil,"84929-31-7, 8008-56-8",284-515-8,1
+III,360,354,1,,Cymbopogon Schoenanthus Oil Cymbopogon Flexuosus Oil Cymbopogon Citratus Leaf Oil,"8007-02-1, 89998-16-3, 91844-92-7, 8007-02-1, 91844-92-7","289-754-1, 295-161-9, 295-161-9, 295-161-9",0
+III,361,355,1,,Eucalyptus Globulus Leaf Oil; Eucalyptus Globulus Leaf/ Twig Oil,"97926-40-4, 8000-48-4, 8000-48-4","308-257-3, 616-775-9, 616-775-9",0
+III,362,356,1,,Eugenia Caryophyllus Leaf Oil Eugenia Caryophyllus Flower Oil Eugenia Caryophyllus Stem oil Eugenia Caryophyllus Bud oil,"8000-34-8, 8015-97-2, 84961-50-2, 84961-50-2, 84961-50-2, 84961-50-2","616-772-2, 284-638-7, 284-638-7, 284-638-7, 284-638-7",0
+III,363,357,1,,Jasminum Grandiflorum Flower Extract; Jasminum Officinale Oil; Jasminum Officinale Flower Extract,"84776-64-7, 90045-94-6, 8022-96-6, 8024-43-9, 90045-94-6","283-993-5, 289-960-1, 289-960-1",0
+III,364,358,1,,Juniperus Virginiana Oil; Juniperus Virginiana Wood Oil,"8000-27-9, 85085-41-2",285-370-3,0
+III,365,359,1,,Laurus Nobilis Leaf Oil,"8002-41-3, 8007-48-5, 84603-73-6",283-272-5,1
+III,366,360,1,,Lavandula Hybrida Oil; Lavandula Hybrida Extract; Lavandula Hybrida Flower Extract; Lavandula Intermedia Flower/Leaf/ Stem Extract; Lavandula Intermedia Flower/Leaf/ Stem Oil; Lavandula Intermedia Oil Lavandula Angustifolia Oil; Lavandula Angustifolia Flower/Leaf/ Stem Extract,"91722-69-9, 8022-15-9, 93455-96-0, 93455-97-1, 92623-76-2, 84776-65-8, 8000-28-0, 90063-37-9, 84776-65-8, 8000-28-0, 90063-37-9","294-470-6, 296-408-3, 283-994-0, 289-995-2, 283-994-0, 289-995-2",0
+III,367,361,1,,Mentha Piperita Oil,"8006-90-4, 84082-70-2",282-015-4,1
+III,368,362,1,,Mentha Viridis Leaf Oil,"8008-79-5, 84696-51-5","616-927-4, 283-656-2",1
+III,369,363,1,,Narcissus Poeticus Extract Narcissus Pseudonarcissus Flower Extract Narcissus Jonquilla Extract Narcissus Tazetta Extract,"90064-26-9, 68917-12-4, 90064-27-0, 90064-25-8","290-087-3, 290-088-9, 290-086-8",0
+III,370,364,1,,Pelargonium Graveolens Oil Pelargonium Graveolens Flower Oil Pelargonium Graveolens Leaf Oil,"90082-51-2, 8000-46-2",290-140-0,0
+III,371,365,1,,Pogostemon Cablin Oil Pogostemon Cablin Leaf Oil,"8014-09-3, 84238-39-1",282-493-4,0
+III,372,366,1,,Rosa Damascena Flower Oil; Rosa Damascena Flower Extract Rosa Alba Flower Oil; Rosa Alba Flower Extract Rosa Canina Flower Oil Rosa Centifolia Flower Oil; Rosa Centifolia Flower Extract Rosa Gallica Flower Oil Rosa Moschata Flower Oil Rosa Rugosa Flower Oil,"8007-01-0, 90106-38-0, 93334-48-6, 84696-47-9, 84604-12-6, 84604-13-7, 92347-25-6","290-260-3, 297-122-1, 283-652-0, 283-289-8, 283-290-3, 296-213-3",0
+III,373,367,1,,Santalum Album Oil,"8006-87-9, 84787-70-2",284-111-1,1
+III,374,368,1,,Eugenyl Acetate,93-28-7,202-235-6,1
+III,375,369,1,,Geranyl Acetate,105-87-3,203-341-5,1
+III,376,370,1,,Isoeugenyl Acetate,93-29-8,202-236-1,1
+III,377,371,1,,Pinene,"80-56-8, 7785-70-8, 127-91-3, 18172-67-3","201-291-9, 232-087-8, 204-872-5, 242-060-2",1
+III,378,372,1,,Hydroxyapatite (nano),1306-06-5,215-145-7,1
+III,379,373,1,,Genistein,446-72-0,207-174-9,1
+III,380,374,1,,Daidzein,486-66-8,207-635-4,1
+III,381,375,1,,Kojic Acid,501-30-4,207-922-4,1
+III,382,376,1,,Retinol Retinyl Acetate Retinyl Palmitate,"11103-57-4, 68-26-8, 127-47-9, 79-81-2","234-328-2, 200-683-7, 204-844-2, 201-228-5",0
+III,383,377,1,,Alpha-Arbutin,84380-01-8,617-561-8,1
+III,384,378,1,,Arbutin,497-76-7,207-850-3,1
+III,385,379,1,,Silver,7440-22-4,231-131-3,1
+III,386,380,1,,Hexyl Salicylate,6259-76-3,228-408-6,1
+III,387,381,1,,,,,1
+III,388,382,1,,Acetylated Vetiveria Zizanioides Root Extract; Acetylated Vetiveria Zizanioides Root Oil,"84082-84-8, 68917-34-0",282-031-1,0
+III,389,383,1,,HC Blue No 18,"1166834-57-6, 852356-91-3",-/-,0
+III,390,384,1,,Hydroxypropyl-p- phenylenediamine and Hydroxypropyl-p- phenylenediamine 2HCl,"73793-79-0, 1928659-47-5",827-723-1,1
+III,391,385,1,,HC Yellow No 16,1184721-10-5,,0
+III,392,386,1,,HC Red No 18,1444596-49-9,,1

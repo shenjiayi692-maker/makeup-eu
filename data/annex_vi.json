@@ -1,0 +1,1543 @@
+[
+ {
+  "annex": "VI",
+  "ref_no": "1",
+  "ref_inferred": 0,
+  "status": "deleted",
+  "amended_by": "▼M1",
+  "mid_amendments": "",
+  "pages": "429",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 1
+ },
+ {
+  "annex": "VI",
+  "ref_no": "2",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "429",
+  "chemical_name": "N,N,N-Trimethyl-4-(2-\noxoborn-3-ylidenemethyl) anilinium\nmethyl sulfate",
+  "colour_index": null,
+  "inci_name": "Camphor Benzalkonium Methosulfate",
+  "cas": "52793-97-2",
+  "ec": "258-190-8",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "6 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Camphor Benzalkonium Methosulfate",
+    "cas": "52793-97-2",
+    "ec": "258-190-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "6 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 2
+ },
+ {
+  "annex": "VI",
+  "ref_no": "3",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M47",
+  "mid_amendments": "",
+  "pages": "429",
+  "chemical_name": "Benzoic acid, 2-\nhydroxy-, 3,3,5-\ntrimethylcyclohexyl\nester/Homosalate (8)",
+  "colour_index": null,
+  "inci_name": "Homosalate",
+  "cas": "118-56-9",
+  "ec": "204-260-8",
+  "colour": null,
+  "product_type": "Face products\nwith the\nexception of\npropellent\nspray products",
+  "max_concentration": "7,34 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Homosalate",
+    "cas": "118-56-9",
+    "ec": "204-260-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Face products\nwith the\nexception of\npropellent\nspray products",
+    "max_concentration": "7,34 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 3
+ },
+ {
+  "annex": "VI",
+  "ref_no": "4",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M44",
+  "mid_amendments": "",
+  "pages": "429,430",
+  "chemical_name": "2-Hydroxy-4-methoxy-\nbenzophenone/\nOxybenzone (6)",
+  "colour_index": null,
+  "inci_name": "Benzophenone-3",
+  "cas": "131-57-7",
+  "ec": "205-031-5",
+  "colour": null,
+  "product_type": "a) Face\nproducts,\nhand\nproducts,\nand lip\nproducts,\nexcluding\npropellant\nand pump\nspray\nproducts\nb) Body\nproducts,\nincluding\npropellant\nand pump\nspray\nproducts\nc) Other\nproducts",
+  "max_concentration": "a) 6 %\nb) 2,2 %\nc) 0,5 %",
+  "other": "For a) and b) Not more than 0,5 %\nto protect product formulation\na) If used at 0,5 % to protect\nproduct formulation, the levels\nused as UV filter must not exceed\n5,5 %.\nb) If used at 0,5 % to protect\nproduct formulation, the levels\nused as UV filter must not exceed\n1,7 %.",
+  "wording": "For a) and b):\nContains Benzophenone-3 (1)",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzophenone-3",
+    "cas": "131-57-7",
+    "ec": "205-031-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "a) Face\nproducts,\nhand\nproducts,\nand lip\nproducts,\nexcluding\npropellant\nand pump\nspray\nproducts",
+    "max_concentration": "a) 6 %",
+    "other": "For a) and b) Not more than 0,5 %\nto protect product formulation\na) If used at 0,5 % to protect\nproduct formulation, the levels\nused as UV filter must not exceed\n5,5 %.",
+    "wording": "For a) and b):\nContains Benzophenone-3 (1)"
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "b) Body\nproducts,\nincluding\npropellant\nand pump\nspray\nproducts",
+    "max_concentration": "b) 2,2 %",
+    "other": "For a) and b) Not more than 0,5 %\nto protect product formulation\nb) If used at 0,5 % to protect\nproduct formulation, the levels\nused as UV filter must not exceed\n1,7 %.",
+    "wording": "For a) and b):\nContains Benzophenone-3 (1)"
+   },
+   {
+    "tier": "c",
+    "tier_source": "label",
+    "product_type": "c) Other\nproducts",
+    "max_concentration": "c) 0,5 %",
+    "other": "For a) and b) Not more than 0,5 %\nto protect product formulation",
+    "wording": "For a) and b):\nContains Benzophenone-3 (1)"
+   }
+  ],
+  "entry_seq": 4
+ },
+ {
+  "annex": "VI",
+  "ref_no": "5",
+  "ref_inferred": 0,
+  "status": "moved_or_deleted",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "430",
+  "chemical_name": "Moved or deleted",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 5
+ },
+ {
+  "annex": "VI",
+  "ref_no": "6",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "430",
+  "chemical_name": "2-Phenylbenzimidazole-\n5-sulfonic acid and its\npotassium, sodium and\ntriethanolamine salts/\nEnsulizole",
+  "colour_index": null,
+  "inci_name": "Phenylbenzimidazole\nSulfonic Acid",
+  "cas": "27503-81-7",
+  "ec": "248-502-0",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "8 %(as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Phenylbenzimidazole Sulfonic Acid",
+    "cas": "27503-81-7",
+    "ec": "248-502-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "8 %(as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 6
+ },
+ {
+  "annex": "VI",
+  "ref_no": "7",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "430",
+  "chemical_name": "3,3'-(1,4-Phenylenedimethylene) bis(7, 7-\ndimethyl-2-oxobicyclo-\n[2.2.1]hept-1-yl-\nmethanesulfonic acid)\nand its salts/Ecamsule",
+  "colour_index": null,
+  "inci_name": "Terephthalylidene\nDicamphor Sulfonic\nAcid",
+  "cas": "92761-26-7,\n90457-82-2",
+  "ec": "410-960-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %(as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Terephthalylidene Dicamphor Sulfonic Acid",
+    "cas": "92761-26-7, 90457-82-2",
+    "ec": "410-960-6",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %(as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 7
+ },
+ {
+  "annex": "VI",
+  "ref_no": "8",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "1-(4-tert-Butylphenyl)-\n3-(4-methoxyphenyl)\npropane-1,3-dione/\nAvobenzone",
+  "colour_index": null,
+  "inci_name": "Butyl Methoxydibenzoylmethane",
+  "cas": "70356-09-1",
+  "ec": "274-581-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Butyl Methoxydibenzoylmethane",
+    "cas": "70356-09-1",
+    "ec": "274-581-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 8
+ },
+ {
+  "annex": "VI",
+  "ref_no": "9",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "alpha-(2-Oxoborn-3-\nylidene)-toluene-4-\nsulphonic acid and its\nsalts",
+  "colour_index": null,
+  "inci_name": "Benzylidene Camphor\nSulfonic Acid",
+  "cas": "56039-58-8",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "6 % (as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzylidene Camphor Sulfonic Acid",
+    "cas": "56039-58-8",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "6 % (as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 9
+ },
+ {
+  "annex": "VI",
+  "ref_no": "10",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M44",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "2-Cyano-3,3-diphenyl\nacrylic acid, 2-\nethylhexyl ester/Octocrylene (6) (7)",
+  "colour_index": null,
+  "inci_name": "Octocrylene",
+  "cas": "6197-30-4",
+  "ec": "228-250-8",
+  "colour": null,
+  "product_type": "a) Propellant\nspray\nproducts\nb) Other\nproducts",
+  "max_concentration": "a) 9 %\nb) 10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Octocrylene",
+    "cas": "6197-30-4",
+    "ec": "228-250-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "a) Propellant\nspray\nproducts",
+    "max_concentration": "a) 9 %",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "b) Other\nproducts",
+    "max_concentration": "b) 10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 10
+ },
+ {
+  "annex": "VI",
+  "ref_no": "11",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "Polymer of N-{(2 and\n4)-[(2-oxoborn-3-\nylidene)methyl]benzyl}\nacrylamide",
+  "colour_index": null,
+  "inci_name": "Polyacrylamidomethyl\nBenzylidene Camphor",
+  "cas": "113783-61-2",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "6 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Polyacrylamidomethyl Benzylidene Camphor",
+    "cas": "113783-61-2",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "6 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 11
+ },
+ {
+  "annex": "VI",
+  "ref_no": "12",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "2-Ethylhexyl 4-\nmethoxycinnamate/\nOctinoxate",
+  "colour_index": null,
+  "inci_name": "Ethylhexyl Methoxycinnamate",
+  "cas": "5466-77-3",
+  "ec": "226-775-7",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ethylhexyl Methoxycinnamate",
+    "cas": "5466-77-3",
+    "ec": "226-775-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 12
+ },
+ {
+  "annex": "VI",
+  "ref_no": "13",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "Ethoxylated ethyl-4-\naminobenzoate",
+  "colour_index": null,
+  "inci_name": "PEG-25 PABA",
+  "cas": "116242-27-4",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "PEG-25 PABA",
+    "cas": "116242-27-4",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 13
+ },
+ {
+  "annex": "VI",
+  "ref_no": "14",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "Isopentyl-4-methoxycinnamate/Amiloxate",
+  "colour_index": null,
+  "inci_name": "Isoamyl p-Methoxycinnamate",
+  "cas": "71617-10-2",
+  "ec": "275-702-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Isoamyl p-Methoxycinnamate",
+    "cas": "71617-10-2",
+    "ec": "275-702-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 14
+ },
+ {
+  "annex": "VI",
+  "ref_no": "15",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "431",
+  "chemical_name": "2,4,6-Trianilino-(p-\ncarbo-2'-ethylhexyl-1'-\noxy)-1,3,5-triazine",
+  "colour_index": null,
+  "inci_name": "Ethylhexyl Triazone",
+  "cas": "88122-99-0",
+  "ec": "402-070-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ethylhexyl Triazone",
+    "cas": "88122-99-0",
+    "ec": "402-070-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 15
+ },
+ {
+  "annex": "VI",
+  "ref_no": "16",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "Phenol,2-(2H-benzotriazol-2-yl)-4-methyl-6-\n(2-methyl-3-(1,3,3,3-\ntetramethyl-1-(trimethylsilyl)oxy)-\ndisiloxanyl)propyl)",
+  "colour_index": null,
+  "inci_name": "Drometrizole\nTrisiloxane",
+  "cas": "155633-54-8",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "15 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Drometrizole Trisiloxane",
+    "cas": "155633-54-8",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "15 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 16
+ },
+ {
+  "annex": "VI",
+  "ref_no": "17",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "Benzoic acid, 4,4-((6-\n((4-(((1,1-dimethylethyl)amino)carbonyl)\nphenyl)amino)-1,3,5-\ntriazine-2,4-diyl)\ndiimino)bis-, bis (2-\nethylhexyl) ester/Iscotrizinol (USAN)",
+  "colour_index": null,
+  "inci_name": "Diethylhexyl Butamido\nTriazone",
+  "cas": "154702-15-5",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Diethylhexyl Butamido Triazone",
+    "cas": "154702-15-5",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 17
+ },
+ {
+  "annex": "VI",
+  "ref_no": "18-19",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M51",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 18
+ },
+ {
+  "annex": "VI",
+  "ref_no": "19",
+  "ref_inferred": 1,
+  "status": "deleted",
+  "amended_by": "▼M10",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "",
+  "colour_index": null,
+  "inci_name": "",
+  "cas": "",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 19
+ },
+ {
+  "annex": "VI",
+  "ref_no": "20",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "2-Ethylhexyl salicylate/\nOctisalate",
+  "colour_index": null,
+  "inci_name": "Ethylhexyl Salicylate",
+  "cas": "118-60-5",
+  "ec": "204-263-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "5 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ethylhexyl Salicylate",
+    "cas": "118-60-5",
+    "ec": "204-263-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "5 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 20
+ },
+ {
+  "annex": "VI",
+  "ref_no": "21",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "432",
+  "chemical_name": "2-Ethylhexyl 4-\n(dimethylamino)\nbenzoate/Padimate O\n(USAN:BAN)",
+  "colour_index": null,
+  "inci_name": "Ethylhexyl Dimethyl\nPABA",
+  "cas": "21245-02-3",
+  "ec": "244-289-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "8 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Ethylhexyl Dimethyl PABA",
+    "cas": "21245-02-3",
+    "ec": "244-289-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "8 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 21
+ },
+ {
+  "annex": "VI",
+  "ref_no": "22",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "433",
+  "chemical_name": "2-Hydroxy-4-methoxybenzophenone-5-\nsulfonic acid and its\nsodium salt/Sulisobenzone",
+  "colour_index": null,
+  "inci_name": "Benzophenone-4,\nBenzophenone-5",
+  "cas": "4065-45-6/\n6628-37-1",
+  "ec": "223-772-2 /\n-",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "5 % (as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Benzophenone-4 Benzophenone-5",
+    "cas": "4065-45-6, 6628-37-1",
+    "ec": "223-772-2",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "5 % (as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 22
+ },
+ {
+  "annex": "VI",
+  "ref_no": "23",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M26",
+  "mid_amendments": "",
+  "pages": "433",
+  "chemical_name": "2,2′-Methylene- bis(6-\n(2H-benzotriazol-2-yl)-\n4-(1,1,3,3-tetramethylbutyl)phenol)/Bisoctrizole",
+  "colour_index": null,
+  "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+  "cas": "103597-45-1",
+  "ec": "403-800-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 % (5)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+    "cas": "103597-45-1",
+    "ec": "403-800-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 % (5)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 23
+ },
+ {
+  "annex": "VI",
+  "ref_no": "23a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M26",
+  "mid_amendments": "",
+  "pages": "433,434",
+  "chemical_name": "2,2′-Methylene- bis(6-\n(2H-benzotriazol-2-yl)-\n4-(1,1,3,3-tetramethylbutyl)phenol)/Bisoctrizole",
+  "colour_index": null,
+  "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)",
+  "cas": "103597-45-1",
+  "ec": "403-800-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 % (5)",
+  "other": "Not to be used in applications that\nmay lead to exposure of the end\nuser's lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— Purity ≥ 98,5 %, with 2,2′-\nmethylene-bis-(6(2H-benzotriazol-2-yl)-4-(isooctyl)phenol)\nisomer fraction not exceeding\n1,5 %;\n— Solubility < 5 ng/L in water at\n25 °C;\n— Partition coefficient (Log Pow):\n12,7 at 25 °C;\n— Uncoated;\n— Median particle size D50 (50 %\nof the number below this diameter): ≥ 120 nm of mass\ndistribution and/or ≥ 60 nm of\nnumber size distribution.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)",
+    "cas": "103597-45-1",
+    "ec": "403-800-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 % (5)",
+    "other": "Not to be used in applications that\nmay lead to exposure of the end\nuser's lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— Purity ≥ 98,5 %, with 2,2′-\nmethylene-bis-(6(2H-benzotriazol-2-yl)-4-(isooctyl)phenol)\nisomer fraction not exceeding\n1,5 %;\n— Solubility < 5 ng/L in water at\n25 °C;\n— Partition coefficient (Log Pow):\n12,7 at 25 °C;\n— Uncoated;\n— Median particle size D50 (50 %\nof the number below this diameter): ≥ 120 nm of mass\ndistribution and/or ≥ 60 nm of\nnumber size distribution.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 24
+ },
+ {
+  "annex": "VI",
+  "ref_no": "24",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "434",
+  "chemical_name": "Sodium salt of 2,2'-bis\n(1,4-phenylene)-1H-\nbenzimidazole-4,6-\ndisulfonic acid) /\nBisdisulizole disodium\n(USAN)",
+  "colour_index": null,
+  "inci_name": "Disodium Phenyl\nDibenzimidazole\nTetrasulfonate",
+  "cas": "180898-37-7",
+  "ec": "429-750-0",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 % (as acid)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Disodium Phenyl Dibenzimidazole Tetrasulfonate",
+    "cas": "180898-37-7",
+    "ec": "429-750-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 % (as acid)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 25
+ },
+ {
+  "annex": "VI",
+  "ref_no": "25",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "434",
+  "chemical_name": "2,2'-(6-(4-Methoxyphenyl)-1,3,5-triazine-\n2,4-diyl)bis(5-((2-\nethylhexyl)oxy)phenol)\n/ Bemotrizinol",
+  "colour_index": null,
+  "inci_name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+  "cas": "187393-00-6",
+  "ec": "",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "cas": "187393-00-6",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 26
+ },
+ {
+  "annex": "VI",
+  "ref_no": "26",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "434",
+  "chemical_name": "Dimethicodiethylbenzalmalonate",
+  "colour_index": null,
+  "inci_name": "Polysilicone-15",
+  "cas": "207574-74-1",
+  "ec": "426-000-4",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Polysilicone-15",
+    "cas": "207574-74-1",
+    "ec": "426-000-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 27
+ },
+ {
+  "annex": "VI",
+  "ref_no": "27",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼C9",
+  "mid_amendments": "",
+  "pages": "434",
+  "chemical_name": "Titanium dioxide (2)",
+  "colour_index": null,
+  "inci_name": "Titanium Dioxide",
+  "cas": "13463-67-7/\n1317-70-0/\n1317-80-2",
+  "ec": "236-675-5/\n215-280-1/\n215-282-2",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "25 % (4)",
+  "other": "Titanium dioxide in powder form\ncontaining 1 % or more of particles\nwith aerodynamic diameter ≤ 10 μm,\nto be used in compliance with Annex\nIII, No 321. For the product types\nunder letter (c) of column (f) in\nAnnex III, No 321, the maximum\nconcentration in ready for use preparation provided in column (g) of\nthis entry applies.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Titanium Dioxide",
+    "cas": "13463-67-7, 1317-70-0, 1317-80-2",
+    "ec": "236-675-5, 215-280-1, 215-282-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "25 % (4)",
+    "other": "Titanium dioxide in powder form\ncontaining 1 % or more of particles\nwith aerodynamic diameter ≤ 10 μm,\nto be used in compliance with Annex\nIII, No 321. For the product types\nunder letter (c) of column (f) in\nAnnex III, No 321, the maximum\nconcentration in ready for use preparation provided in column (g) of\nthis entry applies.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 28
+ },
+ {
+  "annex": "VI",
+  "ref_no": "27a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M34",
+  "mid_amendments": "",
+  "pages": "435,436",
+  "chemical_name": "Titanium dioxide (2)",
+  "colour_index": null,
+  "inci_name": "Titanium Dioxide\n(nano)",
+  "cas": "13463-67-7/\n1317-70-0/\n1317-80-2",
+  "ec": "236-675-5/\n215-280-1/\n215-282-2",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "25 % (4)",
+  "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser’s lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— purity ≥ 99 %,\n— rutile form, or rutile with up to\n5 % anatase, with crystalline\nstructure and physical appearance\nas clusters of spherical, needle,\nor lanceolate shapes,\n— median particle size based on\nnumber size distribution ≥\n30 nm,\n— aspect ratio from 1 to 4,5, and\nvolum2e spe3cific surface area ≤\n460 m /cm ,\n— coated with Silica, Hydrated\nSilica, Alumina, Aluminium\nHydroxide, Aluminium Stearate,\nStearic Acid, Trimethoxycaprylylsilane, Glycerin, Dimethicone,\nHydrogen Dimethicone,\nSimethicone,\nor coated with one of the following\ncombinations:\n— Silica at a maximum concentration of 16 % and Cetyl\nPhosphate at a maximum\nconcentration of 6 %,\n— Alumina at a maximum concentration of 7 % and Manganese\nDioxide at a maximum concentration of 0,7 % (not to be used\nin lip products),\n— Alumina at a maximum concentration of 3 % and Triethoxycaprylylsilane at a maximum\nconcentration of 9 %,\n— photocatalytic activity ≤ 10 %\ncompared to corresponding non-\ncoated or non-doped reference,\n— nanoparticles are photostable in\nthe final formulation.",
+  "wording": "For face products\ncontaining\nTitanium Dioxide\n(nano) coated\nwith the\ncombination\nAlumina and\nManganese\nDioxide:\nNot to be used on\nthe lips.",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Titanium Dioxide (nano)",
+    "cas": "13463-67-7, 1317-70-0, 1317-80-2",
+    "ec": "236-675-5, 215-280-1, 215-282-2",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "25 % (4)",
+    "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser’s lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— purity ≥ 99 %,\n— rutile form, or rutile with up to\n5 % anatase, with crystalline\nstructure and physical appearance\nas clusters of spherical, needle,\nor lanceolate shapes,\n— median particle size based on\nnumber size distribution ≥\n30 nm,\n— aspect ratio from 1 to 4,5, and\nvolum2e spe3cific surface area ≤\n460 m /cm ,\n— coated with Silica, Hydrated\nSilica, Alumina, Aluminium\nHydroxide, Aluminium Stearate,\nStearic Acid, Trimethoxycaprylylsilane, Glycerin, Dimethicone,\nHydrogen Dimethicone,\nSimethicone,\nor coated with one of the following\ncombinations:\n— Silica at a maximum concentration of 16 % and Cetyl\nPhosphate at a maximum\nconcentration of 6 %,\n— Alumina at a maximum concentration of 7 % and Manganese\nDioxide at a maximum concentration of 0,7 % (not to be used\nin lip products),\n— Alumina at a maximum concentration of 3 % and Triethoxycaprylylsilane at a maximum\nconcentration of 9 %,\n— photocatalytic activity ≤ 10 %\ncompared to corresponding non-\ncoated or non-doped reference,\n— nanoparticles are photostable in\nthe final formulation.",
+    "wording": "For face products\ncontaining\nTitanium Dioxide\n(nano) coated\nwith the\ncombination\nAlumina and\nManganese\nDioxide:\nNot to be used on\nthe lips."
+   }
+  ],
+  "entry_seq": 29
+ },
+ {
+  "annex": "VI",
+  "ref_no": "28",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M54",
+  "mid_amendments": "",
+  "pages": "436",
+  "chemical_name": "Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl\nester (10)",
+  "colour_index": null,
+  "inci_name": "Diethylamino\nHydroxybenzoyl Hexyl\nBenzoate (DHHB)",
+  "cas": "302776-68-7",
+  "ec": "443-860-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "Di-n-hexyl phthalate (DnHexP) as an\nunavoidable trace impurity in DHHB\nmust not exceed 10 ppm.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+    "cas": "302776-68-7",
+    "ec": "443-860-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "Di-n-hexyl phthalate (DnHexP) as an\nunavoidable trace impurity in DHHB\nmust not exceed 10 ppm.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 30
+ },
+ {
+  "annex": "VI",
+  "ref_no": "29",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M6 ▼C2",
+  "mid_amendments": "",
+  "pages": "436",
+  "chemical_name": "1,3,5-Triazine, 2,4,6-tris\n[1,1'-biphenyl]-4-yl-,\nincluding as nanomaterial",
+  "colour_index": null,
+  "inci_name": "Tris-biphenyl triazine\nTris-biphenyl triazine\n(nano)",
+  "cas": "31274-51-8",
+  "ec": "—",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "Not to be used in sprays.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— median primary particle size\n> 80 nm;\n— Purity ≥ 98 %;\n— Uncoated",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Tris-biphenyl triazine Tris-biphenyl triazine (nano)",
+    "cas": "31274-51-8",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "Not to be used in sprays.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— median primary particle size\n> 80 nm;\n— Purity ≥ 98 %;\n— Uncoated",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 31
+ },
+ {
+  "annex": "VI",
+  "ref_no": "30",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M12",
+  "mid_amendments": "",
+  "pages": "436",
+  "chemical_name": "Zinc oxide",
+  "colour_index": null,
+  "inci_name": "Zinc Oxide",
+  "cas": "1314-13-2",
+  "ec": "215-222-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "25 % (3)",
+  "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser's lungs by inhalation.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Zinc Oxide",
+    "cas": "1314-13-2",
+    "ec": "215-222-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "25 % (3)",
+    "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser's lungs by inhalation.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 32
+ },
+ {
+  "annex": "VI",
+  "ref_no": "30a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M12",
+  "mid_amendments": "",
+  "pages": "437",
+  "chemical_name": "Zinc oxide",
+  "colour_index": null,
+  "inci_name": "Zinc Oxide (nano)",
+  "cas": "1314-13-2",
+  "ec": "215-222-5",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "25 % (3)",
+  "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser's lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— purity ≥ 96 %, with wurtzite\ncrystalline structure and physical\nappearance as clusters that are\nrod-like, star-like and/or\nisometric shapes, with impurities\nconsisting only of carbon dioxide\nand water, whilst any other impurities are less than 1 % in total,\n— median diameter of the particle\nnumber size distribution D50\n(50 % of the number below this\ndiameter) > 30 nm and D1 (1 %\nbelow this size) > 20 nm,\n— water solubility < 50 mg/L\n— uncoated, or coated with triethoxycaprylylsilane, dimethicone,\ndimethoxydiphenylsilanetriethoxycaprylylsilane cross-\npolymer, or octyl triethoxy\nsilane.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Zinc Oxide (nano)",
+    "cas": "1314-13-2",
+    "ec": "215-222-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "25 % (3)",
+    "other": "Not to be used in applications that\nmay lead to exposure of the end-\nuser's lungs by inhalation.\nOnly nanomaterials having the\nfollowing characteristics are allowed:\n— purity ≥ 96 %, with wurtzite\ncrystalline structure and physical\nappearance as clusters that are\nrod-like, star-like and/or\nisometric shapes, with impurities\nconsisting only of carbon dioxide\nand water, whilst any other impurities are less than 1 % in total,\n— median diameter of the particle\nnumber size distribution D50\n(50 % of the number below this\ndiameter) > 30 nm and D1 (1 %\nbelow this size) > 20 nm,\n— water solubility < 50 mg/L\n— uncoated, or coated with triethoxycaprylylsilane, dimethicone,\ndimethoxydiphenylsilanetriethoxycaprylylsilane cross-\npolymer, or octyl triethoxy\nsilane.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 33
+ },
+ {
+  "annex": "VI",
+  "ref_no": "31",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M29",
+  "mid_amendments": "",
+  "pages": "438",
+  "chemical_name": "3,3′-(1,4-Phenylene)bis\n(5,6-diphenyl-1,2,4-\ntriazine)",
+  "colour_index": null,
+  "inci_name": "Phenylene Bis-Diphenyltriazine",
+  "cas": "55514-22-2",
+  "ec": "700-823-1",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "5 %",
+  "other": "Not to be used in applications that\nmay lead to exposure of the end\nuser's lungs by inhalation.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Phenylene Bis-Diphenyltriazine",
+    "cas": "55514-22-2",
+    "ec": "700-823-1",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "5 %",
+    "other": "Not to be used in applications that\nmay lead to exposure of the end\nuser's lungs by inhalation.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 34
+ },
+ {
+  "annex": "VI",
+  "ref_no": "32",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M39",
+  "mid_amendments": "",
+  "pages": "438",
+  "chemical_name": "2-ethoxyethyl (2Z)-2-\ncyano-2-[3-(3-methoxypropylamino) cyclohex-\n2-en-1-ylidene]acetate",
+  "colour_index": null,
+  "inci_name": "Methoxypropylamino\nCyclohexenylidene\nEthoxyethylcyanoacetate",
+  "cas": "1419401-88-9",
+  "ec": "700-860-3",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "3 %",
+  "other": "— Not to be used in applications\nthat may lead to exposure of\nthe end-user’s lungs by inhalation\n— Do not use with nitrosating\nagents – Maximum nitrosamine\ncontent: 50 μg/kg\n— Keep in nitrite-free containers",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Methoxypropylamino Cyclohexenylidene Ethoxyethylcyanoacetate",
+    "cas": "1419401-88-9",
+    "ec": "700-860-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "3 %",
+    "other": "— Not to be used in applications\nthat may lead to exposure of\nthe end-user’s lungs by inhalation\n— Do not use with nitrosating\nagents – Maximum nitrosamine\ncontent: 50 μg/kg\n— Keep in nitrite-free containers",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 35
+ },
+ {
+  "annex": "VI",
+  "ref_no": "33",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M47",
+  "mid_amendments": "",
+  "pages": "438",
+  "chemical_name": "1,1'-(1,4-piperazinediyl)\nbis[1-[2-[4-(diethylamino)-2-hydroxybenzoyl]phenyl]-\nmethanone",
+  "colour_index": null,
+  "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl)\nPiperazine",
+  "cas": "919803-06-8",
+  "ec": "485-100-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 % (9)",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine",
+    "cas": "919803-06-8",
+    "ec": "485-100-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 % (9)",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 36
+ },
+ {
+  "annex": "VI",
+  "ref_no": "34",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M47",
+  "mid_amendments": "",
+  "pages": "439",
+  "chemical_name": "1,1'-(1,4-piperazinediyl)\nbis[1-[2-[4-(diethylamino)-2-hydroxybenzoyl]phenyl]-\nmethanone",
+  "colour_index": null,
+  "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl)\nPiperazine (nano)",
+  "cas": "919803-06-8",
+  "ec": "485-100-6",
+  "colour": null,
+  "product_type": "",
+  "max_concentration": "10 % (9)",
+  "other": "Only nanomaterials having the\nfollowing characteristics are allowed:\n— Purity ≥ 97 %\n— Median particle size D50 (50 %\nof the number below this diameter): ≥ 50 nm of number size\ndistribution.\nNot to be used in applications that\nmay lead to exposure of the end\nuser’s lungs by inhalation.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine (nano)",
+    "cas": "919803-06-8",
+    "ec": "485-100-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 % (9)",
+    "other": "Only nanomaterials having the\nfollowing characteristics are allowed:\n— Purity ≥ 97 %\n— Median particle size D50 (50 %\nof the number below this diameter): ≥ 50 nm of number size\ndistribution.\nNot to be used in applications that\nmay lead to exposure of the end\nuser’s lungs by inhalation.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 37
+ }
+]

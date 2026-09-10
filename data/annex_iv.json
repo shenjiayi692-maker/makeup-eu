@@ -1,0 +1,6332 @@
+[
+ {
+  "annex": "IV",
+  "ref_no": "1",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "385",
+  "chemical_name": "Sodium tris(1,2-naphthoquinone 1-oximato-O,O')\nferrate(1-)",
+  "colour_index": "10006",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "10006",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 1
+ },
+ {
+  "annex": "IV",
+  "ref_no": "2",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "385",
+  "chemical_name": "Trisodium tris[5,6-dihydro-5-\n(hydroxyimino)-6-oxonaphthalene-2-sulphonato(2-)-\nN5,O6]ferrate(3-)",
+  "colour_index": "10020",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "10020",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 2
+ },
+ {
+  "annex": "IV",
+  "ref_no": "3",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "385",
+  "chemical_name": "Disodium 5,7-dinitro-8-\noxidonaphthalene-2-sulphonate\nand its insoluble barium,\nstrontium and zirconium lakes,\nsalts and pigments",
+  "colour_index": "10316",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Not to be used in eye\nproducts",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "10316",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in eye\nproducts",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 3
+ },
+ {
+  "annex": "IV",
+  "ref_no": "4",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "385",
+  "chemical_name": "2-[(4-Methyl-2-nitrophenyl)\nazo]-3-oxo-N-phenylbutyramide",
+  "colour_index": "11680",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "11680",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 4
+ },
+ {
+  "annex": "IV",
+  "ref_no": "5",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "385",
+  "chemical_name": "2-[(4-Chloro-2-nitrophenyl)\nazo]-N-(2-chlorophenyl)-3-\noxobutyramide",
+  "colour_index": "11710",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "11710",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 5
+ },
+ {
+  "annex": "IV",
+  "ref_no": "6",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "2-[(4-Methoxy-2-nitrophenyl)\nazo]-3-oxo-N-(o-tolyl)butyramide",
+  "colour_index": "11725",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "11725",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 6
+ },
+ {
+  "annex": "IV",
+  "ref_no": "7",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "4-(Phenylazo)resorcinol",
+  "colour_index": "11920",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "11920",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 7
+ },
+ {
+  "annex": "IV",
+  "ref_no": "8",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "4-[(4-Ethoxyphenyl)azo]\nnaphthol",
+  "colour_index": "12010",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12010",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 8
+ },
+ {
+  "annex": "IV",
+  "ref_no": "9",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "1-[(2-Chloro-4-nitrophenyl)\nazo]-2-naphthol and its\ninsoluble barium, strontium\nand zirconium lakes, salts and\npigments",
+  "colour_index": "12085",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "3 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12085",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "3 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 9
+ },
+ {
+  "annex": "IV",
+  "ref_no": "10",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "1-[(4-Methyl-2-nitrophenyl)\nazo]-2-naphthol",
+  "colour_index": "12120",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12120",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 10
+ },
+ {
+  "annex": "IV",
+  "ref_no": "11",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "3-Hydroxy-N-(o-tolyl)-4-\n[(2,4,5-trichlorophenyl)azo]\nnaphthalene-2-carboxamide",
+  "colour_index": "12370",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12370",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 11
+ },
+ {
+  "annex": "IV",
+  "ref_no": "12",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "386",
+  "chemical_name": "N-(4-Chloro-2-methylphenyl)-\n4-[(4-chloro-2-methylphenyl)\nazo]-3-hydroxynaphthalene-2-\ncarboxamide",
+  "colour_index": "12420",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12420",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 12
+ },
+ {
+  "annex": "IV",
+  "ref_no": "13",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "4-[(2,5-Dichlorophenyl)azo]-\nN-(2,5-dimethoxyphenyl)-3-\nhydroxynaphthalene-2-carboxamide",
+  "colour_index": "12480",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Brown",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12480",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 13
+ },
+ {
+  "annex": "IV",
+  "ref_no": "14",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "N-(5-Chloro-2,4-dimethoxyphenyl)-4-[[5-[(diethylamino)\nsulphonyl]-2-methoxyphenyl]\nazo]-3-hydroxynaphthalene-2-\ncarboxamide",
+  "colour_index": "12490",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12490",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 14
+ },
+ {
+  "annex": "IV",
+  "ref_no": "15",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "2,4-Dihydro-5-methyl-2-\nphenyl-4-(phenylazo)-3H-\npyrazol-3-one",
+  "colour_index": "12700",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "12700",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 15
+ },
+ {
+  "annex": "IV",
+  "ref_no": "16",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "Disodium 2-amino-5-[(4-\nsulphonatophenyl)azo]\nbenzenesulphonate",
+  "colour_index": "13015",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "13015",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 16
+ },
+ {
+  "annex": "IV",
+  "ref_no": "17",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "Sodium 4-(2,4-dihydroxyphenylazo)benzenesulphonate",
+  "colour_index": "14270",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "14270",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 17
+ },
+ {
+  "annex": "IV",
+  "ref_no": "18",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "Disodium 3-[(2,4-dimethyl-5-\nsulphonatophenyl)azo]-4-\nhydroxynaphthalene-1-\nsulphonate",
+  "colour_index": "14700",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "14700",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 18
+ },
+ {
+  "annex": "IV",
+  "ref_no": "19",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "387",
+  "chemical_name": "Disodium 4-hydroxy-3-[(4-\nsulphonatonaphthyl)azo]naphthalenesulphonate",
+  "colour_index": "14720",
+  "inci_name": null,
+  "cas": "",
+  "ec": "222-657-4",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 122)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "14720",
+    "inci_name": null,
+    "cas": null,
+    "ec": "222-657-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 122)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 19
+ },
+ {
+  "annex": "IV",
+  "ref_no": "20",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Disodium 6-[(2,4-dimethyl-6-\nsulphonatophenyl)azo]-5-\nhydroxynaphthalene-1-\nsulphonate",
+  "colour_index": "14815",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "14815",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 20
+ },
+ {
+  "annex": "IV",
+  "ref_no": "21",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Sodium 4-[(2-hydroxy-1-\nnaphthyl)azo]benzenesulphonate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "15510",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "Not to be used in eye\nproducts",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15510",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in eye\nproducts",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 21
+ },
+ {
+  "annex": "IV",
+  "ref_no": "22",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Calcium disodium bis[2-\nchloro-5-[(2-hydroxy-1-\nnaphthyl)azo]-4-sulphonatobenzoate]",
+  "colour_index": "15525",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15525",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 22
+ },
+ {
+  "annex": "IV",
+  "ref_no": "23",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Barium bis[4-[(2-hydroxy-1-\nnaphthyl)azo]-2-methylbenzenesul-phonate]",
+  "colour_index": "15580",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15580",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 23
+ },
+ {
+  "annex": "IV",
+  "ref_no": "24",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Sodium 4-[(2-Hydroxy-1-\nnaphthyl)azo]naphthalenesulphonate",
+  "colour_index": "15620",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15620",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 24
+ },
+ {
+  "annex": "IV",
+  "ref_no": "25",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "388",
+  "chemical_name": "Sodium 2-[(2-hydroxynaphthyl)azo]naphthalenesulphonate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "15630",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "3 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15630",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "3 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 25
+ },
+ {
+  "annex": "IV",
+  "ref_no": "26",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "389",
+  "chemical_name": "Calcium bis[3-hydroxy-4-\n(phenylazo)-2-naphthoate]",
+  "colour_index": "15800",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15800",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 26
+ },
+ {
+  "annex": "IV",
+  "ref_no": "27",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "389",
+  "chemical_name": "Disodium 3-hydroxy-4-[(4-\nmethyl-2-sulphonatophenyl)\nazo]-2-naphthoate and its\ninsoluble barium, strontium\nand zirconium lakes, salts and\npigments",
+  "colour_index": "15850",
+  "inci_name": null,
+  "cas": "",
+  "ec": "226-109-5",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 180)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15850",
+    "inci_name": null,
+    "cas": null,
+    "ec": "226-109-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 180)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 27
+ },
+ {
+  "annex": "IV",
+  "ref_no": "28",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "389",
+  "chemical_name": "Disodium 4-[(5-chloro-4-\nmethyl-2-sulphonatophenyl)\nazo]-3-hydroxy-2-naphthoate\nand its insoluble barium,\nstrontium and zirconium lakes,\nsalts and pigments",
+  "colour_index": "15865",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15865",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 28
+ },
+ {
+  "annex": "IV",
+  "ref_no": "29",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "389",
+  "chemical_name": "Calcium 3-hydroxy-4-[(1-\nsulphonato-2-naphthyl)azo]-2-\nnaphthoate",
+  "colour_index": "15880",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15880",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 29
+ },
+ {
+  "annex": "IV",
+  "ref_no": "30",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "389",
+  "chemical_name": "Disodium 6-hydroxy-5-[(3-\nsulphonatophenyl)azo]naphthalene-2-sulphonate",
+  "colour_index": "15980",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15980",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 30
+ },
+ {
+  "annex": "IV",
+  "ref_no": "31",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "390",
+  "chemical_name": "Disodium 6-hydroxy-5-[(4-\nsulphonatophenyl)azo]naphthalene-2-sulphonate and its\ninsoluble barium, strontium\nand zirconium lakes, salts and\npigments",
+  "colour_index": "15985",
+  "inci_name": null,
+  "cas": "",
+  "ec": "220-491-7",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 110)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "15985",
+    "inci_name": null,
+    "cas": null,
+    "ec": "220-491-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 110)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 31
+ },
+ {
+  "annex": "IV",
+  "ref_no": "32",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "390",
+  "chemical_name": "Disodium 6-hydroxy-5-[(2-\nmethoxy-4-sulphonato-m-tolyl)\nazo]naphthalene-2-sulphonate",
+  "colour_index": "16035",
+  "inci_name": null,
+  "cas": "",
+  "ec": "247-368-0",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 129)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "16035",
+    "inci_name": null,
+    "cas": null,
+    "ec": "247-368-0",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 129)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 32
+ },
+ {
+  "annex": "IV",
+  "ref_no": "33",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "390",
+  "chemical_name": "Trisodium 3-hydroxy-4-[(4'-\nsulphonatonaphthyl)azo]naphthalene-2,7-disulphonate",
+  "colour_index": "16185",
+  "inci_name": null,
+  "cas": "",
+  "ec": "213-022-2",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 123)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "16185",
+    "inci_name": null,
+    "cas": null,
+    "ec": "213-022-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 123)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 33
+ },
+ {
+  "annex": "IV",
+  "ref_no": "34",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "390",
+  "chemical_name": "Disodium 7-hydroxy-8-\n(phenylazo)naphthalene-1,3-\ndisulphonate",
+  "colour_index": "16230",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "16230",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 34
+ },
+ {
+  "annex": "IV",
+  "ref_no": "35",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "390",
+  "chemical_name": "Trisodium 1-(1-naphthylazo)-\n2-hydroxynaphthalene-4',6,8-\ntrisulphonate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "16255",
+  "inci_name": null,
+  "cas": "",
+  "ec": "220-036-2",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 124)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "16255",
+    "inci_name": null,
+    "cas": null,
+    "ec": "220-036-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 124)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 35
+ },
+ {
+  "annex": "IV",
+  "ref_no": "36",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "391",
+  "chemical_name": "Tetrasodium 7-hydroxy-8-[(4-\nsulphonato-1-naphthyl)azo]\nnaphthalene-1,3,6-trisulphonate",
+  "colour_index": "16290",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "16290",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 36
+ },
+ {
+  "annex": "IV",
+  "ref_no": "37",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "391",
+  "chemical_name": "Disodium 5-amino-4-hydroxy-\n3-(phenylazo)naphthalene-2,7-\ndisulphonate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "17200",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "17200",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 37
+ },
+ {
+  "annex": "IV",
+  "ref_no": "38",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "391",
+  "chemical_name": "Disodium 5-acetylamino-4-\nhydroxy-3-(phenylazo)naphthalene-2,7-disulphonate",
+  "colour_index": "18050",
+  "inci_name": null,
+  "cas": "",
+  "ec": "223-098-9",
+  "colour": "Red",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 128)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18050",
+    "inci_name": null,
+    "cas": null,
+    "ec": "223-098-9",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 128)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 38
+ },
+ {
+  "annex": "IV",
+  "ref_no": "39",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "391",
+  "chemical_name": "2,7-Naphthalenedisulfonic\nacid, 3-((4-cyclohexyl-2-\nmethylphenyl)azo)-4-hydroxy-\n5-(((4-methylphenyl)sulfonyl)\namino)-, disodium salt",
+  "colour_index": "18130",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18130",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 39
+ },
+ {
+  "annex": "IV",
+  "ref_no": "40",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "391",
+  "chemical_name": "Hydrogen bis[2-[(4,5-dihydro-\n3-methyl-5-oxo-1-phenyl-1H-\npyrazol-4-yl)azo]benzoato(2-)]\nchromate(1-)",
+  "colour_index": "18690",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18690",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 40
+ },
+ {
+  "annex": "IV",
+  "ref_no": "41",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "392",
+  "chemical_name": "Disodium hydrogen bis[5-\nchloro-3-[(4,5-dihydro-3-\nmethyl-5-oxo-1-phenyl-1H-\npyrazol-4-yl)azo]-2-hydroxybenzenesulphonato(3-)]\nchromate(3-)",
+  "colour_index": "18736",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18736",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 41
+ },
+ {
+  "annex": "IV",
+  "ref_no": "42",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "392",
+  "chemical_name": "Sodium 4-(3-hydroxy-5-\nmethyl-4-(phenylazo)pyrazol-\n2-yl)benzenesulphonate",
+  "colour_index": "18820",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18820",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 42
+ },
+ {
+  "annex": "IV",
+  "ref_no": "43",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "392",
+  "chemical_name": "Disodium 2,5-dichloro-4-(5-\nhydroxy-3-methyl-4-((sulphophenyl)azo)pyrazol-1-yl)\nbenzenesulphonate",
+  "colour_index": "18965",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "18965",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 43
+ },
+ {
+  "annex": "IV",
+  "ref_no": "44",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "392",
+  "chemical_name": "Trisodium 5-hydroxy-1-(4-\nsulphophenyl)-4-((4-sulphophenyl)azo)pyrazole-3-\ncarboxylate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "19140",
+  "inci_name": null,
+  "cas": "",
+  "ec": "217-699-5",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 102)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "19140",
+    "inci_name": null,
+    "cas": null,
+    "ec": "217-699-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 102)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 44
+ },
+ {
+  "annex": "IV",
+  "ref_no": "45",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "392",
+  "chemical_name": "N,N'-(3,3'-Dimethyl[1,1'-\nbiphenyl]-4,4'-diyl)bis[2-[(2,4-\ndichlorophenyl)azo]-3-\noxobutyramide]",
+  "colour_index": "20040",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "20040",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 45
+ },
+ {
+  "annex": "IV",
+  "ref_no": "46",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "393",
+  "chemical_name": "Sodium 4-amino-5-hydroxy-3-\n((4-nitrophenyl)azo)-6-\n(phenylazo)naphthalene-2,7-\ndisulphonate",
+  "colour_index": "20470",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Black",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "20470",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 46
+ },
+ {
+  "annex": "IV",
+  "ref_no": "47",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "393",
+  "chemical_name": "2,2'-[(3,3'-Dichloro[1,1'-\nbiphenyl]-4,4'-diyl)bis(azo)]bis\n[N-(2,4-dimethylphenyl)-3-\noxobutyramide]",
+  "colour_index": "21100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "21100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 47
+ },
+ {
+  "annex": "IV",
+  "ref_no": "48",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "393",
+  "chemical_name": "2,2'-[(3,3'-Dichloro[1,1'-\nbiphenyl]-4,4'-diyl)bis(azo)]bis\n[N-(4-chloro-2,5-dimethoxyphenyl)-3-oxobutyramide]",
+  "colour_index": "21108",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "21108",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "Maximum 3,3'-dimethylbenzidine concentration in\nthe colouring agent: 5 ppm",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 48
+ },
+ {
+  "annex": "IV",
+  "ref_no": "49",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "393",
+  "chemical_name": "2,2'-[Cyclohexylidenebis[(2-\nmethyl-4,1-phenylene)azo]]bis\n[4-cyclohexylphenol]",
+  "colour_index": "21230",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "21230",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 49
+ },
+ {
+  "annex": "IV",
+  "ref_no": "50",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "393",
+  "chemical_name": "Disodium 4,6-dihydroxy-3-[[4-\n[1-[4-[[1-hydroxy-7-[(phenylsulphonyl)oxy]-3-\nsulphonato-2-naphthyl]azo]\nphenyl]cyclohexyl]phenyl]azo]\nnaphthalene-2-sulphonate",
+  "colour_index": "24790",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "24790",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 50
+ },
+ {
+  "annex": "IV",
+  "ref_no": "51",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "394",
+  "chemical_name": "1-(4-(Phenylazo)phenylazo)-2-\nnaphthol",
+  "colour_index": "26100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "Purity criteria:\naniline ≤ 0,2 %\n2-naphtol ≤ 0,2 %\n4-aminoazobenzene ≤\n0,1 %\n1-(phenylazo)-2-naphtol ≤\n3 %\n1-[2-(phenylazo)phenylazo]-2-napthalenol ≤ 2 %",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "26100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "Purity criteria:\naniline ≤ 0,2 %\n2-naphtol ≤ 0,2 %\n4-aminoazobenzene ≤\n0,1 %\n1-(phenylazo)-2-naphtol ≤\n3 %\n1-[2-(phenylazo)phenylazo]-2-napthalenol ≤ 2 %",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 51
+ },
+ {
+  "annex": "IV",
+  "ref_no": "52",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "394",
+  "chemical_name": "Tetrasodium 6-amino-4-\nhydroxy-3-[[7-sulphonato-4-\n[(4-sulphonatophenyl)azo]-1-\nnaphthyl]azo]naphthalene-2,7-\ndisulphonate",
+  "colour_index": "27755",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "27755",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 52
+ },
+ {
+  "annex": "IV",
+  "ref_no": "53",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "394",
+  "chemical_name": "Tetrasodium 1-acetamido-2-\nhydroxy-3-(4-((4-sulphonatophenylazo)-7-sulphonato-1-\nnaphthylazo))naphthalene-4,6-\ndisulphonate",
+  "colour_index": "28440",
+  "inci_name": null,
+  "cas": "",
+  "ec": "219-746-5",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 151)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "28440",
+    "inci_name": null,
+    "cas": null,
+    "ec": "219-746-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 151)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 53
+ },
+ {
+  "annex": "IV",
+  "ref_no": "54",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "394",
+  "chemical_name": "Benzenesulfonic acid, 2,2'-\n(1,2-ethenediyl)bis[5-nitro-,\ndisodium salt, reaction\nproducts with 4-[(4-aminophenyl)azo] benzenesulfonic\nacid, sodium salts",
+  "colour_index": "40215",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "40215",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 54
+ },
+ {
+  "annex": "IV",
+  "ref_no": "55",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "395",
+  "chemical_name": "beta Carotene",
+  "colour_index": "40800",
+  "inci_name": null,
+  "cas": "",
+  "ec": "230-636-6",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E160a)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "40800",
+    "inci_name": null,
+    "cas": null,
+    "ec": "230-636-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E160a)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 55
+ },
+ {
+  "annex": "IV",
+  "ref_no": "56",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "395",
+  "chemical_name": "8'-apo-.beta.-Caroten-8'-al",
+  "colour_index": "40820",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160e)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "40820",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160e)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 56
+ },
+ {
+  "annex": "IV",
+  "ref_no": "57",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "395",
+  "chemical_name": "Ethyl 8'-apo-.beta.-caroten-8'-\noate",
+  "colour_index": "40825",
+  "inci_name": null,
+  "cas": "",
+  "ec": "214-173-7",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160f)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "40825",
+    "inci_name": null,
+    "cas": null,
+    "ec": "214-173-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160f)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 57
+ },
+ {
+  "annex": "IV",
+  "ref_no": "58",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "395",
+  "chemical_name": "Canthaxanthin",
+  "colour_index": "40850",
+  "inci_name": null,
+  "cas": "",
+  "ec": "208-187-2",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 161g)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "40850",
+    "inci_name": null,
+    "cas": null,
+    "ec": "208-187-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 161g)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 58
+ },
+ {
+  "annex": "IV",
+  "ref_no": "59",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "395",
+  "chemical_name": "Ammonium, (4-(alpha-(p-(diethylamino)phenyl)-2,4-disulfobenzylidene)-2,5-cyclohexadien-1-ylidene)diethyl-,\nhydroxide, monosodium salt",
+  "colour_index": "42045",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42045",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 59
+ },
+ {
+  "annex": "IV",
+  "ref_no": "60",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "396",
+  "chemical_name": "Ethanaminium, N-(4-((4-(diethylamino)phenyl)(5-hydroxy-\n2,4-disulfophenyl)methylene)-\n2,5-cyclohexadien-1-ylidene)-\nN-ethyl-, hydroxide, inner salt,\ncalcium salt (2:1) and its\ninsoluble barium, strontium\nand zirconium lakes, salts and\npigments",
+  "colour_index": "42051",
+  "inci_name": null,
+  "cas": "",
+  "ec": "222-573-8",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 131)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42051",
+    "inci_name": null,
+    "cas": null,
+    "ec": "222-573-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 131)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 60
+ },
+ {
+  "annex": "IV",
+  "ref_no": "61",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "396",
+  "chemical_name": "Benzene-methanaminium, N-\nethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl)\n(4-hydroxy-2-sulfophenyl)\nmethylene)-2,5-cyclohexadien-\n1-ylidene)-3-sulfo-, hydroxide,\ninner salt, disodium salt",
+  "colour_index": "42053",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42053",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 61
+ },
+ {
+  "annex": "IV",
+  "ref_no": "62",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "396",
+  "chemical_name": "Hydrogen (benzyl)[4-[[4-\n[benzylethylamino]phenyl]\n(2,4-disulphonatophenyl)\nmethylene]cyclohexa-2,5-dien-\n1-ylidene](ethyl)ammonium,\nsodium salt",
+  "colour_index": "42080",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42080",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 62
+ },
+ {
+  "annex": "IV",
+  "ref_no": "63",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "397",
+  "chemical_name": "Benzene-methanaminium, N-\nethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl)\n(2-sulfophenyl)methylene)-2,5-\ncyclohexadien-1-ylidene)-3-\nsulfo-, hydroxide, inner salt,\ndisodium salt",
+  "colour_index": "42090",
+  "inci_name": null,
+  "cas": "",
+  "ec": "223-339-8",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 133)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42090",
+    "inci_name": null,
+    "cas": null,
+    "ec": "223-339-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 133)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 63
+ },
+ {
+  "annex": "IV",
+  "ref_no": "64",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "397",
+  "chemical_name": "Hydrogen [4-[(2-chlorophenyl)\n[4-[ethyl(3-sulphonatobenzyl)\namino]phenyl]methylene]\ncyclohexa-2,5-dien-1-ylidene]\n(ethyl)(3-sulphonatobenzyl)\nammonium, sodium salt",
+  "colour_index": "42100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 64
+ },
+ {
+  "annex": "IV",
+  "ref_no": "65",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "397",
+  "chemical_name": "Hydrogen [4-[(2-chlorophenyl)\n[4-[ethyl(3-sulphonatobenzyl)\namino]-o-tolyl]methylene]-3-\nmethylcyclohexa-2,5-dien-1-\nylidene](ethyl)(3-sulphonatobenzyl)ammonium, sodium\nsalt",
+  "colour_index": "42170",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42170",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 65
+ },
+ {
+  "annex": "IV",
+  "ref_no": "66",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "397",
+  "chemical_name": "(4-(4-Aminophenyl)(4-iminocyclohexa-2,5-dienylidene)\nmethyl)-2-methylaniline\nhydrochloride",
+  "colour_index": "42510",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42510",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 66
+ },
+ {
+  "annex": "IV",
+  "ref_no": "67",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "398",
+  "chemical_name": "4-[(4-Amino-m-tolyl)(4-imino-\n3-methylcyclohexa-2,5-dien-1-\nylidene)methyl]-o-toluidine\nmonohydrochloride",
+  "colour_index": "42520",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "5ppm",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42520",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "5ppm",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 67
+ },
+ {
+  "annex": "IV",
+  "ref_no": "68",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "398",
+  "chemical_name": "Hydrogen [4-[[4-(diethylamino)phenyl][4-[ethyl[(3-\nsulphonatobenzyl)amino]-o-\ntolyl]methylene]-3-methylcyclohexa-2,5-dien-1-ylidene]\n(ethyl)(3-sulphonatobenzyl)\nammonium, sodium salt",
+  "colour_index": "42735",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "42735",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 68
+ },
+ {
+  "annex": "IV",
+  "ref_no": "69",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "398",
+  "chemical_name": "[4-[[4-Anilino-1-naphthyl][4-\n(dimethylamino)phenyl]\nmethylene]cyclohexa-2,5-dien-\n1-ylidene]dimethylammonium\nchloride",
+  "colour_index": "44045",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "44045",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 69
+ },
+ {
+  "annex": "IV",
+  "ref_no": "70",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "398",
+  "chemical_name": "Hydrogen [4-[4-(dimethylamino)-.alpha.-(2-hydroxy-3,6-\ndisulphonato-1-naphthyl)\nbenzylidene]cyclohexa-2,5-\ndien-1-ylidene]dimethylammonium, monosodium salt",
+  "colour_index": "44090",
+  "inci_name": null,
+  "cas": "",
+  "ec": "221-409-2",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 142)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "44090",
+    "inci_name": null,
+    "cas": null,
+    "ec": "221-409-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 142)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 70
+ },
+ {
+  "annex": "IV",
+  "ref_no": "71",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "399",
+  "chemical_name": "Hydrogen 3,6-bis(diethylamino)-9-(2,4-disulphonatophenyl)xanthylium, sodium salt",
+  "colour_index": "45100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 71
+ },
+ {
+  "annex": "IV",
+  "ref_no": "72",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "399",
+  "chemical_name": "Hydrogen 9-(2-carboxylatophenyl)-3-(2-methylanilino)-6-\n(2-methyl-4-sulphoanilino)\nxanthylium, monosodium salt",
+  "colour_index": "45190",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45190",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 72
+ },
+ {
+  "annex": "IV",
+  "ref_no": "73",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "399",
+  "chemical_name": "Hydrogen 9-(2,4-disulphonatophenyl)-3,6-bis(ethylamino)-2,7-dimethylxanthylium, monosodium salt",
+  "colour_index": "45220",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45220",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 73
+ },
+ {
+  "annex": "IV",
+  "ref_no": "74",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "399",
+  "chemical_name": "Disodium 2-(3-oxo-6-oxidoxanthen-9-yl)benzoate",
+  "colour_index": "45350",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "6 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45350",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "6 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 74
+ },
+ {
+  "annex": "IV",
+  "ref_no": "75",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "399",
+  "chemical_name": "4',5'-Dibromo-3',6'-dihydroxyspiro[isobenzofuran-1\n(3H),9'-[9H]xanthene]-3-one\nand its insoluble barium,\nstrontium and zirconium lakes,\nsalts and pigments",
+  "colour_index": "45370",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3H-xanthen-\n9-y1) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45370",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3H-xanthen-\n9-y1) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 75
+ },
+ {
+  "annex": "IV",
+  "ref_no": "76",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "400",
+  "chemical_name": "Disodium 2-(2,4,5,7-tetrabromo-6-oxido-3-oxoxanthen-\n9-yl)benzoate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "45380",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3H-xanthen-\n9-y1) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45380",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3H-xanthen-\n9-y1) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 76
+ },
+ {
+  "annex": "IV",
+  "ref_no": "77",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "400",
+  "chemical_name": "3',6'-Dihydroxy-4',5'-dinitrospiro[isobenzofuran-1\n(3H),9'-[9H]xanthene]-3-one",
+  "colour_index": "45396",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "1 %, when\nused in lip\nproducts",
+  "other": "Only in free acid form,\nwhen used in lip products",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45396",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "1 %, when\nused in lip\nproducts",
+    "other": "Only in free acid form,\nwhen used in lip products",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 77
+ },
+ {
+  "annex": "IV",
+  "ref_no": "78",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "400",
+  "chemical_name": "Dipotassium 3,6-dichloro-2-\n(2,4,5,7-tetrabromo-6-oxido-3-\noxoxanthen-9-yl)benzoate",
+  "colour_index": "45405",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Not to be used in eye\nproducts",
+  "max_concentration": "",
+  "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3Η xanthen-\n9-yl) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45405",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in eye\nproducts",
+    "max_concentration": "",
+    "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3Η xanthen-\n9-yl) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 78
+ },
+ {
+  "annex": "IV",
+  "ref_no": "79",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "400",
+  "chemical_name": "3,4,5,6-Tetrachloro-2-(1,4,5,8-\ntetrabromo-6-hydroxy-3-\noxoxanthen-9-yl)benzoic acid\nand its insoluble barium,\nstrontium and zirconium lakes,\nsalts and pigments",
+  "colour_index": "45410",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3Η xanthen-\n9-yl) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45410",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Not more than 1 % 2-(6-\nhydroxy-3-oxo-3Η xanthen-\n9-yl) benzoic acid and 2 %\n2-(bromo-6-hydroxy-3-oxo-\n3H-xanthen-9-yl) benzoic\nacid",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 79
+ },
+ {
+  "annex": "IV",
+  "ref_no": "80",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "401",
+  "chemical_name": "Disodium 2-(2,4,5,7-tetraiodo-\n6-oxido-3-oxoxanthen-9-yl)\nbenzoate and its insoluble\nbarium, strontium and\nzirconium lakes, salts and\npigments",
+  "colour_index": "45430",
+  "inci_name": null,
+  "cas": "",
+  "ec": "240-474-8",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 127)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "45430",
+    "inci_name": null,
+    "cas": null,
+    "ec": "240-474-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 127)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 80
+ },
+ {
+  "annex": "IV",
+  "ref_no": "81",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "401",
+  "chemical_name": "1,3-Isobenzofurandione,\nreaction products with\nmethylquinoline and quinoline",
+  "colour_index": "47000",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "47000",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 81
+ },
+ {
+  "annex": "IV",
+  "ref_no": "82",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "401",
+  "chemical_name": "1H-Indene-1,3(2H)-dione, 2-\n(2-quinolinyl)-, sulfonated,\nsodium salts",
+  "colour_index": "47005",
+  "inci_name": null,
+  "cas": "",
+  "ec": "305-897-5",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 104)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "47005",
+    "inci_name": null,
+    "cas": null,
+    "ec": "305-897-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 104)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 82
+ },
+ {
+  "annex": "IV",
+  "ref_no": "83",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "401",
+  "chemical_name": "Hydrogen 9-[(3-methoxyphenyl)amino]-7-phenyl-5-\n(phenylamino)-4,10-disulphonatobenzo[a]phenazinium,\nsodium salt",
+  "colour_index": "50325",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "50325",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 83
+ },
+ {
+  "annex": "IV",
+  "ref_no": "84",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "401",
+  "chemical_name": "Sulfonated nigrosine color",
+  "colour_index": "50420",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Black",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "50420",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 84
+ },
+ {
+  "annex": "IV",
+  "ref_no": "85",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "8,18-Dichloro-5,15-diethyl-\n5,15-dihydrodiindolo[3,2-\nb:3',2'-m]triphenodioxazine",
+  "colour_index": "51319",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "51319",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 85
+ },
+ {
+  "annex": "IV",
+  "ref_no": "86",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "1,2-Dihydroxyanthraquinone",
+  "colour_index": "58000",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "58000",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 86
+ },
+ {
+  "annex": "IV",
+  "ref_no": "87",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "Trisodium 8-hydroxypyrene-\n1,3,6-trisulphonate",
+  "colour_index": "59040",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "59040",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 87
+ },
+ {
+  "annex": "IV",
+  "ref_no": "88",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "1-Anilino-4-hydroxyanthraquinone",
+  "colour_index": "60724",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "60724",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 88
+ },
+ {
+  "annex": "IV",
+  "ref_no": "89",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "1-Hydroxy-4-(p-toluidino)\nanthraquinone",
+  "colour_index": "60725",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "60725",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 89
+ },
+ {
+  "annex": "IV",
+  "ref_no": "90",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "Sodium 4-[(9,10-dihydro-4-\nhydroxy-9,10-dioxo-1-anthryl)\namino]toluene-3-sulphonate",
+  "colour_index": "60730",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "60730",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 90
+ },
+ {
+  "annex": "IV",
+  "ref_no": "91",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "1,4-bis(p-Tolylamino)anthraquinone",
+  "colour_index": "61565",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "61565",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 91
+ },
+ {
+  "annex": "IV",
+  "ref_no": "92",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "402",
+  "chemical_name": "Disodium 2,2'-(9,10-dioxoanthracene-1,4-diyldiimino)bis(5-\nmethylsulphonate)",
+  "colour_index": "61570",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "61570",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 92
+ },
+ {
+  "annex": "IV",
+  "ref_no": "93",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "Sodium 3,3'-(9,10-dioxoanthracene-1,4-diyldiimino)bis\n(2,4,6-trimethylbenzenesulphonate)",
+  "colour_index": "61585",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "61585",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 93
+ },
+ {
+  "annex": "IV",
+  "ref_no": "94",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "Sodium 1-amino-4-(cyclohexylamino)-9,10-dihydro-\n9,10-dioxoanthracene-2-\nsulphonate",
+  "colour_index": "62045",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "62045",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 94
+ },
+ {
+  "annex": "IV",
+  "ref_no": "95",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "6,15-Dihydroanthrazine-\n5,9,14,18-tetrone",
+  "colour_index": "69800",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "69800",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 95
+ },
+ {
+  "annex": "IV",
+  "ref_no": "96",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "7,16-dichloro-6,15-dihydroanthrazine-5,9,14,18-tetrone",
+  "colour_index": "69825",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "69825",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 96
+ },
+ {
+  "annex": "IV",
+  "ref_no": "97",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "Bisbenzimidazo[2,1-b:2',1'-i]\nbenzo[lmn][3,8]phenanthroline-8,17-dione",
+  "colour_index": "71105",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "71105",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 97
+ },
+ {
+  "annex": "IV",
+  "ref_no": "98",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "2-(1,3-Dihydro-3-oxo-2H-\nindazol-2-ylidene)-1,2-\ndihydro-3H-indol-3-one",
+  "colour_index": "73000",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73000",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 98
+ },
+ {
+  "annex": "IV",
+  "ref_no": "99",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "403",
+  "chemical_name": "Disodium 5,5'-(2-(1,3-dihydro-\n3-oxo-2H-indazol-2-ylidene)-\n1,2-dihydro-3H-indol-3-one)\ndisulphonate",
+  "colour_index": "73015",
+  "inci_name": null,
+  "cas": "",
+  "ec": "212-728-8",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 132)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73015",
+    "inci_name": null,
+    "cas": null,
+    "ec": "212-728-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 132)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 99
+ },
+ {
+  "annex": "IV",
+  "ref_no": "100",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "6-Chloro-2-(6-chloro-4-\nmethyl-3-oxobenzo[b]thien-2\n(3H)-ylidene)-4-methylbenzo\n[b]thiophene-3(2H)-one",
+  "colour_index": "73360",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73360",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 100
+ },
+ {
+  "annex": "IV",
+  "ref_no": "101",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "5-Chloro-2-(5-chloro-7-\nmethyl-3-oxobenzo[b]thien-2\n(3H)-ylidene)-7-methylbenzo\n[b]thiophene-3(2H)-one",
+  "colour_index": "73385",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73385",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 101
+ },
+ {
+  "annex": "IV",
+  "ref_no": "102",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "5,12-Dihydroquino[2,3-b]\nacridine-7,14-dione",
+  "colour_index": "73900",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73900",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 102
+ },
+ {
+  "annex": "IV",
+  "ref_no": "103",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "5,12-Dihydro-2,9-\ndimethylquino[2,3-b]acridine-\n7,14-dione",
+  "colour_index": "73915",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "73915",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 103
+ },
+ {
+  "annex": "IV",
+  "ref_no": "104",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "29H,31H-Phthalocyanine",
+  "colour_index": "74100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "74100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 104
+ },
+ {
+  "annex": "IV",
+  "ref_no": "105",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "29H,31H-Phthalocyaninato\n(2-)-N29,N30,N31,N32 copper",
+  "colour_index": "74160",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "74160",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 105
+ },
+ {
+  "annex": "IV",
+  "ref_no": "106",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "404",
+  "chemical_name": "Disodium [29H,31H-phthalocyaninedisulphonato\n(4-)-N29,N30,N31,N32]\ncuprate (2-)",
+  "colour_index": "74180",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "74180",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 106
+ },
+ {
+  "annex": "IV",
+  "ref_no": "107",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "Polychloro copper phthalocyanine",
+  "colour_index": "74260",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "Not to be used in eye\nproducts",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "74260",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in eye\nproducts",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 107
+ },
+ {
+  "annex": "IV",
+  "ref_no": "108",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "8,8'-diapo-.psi.,.psi.-Carotenedioic acid",
+  "colour_index": "75100",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75100",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 108
+ },
+ {
+  "annex": "IV",
+  "ref_no": "109",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "Annatto",
+  "colour_index": "75120",
+  "inci_name": null,
+  "cas": "",
+  "ec": "215-735-4/\n289-561-2/\n230-248-7",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160b)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75120",
+    "inci_name": null,
+    "cas": null,
+    "ec": "215-735-4, 289-561-2, 230-248-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160b)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 109
+ },
+ {
+  "annex": "IV",
+  "ref_no": "110",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "Lycopene",
+  "colour_index": "75125",
+  "inci_name": null,
+  "cas": "",
+  "ec": "—",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160d)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75125",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160d)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 110
+ },
+ {
+  "annex": "IV",
+  "ref_no": "111",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "CI Food Orange 5",
+  "colour_index": "75130",
+  "inci_name": null,
+  "cas": "",
+  "ec": "214-171-6",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160a)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75130",
+    "inci_name": null,
+    "cas": null,
+    "ec": "214-171-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160a)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 111
+ },
+ {
+  "annex": "IV",
+  "ref_no": "112",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "(3R)-beta-4-Caroten-3-ol",
+  "colour_index": "75135",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75135",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 112
+ },
+ {
+  "annex": "IV",
+  "ref_no": "113",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "2-Amino-1,7-dihydro-6H-\npurin-6-one",
+  "colour_index": "75170",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75170",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 113
+ },
+ {
+  "annex": "IV",
+  "ref_no": "114",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "405",
+  "chemical_name": "Curcumins",
+  "colour_index": "75300",
+  "inci_name": null,
+  "cas": "",
+  "ec": "207-280-5",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 100)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75300",
+    "inci_name": null,
+    "cas": null,
+    "ec": "207-280-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 100)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 114
+ },
+ {
+  "annex": "IV",
+  "ref_no": "115",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Carmines",
+  "colour_index": "75470",
+  "inci_name": null,
+  "cas": "",
+  "ec": "215-680-6/\n215-023-3/\n215-724-4",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 120)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75470",
+    "inci_name": null,
+    "cas": null,
+    "ec": "215-680-6, 215-023-3, 215-724-4",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 120)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 115
+ },
+ {
+  "annex": "IV",
+  "ref_no": "116",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Trisodium (2S-trans)-[18-\ncarboxy-20-(carboxymethyl)-\n13-ethyl-2,3-dihydro-\n3,7,12,17-tetramethyl-8-vinyl-\n21H,23H-porphine-2-\npropionato\n(5-)-N21,N22,N23,N24]\ncuprate(3-) (Chlorophylls)",
+  "colour_index": "75810",
+  "inci_name": null,
+  "cas": "",
+  "ec": "215-800-7/\n207-536-6/\n208-272-4/\n287-483-3/\n239-830-5/\n246-020-5",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 140, E 141)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "75810",
+    "inci_name": null,
+    "cas": null,
+    "ec": "215-800-7, 207-536-6, 208-272-4, 287-483-3, 239-830-5, 246-020-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 140, E 141)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 116
+ },
+ {
+  "annex": "IV",
+  "ref_no": "117",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Aluminium",
+  "colour_index": "77000",
+  "inci_name": null,
+  "cas": "",
+  "ec": "231-072-3",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 173)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77000",
+    "inci_name": null,
+    "cas": null,
+    "ec": "231-072-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 173)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 117
+ },
+ {
+  "annex": "IV",
+  "ref_no": "118",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Aluminium hydroxide sulphate",
+  "colour_index": "77002",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77002",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 118
+ },
+ {
+  "annex": "IV",
+  "ref_no": "119",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Natural hydrated aluminium\nsilicate, Al2O3.2SiO2.2H2O,\ncontaining calcium,\nmagnesium or iron carbonates,\nferric hydroxide, quartz-sand,\nmica, etc. as impurities",
+  "colour_index": "77004",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77004",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 119
+ },
+ {
+  "annex": "IV",
+  "ref_no": "120",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "406",
+  "chemical_name": "Lazurite",
+  "colour_index": "77007",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77007",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 120
+ },
+ {
+  "annex": "IV",
+  "ref_no": "121",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Aluminum silicate coloured\nwith ferric oxide",
+  "colour_index": "77015",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77015",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 121
+ },
+ {
+  "annex": "IV",
+  "ref_no": "122",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Barium sulfate",
+  "colour_index": "77120",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77120",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 122
+ },
+ {
+  "annex": "IV",
+  "ref_no": "123",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Bismuth chloride oxide",
+  "colour_index": "77163",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77163",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 123
+ },
+ {
+  "annex": "IV",
+  "ref_no": "124",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Calcium carbonate",
+  "colour_index": "77220",
+  "inci_name": null,
+  "cas": "",
+  "ec": "207-439-9/\n215-279-6",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 170)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77220",
+    "inci_name": null,
+    "cas": null,
+    "ec": "207-439-9, 215-279-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 170)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 124
+ },
+ {
+  "annex": "IV",
+  "ref_no": "125",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Calcium sulfate",
+  "colour_index": "77231",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77231",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 125
+ },
+ {
+  "annex": "IV",
+  "ref_no": "126",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M14",
+  "mid_amendments": "",
+  "pages": "407",
+  "chemical_name": "Carbon black",
+  "colour_index": "77266",
+  "inci_name": null,
+  "cas": "1333-86-4,\n7440-44-0",
+  "ec": "215-609-9,\n231-153-3,\n931-328-0,\n931-334-3",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity > 97 %, with the\nfollowing impurity profile:\nAsh content ≤ 0,15 %, total\nsulphur ≤ 0,65 %, total\nPAH ≤ 500 ppb and benzo\n(a)pyrene ≤ 5 ppb, dibenz\n(a,h)anthracene\n≤ 5 ppb, total As ≤ 3 ppm,\ntotal Pb ≤ 10 ppm, total Hg\n≤ 1 ppm.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77266",
+    "inci_name": null,
+    "cas": "1333-86-4, 7440-44-0",
+    "ec": "215-609-9, 231-153-3, 931-328-0, 931-334-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity > 97 %, with the\nfollowing impurity profile:\nAsh content ≤ 0,15 %, total\nsulphur ≤ 0,65 %, total\nPAH ≤ 500 ppb and benzo\n(a)pyrene ≤ 5 ppb, dibenz\n(a,h)anthracene\n≤ 5 ppb, total As ≤ 3 ppm,\ntotal Pb ≤ 10 ppm, total Hg\n≤ 1 ppm.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 126
+ },
+ {
+  "annex": "IV",
+  "ref_no": "126a",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M14",
+  "mid_amendments": "",
+  "pages": "407,408",
+  "chemical_name": "Carbon black",
+  "colour_index": "77266 (nano)",
+  "inci_name": "Carbon Black (nano)",
+  "cas": "1333-86-4,\n7440-44-0",
+  "ec": "215-609-9,\n231-153-3,\n931-328-0,\n931-334-3",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "10 %",
+  "other": "Not to be used in applications that may lead to\nexposure of the end user's\nlungs by inhalation.\nOnly nanomaterials having\nthe following characteristics\nare allowed:\n— Purity > 97 %, with the\nfollowing impurity\nprofile: Ash content ≤\n0,15 %, total sulphur ≤\n0,65 %, total PAH ≤\n500 ppb and benzo(a)\npyrene ≤ 5 ppb, dibenz\n(a,h)anthracene ≤ 5\nppb, total As ≤ 3 ppm,\ntotal Pb ≤ 10 ppm, and\ntotal Hg ≤ 1 ppm;\n— Primary particle size ≥\n20 nm.",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77266 (nano)",
+    "inci_name": "Carbon Black (nano)",
+    "cas": "1333-86-4, 7440-44-0",
+    "ec": "215-609-9, 231-153-3, 931-328-0, 931-334-3",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "10 %",
+    "other": "Not to be used in applications that may lead to\nexposure of the end user's\nlungs by inhalation.\nOnly nanomaterials having\nthe following characteristics\nare allowed:\n— Purity > 97 %, with the\nfollowing impurity\nprofile: Ash content ≤\n0,15 %, total sulphur ≤\n0,65 %, total PAH ≤\n500 ppb and benzo(a)\npyrene ≤ 5 ppb, dibenz\n(a,h)anthracene ≤ 5\nppb, total As ≤ 3 ppm,\ntotal Pb ≤ 10 ppm, and\ntotal Hg ≤ 1 ppm;\n— Primary particle size ≥\n20 nm.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 127
+ },
+ {
+  "annex": "IV",
+  "ref_no": "127",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "408",
+  "chemical_name": "Charcoal, bone. A fine black\npowder obtained by burning\nanimal bones in a closed\ncontainer. It consists primarily\nof calcium phosphate and\ncarbon",
+  "colour_index": "77267",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77267",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 128
+ },
+ {
+  "annex": "IV",
+  "ref_no": "128",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "408",
+  "chemical_name": "Coke black",
+  "colour_index": "77268:1",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77268:1",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 129
+ },
+ {
+  "annex": "IV",
+  "ref_no": "129",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "408",
+  "chemical_name": "Chromium (III) oxide",
+  "colour_index": "77288",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "free from chromate ion",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77288",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "free from chromate ion",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 130
+ },
+ {
+  "annex": "IV",
+  "ref_no": "130",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Chromium (III) hydroxide",
+  "colour_index": "77289",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "free from chromate ion",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77289",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "free from chromate ion",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 131
+ },
+ {
+  "annex": "IV",
+  "ref_no": "131",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Cobalt Aluminum Oxide",
+  "colour_index": "77346",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Green",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77346",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 132
+ },
+ {
+  "annex": "IV",
+  "ref_no": "132",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Copper",
+  "colour_index": "77400",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Brown",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77400",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 133
+ },
+ {
+  "annex": "IV",
+  "ref_no": "133",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Gold",
+  "colour_index": "77480",
+  "inci_name": null,
+  "cas": "",
+  "ec": "231-165-9",
+  "colour": "Brown",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 175)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77480",
+    "inci_name": null,
+    "cas": null,
+    "ec": "231-165-9",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 175)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 134
+ },
+ {
+  "annex": "IV",
+  "ref_no": "134",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Iron oxide",
+  "colour_index": "77489",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77489",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 135
+ },
+ {
+  "annex": "IV",
+  "ref_no": "135",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Iron Oxide Red",
+  "colour_index": "77491",
+  "inci_name": null,
+  "cas": "",
+  "ec": "215-168-2",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77491",
+    "inci_name": null,
+    "cas": null,
+    "ec": "215-168-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 136
+ },
+ {
+  "annex": "IV",
+  "ref_no": "136",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Iron Oxide Yellow",
+  "colour_index": "77492",
+  "inci_name": null,
+  "cas": "51274-00-1",
+  "ec": "257-098-5",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77492",
+    "inci_name": null,
+    "cas": "51274-00-1",
+    "ec": "257-098-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 137
+ },
+ {
+  "annex": "IV",
+  "ref_no": "137",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Iron Oxide Black",
+  "colour_index": "77499",
+  "inci_name": null,
+  "cas": "",
+  "ec": "235-442-5",
+  "colour": "Black",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77499",
+    "inci_name": null,
+    "cas": null,
+    "ec": "235-442-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 172)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 138
+ },
+ {
+  "annex": "IV",
+  "ref_no": "138",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Ferric Ammonium Ferrocyanide",
+  "colour_index": "77510",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Blue",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "free from cyanide ions",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77510",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "free from cyanide ions",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 139
+ },
+ {
+  "annex": "IV",
+  "ref_no": "139",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "409",
+  "chemical_name": "Magnesium carbonate",
+  "colour_index": "77713",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77713",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 140
+ },
+ {
+  "annex": "IV",
+  "ref_no": "140",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "410",
+  "chemical_name": "Ammonium manganese(3+)\ndiphosphate",
+  "colour_index": "77742",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Violet",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77742",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 141
+ },
+ {
+  "annex": "IV",
+  "ref_no": "141",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "410",
+  "chemical_name": "Trimanganese bis (orthophosphate)",
+  "colour_index": "77745",
+  "inci_name": null,
+  "cas": "",
+  "ec": "",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77745",
+    "inci_name": null,
+    "cas": null,
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 142
+ },
+ {
+  "annex": "IV",
+  "ref_no": "142",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M53",
+  "mid_amendments": "",
+  "pages": "410",
+  "chemical_name": "Silver (powder) [100 nm <\nparticle diameter < 1 mm]",
+  "colour_index": "77820",
+  "inci_name": null,
+  "cas": "7440-22-4",
+  "ec": "231-131-3",
+  "colour": "White",
+  "product_type": "(a) Lip products\n(b) Eye shadow",
+  "max_concentration": "For (a) and\n(b): 0,2 %",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77820",
+    "inci_name": null,
+    "cas": "7440-22-4",
+    "ec": "231-131-3",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": "a",
+    "tier_source": "label",
+    "product_type": "(a) Lip products",
+    "max_concentration": "For (a) and\n(b): 0,2 %",
+    "other": "",
+    "wording": ""
+   },
+   {
+    "tier": "b",
+    "tier_source": "label",
+    "product_type": "(b) Eye shadow",
+    "max_concentration": "For (a) and\n(b): 0,2 %",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 143
+ },
+ {
+  "annex": "IV",
+  "ref_no": "143",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼C9",
+  "mid_amendments": "",
+  "pages": "410",
+  "chemical_name": "Titanium dioxide (1)",
+  "colour_index": "77891",
+  "inci_name": null,
+  "cas": "",
+  "ec": "236-675-5",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "— Purity criteria as set out\nin Commission\nDirective 95/45/E (E\n171)\n— Titanium dioxide in\npowder form\ncontaining 1 % or more\nof particles with\naerodynamic diameter\n≤ 10 μm, to be used in\ncompliance with Annex\nIII, No 321",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77891",
+    "inci_name": null,
+    "cas": null,
+    "ec": "236-675-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "— Purity criteria as set out\nin Commission\nDirective 95/45/E (E\n171)\n— Titanium dioxide in\npowder form\ncontaining 1 % or more\nof particles with\naerodynamic diameter\n≤ 10 μm, to be used in\ncompliance with Annex\nIII, No 321",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 144
+ },
+ {
+  "annex": "IV",
+  "ref_no": "144",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼M24",
+  "mid_amendments": "",
+  "pages": "410",
+  "chemical_name": "Zinc oxide (2)",
+  "colour_index": "77947",
+  "inci_name": null,
+  "cas": "1314-13-2",
+  "ec": "215-222-5",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Not to be used in applications that may lead to\nexposure of the end-user's\nlungs by inhalation.",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": "77947",
+    "inci_name": null,
+    "cas": "1314-13-2",
+    "ec": "215-222-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Not to be used in applications that may lead to\nexposure of the end-user's\nlungs by inhalation.",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 145
+ },
+ {
+  "annex": "IV",
+  "ref_no": "145",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "411",
+  "chemical_name": "Riboflavin",
+  "colour_index": null,
+  "inci_name": "Lactoflavin",
+  "cas": "",
+  "ec": "201-507-1/\n204-988-6",
+  "colour": "Yellow",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 101)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Lactoflavin",
+    "cas": null,
+    "ec": "201-507-1, 204-988-6",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 101)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 146
+ },
+ {
+  "annex": "IV",
+  "ref_no": "146",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "411",
+  "chemical_name": "Caramel",
+  "colour_index": null,
+  "inci_name": "Caramel",
+  "cas": "",
+  "ec": "232-435-9",
+  "colour": "Brown",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 150a-d)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Caramel",
+    "cas": null,
+    "ec": "232-435-9",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 150a-d)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 147
+ },
+ {
+  "annex": "IV",
+  "ref_no": "147",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "411",
+  "chemical_name": "Paprika extract, Capsanthin,\ncapsorubin",
+  "colour_index": null,
+  "inci_name": "Capsanthin, capsorubin",
+  "cas": "",
+  "ec": "207-364-1/\n207-425-2",
+  "colour": "Orange",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160c)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Capsanthin",
+    "cas": null,
+    "ec": "207-364-1",
+    "split_ok": 1
+   },
+   {
+    "seq": 2,
+    "colour_index": null,
+    "inci_name": "capsorubin",
+    "cas": null,
+    "ec": "207-425-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 160c)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 148
+ },
+ {
+  "annex": "IV",
+  "ref_no": "148",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "411",
+  "chemical_name": "Beetroot red",
+  "colour_index": null,
+  "inci_name": "Beetroot Red",
+  "cas": "7659-95-2",
+  "ec": "231-628-5",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 162)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Beetroot Red",
+    "cas": "7659-95-2",
+    "ec": "231-628-5",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 162)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 149
+ },
+ {
+  "annex": "IV",
+  "ref_no": "149",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "411",
+  "chemical_name": "Anthocyanins\n(Cyanidin,\nPeonidin\nMalvidin\nDelphinidin\nPetunidin\nPelargonidin)",
+  "colour_index": null,
+  "inci_name": "Anthocyanins",
+  "cas": "528-58-5\n134-01-0\n528-53-0\n643-84-5\n134-04-3",
+  "ec": "208-438-6\n205-125-6\n211-403-8\n208-437-0\n—\n205-127-7",
+  "colour": "Red",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 163)",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Anthocyanins",
+    "cas": "528-58-5, 134-01-0, 528-53-0, 643-84-5, 134-04-3",
+    "ec": "208-438-6, 205-125-6, 211-403-8, 208-437-0, 205-127-7",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "Purity criteria as set out in\nCommission Directive 95/\n45/EC (E 163)",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 150
+ },
+ {
+  "annex": "IV",
+  "ref_no": "150",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "412",
+  "chemical_name": "Aluminium, zinc, magnesium\nand calcium stearates",
+  "colour_index": null,
+  "inci_name": "Aluminum stearate Zinc stearate Magnesium stearate Calcium stearate",
+  "cas": "7047-84-9\n557-05-1\n557-04-0\n216-472-8",
+  "ec": "230-325-5\n209-151-9\n209-150-3\n216-472-8",
+  "colour": "White",
+  "product_type": "",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 1,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Aluminum stearate Zinc stearate Magnesium stearate Calcium stearate",
+    "cas": "7047-84-9, 557-05-1, 557-04-0",
+    "ec": "230-325-5, 209-151-9, 209-150-3, 216-472-8",
+    "split_ok": 0
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 151
+ },
+ {
+  "annex": "IV",
+  "ref_no": "151",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "412",
+  "chemical_name": "Phenol, 4,4'-(3H-2,1-benzoxathiol-3-ylidene)bis[2-\nbromo-3-methyl-6-(1-methylethyl)-, S,S-dioxide",
+  "colour_index": null,
+  "inci_name": "Bromothymol blue",
+  "cas": "76-59-5",
+  "ec": "200-971-2",
+  "colour": "Blue",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bromothymol blue",
+    "cas": "76-59-5",
+    "ec": "200-971-2",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 152
+ },
+ {
+  "annex": "IV",
+  "ref_no": "152",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "412",
+  "chemical_name": "Phenol, 4,4'-(3H-2,1-benzoxathiol-3-ylidene)bis[2,6-\ndibromo-3-methyl-,S,S-dioxide",
+  "colour_index": null,
+  "inci_name": "Bromocresol green",
+  "cas": "76-60-8",
+  "ec": "200-972-8",
+  "colour": "Green",
+  "product_type": "Rinse-off products",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Bromocresol green",
+    "cas": "76-60-8",
+    "ec": "200-972-8",
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Rinse-off products",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 153
+ },
+ {
+  "annex": "IV",
+  "ref_no": "153",
+  "ref_inferred": 0,
+  "status": "active",
+  "amended_by": "▼B",
+  "mid_amendments": "",
+  "pages": "412",
+  "chemical_name": "Sodium 4-[(4,5-dihydro-3-\nmethyl-5-oxo-1-phenyl-1H-\npyrazol-4-yl)azo]-3-hydroxynaphthalene-1-sulphonate",
+  "colour_index": null,
+  "inci_name": "Acid red 195",
+  "cas": "12220-24-5",
+  "ec": "—",
+  "colour": "Red",
+  "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+  "max_concentration": "",
+  "other": "",
+  "wording": "",
+  "needs_review": 0,
+  "substances": [
+   {
+    "seq": 1,
+    "colour_index": null,
+    "inci_name": "Acid red 195",
+    "cas": "12220-24-5",
+    "ec": null,
+    "split_ok": 1
+   }
+  ],
+  "conditions": [
+   {
+    "tier": null,
+    "tier_source": "none",
+    "product_type": "Not to be used in products\napplied on mucous\nmembranes",
+    "max_concentration": "",
+    "other": "",
+    "wording": ""
+   }
+  ],
+  "entry_seq": 154
+ }
+]

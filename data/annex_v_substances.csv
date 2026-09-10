@@ -1,0 +1,122 @@
+﻿annex,entry_seq,ref_no,seq,colour_index,inci_name,cas,ec,split_ok
+V,1,1,1,,Benzoic acid,65-85-0,200-618-2,1
+V,1,1,2,,Sodium Benzoate,532-32-1,208-534-8,1
+V,2,1a,1,,Ammonium benzoate,1863-63-4,217-468-9,1
+V,2,1a,2,,calcium benzoate,2090-05-3,218-235-4,1
+V,2,1a,3,,potassium benzoate,582-25-2,209-481-3,1
+V,2,1a,4,,magnesium benzoate,553-70-8,209-045-2,1
+V,2,1a,5,,MEA-benzoate,4337-66-0,224-387-2,1
+V,2,1a,6,,methyl benzoate,93-58-3,202-259-7,1
+V,2,1a,7,,ethyl benzoate,93-89-0,202-284-3,1
+V,2,1a,8,,propyl benzoate,2315-68-6,219-020-8,1
+V,2,1a,9,,butyl benzoate,136-60-7,205-252-7,1
+V,2,1a,10,,isobutyl benzoate,120-50-3,204-401-3,1
+V,2,1a,11,,isopropyl benzoate,939-48-0,213-361-6,1
+V,2,1a,12,,phenyl benzoate,93-99-2,202-293-2,1
+V,3,2,1,,Propionic acid,79-09-4,201-176-3,1
+V,3,2,2,,ammonium propionate,17496-08-1,241-503-7,1
+V,3,2,3,,calcium propionate,4075-81-4,223-795-8,1
+V,3,2,4,,magnesium propionate,557-27-7,209-166-0,1
+V,3,2,5,,potassium propionate,327-62-8,206-323-5,1
+V,3,2,6,,sodium propionate,137-40-6,205-290-4,1
+V,4,3,1,,Salicylic acid,69-72-7,200-712-3,1
+V,4,3,2,,Calcium salicylate,824-35-1,212-525-4,1
+V,4,3,3,,magnesium salicylate,18917-89-0,242-669-3,1
+V,4,3,4,,MEA- salicylate,59866-70-5,261-963-2,1
+V,4,3,5,,sodium salicylate,54-21-7,200-198-0,1
+V,4,3,6,,potassium salicylate,578-36-9,209-421-6,1
+V,4,3,7,,TEA- salicylate,2174-16-5,218-531-3,1
+V,5,4,1,,Sorbic acid,110-44-1,203-768-7,1
+V,5,4,2,,calcium sorbate,7492-55-9,231-321-6,1
+V,5,4,3,,sodium sorbate,7757-81-5,231-819-3,1
+V,5,4,4,,potassium sorbate,24634-61-5,246-376-1,1
+V,6,5,1,,,,,1
+V,7,6,1,,,,,1
+V,8,7,1,,o-Phenylphenol,90-43-7,201-993-5,1
+V,8,7,2,,Sodium o-Phenylphenate,132-27-4,205-055-6,1
+V,9,8,1,,,,,1
+V,10,9,1,,Sodium sulfite,7757-83-7,231-821-4,1
+V,10,9,2,,ammonium bisulfite,10192-30-0,233-469-7,1
+V,10,9,3,,ammonium sulfite,10196-04-0,233-484-9,1
+V,10,9,4,,potassium sulfite,10117-38-1,233-321-1,1
+V,10,9,5,,potassium hydrogen sulfite,7773-03-7,231-870-1,1
+V,10,9,6,,sodium bisulfite,7631-90-5,231-548-0,1
+V,10,9,7,,sodium metabisulfite,7681-57-4,231-673-0,1
+V,10,9,8,,potassium metabisulfite,16731-55-8,240-795-3,1
+V,11,10,1,,,,,1
+V,12,11,1,,Chlorobutanol,57-15-8,200-317-6,1
+V,13,12,1,,4-Hydroxybenzoic acid,99-96-7,202-804-9,1
+V,13,12,2,,methylparaben,99-76-3,202-785-7,1
+V,13,12,3,,potassium ethylparaben,36457-19-9,253-048-1,1
+V,13,12,4,,potassium paraben,16782-08-4,240-830-2,1
+V,13,12,5,,sodium methylparaben,5026-62-0,225-714-1,1
+V,13,12,6,,sodium ethylparaben,35285-68-8,252-487-6,1
+V,13,12,7,,ethylparaben,120-47-8,204-399-4,1
+V,13,12,8,,sodium paraben,114-63-6,204-051-1,1
+V,13,12,9,,potassium methylparaben,26112-07-2,247-464-2,1
+V,13,12,10,,calcium paraben,69959-44-0,274-235-4,1
+V,14,12a,1,,Butylparaben,94-26-8,202-318-7,1
+V,14,12a,2,,propylparaben,94-13-3,202-307-7,1
+V,14,12a,3,,sodium propylparaben,35285-69-9,252-488-1,1
+V,14,12a,4,,sodium butylparaben,36457-20-2,253-049-7,1
+V,14,12a,5,,potassium butylparaben,38566-94-8,254-009-1,1
+V,14,12a,6,,potassium propylparaben,84930-16-5,284-597-5,1
+V,15,13,1,,Dehydroacetic acid sodium dehydroacetate,"520-45-6, 4418-26-2, 16807-48-0","208-293-9, 224-580-1",0
+V,16,14,1,,Formic acid,64-18-6,200-579-1,1
+V,16,14,2,,sodium formate,141-53-7,205-488-0,1
+V,17,15,1,,Dibromohexamidine Isethionate,93856-83-8,299-116-4,1
+V,18,16,1,,Thimerosal,54-64-8,200-210-4,1
+V,19,17,1,,Phenyl Mercuric Acetate,62-38-4,200-532-5,1
+V,19,17,2,,Phenyl Mercuric Benzoate,94-43-9,202-331-8,1
+V,20,18,1,,Undecylenic acid potassium undecylenate sodium undecylenate calcium undecylenate TEA-undecylenate MEA-undecylenate,"112-38-9, 6159-41-7, 3398-33-2, 1322-14-1, 84471-25-0, 56532-40-2","203-965-8, 222-264-8, 215-331-8, 282-908-9, 260-247-7",0
+V,21,19,1,,Hexetidine,141-94-6,205-513-5,1
+V,22,20,1,,"5-Bromo-5-nitro-1,3- dioxane",30007-47-7,250-001-7,1
+V,23,21,1,,"2-Bromo-2-nitropropane-1,3-diol",52-51-7,200-143-0,1
+V,24,22,1,,Dichlorobenzyl Alcohol,1777-82-8,217-210-5,1
+V,25,23,1,,Triclocarban,101-20-2,202-924-1,1
+V,26,24,1,,p-Chloro-m-Cresol,59-50-7,200-431-6,1
+V,27,25,1,,Triclosan,3380-34-5,222-182-2,1
+V,28,26,1,,Chloroxylenol,88-04-0,201-793-8,1
+V,29,27,1,,Imidazolidinyl urea,39236-46-9,254-372-6,1
+V,30,28,1,,Polyaminopropyl biguanide,"32289-58-0, 27083-27-8, 28757-47-3, 133029-32-0","608-723-9, 608-042-7",0
+V,31,29,1,,Phenoxyethanol,122-99-6,204-589-7,1
+V,32,30,1,,Methenamine,100-97-0,202-905-8,1
+V,33,31,1,,,,,1
+V,34,32,1,,Climbazole,38083-17-9,253-775-4,1
+V,35,33,1,,DMDM Hydantoin,6440-58-0,229-222-8,1
+V,36,34,1,,Benzyl Alcohol,100-51-6,202-859-9,1
+V,37,35,1,,"1-Hydroxy-4-methyl-6- (2,4,4-trimethylpentyl) 2-pyridon Piroctone Olamine","50650-76-5, 68890-66-4",272-574-2,0
+V,38,36,1,,,,,1
+V,39,37,1,,Bromochlorophene,15435-29-7,239-446-8,1
+V,40,38,1,,o-Cymen-5-ol,3228-02-2,221-761-7,1
+V,41,39,1,,Methylchloroisothiazolinone (and) Methylisothiazolinone (17),"26172-55-4, 2682-20-4, 55965-84-9","247-500-7, 220-239-6",1
+V,42,40-41,1,,,,,1
+V,43,42,1,,Chlorhexidine,55-56-1,200-238-7,1
+V,43,42,2,,Chlorhexidine Diacetate,56-95-1,200-302-4,1
+V,43,42,3,,Chlorhexidine Digluconate,18472-51-0,242-354-0,1
+V,43,42,4,,Chlorhexidine Dihydrochloride,3697-42-5,223-026-6,1
+V,44,43,1,,Phenoxyisopropanol,770-35-4,212-222-7,1
+V,45,44,1,,Behentrimonium chloride (15),17301-53-0,241-327-0,1
+V,45,44,2,,cetrimonium bromide,57-09-0,200-311-3,1
+V,45,44,3,,cetrimonium chlor- ide (16),112-02-7,203-928-6,1
+V,45,44,4,,laurtrimonium bromide,1119-94-4,214-290-3,1
+V,45,44,5,,laurtrimonium chloride,112-00-5,203-927-0,1
+V,45,44,6,,steartrimonium bromide,1120-02-1,214-294-5,1
+V,45,44,7,,steartrimonium chloride (16),112-03-8,203-929-1,1
+V,46,45,1,,Dimethyl Oxazolidine,51200-87-4,257-048-2,1
+V,47,46,1,,Diazolidinyl Urea,78491-02-8,278-928-2,1
+V,48,47,1,,Hexamidine Hexamidine diisethionate Hexamidine paraben,"3811-75-4, 659-40-5, 93841-83-9","211-533-5, 299-055-3",0
+V,49,48,1,,Glutaral,111-30-8,203-856-5,1
+V,50,49,1,,7-Ethylbicyclooxazolidine,7747-35-5,231-810-4,1
+V,51,50,1,,Chlorphenesin,104-29-0,203-192-6,1
+V,52,51,1,,Sodium Hydroxymethylglycinate,70161-44-3,274-357-8,1
+V,53,52,1,,Silver chloride,7783-90-6,232-033-3,1
+V,54,53,1,,Benzethonium Chloride,121-54-0,204-479-9,1
+V,55,54,1,,Benzalkonium chloride benzalkonium bromide benzalkonium saccharinate,"8001-54-5, 63449-41-2, 91080-29-4, 68989-01-5, 68424-85-1, 68391-01-5, 61789-71-7, 85409-22-9","264-151-6, 293-522-5, 273-545-7, 270-325-2, 269-919-4, 263-080-8, 287-089-1",0
+V,56,55,1,,Benzylhemiformal,14548-60-8,238-588-8,1
+V,57,56,1,,Iodopropynyl butylcarbamate,55406-53-6,259-627-5,1
+V,58,57,1,,Methylisothiazoli- none (18),2682-20-4,220-239-6,1
+V,59,58,1,,Ethyl Lauroyl Arginate HCl,60372-77-2,434-630-6,1
+V,60,59,1,,Citric acid (and) Silver citrate,,460-890-5,1
+V,61,60,1,,Hydroxyethoxyphenyl Butanone,569646-79-3,933-435-8,1
+V,62,61,1,,Ammonium Silver Zinc Aluminium Silicate,130328-20-0,603-404-0,1

@@ -1,0 +1,654 @@
+﻿annex,entry_seq,ref_no,ref_inferred,status,amended_by,mid_amendments,pages,chemical_name,colour_index,inci_name,cas,ec,colour,product_type,max_concentration,other,wording,needs_review
+IV,1,1,0,active,▼B,,385,"Sodium tris(1,2-naphthoquinone 1-oximato-O,O')
+ferrate(1-)",10006,,,,Green,Rinse-off products,,,,0
+IV,2,2,0,active,▼B,,385,"Trisodium tris[5,6-dihydro-5-
+(hydroxyimino)-6-oxonaphthalene-2-sulphonato(2-)-
+N5,O6]ferrate(3-)",10020,,,,Green,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,3,3,0,active,▼B,,385,"Disodium 5,7-dinitro-8-
+oxidonaphthalene-2-sulphonate
+and its insoluble barium,
+strontium and zirconium lakes,
+salts and pigments",10316,,,,Yellow,"Not to be used in eye
+products",,,,0
+IV,4,4,0,active,▼B,,385,"2-[(4-Methyl-2-nitrophenyl)
+azo]-3-oxo-N-phenylbutyramide",11680,,,,Yellow,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,5,5,0,active,▼B,,385,"2-[(4-Chloro-2-nitrophenyl)
+azo]-N-(2-chlorophenyl)-3-
+oxobutyramide",11710,,,,Yellow,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,6,6,0,active,▼B,,386,"2-[(4-Methoxy-2-nitrophenyl)
+azo]-3-oxo-N-(o-tolyl)butyramide",11725,,,,Orange,Rinse-off products,,,,0
+IV,7,7,0,active,▼B,,386,4-(Phenylazo)resorcinol,11920,,,,Orange,,,,,0
+IV,8,8,0,active,▼B,,386,"4-[(4-Ethoxyphenyl)azo]
+naphthol",12010,,,,Red,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,9,9,0,active,▼B,,386,"1-[(2-Chloro-4-nitrophenyl)
+azo]-2-naphthol and its
+insoluble barium, strontium
+and zirconium lakes, salts and
+pigments",12085,,,,Red,,3 %,,,0
+IV,10,10,0,active,▼B,,386,"1-[(4-Methyl-2-nitrophenyl)
+azo]-2-naphthol",12120,,,,Red,Rinse-off products,,,,0
+IV,11,11,0,active,▼B,,386,"3-Hydroxy-N-(o-tolyl)-4-
+[(2,4,5-trichlorophenyl)azo]
+naphthalene-2-carboxamide",12370,,,,Red,Rinse-off products,,,,0
+IV,12,12,0,active,▼B,,386,"N-(4-Chloro-2-methylphenyl)-
+4-[(4-chloro-2-methylphenyl)
+azo]-3-hydroxynaphthalene-2-
+carboxamide",12420,,,,Red,Rinse-off products,,,,0
+IV,13,13,0,active,▼B,,387,"4-[(2,5-Dichlorophenyl)azo]-
+N-(2,5-dimethoxyphenyl)-3-
+hydroxynaphthalene-2-carboxamide",12480,,,,Brown,Rinse-off products,,,,0
+IV,14,14,0,active,▼B,,387,"N-(5-Chloro-2,4-dimethoxyphenyl)-4-[[5-[(diethylamino)
+sulphonyl]-2-methoxyphenyl]
+azo]-3-hydroxynaphthalene-2-
+carboxamide",12490,,,,Red,,,,,0
+IV,15,15,0,active,▼B,,387,"2,4-Dihydro-5-methyl-2-
+phenyl-4-(phenylazo)-3H-
+pyrazol-3-one",12700,,,,Yellow,Rinse-off products,,,,0
+IV,16,16,0,active,▼B,,387,"Disodium 2-amino-5-[(4-
+sulphonatophenyl)azo]
+benzenesulphonate",13015,,,,Yellow,,,,,0
+IV,17,17,0,active,▼B,,387,"Sodium 4-(2,4-dihydroxyphenylazo)benzenesulphonate",14270,,,,Orange,,,,,0
+IV,18,18,0,active,▼B,,387,"Disodium 3-[(2,4-dimethyl-5-
+sulphonatophenyl)azo]-4-
+hydroxynaphthalene-1-
+sulphonate",14700,,,,Red,,,,,0
+IV,19,19,0,active,▼B,,387,"Disodium 4-hydroxy-3-[(4-
+sulphonatonaphthyl)azo]naphthalenesulphonate",14720,,,222-657-4,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 122)",,0
+IV,20,20,0,active,▼B,,388,"Disodium 6-[(2,4-dimethyl-6-
+sulphonatophenyl)azo]-5-
+hydroxynaphthalene-1-
+sulphonate",14815,,,,Red,,,,,0
+IV,21,21,0,active,▼B,,388,"Sodium 4-[(2-hydroxy-1-
+naphthyl)azo]benzenesulphonate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",15510,,,,Orange,"Not to be used in eye
+products",,,,0
+IV,22,22,0,active,▼B,,388,"Calcium disodium bis[2-
+chloro-5-[(2-hydroxy-1-
+naphthyl)azo]-4-sulphonatobenzoate]",15525,,,,Red,,,,,0
+IV,23,23,0,active,▼B,,388,"Barium bis[4-[(2-hydroxy-1-
+naphthyl)azo]-2-methylbenzenesul-phonate]",15580,,,,Red,,,,,0
+IV,24,24,0,active,▼B,,388,"Sodium 4-[(2-Hydroxy-1-
+naphthyl)azo]naphthalenesulphonate",15620,,,,Red,Rinse-off products,,,,0
+IV,25,25,0,active,▼B,,388,"Sodium 2-[(2-hydroxynaphthyl)azo]naphthalenesulphonate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",15630,,,,Red,,3 %,,,0
+IV,26,26,0,active,▼B,,389,"Calcium bis[3-hydroxy-4-
+(phenylazo)-2-naphthoate]",15800,,,,Red,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,27,27,0,active,▼B,,389,"Disodium 3-hydroxy-4-[(4-
+methyl-2-sulphonatophenyl)
+azo]-2-naphthoate and its
+insoluble barium, strontium
+and zirconium lakes, salts and
+pigments",15850,,,226-109-5,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 180)",,0
+IV,28,28,0,active,▼B,,389,"Disodium 4-[(5-chloro-4-
+methyl-2-sulphonatophenyl)
+azo]-3-hydroxy-2-naphthoate
+and its insoluble barium,
+strontium and zirconium lakes,
+salts and pigments",15865,,,,Red,,,,,0
+IV,29,29,0,active,▼B,,389,"Calcium 3-hydroxy-4-[(1-
+sulphonato-2-naphthyl)azo]-2-
+naphthoate",15880,,,,Red,,,,,0
+IV,30,30,0,active,▼B,,389,"Disodium 6-hydroxy-5-[(3-
+sulphonatophenyl)azo]naphthalene-2-sulphonate",15980,,,,Orange,,,,,0
+IV,31,31,0,active,▼B,,390,"Disodium 6-hydroxy-5-[(4-
+sulphonatophenyl)azo]naphthalene-2-sulphonate and its
+insoluble barium, strontium
+and zirconium lakes, salts and
+pigments",15985,,,220-491-7,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 110)",,0
+IV,32,32,0,active,▼B,,390,"Disodium 6-hydroxy-5-[(2-
+methoxy-4-sulphonato-m-tolyl)
+azo]naphthalene-2-sulphonate",16035,,,247-368-0,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 129)",,0
+IV,33,33,0,active,▼B,,390,"Trisodium 3-hydroxy-4-[(4'-
+sulphonatonaphthyl)azo]naphthalene-2,7-disulphonate",16185,,,213-022-2,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 123)",,0
+IV,34,34,0,active,▼B,,390,"Disodium 7-hydroxy-8-
+(phenylazo)naphthalene-1,3-
+disulphonate",16230,,,,Orange,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,35,35,0,active,▼B,,390,"Trisodium 1-(1-naphthylazo)-
+2-hydroxynaphthalene-4',6,8-
+trisulphonate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",16255,,,220-036-2,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 124)",,0
+IV,36,36,0,active,▼B,,391,"Tetrasodium 7-hydroxy-8-[(4-
+sulphonato-1-naphthyl)azo]
+naphthalene-1,3,6-trisulphonate",16290,,,,Red,,,,,0
+IV,37,37,0,active,▼B,,391,"Disodium 5-amino-4-hydroxy-
+3-(phenylazo)naphthalene-2,7-
+disulphonate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",17200,,,,Red,,,,,0
+IV,38,38,0,active,▼B,,391,"Disodium 5-acetylamino-4-
+hydroxy-3-(phenylazo)naphthalene-2,7-disulphonate",18050,,,223-098-9,Red,"Not to be used in products
+applied on mucous
+membranes",,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 128)",,0
+IV,39,39,0,active,▼B,,391,"2,7-Naphthalenedisulfonic
+acid, 3-((4-cyclohexyl-2-
+methylphenyl)azo)-4-hydroxy-
+5-(((4-methylphenyl)sulfonyl)
+amino)-, disodium salt",18130,,,,Red,Rinse-off products,,,,0
+IV,40,40,0,active,▼B,,391,"Hydrogen bis[2-[(4,5-dihydro-
+3-methyl-5-oxo-1-phenyl-1H-
+pyrazol-4-yl)azo]benzoato(2-)]
+chromate(1-)",18690,,,,Yellow,Rinse-off products,,,,0
+IV,41,41,0,active,▼B,,392,"Disodium hydrogen bis[5-
+chloro-3-[(4,5-dihydro-3-
+methyl-5-oxo-1-phenyl-1H-
+pyrazol-4-yl)azo]-2-hydroxybenzenesulphonato(3-)]
+chromate(3-)",18736,,,,Red,Rinse-off products,,,,0
+IV,42,42,0,active,▼B,,392,"Sodium 4-(3-hydroxy-5-
+methyl-4-(phenylazo)pyrazol-
+2-yl)benzenesulphonate",18820,,,,Yellow,Rinse-off products,,,,0
+IV,43,43,0,active,▼B,,392,"Disodium 2,5-dichloro-4-(5-
+hydroxy-3-methyl-4-((sulphophenyl)azo)pyrazol-1-yl)
+benzenesulphonate",18965,,,,Yellow,,,,,0
+IV,44,44,0,active,▼B,,392,"Trisodium 5-hydroxy-1-(4-
+sulphophenyl)-4-((4-sulphophenyl)azo)pyrazole-3-
+carboxylate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",19140,,,217-699-5,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 102)",,0
+IV,45,45,0,active,▼B,,392,"N,N'-(3,3'-Dimethyl[1,1'-
+biphenyl]-4,4'-diyl)bis[2-[(2,4-
+dichlorophenyl)azo]-3-
+oxobutyramide]",20040,,,,Yellow,Rinse-off products,,"Maximum 3,3'-dimethylbenzidine concentration in
+the colouring agent: 5 ppm",,0
+IV,46,46,0,active,▼B,,393,"Sodium 4-amino-5-hydroxy-3-
+((4-nitrophenyl)azo)-6-
+(phenylazo)naphthalene-2,7-
+disulphonate",20470,,,,Black,Rinse-off products,,,,0
+IV,47,47,0,active,▼B,,393,"2,2'-[(3,3'-Dichloro[1,1'-
+biphenyl]-4,4'-diyl)bis(azo)]bis
+[N-(2,4-dimethylphenyl)-3-
+oxobutyramide]",21100,,,,Yellow,Rinse-off products,,"Maximum 3,3'-dimethylbenzidine concentration in
+the colouring agent: 5 ppm",,0
+IV,48,48,0,active,▼B,,393,"2,2'-[(3,3'-Dichloro[1,1'-
+biphenyl]-4,4'-diyl)bis(azo)]bis
+[N-(4-chloro-2,5-dimethoxyphenyl)-3-oxobutyramide]",21108,,,,Yellow,Rinse-off products,,"Maximum 3,3'-dimethylbenzidine concentration in
+the colouring agent: 5 ppm",,0
+IV,49,49,0,active,▼B,,393,"2,2'-[Cyclohexylidenebis[(2-
+methyl-4,1-phenylene)azo]]bis
+[4-cyclohexylphenol]",21230,,,,Yellow,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,50,50,0,active,▼B,,393,"Disodium 4,6-dihydroxy-3-[[4-
+[1-[4-[[1-hydroxy-7-[(phenylsulphonyl)oxy]-3-
+sulphonato-2-naphthyl]azo]
+phenyl]cyclohexyl]phenyl]azo]
+naphthalene-2-sulphonate",24790,,,,Red,Rinse-off products,,,,0
+IV,51,51,0,active,▼B,,394,"1-(4-(Phenylazo)phenylazo)-2-
+naphthol",26100,,,,Red,"Not to be used in products
+applied on mucous
+membranes",,"Purity criteria:
+aniline ≤ 0,2 %
+2-naphtol ≤ 0,2 %
+4-aminoazobenzene ≤
+0,1 %
+1-(phenylazo)-2-naphtol ≤
+3 %
+1-[2-(phenylazo)phenylazo]-2-napthalenol ≤ 2 %",,0
+IV,52,52,0,active,▼B,,394,"Tetrasodium 6-amino-4-
+hydroxy-3-[[7-sulphonato-4-
+[(4-sulphonatophenyl)azo]-1-
+naphthyl]azo]naphthalene-2,7-
+disulphonate",27755,,,,Black,,,,,0
+IV,53,53,0,active,▼B,,394,"Tetrasodium 1-acetamido-2-
+hydroxy-3-(4-((4-sulphonatophenylazo)-7-sulphonato-1-
+naphthylazo))naphthalene-4,6-
+disulphonate",28440,,,219-746-5,Black,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 151)",,0
+IV,54,54,0,active,▼B,,394,"Benzenesulfonic acid, 2,2'-
+(1,2-ethenediyl)bis[5-nitro-,
+disodium salt, reaction
+products with 4-[(4-aminophenyl)azo] benzenesulfonic
+acid, sodium salts",40215,,,,Orange,Rinse-off products,,,,0
+IV,55,55,0,active,▼B,,395,beta Carotene,40800,,,230-636-6,Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E160a)",,0
+IV,56,56,0,active,▼B,,395,8'-apo-.beta.-Caroten-8'-al,40820,,,,Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160e)",,0
+IV,57,57,0,active,▼B,,395,"Ethyl 8'-apo-.beta.-caroten-8'-
+oate",40825,,,214-173-7,Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160f)",,0
+IV,58,58,0,active,▼B,,395,Canthaxanthin,40850,,,208-187-2,Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 161g)",,0
+IV,59,59,0,active,▼B,,395,"Ammonium, (4-(alpha-(p-(diethylamino)phenyl)-2,4-disulfobenzylidene)-2,5-cyclohexadien-1-ylidene)diethyl-,
+hydroxide, monosodium salt",42045,,,,Blue,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,60,60,0,active,▼B,,396,"Ethanaminium, N-(4-((4-(diethylamino)phenyl)(5-hydroxy-
+2,4-disulfophenyl)methylene)-
+2,5-cyclohexadien-1-ylidene)-
+N-ethyl-, hydroxide, inner salt,
+calcium salt (2:1) and its
+insoluble barium, strontium
+and zirconium lakes, salts and
+pigments",42051,,,222-573-8,Blue,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 131)",,0
+IV,61,61,0,active,▼B,,396,"Benzene-methanaminium, N-
+ethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl)
+(4-hydroxy-2-sulfophenyl)
+methylene)-2,5-cyclohexadien-
+1-ylidene)-3-sulfo-, hydroxide,
+inner salt, disodium salt",42053,,,,Green,,,,,0
+IV,62,62,0,active,▼B,,396,"Hydrogen (benzyl)[4-[[4-
+[benzylethylamino]phenyl]
+(2,4-disulphonatophenyl)
+methylene]cyclohexa-2,5-dien-
+1-ylidene](ethyl)ammonium,
+sodium salt",42080,,,,Blue,Rinse-off products,,,,0
+IV,63,63,0,active,▼B,,397,"Benzene-methanaminium, N-
+ethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl)
+(2-sulfophenyl)methylene)-2,5-
+cyclohexadien-1-ylidene)-3-
+sulfo-, hydroxide, inner salt,
+disodium salt",42090,,,223-339-8,Blue,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 133)",,0
+IV,64,64,0,active,▼B,,397,"Hydrogen [4-[(2-chlorophenyl)
+[4-[ethyl(3-sulphonatobenzyl)
+amino]phenyl]methylene]
+cyclohexa-2,5-dien-1-ylidene]
+(ethyl)(3-sulphonatobenzyl)
+ammonium, sodium salt",42100,,,,Green,Rinse-off products,,,,0
+IV,65,65,0,active,▼B,,397,"Hydrogen [4-[(2-chlorophenyl)
+[4-[ethyl(3-sulphonatobenzyl)
+amino]-o-tolyl]methylene]-3-
+methylcyclohexa-2,5-dien-1-
+ylidene](ethyl)(3-sulphonatobenzyl)ammonium, sodium
+salt",42170,,,,Green,Rinse-off products,,,,0
+IV,66,66,0,active,▼B,,397,"(4-(4-Aminophenyl)(4-iminocyclohexa-2,5-dienylidene)
+methyl)-2-methylaniline
+hydrochloride",42510,,,,Violet,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,67,67,0,active,▼B,,398,"4-[(4-Amino-m-tolyl)(4-imino-
+3-methylcyclohexa-2,5-dien-1-
+ylidene)methyl]-o-toluidine
+monohydrochloride",42520,,,,Violet,Rinse-off products,5ppm,,,0
+IV,68,68,0,active,▼B,,398,"Hydrogen [4-[[4-(diethylamino)phenyl][4-[ethyl[(3-
+sulphonatobenzyl)amino]-o-
+tolyl]methylene]-3-methylcyclohexa-2,5-dien-1-ylidene]
+(ethyl)(3-sulphonatobenzyl)
+ammonium, sodium salt",42735,,,,Blue,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,69,69,0,active,▼B,,398,"[4-[[4-Anilino-1-naphthyl][4-
+(dimethylamino)phenyl]
+methylene]cyclohexa-2,5-dien-
+1-ylidene]dimethylammonium
+chloride",44045,,,,Blue,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,70,70,0,active,▼B,,398,"Hydrogen [4-[4-(dimethylamino)-.alpha.-(2-hydroxy-3,6-
+disulphonato-1-naphthyl)
+benzylidene]cyclohexa-2,5-
+dien-1-ylidene]dimethylammonium, monosodium salt",44090,,,221-409-2,Green,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 142)",,0
+IV,71,71,0,active,▼B,,399,"Hydrogen 3,6-bis(diethylamino)-9-(2,4-disulphonatophenyl)xanthylium, sodium salt",45100,,,,Red,Rinse-off products,,,,0
+IV,72,72,0,active,▼B,,399,"Hydrogen 9-(2-carboxylatophenyl)-3-(2-methylanilino)-6-
+(2-methyl-4-sulphoanilino)
+xanthylium, monosodium salt",45190,,,,Violet,Rinse-off products,,,,0
+IV,73,73,0,active,▼B,,399,"Hydrogen 9-(2,4-disulphonatophenyl)-3,6-bis(ethylamino)-2,7-dimethylxanthylium, monosodium salt",45220,,,,Red,Rinse-off products,,,,0
+IV,74,74,0,active,▼B,,399,Disodium 2-(3-oxo-6-oxidoxanthen-9-yl)benzoate,45350,,,,Yellow,,6 %,,,0
+IV,75,75,0,active,▼B,,399,"4',5'-Dibromo-3',6'-dihydroxyspiro[isobenzofuran-1
+(3H),9'-[9H]xanthene]-3-one
+and its insoluble barium,
+strontium and zirconium lakes,
+salts and pigments",45370,,,,Orange,,,"Not more than 1 % 2-(6-
+hydroxy-3-oxo-3H-xanthen-
+9-y1) benzoic acid and 2 %
+2-(bromo-6-hydroxy-3-oxo-
+3H-xanthen-9-yl) benzoic
+acid",,0
+IV,76,76,0,active,▼B,,400,"Disodium 2-(2,4,5,7-tetrabromo-6-oxido-3-oxoxanthen-
+9-yl)benzoate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",45380,,,,Red,,,"Not more than 1 % 2-(6-
+hydroxy-3-oxo-3H-xanthen-
+9-y1) benzoic acid and 2 %
+2-(bromo-6-hydroxy-3-oxo-
+3H-xanthen-9-yl) benzoic
+acid",,0
+IV,77,77,0,active,▼B,,400,"3',6'-Dihydroxy-4',5'-dinitrospiro[isobenzofuran-1
+(3H),9'-[9H]xanthene]-3-one",45396,,,,Orange,,"1 %, when
+used in lip
+products","Only in free acid form,
+when used in lip products",,0
+IV,78,78,0,active,▼B,,400,"Dipotassium 3,6-dichloro-2-
+(2,4,5,7-tetrabromo-6-oxido-3-
+oxoxanthen-9-yl)benzoate",45405,,,,Red,"Not to be used in eye
+products",,"Not more than 1 % 2-(6-
+hydroxy-3-oxo-3Η xanthen-
+9-yl) benzoic acid and 2 %
+2-(bromo-6-hydroxy-3-oxo-
+3H-xanthen-9-yl) benzoic
+acid",,0
+IV,79,79,0,active,▼B,,400,"3,4,5,6-Tetrachloro-2-(1,4,5,8-
+tetrabromo-6-hydroxy-3-
+oxoxanthen-9-yl)benzoic acid
+and its insoluble barium,
+strontium and zirconium lakes,
+salts and pigments",45410,,,,Red,,,"Not more than 1 % 2-(6-
+hydroxy-3-oxo-3Η xanthen-
+9-yl) benzoic acid and 2 %
+2-(bromo-6-hydroxy-3-oxo-
+3H-xanthen-9-yl) benzoic
+acid",,0
+IV,80,80,0,active,▼B,,401,"Disodium 2-(2,4,5,7-tetraiodo-
+6-oxido-3-oxoxanthen-9-yl)
+benzoate and its insoluble
+barium, strontium and
+zirconium lakes, salts and
+pigments",45430,,,240-474-8,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 127)",,0
+IV,81,81,0,active,▼B,,401,"1,3-Isobenzofurandione,
+reaction products with
+methylquinoline and quinoline",47000,,,,Yellow,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,82,82,0,active,▼B,,401,"1H-Indene-1,3(2H)-dione, 2-
+(2-quinolinyl)-, sulfonated,
+sodium salts",47005,,,305-897-5,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 104)",,0
+IV,83,83,0,active,▼B,,401,"Hydrogen 9-[(3-methoxyphenyl)amino]-7-phenyl-5-
+(phenylamino)-4,10-disulphonatobenzo[a]phenazinium,
+sodium salt",50325,,,,Violet,Rinse-off products,,,,0
+IV,84,84,0,active,▼B,,401,Sulfonated nigrosine color,50420,,,,Black,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,85,85,0,active,▼B,,402,"8,18-Dichloro-5,15-diethyl-
+5,15-dihydrodiindolo[3,2-
+b:3',2'-m]triphenodioxazine",51319,,,,Violet,Rinse-off products,,,,0
+IV,86,86,0,active,▼B,,402,"1,2-Dihydroxyanthraquinone",58000,,,,Red,,,,,0
+IV,87,87,0,active,▼B,,402,"Trisodium 8-hydroxypyrene-
+1,3,6-trisulphonate",59040,,,,Green,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,88,88,0,active,▼B,,402,1-Anilino-4-hydroxyanthraquinone,60724,,,,Violet,Rinse-off products,,,,0
+IV,89,89,0,active,▼B,,402,"1-Hydroxy-4-(p-toluidino)
+anthraquinone",60725,,,,Violet,,,,,0
+IV,90,90,0,active,▼B,,402,"Sodium 4-[(9,10-dihydro-4-
+hydroxy-9,10-dioxo-1-anthryl)
+amino]toluene-3-sulphonate",60730,,,,Violet,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,91,91,0,active,▼B,,402,"1,4-bis(p-Tolylamino)anthraquinone",61565,,,,Green,,,,,0
+IV,92,92,0,active,▼B,,402,"Disodium 2,2'-(9,10-dioxoanthracene-1,4-diyldiimino)bis(5-
+methylsulphonate)",61570,,,,Green,,,,,0
+IV,93,93,0,active,▼B,,403,"Sodium 3,3'-(9,10-dioxoanthracene-1,4-diyldiimino)bis
+(2,4,6-trimethylbenzenesulphonate)",61585,,,,Blue,Rinse-off products,,,,0
+IV,94,94,0,active,▼B,,403,"Sodium 1-amino-4-(cyclohexylamino)-9,10-dihydro-
+9,10-dioxoanthracene-2-
+sulphonate",62045,,,,Blue,Rinse-off products,,,,0
+IV,95,95,0,active,▼B,,403,"6,15-Dihydroanthrazine-
+5,9,14,18-tetrone",69800,,,,Blue,,,,,0
+IV,96,96,0,active,▼B,,403,"7,16-dichloro-6,15-dihydroanthrazine-5,9,14,18-tetrone",69825,,,,Blue,,,,,0
+IV,97,97,0,active,▼B,,403,"Bisbenzimidazo[2,1-b:2',1'-i]
+benzo[lmn][3,8]phenanthroline-8,17-dione",71105,,,,Orange,"Not to be used in products
+applied on mucous
+membranes",,,,0
+IV,98,98,0,active,▼B,,403,"2-(1,3-Dihydro-3-oxo-2H-
+indazol-2-ylidene)-1,2-
+dihydro-3H-indol-3-one",73000,,,,Blue,,,,,0
+IV,99,99,0,active,▼B,,403,"Disodium 5,5'-(2-(1,3-dihydro-
+3-oxo-2H-indazol-2-ylidene)-
+1,2-dihydro-3H-indol-3-one)
+disulphonate",73015,,,212-728-8,Blue,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 132)",,0
+IV,100,100,0,active,▼B,,404,"6-Chloro-2-(6-chloro-4-
+methyl-3-oxobenzo[b]thien-2
+(3H)-ylidene)-4-methylbenzo
+[b]thiophene-3(2H)-one",73360,,,,Red,,,,,0
+IV,101,101,0,active,▼B,,404,"5-Chloro-2-(5-chloro-7-
+methyl-3-oxobenzo[b]thien-2
+(3H)-ylidene)-7-methylbenzo
+[b]thiophene-3(2H)-one",73385,,,,Violet,,,,,0
+IV,102,102,0,active,▼B,,404,"5,12-Dihydroquino[2,3-b]
+acridine-7,14-dione",73900,,,,Violet,Rinse-off products,,,,0
+IV,103,103,0,active,▼B,,404,"5,12-Dihydro-2,9-
+dimethylquino[2,3-b]acridine-
+7,14-dione",73915,,,,Red,Rinse-off products,,,,0
+IV,104,104,0,active,▼B,,404,"29H,31H-Phthalocyanine",74100,,,,Blue,Rinse-off products,,,,0
+IV,105,105,0,active,▼B,,404,"29H,31H-Phthalocyaninato
+(2-)-N29,N30,N31,N32 copper",74160,,,,Blue,,,,,0
+IV,106,106,0,active,▼B,,404,"Disodium [29H,31H-phthalocyaninedisulphonato
+(4-)-N29,N30,N31,N32]
+cuprate (2-)",74180,,,,Blue,Rinse-off products,,,,0
+IV,107,107,0,active,▼B,,405,Polychloro copper phthalocyanine,74260,,,,Green,"Not to be used in eye
+products",,,,0
+IV,108,108,0,active,▼B,,405,"8,8'-diapo-.psi.,.psi.-Carotenedioic acid",75100,,,,Yellow,,,,,0
+IV,109,109,0,active,▼B,,405,Annatto,75120,,,"215-735-4/
+289-561-2/
+230-248-7",Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160b)",,0
+IV,110,110,0,active,▼B,,405,Lycopene,75125,,,—,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160d)",,0
+IV,111,111,0,active,▼B,,405,CI Food Orange 5,75130,,,214-171-6,Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160a)",,0
+IV,112,112,0,active,▼B,,405,(3R)-beta-4-Caroten-3-ol,75135,,,,Yellow,,,,,0
+IV,113,113,0,active,▼B,,405,"2-Amino-1,7-dihydro-6H-
+purin-6-one",75170,,,,White,,,,,0
+IV,114,114,0,active,▼B,,405,Curcumins,75300,,,207-280-5,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 100)",,0
+IV,115,115,0,active,▼B,,406,Carmines,75470,,,"215-680-6/
+215-023-3/
+215-724-4",Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 120)",,0
+IV,116,116,0,active,▼B,,406,"Trisodium (2S-trans)-[18-
+carboxy-20-(carboxymethyl)-
+13-ethyl-2,3-dihydro-
+3,7,12,17-tetramethyl-8-vinyl-
+21H,23H-porphine-2-
+propionato
+(5-)-N21,N22,N23,N24]
+cuprate(3-) (Chlorophylls)",75810,,,"215-800-7/
+207-536-6/
+208-272-4/
+287-483-3/
+239-830-5/
+246-020-5",Green,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 140, E 141)",,0
+IV,117,117,0,active,▼B,,406,Aluminium,77000,,,231-072-3,White,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 173)",,0
+IV,118,118,0,active,▼B,,406,Aluminium hydroxide sulphate,77002,,,,White,,,,,0
+IV,119,119,0,active,▼B,,406,"Natural hydrated aluminium
+silicate, Al2O3.2SiO2.2H2O,
+containing calcium,
+magnesium or iron carbonates,
+ferric hydroxide, quartz-sand,
+mica, etc. as impurities",77004,,,,White,,,,,0
+IV,120,120,0,active,▼B,,406,Lazurite,77007,,,,Blue,,,,,0
+IV,121,121,0,active,▼B,,407,"Aluminum silicate coloured
+with ferric oxide",77015,,,,Red,,,,,0
+IV,122,122,0,active,▼B,,407,Barium sulfate,77120,,,,White,,,,,0
+IV,123,123,0,active,▼B,,407,Bismuth chloride oxide,77163,,,,White,,,,,0
+IV,124,124,0,active,▼B,,407,Calcium carbonate,77220,,,"207-439-9/
+215-279-6",White,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 170)",,0
+IV,125,125,0,active,▼B,,407,Calcium sulfate,77231,,,,White,,,,,0
+IV,126,126,0,active,▼M14,,407,Carbon black,77266,,"1333-86-4,
+7440-44-0","215-609-9,
+231-153-3,
+931-328-0,
+931-334-3",Black,,,"Purity > 97 %, with the
+following impurity profile:
+Ash content ≤ 0,15 %, total
+sulphur ≤ 0,65 %, total
+PAH ≤ 500 ppb and benzo
+(a)pyrene ≤ 5 ppb, dibenz
+(a,h)anthracene
+≤ 5 ppb, total As ≤ 3 ppm,
+total Pb ≤ 10 ppm, total Hg
+≤ 1 ppm.",,0
+IV,127,126a,0,active,▼M14,,"407,408",Carbon black,77266 (nano),Carbon Black (nano),"1333-86-4,
+7440-44-0","215-609-9,
+231-153-3,
+931-328-0,
+931-334-3",Black,,10 %,"Not to be used in applications that may lead to
+exposure of the end user's
+lungs by inhalation.
+Only nanomaterials having
+the following characteristics
+are allowed:
+— Purity > 97 %, with the
+following impurity
+profile: Ash content ≤
+0,15 %, total sulphur ≤
+0,65 %, total PAH ≤
+500 ppb and benzo(a)
+pyrene ≤ 5 ppb, dibenz
+(a,h)anthracene ≤ 5
+ppb, total As ≤ 3 ppm,
+total Pb ≤ 10 ppm, and
+total Hg ≤ 1 ppm;
+— Primary particle size ≥
+20 nm.",,1
+IV,128,127,0,active,▼B,,408,"Charcoal, bone. A fine black
+powder obtained by burning
+animal bones in a closed
+container. It consists primarily
+of calcium phosphate and
+carbon",77267,,,,Black,,,,,0
+IV,129,128,0,active,▼B,,408,Coke black,77268:1,,,,Black,,,,,0
+IV,130,129,0,active,▼B,,408,Chromium (III) oxide,77288,,,,Green,,,free from chromate ion,,0
+IV,131,130,0,active,▼B,,409,Chromium (III) hydroxide,77289,,,,Green,,,free from chromate ion,,0
+IV,132,131,0,active,▼B,,409,Cobalt Aluminum Oxide,77346,,,,Green,,,,,0
+IV,133,132,0,active,▼B,,409,Copper,77400,,,,Brown,,,,,0
+IV,134,133,0,active,▼B,,409,Gold,77480,,,231-165-9,Brown,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 175)",,0
+IV,135,134,0,active,▼B,,409,Iron oxide,77489,,,,Orange,,,,,0
+IV,136,135,0,active,▼B,,409,Iron Oxide Red,77491,,,215-168-2,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 172)",,0
+IV,137,136,0,active,▼B,,409,Iron Oxide Yellow,77492,,51274-00-1,257-098-5,Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 172)",,0
+IV,138,137,0,active,▼B,,409,Iron Oxide Black,77499,,,235-442-5,Black,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 172)",,0
+IV,139,138,0,active,▼B,,409,Ferric Ammonium Ferrocyanide,77510,,,,Blue,,,free from cyanide ions,,0
+IV,140,139,0,active,▼B,,409,Magnesium carbonate,77713,,,,White,,,,,0
+IV,141,140,0,active,▼B,,410,"Ammonium manganese(3+)
+diphosphate",77742,,,,Violet,,,,,0
+IV,142,141,0,active,▼B,,410,Trimanganese bis (orthophosphate),77745,,,,Red,,,,,0
+IV,143,142,0,active,▼M53,,410,"Silver (powder) [100 nm <
+particle diameter < 1 mm]",77820,,7440-22-4,231-131-3,White,"(a) Lip products
+(b) Eye shadow","For (a) and
+(b): 0,2 %",,,0
+IV,144,143,0,active,▼C9,,410,Titanium dioxide (1),77891,,,236-675-5,White,,,"— Purity criteria as set out
+in Commission
+Directive 95/45/E (E
+171)
+— Titanium dioxide in
+powder form
+containing 1 % or more
+of particles with
+aerodynamic diameter
+≤ 10 μm, to be used in
+compliance with Annex
+III, No 321",,0
+IV,145,144,0,active,▼M24,,410,Zinc oxide (2),77947,,1314-13-2,215-222-5,White,,,"Not to be used in applications that may lead to
+exposure of the end-user's
+lungs by inhalation.",,0
+IV,146,145,0,active,▼B,,411,Riboflavin,,Lactoflavin,,"201-507-1/
+204-988-6",Yellow,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 101)",,0
+IV,147,146,0,active,▼B,,411,Caramel,,Caramel,,232-435-9,Brown,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 150a-d)",,0
+IV,148,147,0,active,▼B,,411,"Paprika extract, Capsanthin,
+capsorubin",,"Capsanthin, capsorubin",,"207-364-1/
+207-425-2",Orange,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 160c)",,0
+IV,149,148,0,active,▼B,,411,Beetroot red,,Beetroot Red,7659-95-2,231-628-5,Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 162)",,0
+IV,150,149,0,active,▼B,,411,"Anthocyanins
+(Cyanidin,
+Peonidin
+Malvidin
+Delphinidin
+Petunidin
+Pelargonidin)",,Anthocyanins,"528-58-5
+134-01-0
+528-53-0
+643-84-5
+134-04-3","208-438-6
+205-125-6
+211-403-8
+208-437-0
+—
+205-127-7",Red,,,"Purity criteria as set out in
+Commission Directive 95/
+45/EC (E 163)",,0
+IV,151,150,0,active,▼B,,412,"Aluminium, zinc, magnesium
+and calcium stearates",,Aluminum stearate Zinc stearate Magnesium stearate Calcium stearate,"7047-84-9
+557-05-1
+557-04-0
+216-472-8","230-325-5
+209-151-9
+209-150-3
+216-472-8",White,,,,,1
+IV,152,151,0,active,▼B,,412,"Phenol, 4,4'-(3H-2,1-benzoxathiol-3-ylidene)bis[2-
+bromo-3-methyl-6-(1-methylethyl)-, S,S-dioxide",,Bromothymol blue,76-59-5,200-971-2,Blue,Rinse-off products,,,,0
+IV,153,152,0,active,▼B,,412,"Phenol, 4,4'-(3H-2,1-benzoxathiol-3-ylidene)bis[2,6-
+dibromo-3-methyl-,S,S-dioxide",,Bromocresol green,76-60-8,200-972-8,Green,Rinse-off products,,,,0
+IV,154,153,0,active,▼B,,412,"Sodium 4-[(4,5-dihydro-3-
+methyl-5-oxo-1-phenyl-1H-
+pyrazol-4-yl)azo]-3-hydroxynaphthalene-1-sulphonate",,Acid red 195,12220-24-5,—,Red,"Not to be used in products
+applied on mucous
+membranes",,,,0
