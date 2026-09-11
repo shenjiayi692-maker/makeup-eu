@@ -84,7 +84,7 @@
     "product_type": "(b) Depilatories",
     "max_concentration": "(b) 5 %",
     "other": "(b) ready for use pH 7 to\n12,7",
-    "wording": "Conditions of use:"
+    "wording": "Conditions of use:\n(a) (b) (c) (d)\nAvoid contact with eyes\nRinse eyes immediately if product\ncomes into contact with them.\n(a)(i) (b) (c)\nContains thioglycolate\nFollow the instructions\nKeep out of reach of children\n(a)(ii) (d)\nFor professional use only\nContains thioglycolate\nFollow the instructions"
    },
    {
     "tier": "c",
@@ -92,7 +92,7 @@
     "product_type": "(c) Other hair\nrinse-off\nproducts",
     "max_concentration": "(c) 2 %",
     "other": "(c) ready for use pH 7 to\n9,5",
-    "wording": "Conditions of use:"
+    "wording": "Conditions of use:\n(a) (b) (c) (d)\nAvoid contact with eyes\nRinse eyes immediately if product\ncomes into contact with them.\n(a) (c) (d)\nWear suitable gloves\nWarnings to be printed on the label:\n(a)(i) (b) (c)\nContains thioglycolate\nFollow the instructions\nKeep out of reach of children\n(a)(ii) (d)\nFor professional use only\nContains thioglycolate\nFollow the instructions"
    },
    {
     "tier": "d",
@@ -100,7 +100,7 @@
     "product_type": "(d) Products\nintended for\neyelash\nwaving",
     "max_concentration": "(d) 11 %\nThe abovementioned\npercentages are\ncalculated as\nthioglycolic\nacid",
     "other": "(d) For professional use\nready for use pH 7 to\n9,5",
-    "wording": "Conditions of use:"
+    "wording": "Conditions of use:\n(a) (b) (c) (d)\nAvoid contact with eyes\nRinse eyes immediately if product\ncomes into contact with them.\n(a) (c) (d)\nWear suitable gloves\nWarnings to be printed on the label:"
    }
   ],
   "entry_seq": 2
@@ -149,7 +149,7 @@
     "product_type": "Hair waving or\nstraightening\nproducts",
     "max_concentration": "(b) 11 %\nThe abovementioned\npercentages\nare\ncalculated\nas thioglycolic acid",
     "other": "General use\nready for use pH 6 to 9,5\nProfessional use\nready for use pH 6 to 9,5",
-    "wording": "Conditions of use:\n(b) For professional use only"
+    "wording": "Conditions of use:\n(a) (b)\nMay cause sensitization in the event\nof skin contact\nAvoid contact with eyes\nIn the event of contact with eyes,\nrinse immediately with plenty of\nwater and seek medical advice\nWear suitable gloves\nWarnings:\nContains thioglycolate\nFollow the instructions\nKeep out of reach of children\n(b) For professional use only"
    }
   ],
   "entry_seq": 3
@@ -836,7 +836,7 @@
     "product_type": "(b) Skin products",
     "max_concentration": "(b) 4 % of\nH2O2,\npresent or\nreleased",
     "other": "",
-    "wording": ""
+    "wording": "(a) (b) (c) (e)\nContains hydrogen peroxide\nAvoid contact with eyes\nRinse immediately if product comes\ninto contact with them."
    },
    {
     "tier": "c",
@@ -844,7 +844,7 @@
     "product_type": "(c) Nail hardening\nproducts",
     "max_concentration": "(c) 2 % of\nH2O2,\npresent or\nreleased",
     "other": "",
-    "wording": ""
+    "wording": "(a) (b) (c) (e)\nContains hydrogen peroxide\nAvoid contact with eyes\nRinse immediately if product comes\ninto contact with them."
    },
    {
     "tier": "d",
@@ -860,7 +860,7 @@
     "product_type": "(e) Tooth\nwhitening or\nbleaching\nproducts",
     "max_concentration": "(e) > 0,1 % ≤\n6 % of\nH2O2,\npresent or\nreleased",
     "other": "(e) To be only sold to\ndental practitioners. For\neach cycle of use, first\nuse by dental practitioners as defined under\nDirective 2005/36/EC of\nthe European Parliament\nand of the Council (14)\nor under their direct\nsupervision if an\nequivalent level of\nsafety is ensured.\nAfterwards to be\nprovided to the\nconsumer to complete\nthe cycle of use.\nNot to be used on a\nperson under 18 years\nof age.",
-    "wording": "(e) Concentration of H2O2 present\nor released indicated in\npercentage.\nNot to be used on a person\nunder 18 years of age.\nTo be only sold to dental practitioners. For each cycle of use,\nthe first use to be only done by\ndental practitioners or under\ntheir direct supervision if an\nequivalent level of safety is\nensured.\nAfterwards to be provided to\nthe consumer to complete the\ncycle of use."
+    "wording": "(a) (b) (c) (e)\nContains hydrogen peroxide\nAvoid contact with eyes\nRinse immediately if product comes\ninto contact with them.\n(e) Concentration of H2O2 present\nor released indicated in\npercentage.\nNot to be used on a person\nunder 18 years of age.\nTo be only sold to dental practitioners. For each cycle of use,\nthe first use to be only done by\ndental practitioners or under\ntheir direct supervision if an\nequivalent level of safety is\nensured.\nAfterwards to be provided to\nthe consumer to complete the\ncycle of use."
    },
    {
     "tier": "f",
@@ -868,7 +868,7 @@
     "product_type": "(f) Products\nintended for\neyelashes",
     "max_concentration": "(f) 2 % of\nH2O2,\npresent or\nreleased",
     "other": "(f) For professional use\nonly",
-    "wording": "f) To be printed on the label:\n‘For professional use only.\nAvoid contact with eyes.\nRinse eyes immediately if\nproduct comes into contact with\nthem.\nContains hydrogen peroxide’"
+    "wording": "(a) (f) Wear suitable gloves\nf) To be printed on the label:\n‘For professional use only.\nAvoid contact with eyes.\nRinse eyes immediately if\nproduct comes into contact with\nthem.\nContains hydrogen peroxide’"
    }
   ],
   "entry_seq": 18
@@ -1546,7 +1546,7 @@
     "product_type": "(b) Depilatories",
     "max_concentration": "(b) 6 % (as\nsulphur)",
     "other": "pH ≤ 12,7",
-    "wording": ""
+    "wording": "(a) (b) Keep out of reach of\nchildren\nAvoid contact with eyes"
    }
   ],
   "entry_seq": 32
@@ -3449,7 +3449,7 @@
     "tier_source": "label",
     "product_type": "(b) Rinse-off\nproducts",
     "max_concentration": "",
-    "other": "",
+    "other": "(a) (b)\n— Not to be used with\nnitrosating systems\n— Minimum purity: 99 %\n— Maximum secondary\namine content: 0,5 %\n(applies to raw\nmaterials)\n— Maximum nitrosamine\ncontent: 50 μg/kg\n— Keep in nitrite-free\ncontainers",
     "wording": ""
    }
   ],
@@ -3955,7 +3955,7 @@
     "tier_source": "label",
     "product_type": "(b) Other products",
     "max_concentration": "(b) 1,0 %",
-    "other": "",
+    "other": "(a) (b)\nThe presence of the\nsubstance must be indicated\nin the list of ingredients\nreferred to in Article 19(1)\n(g) when its concentration\nexceeds:\n— 0,001 % in leave-on\nproducts\n— 0,01 % in rinse-off\nproducts",
     "wording": ""
    }
   ],
@@ -4004,7 +4004,7 @@
     "tier_source": "label",
     "product_type": "(b) Other products",
     "max_concentration": "(b) 0,02 %",
-    "other": "",
+    "other": "(a) (b)\nThe presence of the\nsubstance shall be indicated\nin the list of ingredients\nreferred to in Article 19(1),\npoint (g), when its concentration exceeds:\n— 0,001 % in leave-on\nproducts\n— 0,01 % in rinse-off\nproducts.",
     "wording": ""
    }
   ],
@@ -4732,7 +4732,7 @@
     "tier_source": "label",
     "product_type": "(b) Other products",
     "max_concentration": "(b) 0,01 %\nwhen used\nalone\nWhen\npresent in\ncombination\nwith methyl\noctine\ncarbonate,\nthe\ncombined\nlevel in the\nfinished\nproduct\nshall not\nexceed\n0,01 % (of\nwhich\nmethyl\noctine\ncarbonate\nshall not be\nmore than\n0,002 %)",
-    "other": "",
+    "other": "(a) (b)\nThe presence of the\nsubstance must be indicated\nin the list of ingredients\nreferred to in Article 19(1)\n(g) when its concentration\nexceeds:\n— 0,001 % in leave-on\nproducts\n— 0,01 % in rinse-off\nproducts",
     "wording": ""
    }
   ],
@@ -5141,16 +5141,16 @@
     "tier_source": "label",
     "product_type": "(b) Other products\nexcept body\nlotion, eye\nshadow,\nmascara,\neyeliner,\nlipstick, roll-\non deodorant",
     "max_concentration": "(b) 2,0 %",
-    "other": "",
-    "wording": ""
+    "other": "(a) (b) (c)\nNot to be used in preparations for children under 3\nyears of age. Not to be used\nin applications that may lead\nto exposure of the end-\nuser’s lungs by inhalation.\nNot to be used in oral\nproducts. For purposes other\nthan inhibiting the development of micro-organisms in\nthe product. This purpose\nhas to be apparent from the\npresentation of the product.\nThese levels are inclusive of\nany use of salicylic acid.",
+    "wording": "(a) (b) (c)\nNot to be used for children under 3\nyears of age (10)"
    },
    {
     "tier": "c",
     "tier_source": "label",
     "product_type": "(c) Body lotion,\neye shadow,\nmascara,\neyeliner,\nlipstick, roll-\non deodorant",
     "max_concentration": "(c) 0,5 %",
-    "other": "",
-    "wording": ""
+    "other": "(a) (b) (c)\nNot to be used in preparations for children under 3\nyears of age. Not to be used\nin applications that may lead\nto exposure of the end-\nuser’s lungs by inhalation.\nNot to be used in oral\nproducts. For purposes other\nthan inhibiting the development of micro-organisms in\nthe product. This purpose\nhas to be apparent from the\npresentation of the product.\nThese levels are inclusive of\nany use of salicylic acid.",
+    "wording": "(a) (b) (c)\nNot to be used for children under 3\nyears of age (10)"
    }
   ],
   "entry_seq": 108
@@ -7648,7 +7648,7 @@
     "tier_source": "label",
     "product_type": "(b) Other products",
     "max_concentration": "(b) 0,02 %",
-    "other": "",
+    "other": "(a) (b)\nThe presence of the\nsubstance or substances\nshall be indicated as ‘Rose\nKetones’ in the list of\ningredients referred to in\nArticle 19(1), point (g),\nwhen the concentration of\nthe substance or substances\nexceeds:\n— 0,001 % in leave-on\nproducts\n— 0,01 % in rinse-off\nproducts.",
     "wording": ""
    }
   ],
@@ -8843,7 +8843,7 @@
     "tier_source": "label",
     "product_type": "(b) Solvent in non-\noxidative hair\ndye products",
     "max_concentration": "(b) 2,0 %",
-    "other": "",
+    "other": "(a) (b)\nNo use in aerosol dispensers\n(sprays)",
     "wording": ""
    }
   ],
@@ -9407,7 +9407,7 @@
     "tier_source": "label",
     "product_type": "(c) Products\nintended for\ncolouring\neyelashes",
     "max_concentration": "",
-    "other": "(c) Professional use",
+    "other": "(a) (c) After mixing under\noxidative conditions\nthe maximum\nconcentration\napplied to hair or\neyelashes must not\nexceed 3,4 % (calculated as sulfate)\n(c) Professional use",
     "wording": "(c) As from 3 March 2018, to be\nprinted on the label:\nThe mixing ratio.\n‘ This product can cause\nsevere allergic reactions. Read\nand follow instructions.\nThis product is not intended for\nuse on persons under the age of\n16. Temporary “black henna”\ntattoos may increase the risk of\nallergy.\nEyelashes shall not be coloured\nif the consumer:\n— has a rash on the face or\nsensitive, irritated and\ndamaged scalp,\n— has experienced any reaction\nafter colouring hair or\neyelashes,\n— has experienced a reaction to\na temporary “black henna”\ntattoo in the past.\nFor professional use only.\nRinse eyes immediately if\nproduct comes into contact with\nthem’."
    }
   ],
@@ -12703,7 +12703,7 @@
     "tier_source": "label",
     "product_type": "(b) Products\nintended for\ncolouring\neyelashes",
     "max_concentration": "",
-    "other": "(b) Professional use",
+    "other": "(a) (b) After mixing under\noxidative conditions\nthe maximum\nconcentration\napplied to hair or\neyelashes must not\nexceed 0,9 %\n(b) Professional use",
     "wording": "(b) As from 3 March 2018, to be\nprinted on the label: The\nmixing ratio.\n‘ This product can cause\nsevere allergic reactions. Read\nand follow instructions.\nThis product is not intended for\nuse on persons under the age of\n16. Temporary “black henna”\ntattoos may increase the risk of\nallergy.\nEyelashes shall not be coloured\nif the consumer:\n— has a rash on the face or\nsensitive, irritated and\ndamaged scalp,\n— has experienced any reaction\nafter colouring hair or\neyelashes,\n— has experienced a reaction to\na temporary “black henna”\ntattoo in the past.\nFor professional use only.\nRinse eyes immediately if\nproduct comes into contact with\nthem’."
    }
   ],
@@ -13675,7 +13675,7 @@
     "tier_source": "label",
     "product_type": "(b) Products\nintended for\ncolouring\neyelashes",
     "max_concentration": "",
-    "other": "(b) Professional use",
+    "other": "(a) (b) After mixing under\noxidative conditions\nthe maximum\nconcentration\napplied to hair or\neyelashes must not\nexceed 1,8 % (calculated as free base)\n(b) Professional use",
     "wording": "(b) To be printed on the label: The\nmixing ratio.\n‘ This product can cause\nsevere allergic reactions. Read\nand follow instructions.\nThis product is not intended for\nuse on persons under the age of\n16. Temporary “black henna”\ntattoos may increase the risk\nof allergy.\nEyelashes shall not be coloured\nif the consumer:\n— has a rash on the face or\nsensitive, irritated and\ndamaged scalp,\n— has experienced any reaction\nafter colouring hair or\neyelashes,\n— has experienced a reaction to\na temporary “black henna”\ntattoo in the past.\nFor professional use only.\nRinse eyes immediately if\nproduct comes into contact\nwith them.’"
    }
   ],
@@ -15040,7 +15040,7 @@
     "tier_source": "label",
     "product_type": "(b) hair aerosol\nspray products",
     "max_concentration": "(b) 1,4 % for\ngeneral\nconsumers,\nand 1.1 %\nfor professional use.",
-    "other": "",
+    "other": "(a) (b)\nOnly in the pigmentary form",
     "wording": ""
    },
    {

@@ -27,11 +27,38 @@ For professional use only
 Contains thioglycolate
 Follow the instructions"
 III,2,2a,2,b,label,(b) Depilatories,(b) 5 %,5.0,%,,,"(b) ready for use pH 7 to
-12,7",Conditions of use:
+12,7","Conditions of use:
+(a) (b) (c) (d)
+Avoid contact with eyes
+Rinse eyes immediately if product
+comes into contact with them.
+(a)(i) (b) (c)
+Contains thioglycolate
+Follow the instructions
+Keep out of reach of children
+(a)(ii) (d)
+For professional use only
+Contains thioglycolate
+Follow the instructions"
 III,2,2a,3,c,label,"(c) Other hair
 rinse-off
 products",(c) 2 %,2.0,%,,,"(c) ready for use pH 7 to
-9,5",Conditions of use:
+9,5","Conditions of use:
+(a) (b) (c) (d)
+Avoid contact with eyes
+Rinse eyes immediately if product
+comes into contact with them.
+(a) (c) (d)
+Wear suitable gloves
+Warnings to be printed on the label:
+(a)(i) (b) (c)
+Contains thioglycolate
+Follow the instructions
+Keep out of reach of children
+(a)(ii) (d)
+For professional use only
+Contains thioglycolate
+Follow the instructions"
 III,2,2a,4,d,label,"(d) Products
 intended for
 eyelash
@@ -42,7 +69,14 @@ calculated as
 thioglycolic
 acid",11.0,%,,,"(d) For professional use
 ready for use pH 7 to
-9,5",Conditions of use:
+9,5","Conditions of use:
+(a) (b) (c) (d)
+Avoid contact with eyes
+Rinse eyes immediately if product
+comes into contact with them.
+(a) (c) (d)
+Wear suitable gloves
+Warnings to be printed on the label:"
 III,3,2b,1,a,label,"Hair waving or
 straightening
 products",(a) 8 %,8.0,%,,,"General use
@@ -72,6 +106,18 @@ as thioglycolic acid",11.0,%,,,"General use
 ready for use pH 6 to 9,5
 Professional use
 ready for use pH 6 to 9,5","Conditions of use:
+(a) (b)
+May cause sensitization in the event
+of skin contact
+Avoid contact with eyes
+In the event of contact with eyes,
+rinse immediately with plenty of
+water and seek medical advice
+Wear suitable gloves
+Warnings:
+Contains thioglycolate
+Follow the instructions
+Keep out of reach of children
 (b) For professional use only"
 III,4,3,1,,none,Hair products,5 %,5.0,%,,,Professional use,For professional use only
 III,5,4,1,,none,,6 % (as NH3),6.0,%,NH3,,,Above 2 %: Contains ammonia
@@ -456,12 +502,20 @@ into contact with them."
 III,18,12,2,b,label,(b) Skin products,"(b) 4 % of
 H2O2,
 present or
-released",4.0,%,,,,
+released",4.0,%,,,,"(a) (b) (c) (e)
+Contains hydrogen peroxide
+Avoid contact with eyes
+Rinse immediately if product comes
+into contact with them."
 III,18,12,3,c,label,"(c) Nail hardening
 products","(c) 2 % of
 H2O2,
 present or
-released",2.0,%,,,,
+released",2.0,%,,,,"(a) (b) (c) (e)
+Contains hydrogen peroxide
+Avoid contact with eyes
+Rinse immediately if product comes
+into contact with them."
 III,18,12,4,d,label,"(d) Oral products,
 including
 mouth rinse,
@@ -497,7 +551,12 @@ consumer to complete
 the cycle of use.
 Not to be used on a
 person under 18 years
-of age.","(e) Concentration of H2O2 present
+of age.","(a) (b) (c) (e)
+Contains hydrogen peroxide
+Avoid contact with eyes
+Rinse immediately if product comes
+into contact with them.
+(e) Concentration of H2O2 present
 or released indicated in
 percentage.
 Not to be used on a person
@@ -517,7 +576,8 @@ eyelashes","(f) 2 % of
 H2O2,
 present or
 released",2.0,%,,,"(f) For professional use
-only","f) To be printed on the label:
+only","(a) (f) Wear suitable gloves
+f) To be printed on the label:
 ‘For professional use only.
 Avoid contact with eyes.
 Rinse eyes immediately if
@@ -917,7 +977,9 @@ sulphur)",2.0,%,sulphur,,"pH ≤ 12,7","(a) (b) Keep out of reach of
 children
 Avoid contact with eyes"
 III,32,23,2,b,label,(b) Depilatories,"(b) 6 % (as
-sulphur)",6.0,%,sulphur,,"pH ≤ 12,7",
+sulphur)",6.0,%,sulphur,,"pH ≤ 12,7","(a) (b) Keep out of reach of
+children
+Avoid contact with eyes"
 III,33,24,1,a,label,"(a) Toothpaste
 intended for
 users above 1
@@ -1783,7 +1845,18 @@ content: 50 μg/kg
 — Keep in nitrite-free
 containers",
 III,72,62,2,b,label,"(b) Rinse-off
-products",,,,,,,
+products",,,,,,"(a) (b)
+— Not to be used with
+nitrosating systems
+— Minimum purity: 99 %
+— Maximum secondary
+amine content: 0,5 %
+(applies to raw
+materials)
+— Maximum nitrosamine
+content: 50 μg/kg
+— Keep in nitrite-free
+containers",
 III,73,63,1,,none,"pH adjuster for
 depilatories","3,5 % (as
 strontium)",3.5,%,strontium,,"pH ≤ 12,7","Keep out of reach of children
@@ -1991,7 +2064,17 @@ exceeds:
 products
 — 0,01 % in rinse-off
 products",
-III,82,72,2,b,label,(b) Other products,"(b) 1,0 %",1.0,%,,,,
+III,82,72,2,b,label,(b) Other products,"(b) 1,0 %",1.0,%,,,"(a) (b)
+The presence of the
+substance must be indicated
+in the list of ingredients
+referred to in Article 19(1)
+(g) when its concentration
+exceeds:
+— 0,001 % in leave-on
+products
+— 0,01 % in rinse-off
+products",
 III,83,73,1,a,label,(a) Oral products,,,,,,"(a) (b)
 The presence of the
 substance shall be indicated
@@ -2002,7 +2085,16 @@ point (g), when its concentration exceeds:
 products
 — 0,01 % in rinse-off
 products.",
-III,83,73,2,b,label,(b) Other products,"(b) 0,02 %",0.02,%,,,,
+III,83,73,2,b,label,(b) Other products,"(b) 0,02 %",0.02,%,,,"(a) (b)
+The presence of the
+substance shall be indicated
+in the list of ingredients
+referred to in Article 19(1),
+point (g), when its concentration exceeds:
+— 0,001 % in leave-on
+products
+— 0,01 % in rinse-off
+products.",
 III,84,74,1,,none,,,,,,,"The presence of the
 substance must be indicated
 in the list of ingredients
@@ -2264,7 +2356,17 @@ octine
 carbonate
 shall not be
 more than
-0,002 %)",0.01,%,,"[0.01, 0.01, 0.002]",,
+0,002 %)",0.01,%,,"[0.01, 0.01, 0.002]","(a) (b)
+The presence of the
+substance must be indicated
+in the list of ingredients
+referred to in Article 19(1)
+(g) when its concentration
+exceeds:
+— 0,001 % in leave-on
+products
+— 0,01 % in rinse-off
+products",
 III,100,90,1,,none,,,,,,,"The presence of the
 substance must be indicated
 in the list of ingredients
@@ -2368,13 +2470,43 @@ shadow,
 mascara,
 eyeliner,
 lipstick, roll-
-on deodorant","(b) 2,0 %",2.0,%,,,,
+on deodorant","(b) 2,0 %",2.0,%,,,"(a) (b) (c)
+Not to be used in preparations for children under 3
+years of age. Not to be used
+in applications that may lead
+to exposure of the end-
+user’s lungs by inhalation.
+Not to be used in oral
+products. For purposes other
+than inhibiting the development of micro-organisms in
+the product. This purpose
+has to be apparent from the
+presentation of the product.
+These levels are inclusive of
+any use of salicylic acid.","(a) (b) (c)
+Not to be used for children under 3
+years of age (10)"
 III,108,98,3,c,label,"(c) Body lotion,
 eye shadow,
 mascara,
 eyeliner,
 lipstick, roll-
-on deodorant","(c) 0,5 %",0.5,%,,,,
+on deodorant","(c) 0,5 %",0.5,%,,,"(a) (b) (c)
+Not to be used in preparations for children under 3
+years of age. Not to be used
+in applications that may lead
+to exposure of the end-
+user’s lungs by inhalation.
+Not to be used in oral
+products. For purposes other
+than inhibiting the development of micro-organisms in
+the product. This purpose
+has to be apparent from the
+presentation of the product.
+These levels are inclusive of
+any use of salicylic acid.","(a) (b) (c)
+Not to be used for children under 3
+years of age (10)"
 III,109,99,1,a,label,"(a) Oxidative hair
 dye products","(a) 0,67 %
 (as free
@@ -2647,7 +2779,20 @@ exceeds:
 products
 — 0,01 % in rinse-off
 products.",
-III,167,157,2,b,label,(b) Other products,"(b) 0,02 %",0.02,%,,,,
+III,167,157,2,b,label,(b) Other products,"(b) 0,02 %",0.02,%,,,"(a) (b)
+The presence of the
+substance or substances
+shall be indicated as ‘Rose
+Ketones’ in the list of
+ingredients referred to in
+Article 19(1), point (g),
+when the concentration of
+the substance or substances
+exceeds:
+— 0,001 % in leave-on
+products
+— 0,01 % in rinse-off
+products.",
 III,168,158,1,,none,,,,,,,,
 III,169,159,1,,none,,"0,02 %",0.02,%,,,,
 III,170,160-163,1,,none,,,,,,,,
@@ -2744,7 +2889,9 @@ No use in aerosol dispensers
 (sprays)",
 III,194,188,2,b,label,"(b) Solvent in non-
 oxidative hair
-dye products","(b) 2,0 %",2.0,%,,,,
+dye products","(b) 2,0 %",2.0,%,,,"(a) (b)
+No use in aerosol dispensers
+(sprays)",
 III,195,189,1,,none,"Hair dye substance
 in non-oxidative
 hair dye products","0,5 %",0.5,%,,,,
@@ -2924,7 +3071,14 @@ sulfate",,,
 III,206,200,3,c,label,"(c) Products
 intended for
 colouring
-eyelashes",,,,,,(c) Professional use,"(c) As from 3 March 2018, to be
+eyelashes",,,,,,"(a) (c) After mixing under
+oxidative conditions
+the maximum
+concentration
+applied to hair or
+eyelashes must not
+exceed 3,4 % (calculated as sulfate)
+(c) Professional use","(c) As from 3 March 2018, to be
 printed on the label:
 The mixing ratio.
 ‘ This product can cause
@@ -5886,7 +6040,14 @@ past.’"
 III,278,272,2,b,label,"(b) Products
 intended for
 colouring
-eyelashes",,,,,,(b) Professional use,"(b) As from 3 March 2018, to be
+eyelashes",,,,,,"(a) (b) After mixing under
+oxidative conditions
+the maximum
+concentration
+applied to hair or
+eyelashes must not
+exceed 0,9 %
+(b) Professional use","(b) As from 3 March 2018, to be
 printed on the label: The
 mixing ratio.
 ‘ This product can cause
@@ -6590,7 +6751,14 @@ past.’"
 III,298,292,2,b,label,"(b) Products
 intended for
 colouring
-eyelashes",,,,,,(b) Professional use,"(b) To be printed on the label: The
+eyelashes",,,,,,"(a) (b) After mixing under
+oxidative conditions
+the maximum
+concentration
+applied to hair or
+eyelashes must not
+exceed 1,8 % (calculated as free base)
+(b) Professional use","(b) To be printed on the label: The
 mixing ratio.
 ‘ This product can cause
 severe allergic reactions. Read
@@ -7163,7 +7331,8 @@ spray products","(b) 1,4 % for
 general
 consumers,
 and 1.1 %
-for professional use.",1.4,%,,"[1.4, 1.1]",,
+for professional use.",1.4,%,,"[1.4, 1.1]","(a) (b)
+Only in the pigmentary form",
 III,327,321,3,c,label,(c) other products,,,,,,"(c)
 Not to be used in
 applications that may lead to

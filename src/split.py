@@ -7,8 +7,10 @@ from celex import lines_text
 # Annex VI writes its tiers as "a)" without the opening bracket, the others as
 # "(a)". The trailing lookahead keeps chemistry such as a wrapped "(2h)-one"
 # -> "h)-one" from being read as a label.
+# Labels for one shared restriction may be joined by a word, by punctuation,
+# or by nothing at all -- Annex III/98 writes "(a) (b) (c) Not to be used ...".
 TIER_LAB = re.compile(
-    r'^\(?(?P<l>[a-z])\)(?:\s*(?:and|,|to)\s*\(?(?P<l2>[a-z])\))*(?=\s|$)')
+    r'^\(?(?P<l>[a-z])\)(?:\s*(?:and|,|to)?\s*\(?(?P<l2>[a-z])\))*(?=\s|$)')
 ANDLAB   = re.compile(r'\(?([a-z])\)')
 
 def _pitch(tops):
@@ -27,7 +29,11 @@ def col_segments(lines, accepted=None):
     for t, txt, _ in sorted(lines):
         m = TIER_LAB.match(txt)
         ls = set(ANDLAB.findall(txt[:m.end()])) if m else None
-        if m and (accepted is None or ls <= accepted):
+        if ls and accepted is not None:
+            # keep only real tier letters; "(a) (i) 8 %" in III/2a is tier (a)
+            # carrying a roman-numeral sub-item, not a tier (i)
+            ls = ls & accepted
+        if m and ls:
             cur = [ls, [txt]]
             segs.append(cur)
         elif cur is not None:

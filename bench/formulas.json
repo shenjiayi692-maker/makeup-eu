@@ -1,0 +1,198 @@
+{
+  "_note": "九个基础配方。spec 只给出了每个配方的关键成分；base_ingredients 需要从原始配方表补全。complete=false 的配方 gen_cases.py 会照常生成 case，但在 cases.jsonl 里标 incomplete_formula=true，并在 validate_cases.py 里报出来。",
+  "_assessment_date": "2026-09-05",
+  "_regulation_version": "02009R1223-20260518",
+
+  "F1a": {
+    "complete": false,
+    "product": {
+      "name": "Surfinesse 卸妆油（复配 15%）",
+      "category": "cleansing oil",
+      "rinse_off": true,
+      "base": "oil",
+      "body_parts": ["face"],
+      "claims": ["makeup removal"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Surfinesse Cleanse G", "kind": "blend",
+       "input_pct": 15.0, "composition_disclosed": false,
+       "note": "复配原料，组成未知。F10 的对照组设定是两组分均不受限。"}
+    ],
+    "base_ingredients": []
+  },
+
+  "F1b": {
+    "complete": false,
+    "product": {
+      "name": "Surfinesse 卸妆油（复配 30%）",
+      "category": "cleansing oil",
+      "rinse_off": true,
+      "base": "oil",
+      "body_parts": ["face"],
+      "claims": ["makeup removal"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Surfinesse Cleanse G", "kind": "blend",
+       "input_pct": 30.0, "composition_disclosed": false}
+    ],
+    "base_ingredients": []
+  },
+
+  "F2": {
+    "complete": false,
+    "product": {
+      "name": "Clear Deodorant Stick Base",
+      "category": "deodorant stick",
+      "rinse_off": false,
+      "base": "anhydrous",
+      "body_parts": ["underarm"],
+      "claims": ["deodorant"]
+    },
+    "key_ingredients": [],
+    "base_ingredients": []
+  },
+
+  "F3a": {
+    "complete": false,
+    "product": {
+      "name": "Sun care oil（不含硅石）",
+      "category": "sun care oil",
+      "rinse_off": false,
+      "base": "anhydrous",
+      "body_parts": ["face", "body"],
+      "claims": ["sun protection"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+       "inci": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+       "trade_name": "Tinosorb S", "function": ["uv filter"],
+       "input_pct": 4.5, "supply_form": {"kind": "neat", "active_pct": 100}},
+      {"name_as_written": "Ethylhexyl Triazone", "inci": "Ethylhexyl Triazone",
+       "trade_name": "Uvinul T 150", "function": ["uv filter"],
+       "input_pct": 4.5, "supply_form": {"kind": "neat", "active_pct": 100}},
+      {"name_as_written": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+       "inci": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+       "trade_name": "Uvinul A Plus", "abbrev": "DHHB",
+       "function": ["uv filter"],
+       "input_pct": 3.0, "supply_form": {"kind": "neat", "active_pct": 100}}
+    ],
+    "base_ingredients": []
+  },
+
+  "F3b": {
+    "complete": false,
+    "inherits_key_from": "F3a",
+    "product": {
+      "name": "Sun care oil（含硅石）",
+      "category": "sun care oil",
+      "rinse_off": false,
+      "base": "anhydrous",
+      "body_parts": ["face", "body"],
+      "claims": ["sun protection"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Silica Dimethyl Silylate",
+       "inci": "Silica Dimethyl Silylate", "trade_name": "AEROSIL R 974",
+       "function": ["viscosity control"],
+       "input_pct": 3.5, "supply_form": {"kind": "neat", "active_pct": 100},
+       "nano_declared": null,
+       "note": "J05 要求此处无纳米形态声明；nano_declared=null 即代表未声明。"}
+    ],
+    "base_ingredients": []
+  },
+
+  "F4": {
+    "complete": false,
+    "product": {
+      "name": "Anti-Acne Mild Face Wash",
+      "category": "face wash",
+      "rinse_off": true,
+      "base": "aqueous",
+      "body_parts": ["face"],
+      "claims": ["anti-acne", "mild cleansing"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Salicylic Acid", "inci": "Salicylic Acid",
+       "cas": "69-72-7", "function": ["anti-acne", "keratolytic"],
+       "input_pct": 2.0, "supply_form": {"kind": "neat", "active_pct": 100}},
+      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
+       "cas": "122-99-6", "function": ["preservative"],
+       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100}},
+      {"name_as_written": "BHT", "inci": "BHT", "cas": "128-37-0",
+       "function": ["antioxidant"],
+       "input_pct": 0.01, "supply_form": {"kind": "neat", "active_pct": 100}}
+    ],
+    "base_ingredients": []
+  },
+
+  "F5": {
+    "complete": false,
+    "product": {
+      "name": "Salicylic Scalp Reviving Shampoo",
+      "category": "shampoo",
+      "rinse_off": true,
+      "base": "aqueous",
+      "body_parts": ["scalp", "hair"],
+      "claims": ["scalp care"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Salicylic Acid", "inci": "Salicylic Acid",
+       "cas": "69-72-7", "function": ["scalp conditioning", "keratolytic"],
+       "input_pct": 1.0, "supply_form": {"kind": "neat", "active_pct": 100}},
+      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
+       "cas": "122-99-6", "function": ["preservative"],
+       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100}}
+    ],
+    "base_ingredients": []
+  },
+
+  "F6": {
+    "complete": false,
+    "product": {
+      "name": "Slow Aging Face & Hand Cream",
+      "category": "face cream",
+      "rinse_off": false,
+      "base": "aqueous",
+      "body_parts": ["face", "hands"],
+      "claims": ["anti-ageing"]
+    },
+    "key_ingredients": [
+      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
+       "cas": "122-99-6", "function": ["preservative"],
+       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100},
+       "role": "primary_preservative"},
+      {"name_as_written": "Sensiva SC-50", "kind": "blend",
+       "function": ["preservative booster", "skin conditioning"],
+       "input_pct": 0.5, "composition_disclosed": false,
+       "note": "F09 的对照组设定是两组分均不受限。具体组成待供应商资料确认。"},
+      {"name_as_written": "CI 17200", "colour_index": "17200",
+       "inci": "Acid Red 33", "function": ["colorant"],
+       "input_pct": null,
+       "note": "基础配方未给用量；H01 指定实际浓度 0.0006%。E01-E04 只改写法不改用量。"}
+    ],
+    "base_ingredients": []
+  },
+
+  "F7": {
+    "complete": false,
+    "product": {
+      "name": "Happy Skin",
+      "category": "face cream",
+      "rinse_off": false,
+      "base": "aqueous O/W emulsion",
+      "body_parts": ["face"],
+      "claims": []
+    },
+    "key_ingredients": [
+      {"name_as_written": "EUXYL K 712", "kind": "blend",
+       "function": ["preservative"],
+       "input_pct": 1.0, "composition_disclosed": false,
+       "known_components": ["Sodium Benzoate", "Potassium Sorbate", "Aqua"],
+       "note": "组分身份已知、配比未知——F 组上界推理的核心。F07/F08 才披露配比。"},
+      {"name_as_written": "CI 17200", "colour_index": "17200",
+       "inci": "Acid Red 33", "function": ["colorant"],
+       "input_pct": null}
+    ],
+    "base_ingredients": []
+  }
+}

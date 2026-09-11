@@ -263,7 +263,8 @@ CREATE TABLE IF NOT EXISTS preamble(annex TEXT, text TEXT);
 CREATE INDEX IF NOT EXISTS entries_ref ON entries(annex, ref_no);
 CREATE INDEX IF NOT EXISTS subs_ref ON substances(annex, entry_seq);
 CREATE INDEX IF NOT EXISTS cond_ref ON conditions(annex, entry_seq);
-""" % (", ".join(c + (" INT" if c in ('ref_inferred','needs_review') else " TEXT")
+""" % (", ".join(c + (" INT" if c in ('ref_inferred','needs_review','entry_seq')
+                            else " TEXT")
                  for c in ECOLS),
        ", ".join(c + (" INT" if c in ('seq','split_ok','entry_seq') else " TEXT")
                  for c in SCOLS),
