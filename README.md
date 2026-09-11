@@ -1,74 +1,71 @@
-# EU 化妆品法规 1223/2009 附件结构化提取
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="EU Cosmetics Annexes II to VI extracted from the consolidated regulation into SQLite and CSV">
+</p>
 
-把合并版 PDF（`02009R1223 — EN — 18.05.2026 — 041.001`，449 页）的附件 II–VI
-表格提取成 SQLite + CSV。
+A reproducible extraction pipeline for Annexes II–VI of the consolidated English version of EU Cosmetics Regulation (EC) No 1223/2009 dated 18 May 2026. It reconstructs bordered PDF tables into queryable SQLite and CSV while preserving uncertain column pairings for human review instead of guessing.
 
-源文件：EUR-Lex 合并版 PDF `CELEX_02009R1223-20260518_EN_TXT.pdf`，
-路径用环境变量 `CELEX_PDF` 指定（默认 `~/Downloads/` 下同名文件）。
+## Dataset at a glance
 
-## 结果
+| Annex | Subject | PDF pages | Entries | Substances | Conditions | Footnotes |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| II | Prohibited substances | 35–139 | 1,765 | 1,766 | — | 13 |
+| III | Restricted substances | 140–384 | 392 | 411 | 629 | 47 |
+| IV | Allowed colorants | 385–412 | 154 | 155 | 155 | 2 |
+| V | Allowed preservatives | 413–428 | 62 | 121 | 75 | 22 |
+| VI | Allowed UV filters | 429–439 | 37 | 37 | 40 | 10 |
 
-| 附件 | 内容 | 页码 | 列数 | 条目 | 物质 | 分档 | 脚注 |
-|---|---|---|---|---|---|---|---|
-| II | 禁用物质 | 35–139 | 4 | 1 765 | 1 766 | — | 13 |
-| III | 限用物质 | 140–384 | 9 | 392 | 411 | 629 | 47 |
-| IV | 允许的着色剂 | 385–412 | **10** | 154 | 155 | 155 | 2 |
-| V | 允许的防腐剂 | 413–428 | 9 | 62 | 121 | 75 | 22 |
-| VI | 允许的 UV 滤剂 | 429–439 | 9 | 37 | 37 | 40 | 10 |
+The committed output contains **2,490 substance records**. Of these, 2,426 are clean one-to-one splits and 64 are retained in [`data/review_queue.csv`](./data/review_queue.csv) because the source columns cannot be paired safely.
 
-编号连续无缺口（唯一例外：附件 II 没有 382 号，原文即如此，381 之后直接是 383）。
+Character-level coverage checks account for every character in the five table regions. The only difference from the source stream is intentionally removed soft hyphenation; there are no extra captured characters. See the complete [validation report](./docs/validation.md).
 
-**表格区字符级校验：五个附件全部 100% 捕获**，差额只有被有意消解的软连字符，
-无丢失、无重复。见 [docs/validation.md](docs/validation.md)。
+## Query immediately
 
-## 用法
+The ready-to-use database is [`data/cosmetics_reg.sqlite`](./data/cosmetics_reg.sqlite).
+
+```sql
+-- Find a substance across annexes
+SELECT annex, ref_no, inci_name, cas
+FROM substances
+WHERE cas = '69-72-7';
+
+-- Inspect tiered restrictions for Annex III, entry 98
+SELECT tier, product_type, max_conc_value, max_conc_unit
+FROM conditions
+WHERE annex = 'III' AND ref_no = '98'
+ORDER BY tier_seq;
+```
+
+CSV exports are split by annex and table: `entries`, `substances`, `conditions`, and `footnotes`.
+
+## Rebuild from EUR-Lex
+
+Download the consolidated English PDF from [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2009/1223/consolidated), then:
 
 ```bash
 pip install pdfplumber pymupdf
 export CELEX_PDF=/path/to/CELEX_02009R1223-20260518_EN_TXT.pdf
 CELEX_OUT=./data python src/build.py II III IV V VI
-CELEX_OUT=./data python src/coverage.py II III IV V VI   # 字符级自校验
+CELEX_OUT=./data python src/coverage.py II III IV V VI
 ```
 
-PDF 可从 EUR-Lex 下载：<https://eur-lex.europa.eu/eli/reg/2009/1223/consolidated>
+The pipeline expects document `02009R1223 — EN — 18.05.2026 — 041.001`, 449 pages.
 
-> 法规文本来自 EUR-Lex，依 Decision 2011/833/EU 可自由复用（需标注来源）。
-> 合并版本身仅供参考，具有法律效力的是《欧盟官方公报》上发布的版本。
+## Extraction design
 
-查询示例：
+| Module | Responsibility |
+| --- | --- |
+| [`celex.py`](./src/celex.py) | Reconstructs cells from PDF border geometry |
+| [`spec.py`](./src/spec.py) | Keeps a separate column mapping for each annex |
+| [`split.py`](./src/split.py) | Splits substances and tiered conditions conservatively |
+| [`build.py`](./src/build.py) | Assembles normalized records and writes SQLite / CSV |
+| [`coverage.py`](./src/coverage.py) | Compares extracted cells against the raw PDF character stream |
 
-```sql
--- 某物质在各附件中的出现
-SELECT annex, ref_no, inci_name, cas FROM substances WHERE cas = '69-72-7';
+No synthetic pairing is introduced when INCI, CAS, and EC columns have different counts. Those source strings are preserved together, `split_ok=0` is set, and the row is routed to review.
 
--- 水杨酸在附件 III 的分档限值
-SELECT tier, product_type, max_conc_value, max_conc_unit
-FROM conditions WHERE annex='III' AND ref_no='98' ORDER BY tier_seq;
-```
+See [schema documentation](./docs/schema.md), [extraction notes](./docs/extraction-notes.md), and [validation details](./docs/validation.md).
 
-## 目录
+## Legal note
 
-```
-src/     celex.py  网格还原（PDF 边框线 → 单元格）
-         split.py  分档切分、物质拆分
-         spec.py   各附件列映射（每附件一套，不共用）
-         build.py  组装并写出 SQLite/CSV
-         coverage.py  字符级自校验
-data/    cosmetics_reg.sqlite  +  每附件 4 个 CSV  +  review_queue.csv
-docs/    schema.md          表结构与字段含义
-         extraction-notes.md 方法、各附件差异、处理过的疑难情况
-         validation.md      校验结果与人工复核清单
-```
+The consolidated text is a reference copy; legally binding acts are published in the Official Journal of the European Union. Extracted regulatory text comes from EUR-Lex and is reused under Decision 2011/833/EU with source attribution. It is not covered by the repository's MIT license.
 
-## 需要人工确认的
-
-`data/review_queue.csv`（64 条）：c/d/e 三列数量对不上、无法安全一一配对的条目。
-这些条目**没有做任何猜测性配对**，三列各自完整保留，等人工判断。
-其余 2 426 条（共 2 490 条）物质记录是干净的一一对应。详见 [docs/validation.md](docs/validation.md)。
-
-## 许可
-
-代码与提取脚本以 MIT 许可发布，见 [LICENSE](LICENSE)。
-
-法规文本本身来自 EUR-Lex，依 Decision 2011/833/EU 可自由复用（需标注来源），
-不在 MIT 覆盖范围内。
+The extraction code is MIT licensed—see [LICENSE](./LICENSE).
