@@ -1,198 +1,1491 @@
 {
-  "_note": "九个基础配方。spec 只给出了每个配方的关键成分；base_ingredients 需要从原始配方表补全。complete=false 的配方 gen_cases.py 会照常生成 case，但在 cases.jsonl 里标 incomplete_formula=true，并在 validate_cases.py 里报出来。",
-  "_assessment_date": "2026-09-05",
-  "_regulation_version": "02009R1223-20260518",
-
-  "F1a": {
-    "complete": false,
-    "product": {
-      "name": "Surfinesse 卸妆油（复配 15%）",
-      "category": "cleansing oil",
-      "rinse_off": true,
-      "base": "oil",
-      "body_parts": ["face"],
-      "claims": ["makeup removal"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Surfinesse Cleanse G", "kind": "blend",
-       "input_pct": 15.0, "composition_disclosed": false,
-       "note": "复配原料，组成未知。F10 的对照组设定是两组分均不受限。"}
-    ],
-    "base_ingredients": []
+ "_note": "由 import_formulas.py 从供应商配方汇总 xlsx 生成，不要手改。改了源表就重跑：python bench/import_formulas.py <xlsx>",
+ "_source_file": "真实化妆品供应商配方汇总_百分数值_含驻留水基配方.xlsx",
+ "_assessment_date": "2026-09-05",
+ "_regulation_version": "02009R1223-20260518",
+ "F1a": {
+  "complete": true,
+  "source": {
+   "sheet": "卸妆油",
+   "url": "https://www.hallstarbeauty.com/webfoo/wp-content/uploads/FN_Surfinesse_Cleanse_G.pdf"
   },
-
-  "F1b": {
-    "complete": false,
-    "product": {
-      "name": "Surfinesse 卸妆油（复配 30%）",
-      "category": "cleansing oil",
-      "rinse_off": true,
-      "base": "oil",
-      "body_parts": ["face"],
-      "claims": ["makeup removal"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Surfinesse Cleanse G", "kind": "blend",
-       "input_pct": 30.0, "composition_disclosed": false}
-    ],
-    "base_ingredients": []
+  "product": {
+   "category": "cleansing oil",
+   "rinse_off": true,
+   "base": "oil",
+   "body_parts": [
+    "face"
+   ],
+   "claims": [
+    "makeup removal"
+   ],
+   "name": "Surfinesse Cleanse G 卸妆油参考配方",
+   "supplier_product_type": "冲洗型卸妆油",
+   "supplier_body_parts": "面部皮肤",
+   "target_population_note": "成人/一般消费者（供应商未限定）"
   },
-
-  "F2": {
-    "complete": false,
-    "product": {
-      "name": "Clear Deodorant Stick Base",
-      "category": "deodorant stick",
-      "rinse_off": false,
-      "base": "anhydrous",
-      "body_parts": ["underarm"],
-      "claims": ["deodorant"]
-    },
-    "key_ingredients": [],
-    "base_ingredients": []
-  },
-
-  "F3a": {
-    "complete": false,
-    "product": {
-      "name": "Sun care oil（不含硅石）",
-      "category": "sun care oil",
-      "rinse_off": false,
-      "base": "anhydrous",
-      "body_parts": ["face", "body"],
-      "claims": ["sun protection"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-       "inci": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-       "trade_name": "Tinosorb S", "function": ["uv filter"],
-       "input_pct": 4.5, "supply_form": {"kind": "neat", "active_pct": 100}},
-      {"name_as_written": "Ethylhexyl Triazone", "inci": "Ethylhexyl Triazone",
-       "trade_name": "Uvinul T 150", "function": ["uv filter"],
-       "input_pct": 4.5, "supply_form": {"kind": "neat", "active_pct": 100}},
-      {"name_as_written": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-       "inci": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-       "trade_name": "Uvinul A Plus", "abbrev": "DHHB",
-       "function": ["uv filter"],
-       "input_pct": 3.0, "supply_form": {"kind": "neat", "active_pct": 100}}
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Polyglyceryl-4 Oleate, Ethyl Olivate",
+    "inci": "Polyglyceryl-4 Oleate, Ethyl Olivate",
+    "function": [
+     "surfactant"
     ],
-    "base_ingredients": []
-  },
-
-  "F3b": {
-    "complete": false,
-    "inherits_key_from": "F3a",
-    "product": {
-      "name": "Sun care oil（含硅石）",
-      "category": "sun care oil",
-      "rinse_off": false,
-      "base": "anhydrous",
-      "body_parts": ["face", "body"],
-      "claims": ["sun protection"]
+    "input_pct": 15.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
     },
-    "key_ingredients": [
-      {"name_as_written": "Silica Dimethyl Silylate",
-       "inci": "Silica Dimethyl Silylate", "trade_name": "AEROSIL R 974",
-       "function": ["viscosity control"],
-       "input_pct": 3.5, "supply_form": {"kind": "neat", "active_pct": 100},
-       "nano_declared": null,
-       "note": "J05 要求此处无纳米形态声明；nano_declared=null 即代表未声明。"}
+    "trade_name": "Surfinesse Cleanse G",
+    "kind": "blend",
+    "known_components": [
+     "Polyglyceryl-4 Oleate",
+     "Ethyl Olivate"
     ],
-    "base_ingredients": []
+    "composition_disclosed": false
+   },
+   {
+    "name_as_written": "Olea Europaea (Olive) Fruit Oil",
+    "inci": "Olea Europaea (Olive) Fruit Oil",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 55.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Caprylic/Capric Triglycerides",
+    "inci": "Caprylic/Capric Triglycerides",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 30.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   }
+  ]
+ },
+ "F1b": {
+  "complete": true,
+  "source": {
+   "sheet": "卸妆油",
+   "url": "https://www.hallstarbeauty.com/webfoo/wp-content/uploads/FN_Surfinesse_Cleanse_G.pdf"
   },
-
-  "F4": {
-    "complete": false,
-    "product": {
-      "name": "Anti-Acne Mild Face Wash",
-      "category": "face wash",
-      "rinse_off": true,
-      "base": "aqueous",
-      "body_parts": ["face"],
-      "claims": ["anti-acne", "mild cleansing"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Salicylic Acid", "inci": "Salicylic Acid",
-       "cas": "69-72-7", "function": ["anti-acne", "keratolytic"],
-       "input_pct": 2.0, "supply_form": {"kind": "neat", "active_pct": 100}},
-      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
-       "cas": "122-99-6", "function": ["preservative"],
-       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100}},
-      {"name_as_written": "BHT", "inci": "BHT", "cas": "128-37-0",
-       "function": ["antioxidant"],
-       "input_pct": 0.01, "supply_form": {"kind": "neat", "active_pct": 100}}
-    ],
-    "base_ingredients": []
+  "product": {
+   "category": "cleansing oil",
+   "rinse_off": true,
+   "base": "oil",
+   "body_parts": [
+    "face"
+   ],
+   "claims": [
+    "makeup removal"
+   ],
+   "name": "Surfinesse Cleanse G 卸妆油参考配方",
+   "supplier_product_type": "冲洗型卸妆油",
+   "supplier_body_parts": "面部皮肤",
+   "target_population_note": "成人/一般消费者（供应商未限定）"
   },
-
-  "F5": {
-    "complete": false,
-    "product": {
-      "name": "Salicylic Scalp Reviving Shampoo",
-      "category": "shampoo",
-      "rinse_off": true,
-      "base": "aqueous",
-      "body_parts": ["scalp", "hair"],
-      "claims": ["scalp care"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Salicylic Acid", "inci": "Salicylic Acid",
-       "cas": "69-72-7", "function": ["scalp conditioning", "keratolytic"],
-       "input_pct": 1.0, "supply_form": {"kind": "neat", "active_pct": 100}},
-      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
-       "cas": "122-99-6", "function": ["preservative"],
-       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100}}
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Polyglyceryl-4 Oleate, Ethyl Olivate",
+    "inci": "Polyglyceryl-4 Oleate, Ethyl Olivate",
+    "function": [
+     "surfactant"
     ],
-    "base_ingredients": []
+    "input_pct": 30.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Surfinesse Cleanse G",
+    "kind": "blend",
+    "known_components": [
+     "Polyglyceryl-4 Oleate",
+     "Ethyl Olivate"
+    ],
+    "composition_disclosed": false
+   },
+   {
+    "name_as_written": "Olea Europaea (Olive) Fruit Oil",
+    "inci": "Olea Europaea (Olive) Fruit Oil",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 45.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Caprylic/Capric Triglycerides",
+    "inci": "Caprylic/Capric Triglycerides",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 24.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   }
+  ]
+ },
+ "F2": {
+  "complete": true,
+  "source": {
+   "sheet": "透明除臭棒",
+   "url": "https://www.hallstarbeauty.com/formula/clear-deodorant-stick-base/"
   },
-
-  "F6": {
-    "complete": false,
-    "product": {
-      "name": "Slow Aging Face & Hand Cream",
-      "category": "face cream",
-      "rinse_off": false,
-      "base": "aqueous",
-      "body_parts": ["face", "hands"],
-      "claims": ["anti-ageing"]
-    },
-    "key_ingredients": [
-      {"name_as_written": "Phenoxyethanol", "inci": "Phenoxyethanol",
-       "cas": "122-99-6", "function": ["preservative"],
-       "input_pct": 0.5, "supply_form": {"kind": "neat", "active_pct": 100},
-       "role": "primary_preservative"},
-      {"name_as_written": "Sensiva SC-50", "kind": "blend",
-       "function": ["preservative booster", "skin conditioning"],
-       "input_pct": 0.5, "composition_disclosed": false,
-       "note": "F09 的对照组设定是两组分均不受限。具体组成待供应商资料确认。"},
-      {"name_as_written": "CI 17200", "colour_index": "17200",
-       "inci": "Acid Red 33", "function": ["colorant"],
-       "input_pct": null,
-       "note": "基础配方未给用量；H01 指定实际浓度 0.0006%。E01-E04 只改写法不改用量。"}
-    ],
-    "base_ingredients": []
+  "product": {
+   "category": "deodorant stick",
+   "rinse_off": false,
+   "base": "anhydrous",
+   "body_parts": [
+    "underarm"
+   ],
+   "claims": [
+    "deodorant"
+   ],
+   "name": "Clear Deodorant Stick Base",
+   "supplier_product_type": "驻留型透明除臭棒",
+   "supplier_body_parts": "腋下皮肤",
+   "target_population_note": "成人/一般消费者（供应商未限定）"
   },
-
-  "F7": {
-    "complete": false,
-    "product": {
-      "name": "Happy Skin",
-      "category": "face cream",
-      "rinse_off": false,
-      "base": "aqueous O/W emulsion",
-      "body_parts": ["face"],
-      "claims": []
-    },
-    "key_ingredients": [
-      {"name_as_written": "EUXYL K 712", "kind": "blend",
-       "function": ["preservative"],
-       "input_pct": 1.0, "composition_disclosed": false,
-       "known_components": ["Sodium Benzoate", "Potassium Sorbate", "Aqua"],
-       "note": "组分身份已知、配比未知——F 组上界推理的核心。F07/F08 才披露配比。"},
-      {"name_as_written": "CI 17200", "colour_index": "17200",
-       "inci": "Acid Red 33", "function": ["colorant"],
-       "input_pct": null}
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Propylene Glycol",
+    "inci": "Propylene Glycol",
+    "function": [
+     "carrier"
     ],
-    "base_ingredients": []
-  }
+    "input_pct": 76.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Water (Aqua), deionized",
+    "inci": "Water (Aqua), deionized",
+    "function": [
+     "carrier"
+    ],
+    "input_pct": 17.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "kind": "blend",
+    "known_components": [
+     "Water (Aqua)",
+     "deionized"
+    ],
+    "composition_disclosed": false
+   },
+   {
+    "name_as_written": "Sodium Stearate",
+    "inci": "Sodium Stearate",
+    "function": [
+     "结构剂"
+    ],
+    "input_pct": 6.3,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Sodium Stearate OP-100 V MB"
+   },
+   {
+    "name_as_written": "Dimethyl Capramide",
+    "inci": "Dimethyl Capramide",
+    "function": [
+     "澄清剂"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Spectrasolv DMDA"
+   }
+  ]
+ },
+ "F3a": {
+  "complete": true,
+  "source": {
+   "sheet": "无水防晒油",
+   "url": "https://products.evonik.com/assets/76/56/TI_1251_essential_ingredients_for_personal_care_formulations_EN_Asset_1427656.pdf"
+  },
+  "product": {
+   "category": "sun care oil",
+   "rinse_off": false,
+   "base": "anhydrous",
+   "body_parts": [
+    "face",
+    "body"
+   ],
+   "claims": [
+    "sun protection"
+   ],
+   "name": "Sun care oil SPF 20–30 测试配方",
+   "supplier_product_type": "驻留型无水防晒油",
+   "supplier_body_parts": "面部及身体暴露皮肤",
+   "target_population_note": "成人/一般消费者（供应商未限定）"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Caprylic/Capric Triglyceride",
+    "inci": "Caprylic/Capric Triglyceride",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Myritol 318"
+   },
+   {
+    "name_as_written": "Dicaprylyl Carbonate",
+    "inci": "Dicaprylyl Carbonate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 21.7,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol CC"
+   },
+   {
+    "name_as_written": "Dipropylheptyl Carbonate",
+    "inci": "Dipropylheptyl Carbonate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.3,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol 4 All"
+   },
+   {
+    "name_as_written": "Coco-Caprylate",
+    "inci": "Coco-Caprylate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol C5"
+   },
+   {
+    "name_as_written": "Dibutyl Adipate",
+    "inci": "Dibutyl Adipate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 20.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol B"
+   },
+   {
+    "name_as_written": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "inci": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 4.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Tinosorb S"
+   },
+   {
+    "name_as_written": "Ethylhexyl Triazone",
+    "inci": "Ethylhexyl Triazone",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 4.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Uvinul T 150"
+   },
+   {
+    "name_as_written": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "inci": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 3.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Uvinul A Plus"
+   },
+   {
+    "name_as_written": "Tocopheryl Acetate",
+    "inci": "Tocopheryl Acetate",
+    "function": [
+     "antioxidant"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Vitamin E Acetate"
+   },
+   {
+    "name_as_written": "Undecane, Tridecane",
+    "inci": "Undecane, Tridecane",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 15.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol Ultimate",
+    "kind": "blend",
+    "known_components": [
+     "Undecane",
+     "Tridecane"
+    ],
+    "composition_disclosed": false
+   }
+  ]
+ },
+ "F3b": {
+  "complete": true,
+  "source": {
+   "sheet": "无水防晒油",
+   "url": "https://products.evonik.com/assets/76/56/TI_1251_essential_ingredients_for_personal_care_formulations_EN_Asset_1427656.pdf"
+  },
+  "product": {
+   "category": "sun care oil",
+   "rinse_off": false,
+   "base": "anhydrous",
+   "body_parts": [
+    "face",
+    "body"
+   ],
+   "claims": [
+    "sun protection"
+   ],
+   "name": "Sun care oil SPF 20–30 测试配方",
+   "supplier_product_type": "驻留型无水防晒油",
+   "supplier_body_parts": "面部及身体暴露皮肤",
+   "target_population_note": "成人/一般消费者（供应商未限定）"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Caprylic/Capric Triglyceride",
+    "inci": "Caprylic/Capric Triglyceride",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Myritol 318"
+   },
+   {
+    "name_as_written": "Dicaprylyl Carbonate",
+    "inci": "Dicaprylyl Carbonate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 18.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol CC"
+   },
+   {
+    "name_as_written": "Dipropylheptyl Carbonate",
+    "inci": "Dipropylheptyl Carbonate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.3,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol 4 All"
+   },
+   {
+    "name_as_written": "Coco-Caprylate",
+    "inci": "Coco-Caprylate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 10.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol C5"
+   },
+   {
+    "name_as_written": "Dibutyl Adipate",
+    "inci": "Dibutyl Adipate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 20.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol B"
+   },
+   {
+    "name_as_written": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "inci": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 4.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Tinosorb S"
+   },
+   {
+    "name_as_written": "Ethylhexyl Triazone",
+    "inci": "Ethylhexyl Triazone",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 4.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Uvinul T 150"
+   },
+   {
+    "name_as_written": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "inci": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "function": [
+     "uv filter"
+    ],
+    "input_pct": 3.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Uvinul A Plus"
+   },
+   {
+    "name_as_written": "Tocopheryl Acetate",
+    "inci": "Tocopheryl Acetate",
+    "function": [
+     "antioxidant"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Vitamin E Acetate"
+   },
+   {
+    "name_as_written": "Undecane, Tridecane",
+    "inci": "Undecane, Tridecane",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 15.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Cetiol Ultimate",
+    "kind": "blend",
+    "known_components": [
+     "Undecane",
+     "Tridecane"
+    ],
+    "composition_disclosed": false
+   },
+   {
+    "name_as_written": "Silica Dimethyl Silylate",
+    "inci": "Silica Dimethyl Silylate",
+    "function": [
+     "流变/成膜助剂"
+    ],
+    "input_pct": 3.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "AEROSIL R 974"
+   }
+  ]
+ },
+ "F4": {
+  "complete": true,
+  "source": {
+   "sheet": "抗痘洁面_III+V",
+   "url": "https://www.lubrizol.com/solutions/products/beauty/formulations/detail-pages/facial-care-formulations/clf0092in-antiacne-mild-face-wash"
+  },
+  "product": {
+   "category": "face wash",
+   "rinse_off": true,
+   "base": "aqueous",
+   "body_parts": [
+    "face"
+   ],
+   "claims": [
+    "anti-acne",
+    "mild cleansing"
+   ],
+   "name": "Anti-Acne Mild Face Wash",
+   "supplier_product_type": "冲洗型水基面部洁面",
+   "supplier_body_parts": "面部皮肤",
+   "target_population_note": "青少年及成人（推定）；不得用于 3 岁以下儿童"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Deionized Water",
+    "inci": "Deionized Water",
+    "function": [
+     "diluent"
+    ],
+    "input_pct": 49.44,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "supplier_note": "明确水相"
+   },
+   {
+    "name_as_written": "Disodium EDTA",
+    "inci": "Disodium EDTA",
+    "function": [
+     "chelating agent"
+    ],
+    "input_pct": 0.05,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "BHT",
+    "inci": "BHT",
+    "function": [
+     "antioxidant"
+    ],
+    "input_pct": 0.01,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "supplier_note": "附件 III 亦有限值",
+    "supplier_annex_hint": "Annex III/325"
+   },
+   {
+    "name_as_written": "Glycerin",
+    "inci": "Glycerin",
+    "function": [
+     "humectant"
+    ],
+    "input_pct": 3.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Acrylates/C10-30 Alkyl Acrylates Crosspolymer",
+    "inci": "Acrylates/C10-30 Alkyl Acrylates Crosspolymer",
+    "function": [
+     "rheology modifier"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Carbopol SC-800 polymer"
+   },
+   {
+    "name_as_written": "Disodium Cocoyl Glutamate",
+    "inci": "Disodium Cocoyl Glutamate",
+    "function": [
+     "surfactant"
+    ],
+    "input_pct": 24.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 25.0,
+     "as_supplied": "25% total solids"
+    },
+    "trade_name": "25% total solids",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Disodium Cocoamphodiacetate",
+    "inci": "Disodium Cocoamphodiacetate",
+    "function": [
+     "surfactant"
+    ],
+    "input_pct": 8.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 50.0,
+     "as_supplied": "Schercoteric C-2 50LT；50% total solids"
+    },
+    "trade_name": "Schercoteric C-2 50LT；50% total solids",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Cocamidopropyl Betaine",
+    "inci": "Cocamidopropyl Betaine",
+    "function": [
+     "surfactant"
+    ],
+    "input_pct": 10.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 30.0,
+     "as_supplied": "30% total solids"
+    },
+    "trade_name": "30% total solids",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Polyquaternium-39",
+    "inci": "Polyquaternium-39",
+    "function": [
+     "调理剂"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Merquat 3330PR polymer"
+   },
+   {
+    "name_as_written": "Phenoxyethanol",
+    "inci": "Phenoxyethanol",
+    "function": [
+     "preservative"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "neat/未注明稀释",
+    "supplier_note": "目标附件 V 物质",
+    "supplier_annex_hint": "Annex V/29"
+   },
+   {
+    "name_as_written": "D&C Orange No. 4",
+    "inci": "D&C Orange No. 4",
+    "function": [
+     "colorant"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "dispersion",
+     "active_pct": 0.1,
+     "as_supplied": "0.1% dispersion"
+    },
+    "trade_name": "0.1% dispersion",
+    "supplied_diluted": true,
+    "supplier_note": "投料量，不是纯色料浓度"
+   },
+   {
+    "name_as_written": "Fragrance",
+    "inci": "Fragrance",
+    "function": [
+     "fragrance"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Smooth Rider",
+    "supplier_note": "复配组成未披露",
+    "supplier_annex_hint": "未完全评估"
+   },
+   {
+    "name_as_written": "Salicylic Acid",
+    "inci": "Salicylic Acid",
+    "function": [
+     "抗痘活性物"
+    ],
+    "input_pct": 2.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "neat/未注明稀释",
+    "supplier_note": "目标附件 III 物质",
+    "supplier_annex_hint": "Annex III/98"
+   }
+  ]
+ },
+ "F5": {
+  "complete": true,
+  "source": {
+   "sheet": "水杨酸洗发_III+V",
+   "url": "https://www.lubrizol.com/solutions/products/beauty/formulations/detail-pages/hair-care-formulations/sh0196eu-salicylic-scalp-reviving-shampoo"
+  },
+  "product": {
+   "category": "shampoo",
+   "rinse_off": true,
+   "base": "aqueous",
+   "body_parts": [
+    "scalp",
+    "hair"
+   ],
+   "claims": [
+    "scalp care"
+   ],
+   "name": "Salicylic Scalp Reviving Shampoo",
+   "supplier_product_type": "冲洗型水基洗发水",
+   "supplier_body_parts": "头皮及头发",
+   "target_population_note": "成人/一般消费者；不得用于 3 岁以下儿童"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "DI Water",
+    "inci": "DI Water",
+    "function": [
+     "diluent"
+    ],
+    "input_pct": 62.7,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "supplier_note": "明确水相"
+   },
+   {
+    "name_as_written": "Glycerin",
+    "inci": "Glycerin",
+    "function": [
+     "humectant"
+    ],
+    "input_pct": 2.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Cocamidopropyl Betaine",
+    "inci": "Cocamidopropyl Betaine",
+    "function": [
+     "surfactant"
+    ],
+    "input_pct": 10.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 40.0,
+     "as_supplied": "40% active"
+    },
+    "trade_name": "40% active",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Salicylic Acid",
+    "inci": "Salicylic Acid",
+    "function": [
+     "活性物"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "neat/未注明稀释",
+    "supplier_note": "目标附件 III 物质",
+    "supplier_annex_hint": "Annex III/98"
+   },
+   {
+    "name_as_written": "Sodium Cocoyl Taurate",
+    "inci": "Sodium Cocoyl Taurate",
+    "function": [
+     "surfactant"
+    ],
+    "input_pct": 15.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 30.0,
+     "as_supplied": "Pureact WSP Conc.；30% active"
+    },
+    "trade_name": "Pureact WSP Conc.；30% active",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "PEG-120 Methyl Glucose Trioleate (and) Propanediol",
+    "inci": "PEG-120 Methyl Glucose Trioleate (and) Propanediol",
+    "function": [
+     "thickener"
+    ],
+    "input_pct": 2.85,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Glucamate VLT thickener",
+    "supplier_note": "复配原料"
+   },
+   {
+    "name_as_written": "Phenoxyethanol",
+    "inci": "Phenoxyethanol",
+    "function": [
+     "preservative"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "neat/未注明稀释",
+    "supplier_note": "目标附件 V 物质",
+    "supplier_annex_hint": "Annex V/29"
+   },
+   {
+    "name_as_written": "Fragrance",
+    "inci": "Fragrance",
+    "function": [
+     "fragrance"
+    ],
+    "input_pct": 0.3,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Smooth Face",
+    "supplier_note": "复配组成未披露",
+    "supplier_annex_hint": "未完全评估"
+   },
+   {
+    "name_as_written": "Sodium Hydroxide",
+    "inci": "Sodium Hydroxide",
+    "function": [
+     "ph adjuster"
+    ],
+    "input_pct": 0.65,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 18.0,
+     "as_supplied": "18% solution"
+    },
+    "trade_name": "18% solution",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Sodium Chloride",
+    "inci": "Sodium Chloride",
+    "function": [
+     "thickener"
+    ],
+    "input_pct": 5.0,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 25.0,
+     "as_supplied": "25% solution"
+    },
+    "trade_name": "25% solution",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   }
+  ]
+ },
+ "F6": {
+  "complete": true,
+  "source": {
+   "sheet": "延缓老化面手霜_驻留",
+   "url": "https://www.lubrizol.com/solutions/products/beauty/formulations/detail-pages/facial-care-formulations/f0174eu-slow-aging-face--hand-cream"
+  },
+  "product": {
+   "category": "face cream",
+   "rinse_off": false,
+   "base": "aqueous",
+   "body_parts": [
+    "face",
+    "hands"
+   ],
+   "claims": [
+    "anti-ageing"
+   ],
+   "name": "Slow Aging Face & Hand Cream",
+   "supplier_product_type": "驻留型水基面部/手部护理霜",
+   "supplier_body_parts": "面部、手部",
+   "target_population_note": "成人；成熟肌肤/关注老化迹象人群"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Water (Aqua)",
+    "inci": "Water (Aqua)",
+    "function": [
+     "diluent"
+    ],
+    "input_pct": 70.44,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "supplier_note": "明确水相"
+   },
+   {
+    "name_as_written": "Propanediol",
+    "inci": "Propanediol",
+    "function": [
+     "humectant"
+    ],
+    "input_pct": 10.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Zemea® Propanediol"
+   },
+   {
+    "name_as_written": "Glycerin",
+    "inci": "Glycerin",
+    "function": [
+     "humectant"
+    ],
+    "input_pct": 5.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Glycerin USP"
+   },
+   {
+    "name_as_written": "Phenoxyethanol",
+    "inci": "Phenoxyethanol",
+    "function": [
+     "preservative"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Phenoxetol™",
+    "supplier_note": "明确单体浓度",
+    "supplier_annex_hint": "Annex V/29"
+   },
+   {
+    "name_as_written": "Ethylhexylglycerin, Tocopherol",
+    "inci": "Ethylhexylglycerin, Tocopherol",
+    "function": [
+     "preservative booster"
+    ],
+    "input_pct": 0.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Sensiva® SC-50",
+    "kind": "blend",
+    "known_components": [
+     "Ethylhexylglycerin",
+     "Tocopherol"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "复配原料；不等于各成分均为 0.50%"
+   },
+   {
+    "name_as_written": "Disodium EDTA",
+    "inci": "Disodium EDTA",
+    "function": [
+     "chelating agent"
+    ],
+    "input_pct": 0.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Dissolvine® Na2 P"
+   },
+   {
+    "name_as_written": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+    "inci": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+    "function": [
+     "rheology modifier"
+    ],
+    "input_pct": 0.3,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Carbopol® Ultrez 20 polymer"
+   },
+   {
+    "name_as_written": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+    "inci": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 4.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Sweet Almond Oil"
+   },
+   {
+    "name_as_written": "Isostearyl Hydroxystearate",
+    "inci": "Isostearyl Hydroxystearate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 1.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Schercemol™ SHS ester"
+   },
+   {
+    "name_as_written": "Cetearyl Alcohol",
+    "inci": "Cetearyl Alcohol",
+    "function": [
+     "乳化/结构剂"
+    ],
+    "input_pct": 1.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Lanette® O OR"
+   },
+   {
+    "name_as_written": "Isopropyl Isostearate",
+    "inci": "Isopropyl Isostearate",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Schercemol™ 318 ester"
+   },
+   {
+    "name_as_written": "Brassica Campestris Seed Oil, Tabebuia Impetiginosa Bark Extract, Polyglyceryl-3 Diisostearate",
+    "inci": "Brassica Campestris Seed Oil, Tabebuia Impetiginosa Bark Extract, Polyglyceryl-3 Diisostearate",
+    "function": [
+     "皮肤调理剂"
+    ],
+    "input_pct": 3.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Lapagyl™ advanced botanical ingredient",
+    "kind": "blend",
+    "known_components": [
+     "Brassica Campestris Seed Oil",
+     "Tabebuia Impetiginosa Bark Extract",
+     "Polyglyceryl-3 Diisostearate"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "复配原料"
+   },
+   {
+    "name_as_written": "Water (Aqua), Sodium Acrylates Copolymer, Hydrogenated Polydecene, Lauryl Glucoside",
+    "inci": "Water (Aqua), Sodium Acrylates Copolymer, Hydrogenated Polydecene, Lauryl Glucoside",
+    "function": [
+     "rheology modifier"
+    ],
+    "input_pct": 1.5,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Novemer™ EC-2 CC polymer",
+    "kind": "blend",
+    "known_components": [
+     "Water (Aqua)",
+     "Sodium Acrylates Copolymer",
+     "Hydrogenated Polydecene",
+     "Lauryl Glucoside"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "复配原料"
+   },
+   {
+    "name_as_written": "Red 33 / CI 17200",
+    "inci": "Red 33 / CI 17200",
+    "function": [
+     "colorant"
+    ],
+    "input_pct": 0.06,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 1.0,
+     "as_supplied": "1% solution"
+    },
+    "trade_name": "1% solution",
+    "supplied_diluted": true,
+    "supplier_note": "投料量，不是纯色料浓度"
+   },
+   {
+    "name_as_written": "Tocopheryl Acetate",
+    "inci": "Tocopheryl Acetate",
+    "function": [
+     "antioxidant"
+    ],
+    "input_pct": 0.1,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Parfum / Fragrance",
+    "inci": "Parfum / Fragrance",
+    "function": [
+     "fragrance"
+    ],
+    "input_pct": 0.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "FRAMBUESA R69763",
+    "supplier_note": "复配组成未披露",
+    "supplier_annex_hint": "未完全评估"
+   },
+   {
+    "name_as_written": "Water (Aqua), Sodium Hydroxide",
+    "inci": "Water (Aqua), Sodium Hydroxide",
+    "function": [
+     "ph adjuster"
+    ],
+    "input_pct": 0.2,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 20.0,
+     "as_supplied": "Sodium Hydroxide 20% w/w"
+    },
+    "trade_name": "Sodium Hydroxide 20% w/w",
+    "supplied_diluted": true,
+    "kind": "blend",
+    "known_components": [
+     "Water (Aqua)",
+     "Sodium Hydroxide"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "按供应形态投料"
+   }
+  ]
+ },
+ "F7": {
+  "complete": true,
+  "source": {
+   "sheet": "HappySkin面霜_驻留",
+   "url": "https://www.seppic.com/product/happy-skin"
+  },
+  "product": {
+   "category": "face cream",
+   "rinse_off": false,
+   "base": "aqueous O/W emulsion",
+   "body_parts": [
+    "face"
+   ],
+   "claims": [],
+   "name": "Happy Skin",
+   "supplier_product_type": "驻留型水基面霜（O/W）",
+   "supplier_body_parts": "面部皮肤",
+   "target_population_note": "成人；关注弹性和老化迹象人群"
+  },
+  "key_ingredients": [],
+  "base_ingredients": [
+   {
+    "name_as_written": "Aqua / Water",
+    "inci": "Aqua / Water",
+    "function": [
+     "diluent"
+    ],
+    "input_pct": 79.92,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "q.s. to 100%",
+    "supplier_note": "按技术资料 q.s. to 100 计算"
+   },
+   {
+    "name_as_written": "Polyacrylate Crosspolymer-6",
+    "inci": "Polyacrylate Crosspolymer-6",
+    "function": [
+     "增稠/稳定剂"
+    ],
+    "input_pct": 0.75,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "SEPIMAX ZEN™"
+   },
+   {
+    "name_as_written": "Caprylyl/Capryl Glucoside",
+    "inci": "Caprylyl/Capryl Glucoside",
+    "function": [
+     "表面活性/起泡剂"
+    ],
+    "input_pct": 0.4,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "ORAMIX™ CG 110"
+   },
+   {
+    "name_as_written": "Glycerin",
+    "inci": "Glycerin",
+    "function": [
+     "humectant"
+    ],
+    "input_pct": 2.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Sodium Hydroxide",
+    "inci": "Sodium Hydroxide",
+    "function": [
+     "ph adjuster"
+    ],
+    "input_pct": 0.03,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 6.0,
+     "as_supplied": "6% solution"
+    },
+    "trade_name": "6% solution",
+    "supplied_diluted": true,
+    "supplier_note": "按供应形态投料"
+   },
+   {
+    "name_as_written": "Arachidyl Alcohol, Behenyl Alcohol, Arachidyl Glucoside",
+    "inci": "Arachidyl Alcohol, Behenyl Alcohol, Arachidyl Glucoside",
+    "function": [
+     "emulsifier"
+    ],
+    "input_pct": 3.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "MONTANOV™ 202",
+    "kind": "blend",
+    "known_components": [
+     "Arachidyl Alcohol",
+     "Behenyl Alcohol",
+     "Arachidyl Glucoside"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "复配原料"
+   },
+   {
+    "name_as_written": "C15-19 Alkanes",
+    "inci": "C15-19 Alkanes",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 8.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "EMOGREEN™ L19"
+   },
+   {
+    "name_as_written": "Glycol Palmitate",
+    "inci": "Glycol Palmitate",
+    "function": [
+     "乳化稳定剂"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "LANOL P"
+   },
+   {
+    "name_as_written": "Palmitoyl Glycine",
+    "inci": "Palmitoyl Glycine",
+    "function": [
+     "皮肤调理活性物"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "TIMECODE™"
+   },
+   {
+    "name_as_written": "Butyrospermum Parkii Butter",
+    "inci": "Butyrospermum Parkii Butter",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Prunus Amygdalus Dulcis Oil",
+    "inci": "Prunus Amygdalus Dulcis Oil",
+    "function": [
+     "emollient"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Glycosphingolipids, Glycolipids",
+    "inci": "Glycosphingolipids, Glycolipids",
+    "function": [
+     "皮肤调理活性物"
+    ],
+    "input_pct": 0.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "CERAMOSIDES™ HP",
+    "kind": "blend",
+    "known_components": [
+     "Glycosphingolipids",
+     "Glycolipids"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "复配原料"
+   },
+   {
+    "name_as_written": "Tocopherol",
+    "inci": "Tocopherol",
+    "function": [
+     "antioxidant"
+    ],
+    "input_pct": 0.2,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    }
+   },
+   {
+    "name_as_written": "Sodium Benzoate, Potassium Sorbate",
+    "inci": "Sodium Benzoate, Potassium Sorbate",
+    "function": [
+     "preservative"
+    ],
+    "input_pct": 1.0,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "EUXYL® K 712；复配防腐原料",
+    "kind": "blend",
+    "known_components": [
+     "Sodium Benzoate",
+     "Potassium Sorbate"
+    ],
+    "composition_disclosed": false,
+    "supplier_note": "单体比例未披露",
+    "supplier_annex_hint": "Annex V/1 + V/4"
+   },
+   {
+    "name_as_written": "Parfum / Fragrance",
+    "inci": "Parfum / Fragrance",
+    "function": [
+     "fragrance"
+    ],
+    "input_pct": 0.15,
+    "supply_form": {
+     "kind": "neat",
+     "active_pct": 100
+    },
+    "trade_name": "Délice de Figue",
+    "supplier_note": "复配组成未披露",
+    "supplier_annex_hint": "未完全评估"
+   },
+   {
+    "name_as_written": "CI 17200",
+    "inci": "CI 17200",
+    "function": [
+     "colorant"
+    ],
+    "input_pct": 0.35,
+    "supply_form": {
+     "kind": "solution",
+     "active_pct": 1.0,
+     "as_supplied": "1% solution"
+    },
+    "trade_name": "1% solution",
+    "supplied_diluted": true,
+    "supplier_note": "投料量，不是纯色料浓度"
+   }
+  ]
+ }
 }

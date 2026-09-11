@@ -22,7 +22,7 @@ CASES_FILE = os.path.join(HERE, 'cases.jsonl')
 KNOWN_OPS = {
     'none', 'add', 'set_pct', 'replace_preservative', 'set_supply_form',
     'rename', 'disclose_composition', 'set_function', 'set_product',
-    'supplier_declaration', 'supplier_spec',
+    'supplier_declaration', 'supplier_spec', 'assert_actual_pct',
 }
 # note 里出现但不属于扰动数值的数字（条目号、年龄、附件号等）
 NOTE_NUMBER_EXEMPT = {'3', '12', '712', '150', '974', '17200', '33', '4', '50', '5'}
@@ -46,7 +46,8 @@ def numbers_in_ops(ops):
         if isinstance(o, dict):
             for k, v in o.items():
                 if k in ('input_pct', 'active_pct', 'pct_of_blend',
-                         'pct_of_product', 'pct_of_ingredient', 'value'):
+                         'pct_of_product', 'pct_of_ingredient', 'value',
+                         'actual_pct'):
                     if isinstance(v, (int, float)):
                         found.append(v)
                 else:

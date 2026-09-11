@@ -10,6 +10,7 @@
 import argparse
 import copy
 import json
+import re
 import os
 import sys
 
@@ -26,20 +27,28 @@ OUT = os.path.join(HERE, 'cases.jsonl')
 PRESERVATIVE_WORDS = ('preservative',)
 
 
+def _norm(s):
+    """供应商写法里有 ®/™ 和中文后缀，匹配前先抹平。"""
+    s = str(s).lower()
+    s = re.sub(r'[®™©]', '', s)
+    s = re.split(r'[；;]', s)[0]
+    return re.sub(r'\s+', ' ', s).strip()
+
+
 def _names(ing):
     """一个成分所有可用于匹配的写法。"""
     out = []
     for k in ('name_as_written', 'inci', 'trade_name', 'abbrev', 'colour_index'):
         v = ing.get(k)
         if v:
-            out.append(str(v).lower())
+            out.append(_norm(v))
     if ing.get('colour_index'):
-        out.append(('ci ' + str(ing['colour_index'])).lower())
+        out.append(_norm('ci ' + str(ing['colour_index'])))
     return out
 
 
 def _find(ings, target):
-    t = str(target).lower()
+    t = _norm(target)
     for i, ing in enumerate(ings):
         if t in _names(ing):
             return i
@@ -90,6 +99,19 @@ def apply_ops(product, ings, ops, warnings):
     for op in ops:
         kind = op['op']
         if kind == 'none':
+            continue
+
+        if kind == 'assert_actual_pct':
+            # 断言而非赋值：基础配方本身就该给出这个浓度，对不上说明导入有问题
+            k = _find(ings, op['target'])
+            if k is None:
+                warnings.append("assert_actual_pct: 配方里找不到 %r" % op['target'])
+                continue
+            got = _actual_pct(ings[k])
+            if got is None or abs(got - op['actual_pct']) > 1e-9:
+                warnings.append(
+                    "assert_actual_pct: %s 的实际浓度是 %r，spec 说应为 %r"
+                    % (op['target'], got, op['actual_pct']))
             continue
 
         if kind == 'add':

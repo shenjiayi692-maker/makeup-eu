@@ -45,9 +45,12 @@
 `bench/` 下三件：`gen_cases.py`(80 个 case 输入，gold 留空)、`validate_cases.py`(结构校验)、
 `lookup.py`(按名称/CAS/CI 号取回全部附件条目，输出自带 `V/1#3` 引用格式与脚注解析)。
 - 已完成：80 条 case 结构齐全，分组与 holdout 对上 spec(80/30)，校验通过。
-- 卡住的：九个基础配方只有关键成分，`formulas.json` 的 `base_ingredients` 待补——
-  A 组考假阳性率，缺常规成分这组没意义(A03 甚至零成分)。另有 I04/I05 尼泊金酯种类、
-  H02 浓度、E05 着色剂归属待定，见 bench/README.md「现在拦着标注的事」。
+- 配方已补全(2026-09-11)：`import_formulas.py` 从用户提供的供应商配方汇总 xlsx
+  导入九份真实配方，九份投料合计均为 100%。成分数中位数从 3 升到 16，A 组可用了。
+  真实配方顺带解决了两个待定项：F4 本就含 D&C Orange No. 4(E05)、
+  F6 的着色剂 0.06% 投料 x 1% 溶液 = 0.0006% 实际浓度，正是 spec 给 H01 的数字
+  (已改成 assert_actual_pct 断言，不是赋值)。
+- 仍待定：I04/I05 尼泊金酯种类、D04 与 G03 两个设计问题、verdict 七类枚举。
 - `verdict` 的七类枚举 spec 里只出现四个，补齐后可加进校验。
 - 顺带修的两个数据 bug：`entries.entry_seq` 声明成 TEXT 导致 `ORDER BY` 按字符串排
   (1,10,11,...,2)；III/98 的 `(a) (b) (c) 空格分隔标签`只挂到了 (a) 档，现已挂全三档。

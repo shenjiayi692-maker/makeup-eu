@@ -4,15 +4,24 @@
 
 | 文件 | 作用 |
 |---|---|
+| `import_formulas.py` → `formulas.json` | 从供应商配方汇总 xlsx 导入九份基础配方 |
 | `case_table.py` + `formulas.json` → `gen_cases.py` → `cases.jsonl` | 80 个 case 的**输入**，gold 留空 |
 | `validate_cases.py` | 结构校验 |
 | `lookup.py` | 按名称/CAS/CI 号取回该物质在**所有**附件下的全部条目 |
 
 ```bash
+pip install openpyxl
+python bench/import_formulas.py ~/Downloads/真实化妆品供应商配方汇总_百分数值_含驻留水基配方.xlsx
 python bench/gen_cases.py          # 生成 cases.jsonl
 python bench/validate_cases.py     # 校验，ERROR 会让退出码非零
 python bench/lookup.py "salicylic acid"
 ```
+
+九份配方来自 Hallstar / BASF+Evonik / Lubrizol / Seppic 的公开参考配方，
+源表每份都带 URL 和版本日期。导入后九份的投料合计都正好 100%，
+可以当作导入没出错的一个旁证。
+
+**不要手改 `formulas.json`**，它是生成物；改源表重跑导入。
 
 ## lookup
 
@@ -57,6 +66,11 @@ gold                null —— 本阶段不产出任何答案
 `actual_pct = input_pct × active_pct / 100`。供应形态未注明时（D04）为 `null`，
 不做假定——这正是 D04 要测的。
 
+真实配方里本来就有大量稀释供应的原料（80 条 case 合计 182 个），
+所以 D 组考的不是人造情形：A06 里 `Disodium Cocoyl Glutamate` 投料 24% 但是
+25% 活性溶液，实际只有 6%；`D&C Orange No. 4` 投料 0.5% 是 0.1% 分散体，
+实际 0.0005%。
+
 改扰动请改 `case_table.py` 再重新生成，不要直接编辑 `cases.jsonl`。
 
 ## 校验都查什么
@@ -94,31 +108,26 @@ spec 的「每条 case 的标注步骤」对应的字段：
 标注纪律（照抄 spec）：**不要用模型生成任何一条标准答案。** 模型可以查数据库、
 做算术、格式化 JSON，判定必须来自你对照条目原文的判断。
 
-## 现在拦着标注的事
+## 还没定的四件事
 
-跑 `validate_cases.py` 会把这些列出来。按影响排序：
+跑 `validate_cases.py` 会列出来。都不阻塞生成，但会影响标注结果。
 
-1. **九个基础配方只有关键成分，`base_ingredients` 是空的。**
-   spec 的配方表只给了「关键成分」，没给完整成分表。A 组考的是干净配方上的
-   假阳性率，缺了那十几个常规成分这一组就没意义。A03（除臭剂棒基质）更是
-   一个成分都没有。补进 `formulas.json` 各配方的 `base_ingredients` 即可，
-   格式照着 `key_ingredients` 写。
+1. **I04 / I05 没指定是哪种尼泊金酯。** spec 只写「单一尼泊金酯」「两种尼泊金酯」。
+   我暂取 Methylparaben 和 Methyl+Ethyl，理由在 `needs_decision` 里——
+   选丁基/丙基会落进 V/12a，和 I06/I07 重复。
+2. **D04**：供应形态未注明时假定 neat 还是判 `insufficient_data`。spec 明确留给你定。
+3. **G03**：eye cream 不在 III/98 (c) 的列举清单里，该怎么归。
+4. **`verdict` 的七类没有定义。** spec 里只出现了四个：`compliant_by_bound`、
+   `insufficient_data`、`requires_supplier_documentation`、`labelling_required`。
+   补齐后我可以把枚举加进校验，标注时写错会被当场拦下。
 
-2. **I04 / I05 没指定是哪种尼泊金酯。** spec 只写「单一尼泊金酯」「两种尼泊金酯」。
-   我暂取 Methylparaben 和 Methyl+Ethyl，理由写在 `needs_decision` 里——
-   选不同的酯会落进 V/12 还是 V/12a，直接改变这两条要考的东西。
+## 源表里还有一份供应商自己的初步核对
 
-3. **H02 没给浓度。** spec 只写了功能声明的改动。若沿用 H01 的 0.0006%，
-   H01/H02 就成了只差功能声明的干净对照；目前该成分用量为空。
+四张水基配方表（抗痘洁面、水杨酸洗发、面手霜、HappySkin）在成分表下面
+还跟着供应商列的「物质 / 附件条目 / 适用上限 / 初步比较」。导入脚本**故意跳过**了
+这部分——它是别人的判断，不是你的标准答案，混进 `gold` 会污染 benchmark。
 
-4. **E05 的着色剂**是否本来就在 F4 配方里，需要确认。我按「本就存在、仅以美标名
-   书写」处理了。
-
-5. **J01–J03 的香精**不在配方里（因为配方没补全），暂时按待定成分挂上了。
-   补完 F6/F4 的成分表后会自动落到正确的 Parfum 上。
-
-另有两个 spec 明确留给你的设计问题，标注前要定：D04（供应形态未注明时的默认假定）
-和 G03（eye cream 不在 III/98 (c) 的列举清单里该怎么归）。
+需要的话可以单独抽出来做交叉参考，但建议标完一条之后再看，别在标注前看。
 
 ## 数据来源
 
