@@ -2,6 +2,8 @@
   <img src="./assets/readme/hero.svg" width="100%" alt="EU Cosmetics Annexes II to VI extracted from the consolidated regulation into SQLite and CSV">
 </p>
 
+<p align="center"><strong>English</strong> · <a href="./README.zh-CN.md">中文</a></p>
+
 A reproducible extraction pipeline for Annexes II–VI of the consolidated English version of EU Cosmetics Regulation (EC) No 1223/2009 dated 18 May 2026. It reconstructs bordered PDF tables into queryable SQLite and CSV while preserving uncertain column pairings for human review instead of guessing.
 
 ## Dataset at a glance
