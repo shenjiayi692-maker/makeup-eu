@@ -4,7 +4,15 @@
 
 <p align="center"><a href="./README.md">English</a> · <strong>中文</strong></p>
 
-一条可复现的抽取流水线，处理欧盟化妆品法规 (EC) No 1223/2009 合并版英文本（2026 年 5 月 18 日版）的附件 II–VI。它把带边框的 PDF 表格还原成可查询的 SQLite 和 CSV，遇到无法安全配对的列不猜，而是保留原样交人工复核。
+查一个化妆品成分在欧盟是否合法，要在一份 449 页的 PDF 里翻。这个仓库把附件 II–VI 变成一行就能查的数据库。
+
+```bash
+git clone https://github.com/shenjiayi692-maker/makeup-eu && sqlite3 makeup-eu/data/cosmetics_reg.sqlite "SELECT annex, ref_no, inci_name FROM substances WHERE cas='69-72-7'"
+```
+
+数据库已提交在仓库里，所以这条命令不需要构建、不需要联网、也不需要 Python。
+
+这是一条可复现的抽取流水线，处理欧盟化妆品法规 (EC) No 1223/2009 合并版英文本（2026 年 5 月 18 日版）的附件 II–VI。它把带边框的 PDF 表格还原成可查询的 SQLite 和 CSV，遇到无法安全配对的列不猜，而是保留原样交人工复核。
 
 ## 数据集概览
 

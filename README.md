@@ -4,6 +4,14 @@
 
 <p align="center"><strong>English</strong> · <a href="./README.zh-CN.md">中文</a></p>
 
+Checking whether a cosmetic ingredient is legal in the EU means scrolling a 449-page PDF. This turns Annexes II–VI into a database you can query in one line.
+
+```bash
+git clone https://github.com/shenjiayi692-maker/makeup-eu && sqlite3 makeup-eu/data/cosmetics_reg.sqlite "SELECT annex, ref_no, inci_name FROM substances WHERE cas='69-72-7'"
+```
+
+The database is committed, so that command needs no build step, no network, and no Python.
+
 A reproducible extraction pipeline for Annexes II–VI of the consolidated English version of EU Cosmetics Regulation (EC) No 1223/2009 dated 18 May 2026. It reconstructs bordered PDF tables into queryable SQLite and CSV while preserving uncertain column pairings for human review instead of guessing.
 
 ## Dataset at a glance
