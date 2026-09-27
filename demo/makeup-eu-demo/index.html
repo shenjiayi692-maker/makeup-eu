@@ -1,0 +1,308 @@
+<title>EU Cosmetics Regulation Q&amp;A</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#E9EDF1; --card:#FFFFFF; --sunk:#F3F5F8; --ink:#1B2433; --muted:#5E6B7D; --line:#C3CBD5; --line-soft:#DDE3EA;
+  --blue:#1E5BD8; --blue-bg:#E3ECFD; --yel:#C99A12; --yel-edge:#F7C948; --yel-bg:#FDF3CF;
+  --user:#1B2433; --user-ink:#FFFFFF; --focus:#1E5BD8;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#12171F; --card:#1A212C; --sunk:#222A36; --ink:#E6EBF1; --muted:#9AA7B8; --line:#344052; --line-soft:#283241;
+  --blue:#8EB2FF; --blue-bg:#1F2D4A; --yel:#F1CB63; --yel-edge:#B8912A; --yel-bg:#2E2714;
+  --user:#E6EBF1; --user-ink:#12171F; --focus:#8EB2FF;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#12171F; --card:#1A212C; --sunk:#222A36; --ink:#E6EBF1; --muted:#9AA7B8; --line:#344052; --line-soft:#283241;
+  --blue:#8EB2FF; --blue-bg:#1F2D4A; --yel:#F1CB63; --yel-edge:#B8912A; --yel-bg:#2E2714;
+  --user:#E6EBF1; --user-ink:#12171F; --focus:#8EB2FF;
+}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;padding-inline:16px}
+.wrap{max-width:760px;margin:0 auto;padding-block:36px 190px;display:flex;flex-direction:column;gap:28px}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.12;font-weight:700;letter-spacing:-.01em;text-wrap:balance;margin:6px 0 10px}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-family:var(--mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.facts b{color:var(--ink);font-weight:600}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-soft);border:1px solid var(--line-soft);border-radius:10px;overflow:hidden}
+.how div{background:var(--card);padding:14px 16px;font-size:14px;color:var(--muted)}
+.how b{display:block;color:var(--ink);font-weight:600;margin-bottom:2px;font-size:14.5px}
+@media (max-width:620px){.how{grid-template-columns:1fr}}
+.examples{display:flex;flex-wrap:wrap;gap:8px}
+.examples span{width:100%;font-size:13px;color:var(--muted)}
+.chip{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 13px;cursor:pointer;text-align:left}
+.chip:hover{border-color:var(--blue);color:var(--blue)}
+button:focus-visible,textarea:focus-visible,.tag:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.thread{display:flex;flex-direction:column;gap:18px}
+.q{scroll-margin-top:16px;align-self:flex-end;max-width:85%;background:var(--user);color:var(--user-ink);padding:10px 15px;border-radius:14px 14px 4px 14px;font-weight:500}
+.a{background:var(--card);border:1px solid var(--line-soft);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.a .label{font-family:var(--mono);font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.a p{margin:0;max-width:65ch;white-space:pre-wrap}
+.a.thinking p{color:var(--muted)}
+.a.refusal{background:var(--sunk);border-style:dashed;border-color:var(--line)}
+.a.refusal .label{color:var(--ink)}
+.cites{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-family:var(--mono);font-size:13px;font-weight:500;background:var(--blue-bg);color:var(--blue);border:1px solid transparent;border-radius:6px;padding:3px 9px;cursor:pointer}
+.tag[aria-expanded="true"]{border-color:var(--blue)}
+.review{background:var(--yel-bg);border-left:4px solid var(--yel-edge);border-radius:6px;padding:10px 12px;font-size:14.5px}
+.review b{color:var(--ink)}
+.row{border:1px solid var(--line-soft);border-radius:8px;overflow:hidden}
+.row h3{margin:0;padding:9px 12px;font-family:var(--mono);font-size:13px;font-weight:600;background:var(--sunk);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.row h3 span{color:var(--muted);font-weight:400}
+.row dl{margin:0;display:grid;grid-template-columns:minmax(120px,190px) 1fr}
+.row dt,.row dd{margin:0;padding:7px 12px;border-top:1px solid var(--line-soft);font-size:13.5px}
+.row dt{color:var(--muted)}
+.row dd{white-space:pre-wrap;font-family:var(--mono);font-size:12.5px;overflow-wrap:anywhere}
+@media (max-width:520px){.row dl{grid-template-columns:1fr}.row dd{border-top:0;padding-top:0}}
+.note{font-size:13px;color:var(--muted)}
+.dock{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(to top,var(--bg) 78%,transparent);padding:18px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.dock form{max-width:760px;margin:0 auto;display:flex;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px}
+.dock textarea{flex:1;border:0;background:transparent;color:var(--ink);font:inherit;resize:none;padding:6px 8px;min-height:24px;max-height:120px}
+.dock textarea:focus{outline:none}
+.dock form:focus-within{border-color:var(--focus)}
+.send{font:inherit;font-weight:600;border:0;border-radius:8px;background:var(--ink);color:var(--bg);padding:8px 16px;cursor:pointer}
+.send:disabled{opacity:.45;cursor:default}
+.legal{max-width:760px;margin:8px auto 0;text-align:center;font-size:12.5px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.a,.q{animation:in .18s ease-out}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Regulation (EC) No 1223/2009 · Annexes II–VI</div>
+    <h1>Ask the EU Cosmetics Regulation</h1>
+    <p class="lede">Ask about an ingredient's limits or conditions in English, French or Chinese. Answers come only from the regulation's annex tables and cite the annex, entry and PDF page. If the tables don't cover a question, you'll be told so.</p>
+    <div class="facts" id="facts"><span>Consolidated text of <b>18 May 2026</b></span><span><b>449</b> pages</span><span id="nEntries"></span></div>
+  </header>
+
+  <section class="how" aria-label="How answers are produced">
+    <div><b>1 · Look up first</b>The page searches the annex tables by substance name, INCI name, CAS or EC number.</div>
+    <div><b>2 · Answer from the rows found</b>Claude only sees the matching rows and must cite them.</div>
+    <div><b>3 · Say when it's not there</b>No match, another country's rules, or advice questions get a clear "not covered".</div>
+  </section>
+
+  <div class="examples" id="examples"><span>Try one:</span></div>
+
+  <section class="thread" id="thread" aria-live="polite"></section>
+</div>
+
+<div class="dock">
+  <form id="ask">
+    <label for="qbox" hidden>Your question</label>
+    <textarea id="qbox" rows="1" placeholder="e.g. Max concentration of thioglycolic acid in depilatories?"></textarea>
+    <button class="send" id="send" type="submit">Ask</button>
+  </form>
+  <div class="legal">Demo on public EU regulation data. Not legal advice.</div>
+</div>
+
+<script src="engine.js"></script>
+<script src="data.js"></script>
+<script>
+(function(){
+  const E = window.RegEngine;
+  const idx = E.build(window.REG_DATA);
+  const active = idx.entries.filter(e => e.st === 'active').length;
+  document.getElementById('nEntries').innerHTML = '<b>' + active.toLocaleString('en') + '</b> active entries';
+
+  const EXAMPLES = [
+    'Max concentration of thioglycolic acid in depilatories?',
+    'Is p-Phenylenediamine restricted?',
+    'Quelle est la concentration maximale de phénoxyéthanol ?',
+    '水杨酸在淋洗类发用产品中的最高浓度是多少？',
+    'Is this ingredient allowed in Canada?',
+  ];
+  const ex = document.getElementById('examples');
+  for (const q of EXAMPLES) {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = q;
+    b.onclick = () => ask(q); ex.append(b);
+  }
+
+  const T = {
+    en: { answer:'Answer', notCovered:'Not covered', thinking:'Looking this up…', writing:'Writing the answer from the matching rows…',
+      jurisdiction:'This demo only covers the EU Cosmetics Regulation (EC) No 1223/2009. It has no information on other countries\' rules.',
+      advice:'This demo only reports what the regulation\'s annex tables say. It can\'t give safety, formulation or personal advice.',
+      notFound:'I couldn\'t find this substance in Annexes II–VI of the regulation. Not being listed does not mean it is allowed or banned; check the full regulation or ask a regulatory specialist.',
+      noAnswer:'The matching entries don\'t answer this question.',
+      review:'<b>Flagged for review.</b> During extraction, this entry\'s names and CAS/EC numbers could not be paired one-to-one. Check the source page before relying on it.',
+      fallback:'Claude isn\'t available in this view, so here are the matching entries as they appear in the regulation.',
+      error:'The answer could not be generated. Try again in a moment.', sources:'Sources — tap to see the row' },
+    fr: { answer:'Réponse', notCovered:'Non couvert', thinking:'Recherche en cours…', writing:'Rédaction de la réponse à partir des lignes trouvées…',
+      jurisdiction:'Cette démo couvre uniquement le règlement cosmétique de l\'UE (CE) n° 1223/2009, pas les règles d\'autres pays.',
+      advice:'Cette démo indique seulement ce que disent les annexes du règlement. Elle ne donne pas de conseil de sécurité, de formulation ou personnel.',
+      notFound:'Je n\'ai pas trouvé cette substance dans les annexes II à VI du règlement. Ne pas y figurer ne veut pas dire qu\'elle est autorisée ou interdite.',
+      noAnswer:'Les entrées trouvées ne répondent pas à cette question.',
+      review:'<b>À vérifier.</b> Lors de l\'extraction, les noms et numéros CAS/CE de cette entrée n\'ont pas pu être appariés un à un. Vérifiez la page source.',
+      fallback:'Claude n\'est pas disponible ici ; voici les entrées correspondantes telles qu\'elles figurent dans le règlement.',
+      error:'La réponse n\'a pas pu être générée. Réessayez dans un instant.', sources:'Sources — touchez pour voir la ligne' },
+    zh: { answer:'回答', notCovered:'不在覆盖范围内', thinking:'正在查找…', writing:'正在根据找到的条目生成回答…',
+      jurisdiction:'这个演示只覆盖欧盟化妆品法规（EC）No 1223/2009，没有其他国家或地区法规的信息。',
+      advice:'这个演示只报告法规附录表格里的内容，不提供安全性、配方或个人建议。',
+      notFound:'在这部法规的附录 II–VI 里没有找到这个物质。没有列出并不代表允许或禁止，请查阅完整法规或咨询法规专业人士。',
+      noAnswer:'找到的条目不能回答这个问题。',
+      review:'<b>待复核。</b>提取时，这一条的名称和 CAS/EC 编号无法一一对应，引用前请核对原文页码。',
+      fallback:'当前视图无法调用 Claude，下面列出法规中匹配的原始条目。',
+      error:'回答生成失败，请稍后再试。', sources:'出处，点开查看原始行' },
+  };
+  function lang(q){ if (/[㐀-鿿]/.test(q)) return 'zh'; if (/[àâçéèêëîïôûùüÿœ]|\b(quelle?s?|est|dans|les|des|pour|une?|peut|autoris)\b/i.test(q)) return 'fr'; return 'en'; }
+  const LANG_NAME = { en:'English', fr:'French', zh:'Chinese (Simplified)' };
+
+  const thread = document.getElementById('thread');
+  const box = document.getElementById('qbox'), send = document.getElementById('send');
+  let samplePromise = window.claude && window.claude.use ? window.claude.use('sample').catch(() => null) : Promise.resolve(null);
+  let sampleBlocked = false;
+
+  function el(tag, cls, html){ const n = document.createElement(tag); if (cls) n.className = cls; if (html != null) n.innerHTML = html; return n; }
+  function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+  const FIELDS = [['chem','Chemical name'],['inci','INCI / name'],['cas','CAS'],['ec','EC'],['ci','Colour index'],['col','Colour'],
+    ['pt','Product type, body parts'],['mc','Max. concentration'],['oth','Other conditions'],['wd','Conditions of use and warnings']];
+  // Join the PDF's narrow column wraps; keep breaks before list markers and after sentences.
+  function unwrap(s){
+    const lines = String(s).split('\n'); let out = '';
+    for (let i = 0; i < lines.length; i++) {
+      const cur = lines[i].trim(); if (!out) { out = cur; continue; }
+      const prev = out.slice(-1);
+      const newItem = /^(\([a-z0-9ivx]+\)|[a-z]\)|[–—-]\s|►|◄|▼|\d+\.\s)/i.test(cur) || /[.:;’']$/.test(out);
+      out += newItem ? '\n' + cur : (prev === '-' ? '' : ' ') + cur;
+    }
+    return out;
+  }
+  function rowCard(e){
+    const r = el('div','row');
+    r.append(el('h3', null, esc(E.citeLabel(e)) + ' <span>' + esc(E.ANNEX[e.a].split('— ')[1]) + (e.st !== 'active' ? ' · ' + esc(e.st.replace(/_/g,' ')) : '') + '</span>'));
+    const dl = el('dl');
+    for (const [k, label] of FIELDS) if (e[k]) { dl.append(el('dt', null, esc(label))); const dd = el('dd'); dd.textContent = unwrap(e[k]); dl.append(dd); }
+    r.append(dl); return r;
+  }
+  function citations(card, entries, L){
+    if (!entries.length) return;
+    card.append(el('div','label', esc(T[L].sources)));
+    const wrap = el('div','cites'), rows = el('div'); rows.style.cssText = 'display:flex;flex-direction:column;gap:10px';
+    for (const e of entries) {
+      const t = el('button','tag'); t.type = 'button'; t.textContent = E.citeLabel(e); t.setAttribute('aria-expanded','false');
+      let shown = null;
+      t.onclick = () => { if (shown) { shown.remove(); shown = null; t.setAttribute('aria-expanded','false'); } else { shown = rowCard(e); rows.append(shown); t.setAttribute('aria-expanded','true'); } };
+      wrap.append(t);
+    }
+    card.append(wrap, rows);
+    if (entries.some(e => e.rv)) card.append(el('div','review', T[L].review));
+  }
+  function refusal(card, L, text){
+    card.className = 'a refusal'; card.innerHTML = '';
+    card.append(el('div','label', esc(T[L].notCovered)));
+    const p = el('p'); p.textContent = text; card.append(p);
+  }
+
+  async function parseQuestion(sample, q){
+    // Only used when the question itself names nothing we can find (other languages, trade or common names).
+    const prompt = 'You map a cosmetics question to search terms for the EU Cosmetics Regulation annex tables.\n' +
+      'Question: """' + q + '"""\n\n' +
+      'Reply with only JSON: {"terms": [..], "scope": "eu" | "other_jurisdiction" | "advice"}\n' +
+      '- terms: up to 5 English names for the substance(s) the question is about. For a trade or common name, include its INCI name AND its systematic chemical name (e.g. "Oxybenzone" -> "Benzophenone-3", "2-Hydroxy-4-methoxybenzophenone"). Add a CAS number only if you are certain of it. Empty list if no specific substance is named.\n' +
+      '- scope: "other_jurisdiction" if it asks about rules of a country or region other than the EU; "advice" if it asks for safety, health, formulation or personal advice; otherwise "eu".\n' +
+      'Example: {"terms": ["Salicylic acid"], "scope": "eu"}';
+    const r = await sample.json(prompt, { modelTier:'quick' });
+    return { terms: Array.isArray(r && r.terms) ? r.terms.map(String).slice(0,5) : [], scope: (r && r.scope) || 'eu' };
+  }
+
+  async function ask(q){
+    q = (q || '').trim(); if (!q || send.disabled) return;
+    box.value = ''; send.disabled = true;
+    const L = lang(q);
+    const qn = el('div','q'); qn.textContent = q; thread.append(qn);
+    const card = el('div','a thinking'); card.append(el('div','label', esc(T[L].answer)));
+    const p = el('p'); p.textContent = T[L].thinking; card.append(p); thread.append(card);
+    card.scrollIntoView({ block:'nearest', behavior:'smooth' });
+    try {
+      const scope = E.scopeCheck(q);
+      if (scope) return refusal(card, L, T[L][scope]);
+      let hits = E.retrieve(idx, q);
+      const sample = sampleBlocked ? null : await samplePromise;
+      if (!hits.length && sample) {
+        try {
+          const parsed = await parseQuestion(sample, q);
+          if (parsed.scope === 'other_jurisdiction') return refusal(card, L, T[L].jurisdiction);
+          if (parsed.scope === 'advice') return refusal(card, L, T[L].advice);
+          hits = E.retrieve(idx, q, parsed.terms);
+        } catch (e) { if (e && e.code === 'not_granted') sampleBlocked = true; }
+      }
+      if (!hits.length) return refusal(card, L, T[L].notFound);
+
+      const keyed = hits.map((h, i) => ({ key: 'S' + (i + 1), entry: h.entry }));
+      if (!sample || sampleBlocked) {
+        p.textContent = T[L].fallback; card.classList.remove('thinking');
+        return citations(card, keyed.map(k => k.entry), L);
+      }
+      p.textContent = T[L].writing;
+      const prompt =
+        'You answer questions about the EU Cosmetics Regulation (EC) No 1223/2009, Annexes II-VI, using ONLY the SOURCES below. ' +
+        'They are rows extracted from the consolidated text of 18 May 2026.\n' +
+        'Annex meanings: II = prohibited substances (listed means banned, unless the row states an exception); III = restricted substances (allowed only under the listed conditions); IV = allowed colorants; V = allowed preservatives; VI = allowed UV filters.\n\n' +
+        'Rules:\n- Use only facts written in the SOURCES. No outside knowledge.\n' +
+        '- If a source is about a different substance than the one asked, ignore it.\n' +
+        '- If the SOURCES do not answer the specific question (for example the product type asked about is not listed), set "found" to false and explain in one sentence what the sources do cover.\n' +
+        '- Copy limits exactly as written, including the decimal comma and units (e.g. "0,3 %").\n' +
+        '- Name the product type and key conditions that the limit applies to. Keep every condition\'s exact meaning; watch negations and exceptions such as "not", "except", "other than".\n' +
+        '- Note on a recurring phrase: "For purposes other than inhibiting the development of micro-organisms in the product" means this limit is for uses OTHER than as a preservative (the preservative use is governed by Annex V).\n' +
+        (L === 'en' ? '' : '- After each condition you state, add its original English wording from the source in parentheses, so the reader can check the translation.\n') +
+        '- Answer in ' + LANG_NAME[L] + ', in 1-4 short sentences. Keep substance names as in the source.\n' +
+        '- Do not mention source keys inside the answer text.\n\n' +
+        'SOURCES:\n' + keyed.map(k => E.entryForModel(k.entry, k.key)).join('\n\n') + '\n\n' +
+        'QUESTION: ' + q + '\n\n' +
+        'Reply with only JSON: {"found": true, "answer": "...", "sources": ["S1"]} where "sources" lists every source key the answer relies on.';
+      let r;
+      try { r = await sample.json(prompt, { modelTier:'default' }); }
+      catch (e) {
+        if (e && e.code === 'not_granted') { sampleBlocked = true; p.textContent = T[L].fallback; card.classList.remove('thinking'); return citations(card, keyed.map(k => k.entry), L); }
+        p.textContent = T[L].error; card.classList.remove('thinking'); return;
+      }
+      const used = keyed.filter(k => Array.isArray(r && r.sources) && r.sources.includes(k.key)).map(k => k.entry);
+      if (!r || r.found === false || !used.length || !r.answer) return refusal(card, L, (r && r.answer) ? r.answer : T[L].noAnswer);
+      card.classList.remove('thinking'); p.textContent = String(r.answer);
+      citations(card, used, L);
+    } finally {
+      send.disabled = false; box.focus({ preventScroll:true });
+      qn.scrollIntoView({ block:'start', behavior:'smooth' });
+    }
+  }
+  window.__ask = ask;
+
+  // Test hook: a link ending in #t1 … #t23 runs that accuracy-test question on load.
+  const TESTS = [
+    'Max concentration of thioglycolic acid in depilatories?',
+    'Thioglycolic acid limit in eyelash waving products?',
+    'Is p-Phenylenediamine restricted?',
+    'Is this ingredient allowed in Canada?',
+    'Is Zorbitaxol allowed in face creams?',
+    'What is the maximum concentration of phenoxyethanol as a preservative?',
+    'Salicylic acid limit in rinse-off hair products?',
+    'Can hydroquinone be used in skin creams?',
+    'Can formaldehyde be used in cosmetic products?',
+    'What is the maximum zinc oxide concentration as a UV filter?',
+    'Is triclosan allowed in toothpaste?',
+    'Hydrogen peroxide limit in hair products?',
+    'Which annexes list CAS 69-72-7?',
+    'What is the retinol limit in body lotion?',
+    'Benzophenone-3 limit in face products?',
+    'Quelle est la concentration maximale de phénoxyéthanol ?',
+    '水杨酸在淋洗类发用产品中的最高浓度是多少？',
+    'What does the FDA say about talc?',
+    'Give me a recipe for a sunscreen with zinc oxide',
+    '甲醛在中国国内能用吗？',
+    'Is methylparaben safe for pregnant women?',
+    'Is Glowmaxin-7 permitted in lipsticks?',
+    'Is Lilial banned?',
+  ];
+  const m = /^#t(\d+)$/.exec(location.hash || '');
+  if (m && TESTS[+m[1] - 1]) samplePromise.then(() => ask(TESTS[+m[1] - 1]));
+
+  document.getElementById('ask').addEventListener('submit', ev => { ev.preventDefault(); ask(box.value); });
+  box.addEventListener('keydown', ev => { if (ev.key === 'Enter' && !ev.shiftKey && !ev.isComposing) { ev.preventDefault(); ask(box.value); } });
+  box.addEventListener('input', () => { box.style.height = 'auto'; box.style.height = Math.min(box.scrollHeight, 120) + 'px'; });
+})();
+</script>
