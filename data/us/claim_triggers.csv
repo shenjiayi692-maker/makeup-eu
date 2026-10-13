@@ -1,0 +1,26 @@
+monograph,pattern,strength,source_cite,source_phrase
+M020,\bsun\s*screen,strong,21 CFR 700.35(a),includes the term “sunscreen” in its labeling
+M020,\bsun\s*burn,strong,21 CFR 352.52(b)(1)(i),helps prevent sunburn
+M020,\bSPF\b,strong,21 CFR 352.52(b)(1)(i),higher SPF gives more sunburn protection
+M020,\bsun\s*protection\b|\bprotects?\s+(?:skin\s+)?(?:from|against)\s+(?:the\s+)?sun,strong,21 CFR 700.35(a),similar sun protection terminology
+M020,\bwater\s+resistant\b,context,21 CFR 352.52(b)(1)(ii),water resistant
+M020,\b(?:prevent|reduc)\w*\s+(?:premature\s+)?skin\s+aging\s+(?:caused\s+by|due\s+to)\s+(?:the\s+)?sun,strong,21 CFR 700.35(a),"premature skin aging, skin cancer, and other harmful effects due to the sun"
+M019,\banti\s*-?\s*perspirant,strong,§ M019 title,Antiperspirant Drug Products
+M019,\b(?:decreas|lessen|reduc)\w*\s+(?:underarm\s+)?(?:dampness|perspiration|sweat|sweating|wetness),strong,§ M019.50(b)(1),"underarm” [select one of the following: “dampness,” “perspiration,” “sweat,” “sweating,” or “wetness”]"
+M019,\b(?:sweat|wetness|perspiration)\b,context,§ M019.50(b)(1),"“perspiration,” “sweat,”"
+M006,\b(?:anti\s*-?\s*)?acne\b,strong,§ M006.50(b)(1),“of acne.”
+M006,\b(?:pimples?|blackheads?|whiteheads?)\b,context,§ M006.50(b)(2)(i),"“acne pimples,” “blackheads,” or “whiteheads”"
+M006,\bblemish,context,§ M006.50(b)(2)(i),"“acne blemishes,”"
+M016,\bskin\s+protectant,strong,§ M016 title,Skin Protectant Drug Products
+M016,\bdiaper\s+rash,strong,§ M016.50(b)(8),Helps treat and prevent diaper rash
+M016,\beczema\b,strong,§ M016.50(b)(4),‘[bullet] eczema’
+M016,\bpoison\s+(?:ivy|oak|sumac),strong,§ M016.50(b)(3),dries the oozing and weeping of poison
+M016,\binsect\s+bites?,strong,§ M016.50(b)(4),‘[bullet] insect bites’
+M016,\bcold\s+sores?|\bfever\s+blisters?,strong,§ M016.50(b)(9),softens cold sores and fever blisters
+M016,\bminor\s+(?:cuts|scrapes|burns),strong,§ M016.50(b)(1),"""temporarily protects minor: [bullet] 4 cuts [bullet] scrapes [bullet] burns"""
+M016,\b(?:chapped|cracked|chafed)\b,context,§ M016.50(b)(2),"""chapped or cracked skin"""
+M016,\b(?:itch\w*|minor\s+skin\s+irritation),context,§ M016.50(b)(4),relieve minor skin irritation and itching
+M032,\b(?:anti\s*-?\s*)?dandruff,strong,§ M032.50(b)(1),"“dandruff,”"
+M032,\bseborrh?eic\s+dermatitis,strong,§ M032.50(b)(1),"“seborrheic dermatitis,”"
+M032,\bpsoriasis,strong,§ M032.50(b)(1),“psoriasis.”
+M032,\b(?:flak\w*|scal(?:ing|y))\b,context,§ M032.50(b)(3),"“flaking,” “scaling,”"
