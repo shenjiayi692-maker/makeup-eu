@@ -50,6 +50,9 @@ US_SRC=~/Downloads/fda python src/us/build_otc.py   # → data/us/us_otc.sqlite 
 - **防晒成分的现状不等于「都能用」。** FDA 2019/2021 年的提案认为只有 ZnO、TiO₂ 是公认安全有效的；
   在新命令出来之前，M020 里的成分按法律暂时仍可用。判定时要把这层说清楚，不能只报浓度上限。
 - **740.18（煤焦油染发剂警示）已被暂停执行**，`stayed=1`。
+- **73.2030 Annatto 的条文写的是单数「Use and restriction.」**，原来的正则只认复数，用途段落抽成了空。
+  已改为 `Uses? and restrictions?`（build_cfr.py、classify.py、export_data.py 三处）。
+- **73.2575 二氧化钛原文就把 area 写成了「ara of the eye」**，不是抽取错误，引用原文时保留。
 - **Part 82 不进色素表。** 它是暂列色素和色淀的规格，不是化妆品用途清单；条文在 `sections` 里可查。
 - **色素 CAS 号大多为空。** 天然来源色素（73 部分）条文里本来就没有 CAS；74 部分有 15 个
   条文里也没写。按名称匹配，不要按 CAS。
@@ -77,6 +80,20 @@ python tests/test_us_classify.py                     # 回归检查
 4. **700 部分禁用 / 限用成分。**
 5. **色素：** 是否列入 73/74 Subpart C、是否需要批次认证、用途限制原文，以及原文里的数字上限。
 6. **740 警示语：** 按产品类型提示（气雾剂、泡泡浴、美黑）。
+
+### 人工核对的补充（`src/us/curated.py`，2026-10-13）
+
+源文件里没有、但不写会让结论出错的几条。每行都带来源链接和核对日期，FDA 出新命令时要重新核对：
+
+| 文件 | 内容 | 依据 |
+|---|---|---|
+| `data/us/nda_claim_triggers.csv` | 美白宣称（skin lightening / whitening / bleaching / fades dark spots / hyperpigmentation / melasma）→ 没有任何 OTC 专论覆盖，需要 NDA，类别 `nda_drug`；brightening / dark spots / even skin tone 只到 `needs_review` | FDA「OTC skin lightening products」页面 |
+| `data/us/no_otc_route.csv` | 氢醌：CARES Act 之后 OTC 美白产品不能卖（2020-09-23 起下架）。有美白宣称 → prohibited；没有宣称 → restricted 提醒 | 同上 |
+| `data/us/delisted_colors.csv` | 醋酸铅：已从染发剂色素清单删除（2018 年发布，异议暂缓，2022-01-06 生效） | FR Doc. 2021-21892 |
+| `curated.py` 里的 `M020_NOT_GRASE` / `M020_STATUS` | 2021 年提案：ZnO、TiO₂ 认定安全有效；PABA、trolamine salicylate 因安全问题不认定；其余 12 个缺数据 | FDA 防晒 Q&A 页面 |
+
+之前查询页对「不在任何清单」一律说「不受这些规则限制」，对氢醌和色素都会误导，所以补了这层。
+色素是白名单：查不到的，不能用来着色。
 
 两张人工整理的对照表，都标了 curated：
 

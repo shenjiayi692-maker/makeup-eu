@@ -66,5 +66,37 @@ r = C.classify({'name': 'test', 'category': 'shampoo', 'claims': ['anti-dandruff
 expect('wash-off shampoo: pyrithione zinc 1 % checked against the wash-off range only',
        has(r, 'within_monograph', 'M032.10(a)(2)') and not has(r, 'exceeds_limit', 'M032.10(a)(3)'))
 
+# hand-checked notes (src/us/curated.py)
+def ings(*rows):
+    return [{'seq': i, 'name_as_written': n, 'inci': n, 'actual_pct': p, 'function': list(f)} for i, (n, p, *f) in enumerate(rows, 1)]
+
+
+r = C.classify({'name': 'Even Glow Cream', 'category': 'face cream', 'claims': ['skin lightening']},
+               ings(('Aqua', 80), ('Hydroquinone', 2)), D)
+expect('skin lightening claim needs an NDA', r['product_class'] == 'nda_drug' and has(r, 'drug_claim_no_monograph'))
+expect('hydroquinone with a lightening claim is flagged as prohibited', has(r, 'prohibited', 'CARES Act'))
+
+r = C.classify({'name': 'Night Cream', 'category': 'face cream', 'claims': ['moisturizing']},
+               ings(('Aqua', 80), ('Hydroquinone', 2)), D)
+expect('hydroquinone without a claim stays a cosmetic but is flagged', r['product_class'] == 'cosmetic' and has(r, 'restricted', 'CARES Act'))
+
+r = C.classify({'name': 'Vitamin C serum', 'category': 'serum', 'claims': ['brightening']}, ings(('Aqua', 90),), D)
+expect('"brightening" goes to review, not straight to drug', r['product_class'] == 'needs_review')
+
+r = C.classify({'name': 'Whitening Cream', 'category': 'face cream', 'claims': ['fades dark spots']}, ings(('Aqua', 90),), D)
+expect('"fades dark spots" is reported once, as an NDA claim',
+       [f['verdict'] for f in r['findings'] if f['kind'] == 'claim'] == ['drug_claim_no_monograph'])
+
+r = C.classify({'name': 'Gradual hair color', 'category': 'hair dye', 'claims': []}, ings(('Aqua', 95), ('Lead Acetate', 0.6, 'colorant')), D)
+expect('lead acetate is a repealed color additive', has(r, 'not_listed', '73.2396') and not has(r, 'insufficient_data'))
+
+r = C.classify({'name': 'Sun lotion', 'category': 'lotion', 'claims': ['SPF 15']},
+               ings(('Aqua', 80), ('PABA', 5, 'uv filter'), ('Zinc Oxide', 10, 'uv filter')), D)
+expect('PABA in a sunscreen: within M020 but proposed not GRASE', has(r, 'within_monograph', 'M020.10(a)') and has(r, 'restricted', '2021 proposed order'))
+
+r = run('F5')
+expect('F5 1 % salicylic acid: note that it is below the M032 range', has(r, 'note', 'M032.10(a)(4)'))
+expect('no below-range note for M016 base ingredients (glycerin)', not any(f['verdict'] == 'note' and 'M016' in f['cite'] for f in r['findings']))
+
 print('\n%d failed' % len(fails) if fails else '\nall passed')
 sys.exit(1 if fails else 0)

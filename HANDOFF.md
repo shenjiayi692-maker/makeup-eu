@@ -81,3 +81,8 @@
 - 2026-10-13 判定层：`src/us/classify.py` + `claim_triggers.py`（25 条宣称规则，原话逐条核对）+ 回归检查 `tests/test_us_classify.py`（16 项全过）。说明见 `docs/us-data.md`。下一步：接进 lookup / 查询页；美国 case 设计。
 - 2026-10-13 查询页加美国：`app/index.html` 有 EU+US / EU only / US only 切换；`python app/export_data.py` 同时生成 `app/data.js` 和 `app/data_us.js`。美国结果三类：化妆品色素（链 eCFR 条文）、700 部分禁用、OTC 专论活性成分（链专论原文）。
 - 2026-10-13 查询页加「Check a formula · US」：贴配方和宣称，页面里直接跑美国判定。判定逻辑是 `app/us_check.js`（`src/us/classify.py` 的逐行移植），`tests/test_us_check_parity.js` 在 9 份配方 × 7 组宣称（63 次）上核对两边结论完全一致：`python3 tests/dump_us_classify.py > /tmp/py.json && node tests/test_us_check_parity.js /tmp/py.json`。
+- 2026-10-13 下午：修了四个会让结论出错的地方，见 `docs/us-data.md`「人工核对的补充」。
+  氢醌和美白宣称（需 NDA）、醋酸铅已删除、防晒 2021 提案分类、Annatto 用途段落漏抽。
+  `tests/test_us_classify.py` 26 条全过，Python/JS 一致性 81 次全过。
+  `data/us/us_cfr.sqlite` 是按修正后的逻辑从已有表重写的（CSV 与重新构建逐字节一致）；
+  有 `US_SRC` 的机器上重跑一次 `build_cfr.py` 即可恢复 SQLite 逐字节确定性。

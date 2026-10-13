@@ -190,7 +190,7 @@ footer p{margin:0;max-width:72ch}
   <footer>
     <p id="srcfoot"></p>
     <p>Each tier is cited as <code>Annex/Entry#Tier</code>. A blank product type means the limit applies to every product type. Product-type matching is a text match against the regulation's own wording, so read the tier table before relying on the highlighted row.</p>
-    <p>US results cover federal rules only: color additives listed for cosmetics (21 CFR 73/74 Subpart C), the 21 CFR 700 Subpart B prohibitions, and OTC monograph active ingredients. The US has no general positive list for cosmetic ingredients. State law is not covered.</p>
+    <p>US results cover federal rules only: color additives listed for cosmetics (21 CFR 73/74 Subpart C), the 21 CFR 700 Subpart B prohibitions, and OTC monograph active ingredients, plus hand-checked notes on hydroquinone (no OTC route since the CARES Act) and lead acetate (removed as a color additive). The US has no general positive list for cosmetic ingredients. State law is not covered.</p>
     <p>For reference only. The EU consolidated text has no legal effect; the authentic version is the one published in the Official Journal of the EU. eCFR is authoritative but unofficial.</p>
   </footer>
 </main>
@@ -417,7 +417,7 @@ footer p{margin:0;max-width:72ch}
   const fmtPct = v => v == null ? '' : String(v);
 
   function usSearch(q){
-    const out = {colors: [], actives: [], rules: [], via: ''};
+    const out = {colors: [], actives: [], rules: [], noOtc: [], delisted: [], via: ''};
     if (!U) return out;
     const [kind, value] = classify(q);
     if (kind === 'cas'){
@@ -448,6 +448,8 @@ footer p{margin:0;max-width:72ch}
     out.actives = U.actives.filter(a => norm(a.ing).includes(n) || (usan && norm(a.ing) === norm(usan)));
     if (usan && norm(usan) !== n) out.via = value.trim() + ' (INCI) → ' + usan + ' (US adopted name, curated alias table)';
     out.rules = U.rules.filter(r => r.names.some(x => norm(x).includes(n) || n.includes(norm(x))));
+    out.noOtc = (U.no_otc || []).filter(r => r.names.some(x => norm(x).includes(n) || n.includes(norm(x))));
+    out.delisted = (U.delisted || []).filter(r => r.names.some(x => norm(x).includes(n) || n.includes(norm(x))));
     return out;
   }
 
@@ -460,10 +462,20 @@ footer p{margin:0;max-width:72ch}
       '<div class="verdict"><span class="big bad">' + (x.sec === '700.16' ? 'Not in aerosols' : x.sec === '700.23' ? 'Not as propellant' : x.sec === '700.13' ? 'Restricted' : 'Prohibited') + '</span><span class="cite">21 CFR ' + esc(x.sec) + '</span></div>' +
       '<details class="chem"><summary>Section text</summary><div>' + esc(x.text) + '</div></details>' +
       '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(x.url) + '">' + ICON_OUT + 'Open on eCFR · § ' + esc(x.sec) + '</a></div></article>'));
+    r.noOtc.forEach(x => blocks.push('<article class="card"><div class="head"><span class="annex II">No OTC route · ' + esc(x.use) + '</span></div>' +
+      '<div class="name">' + esc(x.names[0].replace(/^./, c => c.toUpperCase())) + '</div>' +
+      '<div class="verdict"><span class="big bad">Needs an approved NDA</span><span class="why">for any ' + esc(x.use) + ' product</span></div>' +
+      '<div class="notes"><p>' + esc(x.text) + '</p><p>Not on a federal cosmetic prohibition list, so check that nothing on the label or in marketing implies ' + esc(x.use) + '.</p></div>' +
+      '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(x.url) + '">' + ICON_OUT + 'Open FDA page</a></div></article>'));
+    r.delisted.forEach(x => blocks.push('<article class="card"><div class="head"><span class="annex II">Color additive · removed</span><span>21 CFR ' + esc(x.sec) + '</span></div>' +
+      '<div class="name">' + esc(x.names[0].replace(/^./, c => c.toUpperCase())) + '</div>' +
+      '<div class="verdict"><span class="big bad">Not permitted</span><span class="cite">' + esc(x.cite) + '</span></div>' +
+      '<div class="notes"><p>' + esc(x.text) + '</p></div>' +
+      '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(x.url) + '">' + ICON_OUT + 'Open Federal Register notice</a></div></article>'));
     r.colors.forEach(c => blocks.push('<article class="card"><div class="head"><span class="annex US">Color additive · cosmetics</span><span>21 CFR ' + esc(c.sec) + '</span>' + (c.cas ? '<span>CAS ' + esc(c.cas) + '</span>' : '') + '</div>' +
       '<div class="name">' + esc(c.name) + '</div>' +
       '<div class="verdict"><span class="big">' + (c.cert === 'required' ? 'Batch certification required' : 'Exempt from certification') + '</span><span class="cite">21 CFR ' + esc(c.sec) + '</span></div>' +
-      '<div class="notes"><p><b>Uses and restrictions:</b> ' + esc(c.uses || '—') + '</p></div>' +
+      '<div class="notes"><p><b>Uses and restrictions:</b> ' + (c.uses ? esc(c.uses) : 'not extracted for this section; read it on eCFR before relying on it.') + '</p></div>' +
       '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(c.url) + '">' + ICON_OUT + 'Open on eCFR · § ' + esc(c.sec) + '</a></div></article>'));
     const byIng = {};
     r.actives.forEach(a => { (byIng[a.ing] = byIng[a.ing] || []).push(a); });
@@ -472,17 +484,17 @@ footer p{margin:0;max-width:72ch}
       const monos = Array.from(new Set(rows.map(a => a.mono)));
       blocks.push('<article class="card"><div class="head"><span class="annex USD">OTC drug active</span><span>' + monos.map(m => m + ' ' + esc(MONO[m] || '')).join(' · ') + '</span></div>' +
         '<div class="name">' + esc(ing) + '</div>' +
-        '<div class="verdict"><span class="why">Can be used in a cosmetic. If the label claims a ' + monos.map(m => (MONO[m] || m).toLowerCase()).join(' / ') + ' use, the product is an OTC drug and the active must sit in this range.</span></div>' +
+        '<div class="verdict"><span class="why">Can be used in a cosmetic. If the label claims ' + (/^[aeiou]/i.test(MONO[monos[0]] || monos[0]) ? 'an ' : 'a ') + monos.map(m => (MONO[m] || m).toLowerCase()).join(' / ') + ' use, the product is an OTC drug and the active must sit in this range.</span></div>' +
         '<div class="tiers"><table><thead><tr><th>Cite</th><th>Monograph</th><th>Range</th><th>Monograph text</th></tr></thead><tbody>' +
         rows.map(a => '<tr><td class="c">' + esc(a.cite) + '</td><td>' + esc(MONO[a.mono] || a.mono) + '</td><td class="m">' +
           (a.min != null && a.max != null ? (a.min === a.max ? fmtPct(a.max) + ' %' : fmtPct(a.min) + '–' + fmtPct(a.max) + ' %') : a.max != null ? 'up to ' + fmtPct(a.max) + ' %' : a.min != null ? 'at least ' + fmtPct(a.min) + ' %' : '—') +
           '</td><td>' + esc(a.text) + (a.note ? '<div class="sub" style="font-size:12px;color:var(--muted)">' + esc(a.note) + '</div>' : '') + '</td></tr>').join('') + '</tbody></table></div>' +
-        (monos.includes('M020') ? '<div class="notes"><p>FDA has proposed that only zinc oxide and titanium dioxide are generally recognized as safe and effective; other M020 actives remain usable for now pending a final order.</p></div>' : '') +
+        (monos.includes('M020') ? '<div class="notes">' + ((U.m020_not_grase || []).includes(ing) ? '<p class="review">FDA proposed in 2021 that ' + esc(ing) + ' is not GRASE for safety reasons. It is still listed in M020 today, but expect a final order to remove it.</p>' : '') + '<p>' + esc(U.m020_status || '') + (U.url_m020_proposed ? ' <a href="' + esc(U.url_m020_proposed) + '" target="_blank" rel="noopener" style="color:var(--link)">FDA Q&amp;A</a>' : '') + '</p></div>' : '') +
         '<div class="actions">' + Array.from(new Map(rows.filter(a => a.url).map(a => [a.url, a.note && a.note.startsWith('Added by') ? 'OTC000039' : a.mono === 'M020' ? 'M020 (21 CFR 352)' : a.mono])).entries()).map(([u, lab]) => '<a class="btn" target="_blank" rel="noopener" href="' + esc(u) + '">' + ICON_PDF + 'Open ' + esc(lab) + '</a>').join('') + '</div></article>');
     });
-    const count = r.colors.length + Object.keys(byIng).length + r.rules.length;
+    const count = r.colors.length + Object.keys(byIng).length + r.rules.length + r.noOtc.length + r.delisted.length;
     if (!count){
-      blocks.push('<div class="empty">Not on any US federal list held here (color additives, 21 CFR 700 prohibitions, OTC monograph actives). The US has no general positive list for cosmetic ingredients, so an unlisted ingredient is not restricted by these rules; the safety substantiation required under MoCRA still applies.</div>');
+      blocks.push('<div class="empty">Not on any US federal list held here (color additives, 21 CFR 700 prohibitions, OTC monograph actives). The US has no general positive list for cosmetic ingredients, so an unlisted ingredient is not restricted by these rules; the safety substantiation required under MoCRA still applies. Color additives are the exception: one that is not listed in 21 CFR 73/74 Subpart C may not be used to color a cosmetic.</div>');
     }
     return {count, sum: count ? count + ' ' + (count === 1 ? 'listing' : 'listings') : 'no federal listing', html: blocks.join('')};
   }
@@ -501,14 +513,14 @@ footer p{margin:0;max-width:72ch}
   }
 
   // ------------------------------------------------------- formula check (US)
-  const VCLASS = {prohibited:'bad', exceeds_limit:'bad', not_listed:'bad', drug_claim_without_monograph_active:'bad', not_a_monograph_active:'bad', below_monograph_range:'bad',
+  const VCLASS = {prohibited:'bad', exceeds_limit:'bad', not_listed:'bad', drug_claim_without_monograph_active:'bad', drug_claim_no_monograph:'bad', not_a_monograph_active:'bad', below_monograph_range:'bad',
     drug_claim:'warn', restricted:'warn', listed_certification_required:'warn', warning_required:'warn', insufficient_data:'warn', possible_drug_claim:'warn', monograph_active_in_cosmetic:'info',
     within_monograph:'ok', listed_exempt:'ok', note:'info'};
-  const VLABEL = {prohibited:'prohibited', exceeds_limit:'over range', not_listed:'not listed', drug_claim_without_monograph_active:'no permitted active', not_a_monograph_active:'not a US active',
+  const VLABEL = {prohibited:'prohibited', exceeds_limit:'over range', not_listed:'not listed', drug_claim_without_monograph_active:'no permitted active', drug_claim_no_monograph:'NDA needed', not_a_monograph_active:'not a US active',
     below_monograph_range:'below range', drug_claim:'drug claim', restricted:'restricted', listed_certification_required:'certification needed', warning_required:'warning required',
     insufficient_data:'check by hand', possible_drug_claim:'review claim', monograph_active_in_cosmetic:'claim limit', within_monograph:'within range', listed_exempt:'listed', note:'note'};
   const GROUPS = [['claim','Claims'],['otc','OTC drug actives'],['ingredient','Prohibited / restricted ingredients'],['color','Color additives'],['label','Labeling']];
-  const CLASS_TEXT = {cosmetic:['Cosmetic',''], otc_drug:['OTC drug','drug'], cosmetic_and_drug:['Cosmetic and OTC drug','drug'], needs_review:['Needs review','review']};
+  const CLASS_TEXT = {cosmetic:['Cosmetic',''], otc_drug:['OTC drug','drug'], cosmetic_and_drug:['Cosmetic and OTC drug','drug'], needs_review:['Needs review','review'], nda_drug:['Drug · needs FDA approval','drug']};
   let fcPresetIngs = null, fcPresetText = '';
 
   function ingLine(i){ return [i.inci || i.name_as_written, i.actual_pct == null ? '' : i.actual_pct, (i.function || []).join(', ')].join(' | '); }
@@ -541,6 +553,7 @@ footer p{margin:0;max-width:72ch}
     const r = window.usCheck(product, ings, U, []);
     const [label, cls] = CLASS_TEXT[r.product_class];
     const why = r.drug_monographs.length ? 'Drug claims fall under ' + r.drug_monographs.map(m => m + ' (' + ({M020:'sunscreen',M019:'antiperspirant',M006:'topical acne',M016:'skin protectant',M032:'dandruff, seborrheic dermatitis, psoriasis'})[m] + ')').join(', ') + '.'
+      : r.product_class === 'nda_drug' ? 'A claim on the label has no OTC monograph, so the product cannot be sold as an OTC drug or a cosmetic without an approved new drug application.'
       : r.product_class === 'needs_review' ? 'Some claim wording can be a drug claim depending on how it is framed. A person decides.' : 'No drug claim found in the name, type or claims.';
     let html = '<div class="classBox ' + cls + '"><span class="eyebrow">US product class</span><span class="big">' + label + '</span><span class="why">' + esc(why) + ' ' + ings.length + ' ingredients checked.</span></div>';
     GROUPS.forEach(([k, title]) => {

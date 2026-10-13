@@ -1,0 +1,3 @@
+pattern,strength,use,cite,url,checked_on
+\bskin\s*(?:-\s*)?(?:lighten\w*|bleach\w*|whiten\w*)|\b(?:lighten|bleach|whiten)\w*\s+(?:the\s+|your\s+)?skin\b|\bfades?\s+(?:dark|age|brown)\s+spots?|\bhyper\s*-?\s*pigmentation|\bmelasma\b,strong,skin lightening,"FDA, OTC skin lightening products",https://www.fda.gov/drugs/drug-safety-and-availability/fda-works-protect-consumers-potentially-harmful-otc-skin-lightening-products,2026-10-13
+\bbrighten\w*|\bdark\s+spots?|\beven(?:s|ing)?\s+(?:out\s+)?(?:skin\s+)?tone,context,skin lightening,"FDA, OTC skin lightening products",https://www.fda.gov/drugs/drug-safety-and-availability/fda-works-protect-consumers-potentially-harmful-otc-skin-lightening-products,2026-10-13

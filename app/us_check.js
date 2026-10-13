@@ -15,6 +15,7 @@
     ['700.23', /\bchlorofluorocarbon|\bCFC\b/i, 'as propellant'],
   ];
   const norm = s => String(s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  const an = w => (/^[aeiou]/i.test(w) ? 'an ' : 'a ') + w;
   const g = (n) => Number.isInteger(n) ? String(n) : String(Number(n.toPrecision(4)));
 
   function compile(U){
@@ -22,7 +23,8 @@
     const trig = U.triggers.map(t => Object.assign({}, t, {re: new RegExp(t.pattern.replace(/\(\?i\)/g, ''), 'i')}));
     const alias = {}; Object.keys(U.alias).forEach(k => alias[norm(k)] = U.alias[k]);
     const rules = {}; U.rules.forEach(r => rules[r.sec] = r);
-    return (U._compiled = {trig, alias, rules});
+    const nda = (U.nda_claims || []).map(t => Object.assign({}, t, {re: new RegExp(t.pattern, 'i')}));
+    return (U._compiled = {trig, alias, rules, nda});
   }
 
   function matchClaims(C, texts){
@@ -102,6 +104,14 @@
     hits.forEach(h => add('claim', h.strength === 'strong' ? 'drug_claim' : 'possible_drug_claim',
       '“' + h.matched + '” in “' + h.in_text + '” → ' + MONO_NAME[h.monograph] + ' monograph', h.source_cite, '', {monograph: h.monograph, source_phrase: h.source_phrase}));
 
+    // claims with no OTC monograph at all (e.g. skin lightening): only an approved NDA allows them
+    const ndaHits = [];
+    claimTexts.forEach(s => C.nda.forEach(x => { const m = (s || '').match(x.re); if (m) ndaHits.push({x, matched: m[0], in_text: s}); }));
+    const ndaStrong = ndaHits.some(h => h.x.strength === 'strong');
+    ndaHits.filter(h => h.x.strength === 'strong' || !ndaHits.some(o => o.x.strength === 'strong' && o.in_text === h.in_text)).forEach(h => add('claim', h.x.strength === 'strong' ? 'drug_claim_no_monograph' : 'possible_drug_claim',
+      '“' + h.matched + '” in “' + h.in_text + '” → ' + h.x.use + (h.x.strength === 'strong' ? ' claim. No OTC monograph covers it: the product would need an approved new drug application.' : ' wording. Can read as a ' + h.x.use + ' claim depending on context; a person decides.'),
+      h.x.cite, h.x.url));
+
     const present = [];
     ingredients.forEach(ing => components(ing).forEach(([name, pct]) => {
       if (!name) return;
@@ -110,8 +120,9 @@
     }));
 
     let productClass;
-    if (strong.length) productClass = (product.claims || []).some(c => c && !matchClaims(C, [c]).length) ? 'cosmetic_and_drug' : 'otc_drug';
-    else if (context.length) productClass = 'needs_review';
+    if (ndaStrong) productClass = 'nda_drug';
+    else if (strong.length) productClass = (product.claims || []).some(c => c && !matchClaims(C, [c]).length) ? 'cosmetic_and_drug' : 'otc_drug';
+    else if (context.length || ndaHits.length) productClass = 'needs_review';
     else productClass = 'cosmetic';
 
     const m032 = new Set();
@@ -123,7 +134,7 @@
       const rinse = rinseOff(product);
       acts = acts.filter(p => formApplies(p[3].text, rinse));
       if (!acts.length) add('otc', 'drug_claim_without_monograph_active',
-        'Claims a ' + MONO_NAME[mono] + ' use but contains no active ingredient listed in ' + mono + '. Marketed this way it would need an approved application.', '§ ' + mono + '.10', '', {monograph: mono});
+        'Claims ' + an(MONO_NAME[mono]) + ' use but contains no active ingredient listed in ' + mono + '. Marketed this way it would need an approved application.', '§ ' + mono + '.10', '', {monograph: mono});
       const seen = new Set();
       acts.forEach(([ing, name, pct, a]) => {
         const key = ing.seq + '|' + a.cite; if (seen.has(key)) return; seen.add(key);
@@ -141,15 +152,31 @@
         if (job.length && !present.some(p => p[0] === ing && p[3].mono === mono))
           add('otc', 'not_a_monograph_active', ing.name_as_written + ' is used as ' + job.sort().join('/') + ' but is not an active ingredient in ' + mono + '; a US ' + MONO_NAME[mono] + ' product cannot rely on it.', '§ ' + mono + '.10', '', {ingredient_seq: ing.seq, monograph: mono});
       });
-      if (mono === 'M020') add('otc', 'note', 'Of the M020 actives, FDA has proposed that only zinc oxide and titanium dioxide are generally recognized as safe and effective; the others remain usable for now by operation of FD&C 505G(m)(2), pending a final order. Bemotrizinol carries its own conditions (OTC000039).', 'OTC000039 n.6; § M020.10', '', {monograph: 'M020'});
+      if (mono === 'M020'){
+        const bad = new Set(U.m020_not_grase || []);
+        const seenNG = new Set();
+        acts.forEach(([ing, name, pct, a]) => {
+          if (!bad.has(a.ing) || seenNG.has(ing.seq)) return; seenNG.add(ing.seq);
+          add('otc', 'restricted', ing.name_as_written + ' (' + a.ing + '): FDA proposed in 2021 that it is not GRASE for safety reasons. Still listed in M020 today, but expect it to be removed by a final order.', '2021 proposed order (M020)', U.url_m020_proposed || '', {ingredient_seq: ing.seq, monograph: 'M020'});
+        });
+        add('otc', 'note', U.m020_status || 'Of the M020 actives, FDA has proposed that only zinc oxide and titanium dioxide are generally recognized as safe and effective; the others remain usable for now by operation of FD&C 505G(m)(2), pending a final order. Bemotrizinol carries its own conditions (OTC000039).', 'OTC000039 n.6; § M020.10', U.url_m020_proposed || '', {monograph: 'M020'});
+      }
     });
 
     if (!strong.length){
       const shown = new Set();
       present.forEach(([ing, name, pct, a]) => {
-        if (pct != null && a.min != null && pct < a.min) return;
-        const k = ing.seq + '|' + a.mono; if (shown.has(k)) return; shown.add(k);
-        add('otc', 'monograph_active_in_cosmetic', ing.name_as_written + ' is a ' + MONO_NAME[a.mono] + ' active (' + a.ing + '). As a cosmetic the label must not make the ' + MONO_NAME[a.mono] + ' claim, or the product becomes a drug.', a.cite, a.url, {ingredient_seq: ing.seq, monograph: a.mono});
+        const k = ing.seq + '|' + a.mono; if (shown.has(k)) return;
+        if (pct != null && a.min != null && pct < a.min){
+          // M016 actives (glycerin, dimethicone, petrolatum...) are common base ingredients: a note would be noise
+          if (a.mono !== 'M016' && !present.some(p => p[0] === ing && p[3].mono === a.mono && (p[3].min == null || pct >= p[3].min))){
+            shown.add(k);
+            add('otc', 'note', ing.name_as_written + ' at ' + g(pct) + ' % is below the ' + a.mono + ' range for ' + a.ing + ' (from ' + g(a.min) + ' %), so at this level it cannot support ' + an(MONO_NAME[a.mono]) + ' claim.', a.cite, a.url, {ingredient_seq: ing.seq, monograph: a.mono});
+          }
+          return;
+        }
+        shown.add(k);
+        add('otc', 'monograph_active_in_cosmetic', ing.name_as_written + ' is ' + an(MONO_NAME[a.mono]) + ' active (' + a.ing + '). As a cosmetic the label must not make the ' + MONO_NAME[a.mono] + ' claim, or the product becomes a drug.', a.cite, a.url, {ingredient_seq: ing.seq, monograph: a.mono});
       });
       if (present.some(p => p[3].mono === 'M020'))
         add('label', 'note', 'Contains a sunscreen active for a non-sunscreen purpose: 21 CFR 700.35 governs how that can be stated without making a sun-protection claim.', '21 CFR 700.35', U.url_700_35);
@@ -164,8 +191,21 @@
       });
     }));
 
+    ingredients.forEach(ing => components(ing).forEach(([name]) => {
+      if (!name) return;
+      (U.no_otc || []).forEach(x => {
+        if (!x.names.some(n => norm(name).includes(n))) return;
+        if (ndaStrong) add('ingredient', 'prohibited', name + ' with a ' + x.use + ' claim: ' + x.text, x.cite, x.url, {ingredient_seq: ing.seq});
+        else add('ingredient', 'restricted', name + ' is not on a federal cosmetic prohibition list, but: ' + x.text + ' Check that nothing on the label or in marketing implies ' + x.use + '.', x.cite, x.url, {ingredient_seq: ing.seq});
+      });
+      (U.delisted || []).forEach(x => {
+        if (x.names.some(n => norm(name).includes(n))) add('color', 'not_listed', name + ': ' + x.text + ' Only color additives listed in 21 CFR 73/74 Subpart C may be used.', x.cite, x.url, {ingredient_seq: ing.seq});
+      });
+    }));
+
     ingredients.forEach(ing => {
       if (!isColorant(ing)) return;
+      if ((U.delisted || []).some(x => x.names.some(n => norm((ing.inci || '') + ' ' + (ing.name_as_written || '')).includes(n)))) return;
       const [hitsC, how] = colorMatch(U, ing);
       if (hitsC === null){ add('color', 'insufficient_data', ing.name_as_written + ' is used as a colorant but could not be matched to a US color additive (' + (how || 'no name or CI number recognised') + '). Check 21 CFR 73/74 Subpart C by hand.', '21 CFR 73 / 74 Subpart C', '', {ingredient_seq: ing.seq}); return; }
       if (!hitsC.length){ add('color', 'not_listed', ing.name_as_written + ': ' + how + '. Only color additives listed in 21 CFR 73/74 Subpart C may be used in cosmetics.', '21 CFR 70.5; 73/74 Subpart C', '', {ingredient_seq: ing.seq}); return; }

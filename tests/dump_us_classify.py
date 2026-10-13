@@ -3,7 +3,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'src', 'us'))
 import classify as C
 D = C.Data()
-CLAIMS = [[], ['anti-dandruff'], ['reduces underarm wetness'], ['soothes chapped lips'], ['SPF 30 sunscreen'], ['acne treatment'], ['mild cleansing', 'eczema relief']]
+CLAIMS = [[], ['anti-dandruff'], ['reduces underarm wetness'], ['soothes chapped lips'], ['SPF 30 sunscreen'], ['acne treatment'], ['mild cleansing', 'eczema relief'], ['skin lightening'], ['brightening', 'moisturizing']]
 out = []
 for fid in ['F1a', 'F1b', 'F2', 'F3a', 'F3b', 'F4', 'F5', 'F6', 'F7']:
     for cl in CLAIMS:

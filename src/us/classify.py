@@ -19,6 +19,9 @@ What it checks, each finding with the CFR / monograph section it rests on:
   5. Color additives: listed for cosmetic use (73/74 Subpart C)? batch
      certification? the verbatim use restriction, and any numeric cap.
   6. 21 CFR 740 warnings the product type may trigger.
+  7. Hand-checked notes (curated.py): claims no OTC monograph covers (skin
+     lightening → NDA), ingredients with no OTC route (hydroquinone), color
+     additives that were repealed (lead acetate), and the 2021 sunscreen proposal.
 
 It reports; it does not decide. Text-match limits are stated in each finding.
 """
@@ -35,6 +38,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 US = os.path.join(ROOT, 'data', 'us')
 sys.path.insert(0, HERE)
 import claim_triggers                     # noqa: E402
+import curated                            # noqa: E402
 
 EU_DB = os.path.join(ROOT, 'data', 'cosmetics_reg.sqlite')
 FUNCTION_OF = {'M020': {'uv filter', 'sunscreen'}, 'M019': {'antiperspirant'},
@@ -62,6 +66,10 @@ def ro(path):
 
 def norm(s):
     return re.sub(r'\s+', ' ', (s or '')).strip().lower()
+
+
+def an(word):
+    return ('an ' if re.match(r'[aeiou]', word, re.I) else 'a ') + word
 
 
 class Data:
@@ -173,6 +181,26 @@ def classify(product, ingredients, data, extra_claims=()):
             '“%s” in “%s” → %s monograph' % (h['matched'], h['in_text'], MONO_NAME[h['monograph']]),
             h['source_cite'], monograph=h['monograph'], source_phrase=h['source_phrase'])
 
+    # claims no OTC monograph covers at all (skin lightening): only an approved NDA allows them
+    nda_hits = []
+    for text in claim_texts:
+        for x in curated.NDA_CLAIMS:
+            m = re.search(x['pattern'], text or '', re.I)
+            if m:
+                nda_hits.append((x, m.group(0), text))
+    nda_strong = any(x['strength'] == 'strong' for x, _, _ in nda_hits)
+    for x, matched, text in nda_hits:
+        if x['strength'] != 'strong' and any(o['strength'] == 'strong' and t2 == text for o, _, t2 in nda_hits):
+            continue        # the strong hit on the same text already says it
+        if x['strength'] == 'strong':
+            add('claim', 'drug_claim_no_monograph',
+                '“%s” in “%s” → %s claim. No OTC monograph covers it: the product would need an approved new drug application.'
+                % (matched, text, x['use']), x['cite'], x['url'])
+        else:
+            add('claim', 'possible_drug_claim',
+                '“%s” in “%s” → %s wording. Can read as a %s claim depending on context; a person decides.'
+                % (matched, text, x['use'], x['use']), x['cite'], x['url'])
+
     # OTC actives present
     present = []    # (ing, name, pct, active_row)
     for ing in ingredients:
@@ -182,10 +210,12 @@ def classify(product, ingredients, data, extra_claims=()):
             for a in data.otc_hits(name):
                 present.append((ing, name, pct if pct is not None else (ing.get('actual_pct') if name == (ing.get('inci') or ing.get('name_as_written')) else None), a))
 
-    if strong:
+    if nda_strong:
+        product_class = 'nda_drug'
+    elif strong:
         # cosmetic AND drug when some stated claim is purely cosmetic
         product_class = 'cosmetic_and_drug' if any(c for c in (product.get('claims') or []) if c and not claim_triggers.match([c])) else 'otc_drug'
-    elif context:
+    elif context or nda_hits:
         product_class = 'needs_review'
     else:
         product_class = 'cosmetic'
@@ -206,8 +236,8 @@ def classify(product, ingredients, data, extra_claims=()):
         acts = [p for p in acts if form_applies(p[3]['item_text'], rinse)]
         if not acts:
             add('otc', 'drug_claim_without_monograph_active',
-                'Claims a %s use but contains no active ingredient listed in %s. Marketed this way it would need an approved application.'
-                % (MONO_NAME[mono], mono), '§ %s.10' % mono, monograph=mono)
+                'Claims %s use but contains no active ingredient listed in %s. Marketed this way it would need an approved application.'
+                % (an(MONO_NAME[mono]), mono), '§ %s.10' % mono, monograph=mono)
         seen = set()
         for ing, name, pct, a in acts:
             key = (ing['seq'], a['cite'])
@@ -236,21 +266,38 @@ def classify(product, ingredients, data, extra_claims=()):
                     % (ing.get('name_as_written'), '/'.join(sorted(funcs & FUNCTION_OF[mono])), mono, MONO_NAME[mono]),
                     '§ %s.10' % mono, ingredient_seq=ing['seq'], monograph=mono)
         if mono == 'M020':
-            add('otc', 'note', 'Of the M020 actives, FDA has proposed that only zinc oxide and titanium dioxide are generally recognized as safe and effective; the others remain usable for now by operation of FD&C 505G(m)(2), pending a final order. Bemotrizinol carries its own conditions (OTC000039).',
-                'OTC000039 n.6; § M020.10', monograph='M020')
+            seen_ng = set()
+            for ing, name, pct, a in acts:
+                if a['ingredient'] not in curated.M020_NOT_GRASE or ing['seq'] in seen_ng:
+                    continue
+                seen_ng.add(ing['seq'])
+                add('otc', 'restricted', '%s (%s): FDA proposed in 2021 that it is not GRASE for safety reasons. Still listed in M020 today, but expect it to be removed by a final order.'
+                    % (ing.get('name_as_written'), a['ingredient']), '2021 proposed order (M020)', curated.URL_M020_PROPOSED,
+                    ingredient_seq=ing['seq'], monograph='M020')
+            add('otc', 'note', curated.M020_STATUS, 'OTC000039 n.6; § M020.10', curated.URL_M020_PROPOSED, monograph='M020')
 
     if not strong:
         shown = set()
         for ing, name, pct, a in present:
             lo = float(a['min_pct']) if a['min_pct'] not in (None, '') else None
-            if pct is not None and lo is not None and pct < lo:
-                continue        # below the drug range: not acting as that active
             if (ing['seq'], a['monograph']) in shown:
+                continue
+            if pct is not None and lo is not None and pct < lo:
+                # below the drug range: not acting as that active. Say so, except for
+                # M016, whose actives (glycerin, dimethicone...) are everyday base ingredients.
+                def in_range(p):
+                    plo = float(p[3]['min_pct']) if p[3]['min_pct'] not in (None, '') else None
+                    return plo is None or pct >= plo
+                if a['monograph'] != 'M016' and not any(p[0] is ing and p[3]['monograph'] == a['monograph'] and in_range(p) for p in present):
+                    shown.add((ing['seq'], a['monograph']))
+                    add('otc', 'note', '%s at %.4g %% is below the %s range for %s (from %.4g %%), so at this level it cannot support %s claim.'
+                        % (ing.get('name_as_written'), pct, a['monograph'], a['ingredient'], lo, an(MONO_NAME[a['monograph']])),
+                        a['cite'], ingredient_seq=ing['seq'], monograph=a['monograph'])
                 continue
             shown.add((ing['seq'], a['monograph']))
             add('otc', 'monograph_active_in_cosmetic',
-                '%s is a %s active (%s). As a cosmetic the label must not make the %s claim, or the product becomes a drug.'
-                % (ing.get('name_as_written'), MONO_NAME[a['monograph']], a['ingredient'], MONO_NAME[a['monograph']]),
+                '%s is %s active (%s). As a cosmetic the label must not make the %s claim, or the product becomes a drug.'
+                % (ing.get('name_as_written'), an(MONO_NAME[a['monograph']]), a['ingredient'], MONO_NAME[a['monograph']]),
                 a['cite'], ingredient_seq=ing['seq'], monograph=a['monograph'])
         if any(p[3]['monograph'] == 'M020' for p in present):
             s = data.sections['700.35']
@@ -267,10 +314,30 @@ def classify(product, ingredients, data, extra_claims=()):
                         '%s matches %s (%s).' % (name, s['heading'], scope), '21 CFR ' + sec, s['url'],
                         ingredient_seq=ing['seq'])
 
+    # hand-checked: no OTC route (hydroquinone), repealed color additives (lead acetate)
+    for ing in ingredients:
+        for name, pct in components(ing):
+            if not name:
+                continue
+            for x in curated.NO_OTC:
+                if not any(n in norm(name) for n in x['names']):
+                    continue
+                if nda_strong:
+                    add('ingredient', 'prohibited', '%s with %s claim: %s' % (name, an(x['use']), x['text']), x['cite'], x['url'], ingredient_seq=ing['seq'])
+                else:
+                    add('ingredient', 'restricted', '%s is not on a federal cosmetic prohibition list, but: %s Check that nothing on the label or in marketing implies %s.'
+                        % (name, x['text'], x['use']), x['cite'], x['url'], ingredient_seq=ing['seq'])
+            for x in curated.DELISTED:
+                if any(n in norm(name) for n in x['names']):
+                    add('color', 'not_listed', '%s: %s Only color additives listed in 21 CFR 73/74 Subpart C may be used.'
+                        % (name, x['text']), x['cite'], x['url'], ingredient_seq=ing['seq'])
+
     # color additives
     for ing in ingredients:
         if not is_colorant(ing):
             continue
+        if any(n in norm((ing.get('inci') or '') + ' ' + (ing.get('name_as_written') or '')) for x in curated.DELISTED for n in x['names']):
+            continue        # already reported above
         hits, how = data.color_match(ing)
         if hits is None:
             add('color', 'insufficient_data', '%s is used as a colorant but could not be matched to a US color additive (%s). Check 21 CFR 73/74 Subpart C by hand.'
@@ -284,7 +351,7 @@ def classify(product, ingredients, data, extra_claims=()):
             cap = re.search(r'not (?:to )?exceed (\d+(?:\.\d+)?) percent', c['uses_and_restrictions'] or '')
             msg = '%s → %s (21 CFR %s), batch certification %s. Use restriction: “%s”' % (
                 ing.get('name_as_written'), c['name'], c['section'], c['certification'],
-                re.sub(r'^\([a-z]\)\s*Uses? and restrictions\.\s*', '', c['uses_and_restrictions'] or ''))
+                re.sub(r'^\([a-z]\)\s*Uses? and restrictions?\.\s*', '', c['uses_and_restrictions'] or ''))
             if cap and ing.get('actual_pct') is not None:
                 msg += ' Formula has %.4g %% vs the %s %% cap in that text; check the cap applies to this product type.' % (ing['actual_pct'], cap.group(1))
             add('color', 'listed_certification_required' if c['certification'] == 'required' else 'listed_exempt',

@@ -120,7 +120,7 @@ def color_additives(sections):
             continue
         name = re.sub(r'^§\s*[\d.]+\s*', '', s['heading']).rstrip('.')
         lines = s['text'].split('\n')
-        uses = paragraph(lines, r'Uses? and restrictions')
+        uses = paragraph(lines, r'Uses? and restrictions?')  # 73.2030 says "Use and restriction."
         ident = paragraph(lines, 'Identity')
         cas = CAS_RE.findall(s['text'])
         ref = ''
