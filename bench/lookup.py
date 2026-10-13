@@ -27,6 +27,16 @@ CAS_RE = re.compile(r'^\d{2,7}-\d{2}-\d$')
 EC_RE = re.compile(r'^\d{3}-\d{3}-\d$')
 CIX_RE = re.compile(r'^(?:CI\s*)?(\d{4,6}(?::\d+)?)$', re.I)
 FOOTNOTE_REF = re.compile(r'\(\s*(\d{1,2})\s*\)')
+REVIEW_FILE = os.path.join(os.path.dirname(DB), 'review_decisions.csv')
+
+
+def _reviews():
+    """{(annex, ref_no): row} from data/review_decisions.csv (人工核对结论)."""
+    if not os.path.exists(REVIEW_FILE):
+        return {}
+    import csv
+    with open(REVIEW_FILE, encoding='utf-8') as f:
+        return {(r['annex'], r['ref_no']): r for r in csv.DictReader(f)}
 
 
 def _conn():
@@ -115,6 +125,7 @@ def lookup(query, annex=None):
     kind, value = classify(query)
     con = _conn()
     keys = _entry_keys(con, kind, value)
+    reviews = _reviews()
     out = []
     for (ax, seq), why in keys.items():
         if annex and ax != annex.upper():
@@ -144,6 +155,7 @@ def lookup(query, annex=None):
             e['other'], e['wording']] + [c['max_concentration'] for c in conds]
             + [c['other'] for c in conds] + [c['wording'] for c in conds])
         e['annex_meaning'] = ANNEX_MEANING.get(ax, '')
+        e['review'] = reviews.get((ax, e['ref_no']))
         out.append(e)
     con.close()
     out.sort(key=lambda e: (ANNEX_ORDER.get(e['annex'], 9),
@@ -175,7 +187,9 @@ def render(hits, query):
         flag = ""
         if e['status'] != 'active':
             flag += "  [%s]" % e['status']
-        if e['needs_review']:
+        if e['needs_review'] and e.get('review'):
+            flag += "  [c/d/e 按原文保留，%s 已核对]" % e['review']['reviewed_on']
+        elif e['needs_review']:
             flag += "  [c/d/e split uncertain]"
         L.append("=" * 96)
         L.append("附件 %s (%s)  条目 %s%s   页 %s   %s"
@@ -187,7 +201,8 @@ def render(hits, query):
             L += _wrap(e['chemical_name'].replace("\n", " "), 6)
         for s in e['substances']:
             bits = [x for x in (s['colour_index'], s['inci_name'], s['cas'], s['ec']) if x]
-            warn = "" if s['split_ok'] else "   <-- 未配对，需人工核对"
+            warn = "" if s['split_ok'] else (
+                "   (按原文保留，已核对)" if e.get('review') else "   <-- 未配对，需人工核对")
             L.append("    - " + " | ".join(bits) + warn)
         if not e['conditions']:
             L.append("  (无条件列——附件 II 为禁用清单)" if e['annex'] == 'II' else "  (无条件)")

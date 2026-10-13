@@ -1,0 +1,526 @@
+<title>makeup-eu 标注台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">
+<style>
+/* Layout: case list on the left, the open case on the right (inputs → candidate entries → findings → case verdict); stacks on narrow screens */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --sunk:#eef0f4; --fg:#1b1f27; --muted:#5b6372; --line:#dfe2e8;
+  --accent:#b85f00; --accent-soft:#fff3dc; --link:#1f4fbf; --link-soft:#e8eefc;
+  --bad:#b42318; --bad-soft:#fde8e6; --ok:#1f7a4d; --ok-soft:#e3f4ea; --warn:#8a5a00; --warn-soft:#fff4d6;
+  --sans:"IBM Plex Sans","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12151b; --surface:#1a1e26; --sunk:#151920; --fg:#e7e9ee; --muted:#9aa2b1; --line:#2c323d;
+  --accent:#f0a33c; --accent-soft:#2e2312; --link:#8fb0ff; --link-soft:#1c2540;
+  --bad:#ff8a7a; --bad-soft:#3a1d1a; --ok:#6fd39f; --ok-soft:#16301f; --warn:#f3c561; --warn-soft:#332810; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12151b; --surface:#1a1e26; --sunk:#151920; --fg:#e7e9ee; --muted:#9aa2b1; --line:#2c323d;
+  --accent:#f0a33c; --accent-soft:#2e2312; --link:#8fb0ff; --link-soft:#1c2540;
+  --bad:#ff8a7a; --bad-soft:#3a1d1a; --ok:#6fd39f; --ok-soft:#16301f; --warn:#f3c561; --warn-soft:#332810; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.5}
+.app{display:grid;grid-template-columns:250px minmax(0,1fr);gap:16px;max-width:1280px;margin:0 auto;padding-inline:16px;padding-block:16px 48px}
+@media (max-width:860px){.app{grid-template-columns:1fr}}
+aside{display:grid;gap:10px;align-content:start;position:sticky;top:env(safe-area-inset-top,0px);max-height:100vh;overflow:auto;padding-bottom:16px}
+@media (max-width:860px){aside{position:static;max-height:none}}
+h1{font-size:17px;margin:0;font-weight:600}
+.progress{font-size:13px;color:var(--muted)}
+.bar{height:6px;background:var(--sunk);border-radius:3px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--ok)}
+.filters{display:flex;flex-wrap:wrap;gap:4px}
+.filters button,.mini{font:inherit;font-size:12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:2px 9px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.group{display:grid;gap:2px}
+.group h2{font-size:12px;font-weight:500;color:var(--muted);margin:6px 0 2px}
+.caseBtn{display:flex;align-items:center;gap:8px;width:100%;font:inherit;text-align:left;background:none;border:0;border-radius:6px;padding:4px 8px;color:var(--fg);cursor:pointer}
+.caseBtn:hover{background:var(--sunk)}
+.caseBtn[aria-current="true"]{background:var(--link-soft)}
+.caseBtn .id{font-family:var(--mono);font-size:13px;width:34px}
+.caseBtn .note{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;flex:none;border:1.5px solid var(--muted)}
+.dot.done{background:var(--ok);border-color:var(--ok)}
+.dot.disputed{background:var(--bad);border-color:var(--bad)}
+.dot.draft{background:var(--accent);border-color:var(--accent)}
+.hold{font-size:10px;font-family:var(--mono);color:var(--warn);border:1px solid currentColor;border-radius:3px;padding:0 3px}
+main{display:grid;gap:14px;min-width:0;align-content:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:10px;min-width:0}
+.panel>h3{margin:0;font-size:14px;font-weight:600}
+.caseHead{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.caseHead .big{font-family:var(--mono);font-size:22px;font-weight:500}
+.tag{font-size:12px;border-radius:4px;padding:1px 7px;background:var(--sunk);color:var(--muted)}
+.tag.hold{background:var(--warn-soft);color:var(--warn);border:0;font-family:var(--sans);font-size:12px;padding:1px 7px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:13px}
+.kv dt{color:var(--muted)} .kv dd{margin:0;min-width:0}
+.banner{border-radius:8px;padding:8px 12px;font-size:13px;background:var(--warn-soft);color:var(--warn)}
+.banner.bad{background:var(--bad-soft);color:var(--bad)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{text-align:left;font-weight:500;font-size:12px;color:var(--muted);border-bottom:1px solid var(--line);padding:5px 6px;white-space:nowrap}
+td{border-bottom:1px solid var(--line);padding:6px;vertical-align:top}
+td.num{font-family:var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ingName{font-weight:500}
+.sub{font-size:12px;color:var(--muted)}
+.hitsN{font-family:var(--mono);font-size:12px;border-radius:4px;padding:0 6px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.cands{display:grid;gap:8px;margin-top:6px}
+.entry{border:1px solid var(--line);border-radius:8px;padding:8px 10px;display:grid;gap:6px;background:var(--bg)}
+.entry .eh{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font-size:12px;color:var(--muted)}
+.annex{font-family:var(--mono);font-weight:500;font-size:12px;padding:1px 6px;border-radius:4px}
+.annex.II{background:var(--bad-soft);color:var(--bad)} .annex.III{background:var(--warn-soft);color:var(--warn)}
+.annex.IV,.annex.V,.annex.VI{background:var(--ok-soft);color:var(--ok)}
+.entry .en{font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.entry table{font-size:12.5px;min-width:620px}
+.entry td{white-space:pre-line}
+.entry td.c{font-family:var(--mono);white-space:nowrap}
+.fn{font-size:12px;color:var(--muted)}
+.btn{font:inherit;font-size:13px;font-weight:500;border-radius:7px;padding:5px 11px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;white-space:nowrap}
+.btn.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn.small{font-size:12px;padding:2px 8px}
+.btn.ghost{border-color:transparent;color:var(--link);background:none}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn:focus-visible,.caseBtn:focus-visible,.mini:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.finding{border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:8px}
+.finding .fh{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.finding .fh .t{font-family:var(--mono);font-size:13px;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px 12px}
+label{display:grid;gap:3px;font-size:12px;color:var(--muted);font-weight:500;min-width:0}
+input,select,textarea{font:inherit;font-size:13.5px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 8px;width:100%;min-width:0}
+textarea{min-height:52px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--link);outline-offset:0;border-color:transparent}
+.calc{font-family:var(--mono);font-size:12.5px;color:var(--muted);background:var(--sunk);border-radius:6px;padding:6px 8px;overflow-wrap:anywhere}
+.calc b{color:var(--fg);font-weight:500}
+.calc .over{color:var(--bad)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.problems{display:grid;gap:3px;font-size:13px;color:var(--bad)}
+.problems:empty{display:none}
+.saved{font-size:12px;color:var(--muted)}
+details.spoiler summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.empty{color:var(--muted);font-size:13px}
+.sticky{position:sticky;bottom:env(safe-area-inset-bottom,0px);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;box-shadow:0 -4px 16px rgba(0,0,0,.06)}
+</style>
+
+<div class="app">
+  <aside>
+    <div>
+      <h1>makeup-eu 标注台</h1>
+      <div class="progress" id="progress">载入中…</div>
+      <div class="bar"><i id="barFill" style="width:0"></i></div>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div id="caseList"></div>
+  </aside>
+  <main id="main"><div class="panel"><p class="empty">载入中…</p></div></main>
+</div>
+
+<script src="context.js"></script>
+<script>
+(function(){
+'use strict';
+const CTX = window.ANNOTATE_CONTEXT;
+const CASES = CTX.cases;
+const BY_ID = Object.fromEntries(CASES.map(c => [c.case_id, c]));
+const VERDICTS = [
+  ['prohibited','禁用'], ['exceeds_limit','超标'], ['compliant','合规'],
+  ['compliant_by_bound','按上界推算合规'], ['labelling_required','合规，有标签义务'],
+  ['insufficient_data','信息不足'], ['requires_supplier_documentation','需要供应商文件']
+];
+const VLABEL = Object.fromEntries(VERDICTS);
+const SEVERITY = ['prohibited','exceeds_limit','requires_supplier_documentation','insufficient_data','labelling_required','compliant_by_bound','compliant'];
+const NEEDS_ACTION = ['insufficient_data','requires_supplier_documentation'];
+const RISKS = [['low','低'],['medium','中'],['high','高']];
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const today = () => { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); };
+
+// ---------------------------------------------------------------- state
+let db = null, dbState = 'pending';           // pending | ready | none
+const saved = {};                              // case_id -> gold doc (from db)
+let current = null;                            // case_id
+let draft = null;                              // editable copy of the open case's gold
+let dirty = false;
+let filter = 'all';
+let saveMsg = '';
+
+// tier lookup by cite, for limit display and utilisation
+const TIERS = {}, ENTRIES = {};
+CASES.forEach(c => c.ingredients.forEach(i => i.hits.forEach(h => {
+  ENTRIES[h.key] = h;
+  h.tiers.forEach(t => { TIERS[t.cite] = Object.assign({entry: h}, t); });
+})));
+const BASES = Array.from(new Set(['as_is'].concat(Object.values(TIERS).map(t => t.basis).filter(Boolean)))).sort();
+
+function emptyGold(cid){
+  return {case_id: cid, status: 'draft', case_verdict: '', risk: '', findings: [], trap_types: [], tests_capability: [], disputed_reason: '', notes: '', annotated_on: ''};
+}
+function clone(o){ return JSON.parse(JSON.stringify(o)); }
+function statusOf(cid){ return (saved[cid] && saved[cid].status) || 'todo'; }
+
+// ------------------------------------------------------------ arithmetic
+function toPct(val, unit){
+  if (val == null) return null;
+  if (unit === '%') return val;
+  if (unit === 'ppm' || unit === 'mg/kg') return val / 1e4;
+  if (unit === 'ppb') return val / 1e7;
+  return null;
+}
+function limitFor(f){
+  const t = TIERS[f.annex_entry];
+  if (!t) return null;
+  if (t.multi && t.multi.length){
+    const v = f.limit_pick != null && f.limit_pick !== '' ? Number(f.limit_pick) : null;
+    return v == null ? {pending: true, tier: t} : {pct: toPct(v, t.unit), raw: v + ' ' + t.unit, tier: t};
+  }
+  const p = toPct(t.val, t.unit);
+  return p == null ? {text: true, tier: t} : {pct: p, raw: t.val + ' ' + t.unit + (t.basis ? ' ' + t.basis : ''), tier: t};
+}
+function utilization(f){
+  const L = limitFor(f);
+  if (!L || L.text) return 'N/A';
+  if (L.pending) return null;
+  const c = f.concentration_on_basis;
+  if (c == null || c === '' || isNaN(Number(c)) || !L.pct) return null;
+  return Math.round(Number(c) / L.pct * 10000) / 10000;
+}
+
+// ------------------------------------------------------------ validation (mirrors bench/validate_gold.py)
+function problems(g){
+  const out = [];
+  const c = BY_ID[g.case_id];
+  const seqs = new Set(c.ingredients.map(i => i.ing.seq));
+  g.findings.forEach((f, i) => {
+    const w = '第 ' + (i+1) + ' 条判定：';
+    if (!seqs.has(Number(f.ingredient_seq))) out.push(w + '没选成分');
+    if (!/^(II|III|IV|V|VI)\/[0-9]+[a-z]?(-[0-9]+)?(#[0-9]+)?$/.test(f.annex_entry || '')) out.push(w + '引用格式应为 III/376#1');
+    if (!VLABEL[f.verdict]) out.push(w + '没选 verdict');
+    if (!f.basis) out.push(w + 'basis 为空');
+    const conc = f.concentration_on_basis;
+    if ((conc === '' || conc == null) && !NEEDS_ACTION.includes(f.verdict) && f.verdict !== 'prohibited') out.push(w + '缺换算后浓度');
+    const u = utilization(f);
+    if (typeof u === 'number' && u > 1 && ['compliant','compliant_by_bound'].includes(f.verdict)) out.push(w + '判合规但占限值 ' + u + ' > 1');
+    if (NEEDS_ACTION.includes(f.verdict)){
+      if (!(f.required_action || '').trim()) out.push(w + '要写 required_action');
+      else if (!/\d/.test(f.required_action)) out.push(w + 'required_action 里要有具体阈值（数字）');
+    }
+    const L = limitFor(f);
+    if (L && L.pending) out.push(w + '这一档的限值单元格有多个数，选一个');
+  });
+  if (!VLABEL[g.case_verdict]) out.push('没选整条 case 的结论');
+  if (!g.risk) out.push('没选风险等级');
+  const fv = new Set(g.findings.map(f => f.verdict));
+  if (['compliant','compliant_by_bound'].includes(g.case_verdict) && (fv.has('prohibited') || fv.has('exceeds_limit'))) out.push('case 判合规，但有判定是禁用或超标');
+  if (g.status === 'disputed' && !(g.disputed_reason || '').trim()) out.push('标了有争议，要写理由');
+  return out;
+}
+
+// ------------------------------------------------------------ sidebar
+function renderSidebar(){
+  const counts = {todo:0, draft:0, done:0, disputed:0};
+  CASES.forEach(c => counts[statusOf(c.case_id)]++);
+  const done = counts.done + counts.disputed;
+  const holdDone = CASES.filter(c => c.holdout && ['done','disputed'].includes(statusOf(c.case_id))).length;
+  $('#progress').textContent = (dbState === 'none' ? '只读：保存不可用 · ' : '') + '已标 ' + done + ' / ' + CASES.length + '（holdout ' + holdDone + ' / 30）· 争议 ' + counts.disputed + ' · 草稿 ' + counts.draft;
+  $('#barFill').style.width = (done / CASES.length * 100) + '%';
+  const F = [['all','全部'],['todo','未标'],['draft','草稿'],['done','已标'],['disputed','有争议']];
+  $('#filters').innerHTML = F.map(([k,l]) => '<button type="button" data-f="' + k + '" aria-pressed="' + (filter === k) + '">' + l + '</button>').join('');
+  const groups = {};
+  CASES.forEach(c => { (groups[c.group] = groups[c.group] || {name: c.group_name, items: []}).items.push(c); });
+  $('#caseList').innerHTML = Object.keys(groups).sort().map(g => {
+    const items = groups[g].items.filter(c => filter === 'all' || statusOf(c.case_id) === filter);
+    if (!items.length) return '';
+    return '<div class="group"><h2>' + g + ' · ' + esc(groups[g].name) + '</h2>' + items.map(c =>
+      '<button type="button" class="caseBtn" data-case="' + c.case_id + '" aria-current="' + (current === c.case_id) + '">' +
+      '<span class="dot ' + statusOf(c.case_id) + '"></span><span class="id">' + c.case_id + '</span>' +
+      '<span class="note">' + esc(c.perturbation_note) + '</span>' + (c.holdout ? '<span class="hold">H</span>' : '') + '</button>').join('') + '</div>';
+  }).join('');
+}
+
+// ------------------------------------------------------------ case panel
+function pct(v){ return v == null ? '—' : (Math.round(v * 1e6) / 1e6).toString(); }
+
+function renderCase(){
+  const c = BY_ID[current];
+  if (!c){ $('#main').innerHTML = '<div class="panel"><p class="empty">从左边选一条 case。</p></div>'; return; }
+  const g = draft;
+  const p = c.product || {};
+  const banners = [];
+  if (c.needs_decision) banners.push('<div class="banner">待定：' + esc(c.needs_decision) + '</div>');
+  if (c.design_question) banners.push('<div class="banner">设计问题：' + esc(c.design_question) + '</div>');
+  if (c.assumption) banners.push('<div class="banner">假设：' + esc(c.assumption) + '</div>');
+  if (dbState === 'none') banners.push('<div class="banner bad">这个视图保存不可用：需要在 claude.ai 登录后打开。可以浏览，不能保存。</div>');
+
+  const head = '<div class="panel"><div class="caseHead"><span class="big">' + c.case_id + '</span><span class="tag">' + c.group + ' · ' + esc(c.group_name) + '</span>' +
+    (c.holdout ? '<span class="tag hold">holdout</span>' : '') + '<span class="tag">配方 ' + esc(c.base_formula) + '</span><span class="tag">' + esc(c.regulation_version) + '</span></div>' +
+    '<dl class="kv"><dt>扰动</dt><dd>' + esc(c.perturbation_note) + '</dd>' +
+    '<dt>产品</dt><dd>' + esc([p.name, p.category, p.rinse_off === true ? '淋洗型' : p.rinse_off === false ? '驻留型' : '', p.base].filter(Boolean).join(' · ')) + '</dd>' +
+    '<dt>部位</dt><dd>' + esc((p.body_parts || []).join(', ') || '—') + (p.supplier_body_parts ? '（供应商写：' + esc(p.supplier_body_parts) + '）' : '') + '</dd>' +
+    '<dt>宣称</dt><dd>' + esc((p.claims || []).join(', ') || '—') + '</dd>' +
+    (p.target_population_note ? '<dt>人群</dt><dd>' + esc(p.target_population_note) + '</dd>' : '') +
+    (p.supplier_product_type ? '<dt>供应商类型</dt><dd>' + esc(p.supplier_product_type) + '</dd>' : '') +
+    '<dt>评估日</dt><dd>' + esc(c.assessment_date) + '</dd></dl>' + banners.join('') + '</div>';
+
+  const rows = c.ingredients.map((x, idx) => {
+    const i = x.ing, sf = i.supply_form || {};
+    const form = sf.kind === 'neat' ? '纯品' : sf.kind === 'unspecified' ? '<b>未注明</b>' : esc(sf.as_supplied || (sf.kind + ' ' + (sf.active_pct != null ? sf.active_pct + '%' : '')));
+    const extra = [];
+    if (i.trade_name) extra.push(esc(i.trade_name));
+    if (i.cas) extra.push('CAS ' + esc(i.cas));
+    if (i.kind === 'blend') extra.push('复配' + (i.composition_disclosed ? '' : '，组成未披露'));
+    if (i.composition) extra.push('披露组成：' + esc(i.composition.map(k => (k.inci || k.name) + ' ' + (k.pct_of_blend != null ? k.pct_of_blend + '%' : '')).join('；')));
+    if (i.supplier_declared_contains) extra.push('供应商声明含：' + esc(i.supplier_declared_contains.map(k => (k.inci || k.cas) + (k.pct_of_product != null ? ' ' + k.pct_of_product + '%(占成品)' : '') + (k.pct_of_ingredient != null ? ' ' + k.pct_of_ingredient + '%(占原料)' : '')).join('；')));
+    if (i.supplier_spec) extra.push('供应商规格：' + esc(JSON.stringify(i.supplier_spec)));
+    else if ('supplier_spec' in i) extra.push('供应商规格：<b>未提供</b>');
+    if (i.supplier_note) extra.push('备注：' + esc(i.supplier_note));
+    const ex = x.hits.filter(h => h.exact), pa = x.hits.filter(h => !h.exact);
+    const paBlock = pa.length ? '<details><summary class="sub">另有 ' + pa.length + ' 个只是名称片段匹配（多为噪声）</summary><div class="cands">' + pa.map(h => entryCard(h, i.seq)).join('') + '</div></details>' : '';
+    const hits = !x.hits.length ? '<span class="sub">无命中</span>'
+      : ex.length ? '<details open><summary><span class="hitsN">' + ex.length + ' 个候选条目</span></summary><div class="cands">' + ex.map(h => entryCard(h, i.seq)).join('') + paBlock + '</div></details>'
+      : paBlock;
+    return '<tr><td class="num">' + i.seq + '</td><td><div class="ingName">' + esc(i.name_as_written) + '</div><div class="sub">' + esc((i.function || []).join(', ')) + (extra.length ? ' · ' + extra.join(' · ') : '') + '</div>' +
+      '<div style="margin-top:4px">' + hits + '</div>' +
+      '<div class="row" style="margin-top:4px"><button type="button" class="btn small ghost" data-addfree="' + i.seq + '">＋ 手动加一条判定</button></div></td>' +
+      '<td class="num">' + pct(i.input_pct) + '</td><td>' + form + '</td><td class="num">' + pct(i.actual_pct) + '</td></tr>';
+  }).join('');
+  const ingPanel = '<div class="panel"><h3>成分（' + c.ingredients.length + '）· 名称或编号直接命中条目的 ' + c.ingredients.filter(x => x.hits.some(h => h.exact)).length + ' 个</h3>' +
+    '<div class="scroll"><table><thead><tr><th>#</th><th>成分</th><th>投料 %</th><th>供应形态</th><th>实际 %</th></tr></thead><tbody>' + rows + '</tbody></table></div></div>';
+
+  const findings = '<div class="panel" id="findingsPanel"><h3>逐条判定（' + g.findings.length + '）</h3>' +
+    (g.findings.length ? g.findings.map((f, k) => findingCard(f, k, c)).join('') : '<p class="empty">还没有。在上面的候选条目里点「用这一档」，或者「手动加一条判定」。没有命中任何条目的成分不用写。</p>') + '</div>';
+
+  const sugg = suggestVerdict(g);
+  const caseP = '<div class="panel"><h3>整条 case</h3><div class="grid">' +
+    '<label for="cv">结论<select id="cv" data-g="case_verdict"><option value="">—</option>' + VERDICTS.map(([k,l]) => '<option value="' + k + '"' + (g.case_verdict === k ? ' selected' : '') + '>' + l + '（' + k + '）</option>').join('') + '</select></label>' +
+    '<label for="risk">风险<select id="risk" data-g="risk"><option value="">—</option>' + RISKS.map(([k,l]) => '<option value="' + k + '"' + (g.risk === k ? ' selected' : '') + '>' + l + '</option>').join('') + '</select></label>' +
+    '<label for="traps">踩的坑（逗号分隔）<input id="traps" data-gl="trap_types" list="dlTraps" value="' + esc(g.trap_types.join(', ')) + '"></label>' +
+    '<label for="caps">测的能力（逗号分隔）<input id="caps" data-gl="tests_capability" list="dlCaps" value="' + esc(g.tests_capability.join(', ')) + '"></label></div>' +
+    (sugg ? '<div class="row sub">判定里最严重的是 <b>' + esc(VLABEL[sugg]) + '</b>' + (g.case_verdict !== sugg ? ' <button type="button" class="btn small" id="useSugg">用它作结论</button>' : '') + '</div>' : '') +
+    '<label for="notes">备注<textarea id="notes" data-g="notes">' + esc(g.notes) + '</textarea></label>' +
+    '<label class="row" style="display:flex;gap:6px;align-items:center;color:var(--fg)"><input type="checkbox" id="disp" style="width:auto"' + (g.status === 'disputed' ? ' checked' : '') + '> 判不准，标为有争议</label>' +
+    '<label for="dispR"' + (g.status === 'disputed' ? '' : ' hidden') + ' id="dispWrap">争议理由与不确定点<textarea id="dispR" data-g="disputed_reason">' + esc(g.disputed_reason) + '</textarea></label>' +
+    spoiler(c) + '</div>';
+
+  const bar = '<div class="sticky"><button type="button" class="btn primary" id="saveDone"' + (dbState !== 'ready' ? ' disabled' : '') + '>' + (g.status === 'disputed' ? '保存（有争议）' : '保存为已标') + '</button>' +
+    '<button type="button" class="btn" id="saveDraft"' + (dbState !== 'ready' ? ' disabled' : '') + '>存草稿</button>' +
+    '<button type="button" class="btn ghost" id="nextCase">下一条未标 →</button>' +
+    '<span class="saved" id="saveMsg">' + esc(saveMsg) + '</span><div class="problems" id="problems"></div></div>';
+
+  $('#main').innerHTML = head + ingPanel + findings + caseP + bar + datalists();
+  refreshProblems();
+}
+
+function entryCard(h, seq){
+  const st = h.status !== 'active' ? ' <b style="color:var(--bad)">[' + esc(h.status) + ']</b>' : '';
+  const tiers = h.tiers.length ? '<div class="scroll"><table><thead><tr><th>引用</th><th>产品类型</th><th>最大浓度</th><th>其他</th><th>警示语</th><th></th></tr></thead><tbody>' +
+    h.tiers.map(t => '<tr><td class="c">' + esc(t.cite) + '</td><td>' + esc(t.pt || '（任何产品）') + '</td><td>' + esc(t.max || '—') + (t.multi ? '<div class="sub">单元格含多个数：' + esc(t.multi.join(', ')) + '</div>' : '') + '</td><td>' + esc(t.other || '—') + '</td><td>' + esc(t.warn || '—') + '</td>' +
+      '<td><button type="button" class="btn small" data-use="' + esc(t.cite) + '" data-seq="' + seq + '">用这一档</button></td></tr>').join('') + '</tbody></table></div>'
+    : '<div class="row"><span class="sub">' + (h.annex === 'II' ? '附件 II：禁用，无分档' : '无条件') + '</span><button type="button" class="btn small" data-use="' + esc(h.key) + '" data-seq="' + seq + '">用这一条</button></div>';
+  return '<div class="entry"><div class="eh"><span class="annex ' + h.annex + '">' + esc(h.key) + '</span><span>p. ' + esc(h.pages) + '</span><span>' + esc(h.amended_by) + '</span>' + st +
+    (h.needs_review ? '<span>CAS/EC 按原文保留（已核对）</span>' : '') + '<span>命中依据：' + esc(h.via.join('、')) + '</span></div>' +
+    '<div class="en">' + esc(h.name) + '</div>' + (h.chem && h.chem !== h.name ? '<div class="sub">' + esc(h.chem) + '</div>' : '') + tiers +
+    h.footnotes.map(f => '<div class="fn">(' + esc(f.marker) + ') ' + esc(f.text) + '</div>').join('') + '</div>';
+}
+
+function findingCard(f, k, c){
+  Object.defineProperty(f, '__k', {value: k, enumerable: false, configurable: true, writable: true});
+  const ing = c.ingredients.find(x => x.ing.seq === Number(f.ingredient_seq));
+  const L = limitFor(f);
+  const t = L && L.tier;
+  const ingOpts = c.ingredients.map(x => '<option value="' + x.ing.seq + '"' + (Number(f.ingredient_seq) === x.ing.seq ? ' selected' : '') + '>' + x.ing.seq + ' · ' + esc(x.ing.name_as_written) + '</option>').join('');
+  const pick = t && t.multi ? '<label>用哪个限值<select data-f="limit_pick" data-k="' + k + '"><option value="">选一个</option>' + t.multi.map(v => '<option value="' + v + '"' + (String(f.limit_pick) === String(v) ? ' selected' : '') + '>' + v + ' ' + esc(t.unit) + '</option>').join('') + '</select></label>' : '';
+  return '<div class="finding" data-k="' + k + '"><div class="fh"><span class="t">#' + (k+1) + '</span><select data-f="ingredient_seq" data-k="' + k + '" style="width:auto;max-width:100%">' + ingOpts + '</select>' +
+    '<button type="button" class="btn small ghost" data-del="' + k + '" style="margin-left:auto">删除</button></div>' +
+    '<div class="grid"><label>引用<input data-f="annex_entry" data-k="' + k + '" value="' + esc(f.annex_entry) + '" placeholder="III/376#1" spellcheck="false"></label>' +
+    '<label>计量基准<input data-f="basis" data-k="' + k + '" list="dlBasis" value="' + esc(f.basis) + '" placeholder="as_is"></label>' +
+    '<label title="例如钠盐换算成酸：酸的分子量 ÷ 盐的分子量">换算系数（可选）<input data-f="factor" data-k="' + k + '" type="number" step="any" min="0" value="' + esc(f.factor == null ? '' : f.factor) + '" placeholder="1"></label>' +
+    '<label>换算后浓度 %<input data-f="concentration_on_basis" data-k="' + k + '" type="number" step="any" min="0" value="' + esc(f.concentration_on_basis == null ? '' : f.concentration_on_basis) + '"></label>' + pick +
+    '<label>结论<select data-f="verdict" data-k="' + k + '"><option value="">—</option>' + VERDICTS.map(([v,l]) => '<option value="' + v + '"' + (f.verdict === v ? ' selected' : '') + '>' + l + '</option>').join('') + '</select></label></div>' +
+    '<div class="calc" data-calc="' + k + '">' + calcLine(f, ing) + '</div>' +
+    '<label' + (NEEDS_ACTION.includes(f.verdict) ? '' : ' hidden') + ' data-ra="' + k + '">需要做什么（写出具体阈值）<textarea data-f="required_action" data-k="' + k + '">' + esc(f.required_action) + '</textarea></label>' +
+    '<label>说明（可选）<input data-f="note" data-k="' + k + '" value="' + esc(f.note) + '"></label></div>';
+}
+
+function calcLine(f, ing){
+  const parts = [];
+  if (ing){
+    const a = ing.ing.actual_pct;
+    if (a != null && f.factor != null && f.factor !== '' && !isNaN(Number(f.factor))){
+      const v = Math.round(a * Number(f.factor) * 1e6) / 1e6;
+      parts.push('实际浓度 ' + pct(a) + ' % × ' + Number(f.factor) + ' = <b>' + v + ' %</b> <button type="button" class="btn small" data-fill="' + v + '" data-fk="' + f.__k + '">填入</button>');
+    } else parts.push('实际浓度 <b>' + pct(a) + ' %</b>' + (a == null ? '（供应形态未注明，算不出）' : ''));
+  }
+  const L = limitFor(f);
+  if (!f.annex_entry) parts.push('未填引用');
+  else if (!L){ const e = ENTRIES[f.annex_entry]; parts.push(e ? (e.annex === 'II' ? '附件 II 禁用，无限值' : '该条目无分档') : '引用不在候选里，限值请自己对照原文'); }
+  else if (L.text) parts.push('限值为文字型：' + esc(L.tier.max || '（空）') + ' → 占比 <b>N/A</b>');
+  else if (L.pending) parts.push('限值单元格有多个数，先选一个');
+  else {
+    parts.push('限值 <b>' + esc(L.raw) + '</b>' + (L.tier.unit !== '%' ? '（= ' + pct(L.pct) + ' %）' : ''));
+    const u = utilization(f);
+    if (u == null) parts.push('填了换算后浓度才算占比');
+    else parts.push('占限值 <b' + (u > 1 ? ' class="over"' : '') + '>' + u + '</b>');
+  }
+  if (L && L.tier && L.tier.pt) parts.push('档：' + esc(L.tier.pt));
+  return parts.join(' · ');
+}
+
+function spoiler(c){
+  const hints = c.ingredients.filter(x => x.spoiler && Object.keys(x.spoiler).length);
+  if (!hints.length) return '';
+  const done = ['done','disputed'].includes(statusOf(c.case_id));
+  if (!done) return '<p class="sub">供应商自己的初判有 ' + hints.length + ' 条，这条保存为已标之后才显示。</p>';
+  return '<details class="spoiler"><summary>供应商初判（' + hints.length + ' 条，仅供对照）</summary><ul>' +
+    hints.map(x => '<li>' + esc(x.ing.name_as_written) + '：' + esc(Object.values(x.spoiler).join('；')) + '</li>').join('') + '</ul></details>';
+}
+
+function datalists(){
+  const traps = new Set(), caps = new Set();
+  Object.values(saved).forEach(g => { (g.trap_types || []).forEach(t => traps.add(t)); (g.tests_capability || []).forEach(t => caps.add(t)); });
+  CASES.forEach(c => caps.add(c.group_name));
+  const dl = (id, set) => '<datalist id="' + id + '">' + Array.from(set).sort().map(v => '<option value="' + esc(v) + '">').join('') + '</datalist>';
+  return dl('dlTraps', traps) + dl('dlCaps', caps) + dl('dlBasis', new Set(BASES));
+}
+
+function suggestVerdict(g){
+  const vs = g.findings.map(f => f.verdict).filter(Boolean);
+  if (!vs.length) return g.findings.length ? null : 'compliant';
+  return SEVERITY.find(v => vs.includes(v)) || null;
+}
+
+function refreshProblems(){
+  const el = $('#problems'); if (!el || !draft) return;
+  const ps = problems(Object.assign({}, draft, {status: draft.status === 'disputed' ? 'disputed' : 'done'}));
+  el.innerHTML = ps.map(p => '<div>' + esc(p) + '</div>').join('');
+}
+
+// ------------------------------------------------------------ events
+function openCase(cid){
+  if (dirty && current && current !== cid){
+    saveMsg = current + ' 有未保存的修改，已存为草稿';
+    if (dbState === 'ready') persist('draft', true);
+  }
+  current = cid; dirty = false;
+  draft = clone(saved[cid] || emptyGold(cid));
+  draft.findings.forEach(f => { if (f.conversion_factor != null && f.factor == null) f.factor = f.conversion_factor; });
+  if (!['draft','done','disputed'].includes(draft.status)) draft.status = 'draft';
+  saveMsg = saveMsg.startsWith(cid) ? saveMsg : (saved[cid] && saved[cid].saved_at ? '上次保存 ' + saved[cid].saved_at : '');
+  renderSidebar(); renderCase();
+  try { localStorage.setItem('mueu-annot-current', cid); } catch(_) {}
+  window.scrollTo(0, 0);
+}
+
+function addFinding(seq, cite){
+  const t = TIERS[cite];
+  draft.findings.push({ingredient_seq: Number(seq), ingredient: (BY_ID[current].ingredients.find(x => x.ing.seq === Number(seq)) || {ing:{}}).ing.name_as_written || '',
+    annex_entry: cite || '', basis: t && t.basis ? t.basis : 'as_is', concentration_on_basis: null, limit_utilization: null, verdict: '', required_action: '', note: ''});
+  dirty = true; renderCase();
+  const last = document.querySelector('#findingsPanel .finding:last-of-type'); if (last) last.scrollIntoView({block: 'center'});
+}
+
+document.addEventListener('click', ev => {
+  const b = ev.target.closest('button'); if (!b) return;
+  if (b.dataset.case) return openCase(b.dataset.case);
+  if (b.dataset.f && b.closest('#filters')){ filter = b.dataset.f; return renderSidebar(); }
+  if (b.dataset.use) return addFinding(b.dataset.seq, b.dataset.use);
+  if (b.dataset.addfree) return addFinding(b.dataset.addfree, '');
+  if (b.dataset.fill){ const f = draft.findings[Number(b.dataset.fk)]; if (f){ f.concentration_on_basis = Number(b.dataset.fill); dirty = true; renderCase(); } return; }
+  if (b.dataset.del){ draft.findings.splice(Number(b.dataset.del), 1); dirty = true; return renderCase(); }
+  if (b.id === 'useSugg'){ draft.case_verdict = suggestVerdict(draft); dirty = true; return renderCase(); }
+  if (b.id === 'saveDone') return persist(draft.status === 'disputed' ? 'disputed' : 'done');
+  if (b.id === 'saveDraft') return persist('draft');
+  if (b.id === 'nextCase'){
+    const order = CASES.map(c => c.case_id); const i = order.indexOf(current);
+    const nxt = order.slice(i + 1).concat(order.slice(0, i)).find(id => !['done','disputed'].includes(statusOf(id)));
+    if (nxt) openCase(nxt);
+  }
+});
+
+document.addEventListener('input', ev => onField(ev.target, false));
+document.addEventListener('change', ev => onField(ev.target, true));
+
+function onField(el, isChange){
+  if (!draft) return;
+  if (el.id === 'disp'){
+    if (!isChange) return;
+    draft.status = el.checked ? 'disputed' : 'draft'; dirty = true;
+    $('#dispWrap').hidden = !el.checked;
+    $('#saveDone').textContent = el.checked ? '保存（有争议）' : '保存为已标';
+    return refreshProblems();
+  }
+  if (el.dataset.g){ draft[el.dataset.g] = el.value; dirty = true; if (isChange && el.id === 'cv') renderCase(); else refreshProblems(); return; }
+  if (el.dataset.gl){ draft[el.dataset.gl] = el.value.split(/[,，]/).map(s => s.trim()).filter(Boolean); dirty = true; return; }
+  if (el.dataset.f && el.dataset.k != null){
+    const k = Number(el.dataset.k), f = draft.findings[k], key = el.dataset.f;
+    if (!f) return;
+    if (key === 'concentration_on_basis' || key === 'factor') f[key] = el.value === '' ? null : Number(el.value);
+    else if (key === 'ingredient_seq'){ f[key] = Number(el.value); f.ingredient = (BY_ID[current].ingredients.find(x => x.ing.seq === f[key]) || {ing:{}}).ing.name_as_written || ''; }
+    else f[key] = el.value;
+    dirty = true;
+    if (isChange && (key === 'annex_entry' || key === 'limit_pick' || key === 'ingredient_seq')) return renderCase();
+    if (key === 'verdict'){ const ra = document.querySelector('[data-ra="' + k + '"]'); if (ra) ra.hidden = !NEEDS_ACTION.includes(f.verdict); }
+    Object.defineProperty(f, '__k', {value: k, enumerable: false, configurable: true, writable: true});
+    const calc = document.querySelector('[data-calc="' + k + '"]');
+    if (calc) calc.innerHTML = calcLine(f, BY_ID[current].ingredients.find(x => x.ing.seq === Number(f.ingredient_seq)));
+    refreshProblems();
+  }
+}
+
+// ------------------------------------------------------------ persistence
+function forSave(status){
+  const g = clone(draft);
+  g.status = status;
+  g.findings = g.findings.map(f => {
+    const u = utilization(f);
+    const o = {ingredient_seq: Number(f.ingredient_seq), ingredient: f.ingredient, annex_entry: (f.annex_entry || '').trim(), basis: (f.basis || '').trim(),
+      concentration_on_basis: f.concentration_on_basis == null || f.concentration_on_basis === '' ? null : Number(f.concentration_on_basis),
+      limit_utilization: u, verdict: f.verdict, required_action: f.required_action || '', note: f.note || ''};
+    if (f.limit_pick != null && f.limit_pick !== '') o.limit_pick = Number(f.limit_pick);
+    if (f.factor != null && f.factor !== '') o.conversion_factor = Number(f.factor);
+    return o;
+  });
+  if (status !== 'draft') g.annotated_on = today();
+  const now = new Date();
+  g.saved_at = now.toLocaleString('zh-CN', {hour12: false});
+  return g;
+}
+
+async function persist(status, silent){
+  if (dbState !== 'ready') return;
+  if (status !== 'draft'){
+    const ps = problems(Object.assign({}, draft, {status}));
+    if (ps.length){ saveMsg = '还有 ' + ps.length + ' 处要补，没有保存'; const m = $('#saveMsg'); if (m) m.textContent = saveMsg; return; }
+  }
+  const cid = draft.case_id;
+  const body = forSave(status);
+  try {
+    await db.collection('gold').doc(cid).set(body);
+    saved[cid] = body; dirty = false;
+    if (!silent){ draft.status = status; saveMsg = (status === 'draft' ? '草稿已保存 ' : '已保存 ') + body.saved_at; renderSidebar(); renderCase(); }
+  } catch (e) {
+    saveMsg = '保存失败：' + (e && e.code === 'quota_exceeded' ? '存储已满' : e && e.code === 'invalid_argument' ? '没有写入权限' : '网络或服务暂时不可用，再点一次');
+    const m = $('#saveMsg'); if (m) m.textContent = saveMsg;
+  }
+}
+
+// ------------------------------------------------------------ boot
+let start = CASES[0].case_id;
+try { const s = localStorage.getItem('mueu-annot-current'); if (s && BY_ID[s]) start = s; } catch(_) {}
+openCase(start);
+
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use('db') : null; } catch(_) { db = null; }
+  if (!db){ dbState = 'none'; renderSidebar(); renderCase(); return; }
+  dbState = 'ready';
+  db.collection('gold').onSnapshot(snap => {
+    snap.docs.forEach(d => { if (d.exists) saved[d.id] = d.data(); });
+    snap.docChanges().forEach(ch => { if (ch.type === 'removed') delete saved[ch.doc.id]; });
+    if (!dirty && current && saved[current]){
+      draft = clone(saved[current]);
+      draft.findings.forEach(f => { if (f.conversion_factor != null && f.factor == null) f.factor = f.conversion_factor; });
+    }
+    renderSidebar();
+    if (!dirty) renderCase();
+  }, () => { dbState = 'none'; renderSidebar(); renderCase(); });
+  renderSidebar(); renderCase();
+})();
+})();
+</script>

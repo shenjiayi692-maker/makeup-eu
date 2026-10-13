@@ -100,15 +100,32 @@ spec 的「每条 case 的标注步骤」对应的字段：
 | `tests_capability` | 这条测的能力 |
 | `disputed` | 判不准时标上，写下理由和不确定点，先跳过 |
 
-> **`verdict` 的七类没有定义。** 我读到的 spec 里只出现了四个：
-> `compliant_by_bound`、`insufficient_data`、`requires_supplier_documentation`、
-> `labelling_required`。剩下三类（大概是合规 / 超标 / 禁用一类）需要你补齐，
-> 补齐后我可以把枚举加进 `validate_cases.py`，这样标注时写错会被立刻拦下。
+`verdict` 七类（2026-10-12 定稿）：
+
+| 值 | 含义 |
+|---|---|
+| `prohibited` | 禁用（附件 II，或条目对该用途禁用） |
+| `exceeds_limit` | 超过限值 |
+| `compliant` | 合规 |
+| `compliant_by_bound` | 只能按上界推算，上界也不超标，判合规 |
+| `labelling_required` | 合规，但触发标签 / 警示语义务 |
+| `insufficient_data` | 现有信息判不了 |
+| `requires_supplier_documentation` | 需要供应商出具文件才能判 |
+
+gold 不写回 `cases.jsonl`，单独放 `bench/gold.jsonl`，结构和校验规则见
+`validate_gold.py` 的文件头；`python bench/validate_gold.py` 校验。
+
+## 标注台
+
+`bench/annotate/`：`build_context.py` 给每个 case 的每个成分跑一遍 lookup，
+生成 `context.js`；`page.html` 是标注页（发布成带存储的 Artifact 使用）。
+标注页只展示候选条目、做算术（换算系数、占限值比例）和格式检查，判定全部由人做。
+供应商自己的初判在标完一条之前不显示。
 
 标注纪律（照抄 spec）：**不要用模型生成任何一条标准答案。** 模型可以查数据库、
 做算术、格式化 JSON，判定必须来自你对照条目原文的判断。
 
-## 还没定的四件事
+## 还没定的事
 
 跑 `validate_cases.py` 会列出来。都不阻塞生成，但会影响标注结果。
 
@@ -117,9 +134,7 @@ spec 的「每条 case 的标注步骤」对应的字段：
    选丁基/丙基会落进 V/12a，和 I06/I07 重复。
 2. **D04**：供应形态未注明时假定 neat 还是判 `insufficient_data`。spec 明确留给你定。
 3. **G03**：eye cream 不在 III/98 (c) 的列举清单里，该怎么归。
-4. **`verdict` 的七类没有定义。** spec 里只出现了四个：`compliant_by_bound`、
-   `insufficient_data`、`requires_supplier_documentation`、`labelling_required`。
-   补齐后我可以把枚举加进校验，标注时写错会被当场拦下。
+4. ~~`verdict` 的七类~~ 已定稿，见上。
 
 ## 源表里还有一份供应商自己的初步核对
 
