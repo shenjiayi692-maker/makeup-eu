@@ -55,3 +55,29 @@
 - 顺带修的两个数据 bug：`entries.entry_seq` 声明成 TEXT 导致 `ORDER BY` 按字符串排
   (1,10,11,...,2)；III/98 的 `(a) (b) (c) 空格分隔标签`只挂到了 (a) 档，现已挂全三档。
   两者都已重建数据库，五个附件字符级覆盖仍为 100%。
+
+## 查询界面 app/(2026-10-11)
+`app/index.html` 是静态单页：输入成分名 / CAS / EC / CI 号，可选产品类型关键词，
+返回每个命中条目的限值、`附件/条目#分档` 引用、页码和打开 PDF 原文(跳到对应页)的按钮。
+- 数据：`python app/export_data.py` 从 SQLite 生成 `app/data.js`(确定性输出，重建数据库后要重跑)。
+- PDF：`app/` 下放一份 `celex-02009R1223-20260518.pdf` 就用本地副本，否则跳 EUR-Lex。该 PDF 已加进 .gitignore。
+- 产品类型只是对原文 f 列做文字匹配，不做语义归类；匹配不到时页面会让人自己看分档表。
+
+## 2026-10-12
+- 64 条 review_queue 已人工核对：原文就是这样，无需改配对。结论记在 `data/review_decisions.csv`
+  (decision=confirmed_as_printed)，数据库本身不改(保持构建确定性)；lookup 和查询页读这份文件，
+  把「未配对，需人工核对」改显示为「按原文保留，已核对」。
+- verdict 七类定稿：prohibited / exceeds_limit / compliant / compliant_by_bound /
+  labelling_required / insufficient_data / requires_supplier_documentation。
+- 标注：gold 单独放 `bench/gold.jsonl`(cases.jsonl 仍只放输入)，结构和校验见 `bench/validate_gold.py`。
+  标注台 `bench/annotate/`(build_context.py 生成候选条目，page.html 是标注页)。
+- FDA(仅联邦)计划见 `docs/us-fda-plan.md`。阻塞：ecfr.gov / accessdata.fda.gov / federalregister.gov 网络不通。
+
+## 2026-10-13 美国联邦数据层
+- `src/us/build_cfr.py`：eCFR XML → `data/us/us_cfr.sqlite`（条文 300、化妆品色素 65、700 部分规则 11、警示语 6），覆盖率 300/300。
+- `src/us/build_otc.py`：五份 OTC 专论 → `data/us/us_otc.sqlite`（活性成分 77 行）。M020 由 21 CFR 352 + OTC000039 重建，见 `docs/us-data.md`。
+- 两个都确定性构建。下一步：化妆品/药品判定（宣称词表）→ lookup 和查询页加美国 → 美国 case。
+- `_to_delete/` 里是一次失败构建留下的 SQLite journal 文件，可以直接删掉整个文件夹。
+- 2026-10-13 判定层：`src/us/classify.py` + `claim_triggers.py`（25 条宣称规则，原话逐条核对）+ 回归检查 `tests/test_us_classify.py`（16 项全过）。说明见 `docs/us-data.md`。下一步：接进 lookup / 查询页；美国 case 设计。
+- 2026-10-13 查询页加美国：`app/index.html` 有 EU+US / EU only / US only 切换；`python app/export_data.py` 同时生成 `app/data.js` 和 `app/data_us.js`。美国结果三类：化妆品色素（链 eCFR 条文）、700 部分禁用、OTC 专论活性成分（链专论原文）。
+- 2026-10-13 查询页加「Check a formula · US」：贴配方和宣称，页面里直接跑美国判定。判定逻辑是 `app/us_check.js`（`src/us/classify.py` 的逐行移植），`tests/test_us_check_parity.js` 在 9 份配方 × 7 组宣称（63 次）上核对两边结论完全一致：`python3 tests/dump_us_classify.py > /tmp/py.json && node tests/test_us_check_parity.js /tmp/py.json`。

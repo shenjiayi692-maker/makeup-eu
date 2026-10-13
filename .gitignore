@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# local copy of the source PDF for app/ (download it from EUR-Lex)
+app/*.pdf
+_to_delete/

@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EU & US Cosmetics Lookup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: search bar on top, one column of result cards; each card = identity, verdict line, tier table, sources */
+:root{
+  --link-soft:#e8eefc;
+  --bg:#f5f6f8; --surface:#ffffff; --sunk:#eef0f4; --fg:#1b1f27; --muted:#5b6372; --line:#dfe2e8;
+  --accent:#b85f00; --accent-soft:#fff3dc; --link:#1f4fbf;
+  --bad:#b42318; --bad-soft:#fde8e6; --ok:#1f7a4d; --ok-soft:#e3f4ea; --warn:#8a5a00; --warn-soft:#fff4d6;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12151b; --surface:#1a1e26; --sunk:#151920; --fg:#e7e9ee; --muted:#9aa2b1; --line:#2c323d;
+  --accent:#f0a33c; --accent-soft:#2e2312; --link:#8fb0ff; --link-soft:#1c2540;
+  --bad:#ff8a7a; --bad-soft:#3a1d1a; --ok:#6fd39f; --ok-soft:#16301f; --warn:#f3c561; --warn-soft:#332810;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12151b; --surface:#1a1e26; --sunk:#151920; --fg:#e7e9ee; --muted:#9aa2b1; --line:#2c323d;
+  --accent:#f0a33c; --accent-soft:#2e2312; --link:#8fb0ff; --link-soft:#1c2540;
+  --bad:#ff8a7a; --bad-soft:#3a1d1a; --ok:#6fd39f; --ok-soft:#16301f; --warn:#f3c561; --warn-soft:#332810;
+  color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding-inline:16px;padding-block:28px 56px;display:grid;gap:20px}
+header h1{font-size:22px;font-weight:600;margin:0;text-wrap:balance}
+header p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+form{display:grid;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.fields{display:grid;grid-template-columns:3fr 2fr;gap:12px}
+@media (max-width:620px){.fields{grid-template-columns:1fr}}
+label{display:grid;gap:4px;font-size:13px;color:var(--muted);font-weight:500}
+input[type=search]{font:inherit;font-size:16px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:9px 11px;width:100%;min-width:0}
+input[type=search]:focus{outline:2px solid var(--link);outline-offset:0;border-color:transparent}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chips span{font-size:12px;color:var(--muted);margin-right:2px}
+.chip{font:inherit;font-size:13px;color:var(--fg);background:var(--sunk);border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.juris{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;justify-self:start}
+.juris button{font:inherit;font-size:13px;font-weight:500;padding:6px 14px;border:0;background:var(--surface);color:var(--muted);cursor:pointer}
+.juris button+button{border-left:1px solid var(--line)}
+.juris button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.juris button:focus-visible{outline:2px solid var(--link);outline-offset:-2px}
+.zone{display:grid;gap:14px}
+.zone>h2{margin:6px 0 0;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.zone>h2 span{font-weight:400;letter-spacing:0;text-transform:none}
+.annex.US{background:var(--link-soft,var(--sunk));color:var(--link)}
+.annex.USD{background:var(--warn-soft);color:var(--warn)}
+.modes{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid var(--line)}
+.modes button{font:inherit;font-size:14px;font-weight:500;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:8px 12px;color:var(--muted);cursor:pointer}
+.modes button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--fg)}
+.modes button:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.fc{display:grid;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.fc textarea{font-family:var(--mono);font-size:13px;line-height:1.5;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:9px 11px;width:100%;min-width:0;resize:vertical}
+.fc textarea:focus,.fc select:focus,.fc input:focus{outline:2px solid var(--link);outline-offset:0;border-color:transparent}
+.fc select,.fc input[type=text]{font:inherit;font-size:15px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:8px 10px;width:100%;min-width:0}
+.fc .hint{font-size:12px;color:var(--muted);font-weight:400}
+.classBox{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-radius:10px;padding:14px 16px;border:1px solid var(--line);background:var(--surface)}
+.classBox .big{font-size:22px;font-weight:600}
+.classBox.drug{background:var(--warn-soft);border-color:transparent}
+.classBox.drug .big{color:var(--warn)}
+.classBox.review .big{color:var(--link)}
+.fgroup{display:grid;gap:8px}
+.fgroup h3{margin:4px 0 0;font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.frow{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.frow .ftext{font-size:14px;overflow-wrap:anywhere}
+.frow .fcite{grid-column:2;font-size:12.5px;color:var(--muted)}
+.frow .fcite a{color:var(--link)}
+.pill{font-family:var(--mono);font-size:11.5px;font-weight:500;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}
+.pill.info{background:var(--sunk);color:var(--muted)}
+@media (max-width:520px){.frow{grid-template-columns:1fr}.frow .fcite{grid-column:1}}
+.summary{font-size:14px;color:var(--muted)}
+.summary b{color:var(--fg);font-weight:600}
+#results{display:grid;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:12px;min-width:0}
+.card.dead{opacity:.72}
+.head{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:13px;color:var(--muted)}
+.annex{font-family:var(--mono);font-weight:500;font-size:12px;padding:2px 8px;border-radius:4px;letter-spacing:.02em}
+.annex.II{background:var(--bad-soft);color:var(--bad)}
+.annex.III{background:var(--warn-soft);color:var(--warn)}
+.annex.IV,.annex.V,.annex.VI{background:var(--ok-soft);color:var(--ok)}
+.flag{font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 6px}
+.flag.del{color:var(--bad);border-color:currentColor}
+.name{font-size:18px;font-weight:600;line-height:1.35;overflow-wrap:anywhere}
+.name mark,.chem mark{background:var(--accent-soft);color:inherit;border-radius:2px}
+.ids{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted)}
+.ids code{font-family:var(--mono);color:var(--fg);font-size:12.5px}
+details.chem summary{cursor:pointer;font-size:13px;color:var(--muted)}
+details.chem div{font-family:var(--mono);font-size:12px;color:var(--muted);overflow-wrap:anywhere;margin-top:4px}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;background:var(--sunk);border-radius:8px;padding:10px 12px}
+.verdict .big{font-family:var(--mono);font-size:24px;font-weight:500;line-height:1.2}
+.verdict .big.bad{color:var(--bad)}
+.verdict .why{font-size:13px;color:var(--muted)}
+.verdict .cite{font-family:var(--mono);font-weight:500;font-size:13px;background:var(--accent-soft);color:var(--accent);padding:1px 7px;border-radius:4px}
+.tiers{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:560px}
+th{text-align:left;font-weight:500;font-size:12px;color:var(--muted);border-bottom:1px solid var(--line);padding:6px 8px}
+td{vertical-align:top;border-bottom:1px solid var(--line);padding:8px;white-space:pre-line}
+tr:last-child td{border-bottom:0}
+td.c{font-family:var(--mono);font-size:12.5px;white-space:nowrap;color:var(--muted)}
+td.m{font-family:var(--mono);font-size:13px}
+tr.hit td{background:var(--accent-soft)}
+tr.hit td.c{color:var(--accent);font-weight:500}
+tr.miss td{color:var(--muted)}
+.any{font-style:italic;color:var(--muted)}
+.notes{display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.notes p{margin:0}
+.notes .fn b{font-family:var(--mono);font-weight:500;color:var(--fg)}
+.notes .review{color:var(--warn)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:7px;font:inherit;font-size:14px;font-weight:500;text-decoration:none;border-radius:7px;padding:7px 12px;border:1px solid var(--line);color:var(--fg);background:var(--surface)}
+.btn.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:hover{filter:brightness(1.08)}
+.btn svg{width:15px;height:15px;flex:none}
+.actions small{color:var(--muted);font-size:12px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:22px;color:var(--muted)}
+.more{font:inherit;justify-self:start;color:var(--link);background:none;border:0;padding:4px 0;cursor:pointer;font-weight:500}
+footer{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;display:grid;gap:4px}
+footer p{margin:0;max-width:72ch}
+@media (prefers-reduced-motion: no-preference){.card{animation:in .18s ease-out both}@keyframes in{from{transform:translateY(3px)}to{transform:none}}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">EU Regulation 1223/2009 · US 21 CFR &amp; OTC monographs</div>
+    <h1>EU &amp; US Cosmetics Lookup</h1>
+    <p id="srcline">Search an ingredient. Get its limit, the entry it comes from, and the page in the source PDF.</p>
+  </header>
+
+  <div class="modes" role="tablist" aria-label="What to do">
+    <button type="button" role="tab" id="tabLookup" aria-selected="true" aria-controls="lookupPane">Look up an ingredient</button>
+    <button type="button" role="tab" id="tabCheck" aria-selected="false" aria-controls="fcPane">Check a formula · US</button>
+  </div>
+
+  <div id="fcPane" role="tabpanel" aria-labelledby="tabCheck" hidden>
+    <form class="fc" id="fcForm" autocomplete="off">
+      <label for="fcPreset">Start from a real supplier formula
+        <select id="fcPreset"></select>
+      </label>
+      <div class="fields">
+        <label for="fcName">Product name <input type="text" id="fcName"></label>
+        <label for="fcCat">Product type <input type="text" id="fcCat" placeholder="e.g. face cream, shampoo, aerosol spray"></label>
+      </div>
+      <label for="fcClaims">Claims on the label <span class="hint">one per line — this is what decides cosmetic or drug</span>
+        <textarea id="fcClaims" rows="3" spellcheck="false" placeholder="e.g. anti-dandruff&#10;SPF 30"></textarea>
+      </label>
+      <label for="fcIngs">Ingredients <span class="hint">one per line: INCI | actual % | function (optional). Blends: separate parts with “, ”</span>
+        <textarea id="fcIngs" rows="10" spellcheck="false"></textarea>
+      </label>
+    </form>
+    <div id="fcOut" style="display:grid;gap:14px;margin-top:16px" aria-live="polite"></div>
+  </div>
+
+  <div id="lookupPane" role="tabpanel" aria-labelledby="tabLookup" style="display:grid;gap:20px">
+  <form id="f" role="search" autocomplete="off">
+    <div class="juris" id="juris" role="group" aria-label="Which rules to search">
+      <button type="button" data-j="both" aria-pressed="true">EU + US</button><button type="button" data-j="eu" aria-pressed="false">EU only</button><button type="button" data-j="us" aria-pressed="false">US only</button>
+    </div>
+    <div class="fields">
+      <label for="q">Ingredient name, CAS, EC or CI number
+        <input type="search" id="q" name="q" placeholder="e.g. Retinol, 69-72-7, CI 17200" spellcheck="false">
+      </label>
+      <label for="pt" id="ptLabel">EU product type (optional)
+        <input type="search" id="pt" name="pt" placeholder="e.g. body lotion, rinse-off, oral" spellcheck="false">
+      </label>
+    </div>
+    <div class="chips" id="qchips"><span>Try</span></div>
+    <div class="chips" id="ptchips"><span>Product type</span></div>
+  </form>
+
+  <div class="summary" id="summary" aria-live="polite"></div>
+  <div id="results"></div>
+  </div>
+
+  <footer>
+    <p id="srcfoot"></p>
+    <p>Each tier is cited as <code>Annex/Entry#Tier</code>. A blank product type means the limit applies to every product type. Product-type matching is a text match against the regulation's own wording, so read the tier table before relying on the highlighted row.</p>
+    <p>US results cover federal rules only: color additives listed for cosmetics (21 CFR 73/74 Subpart C), the 21 CFR 700 Subpart B prohibitions, and OTC monograph active ingredients. The US has no general positive list for cosmetic ingredients. State law is not covered.</p>
+    <p>For reference only. The EU consolidated text has no legal effect; the authentic version is the one published in the Official Journal of the EU. eCFR is authoritative but unofficial.</p>
+  </footer>
+</main>
+
+<script src="data.js"></script>
+<script src="data_us.js"></script>
+<script src="us_check.js"></script>
+<script>
+(function(){
+  const D = window.COSMETICS_DATA;
+  const $ = s => document.querySelector(s);
+  const results = $('#results'), summary = $('#summary');
+  const LOCAL_PDF = 'celex-' + D.celex + '.pdf';
+  const EURLEX = 'https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:' + D.celex;
+  let localPdf = false;
+  const ANNEX = {
+    II:  {name:'Prohibited',            long:'Annex II · prohibited substances'},
+    III: {name:'Restricted',            long:'Annex III · restricted substances'},
+    IV:  {name:'Allowed colorant',      long:'Annex IV · allowed colorants'},
+    V:   {name:'Allowed preservative',  long:'Annex V · allowed preservatives'},
+    VI:  {name:'Allowed UV filter',     long:'Annex VI · allowed UV filters'}
+  };
+  const Q_EXAMPLES = ['Retinol', 'Salicylic acid', 'CI 17200', 'Zinc oxide', 'Ethylhexyl Methoxycinnamate', 'Butylparaben', 'Mercury'];
+  const PT_EXAMPLES = ['Body lotion', 'Leave-on', 'Rinse-off', 'Face', 'Hair', 'Oral', 'Eye', 'Children'];
+  const LIMIT = 40;
+  let shown = LIMIT;
+
+  $('#srcline').textContent = 'Search an ingredient. See its EU annex limit and its US federal status side by side, each with the rule it comes from and a link to the source. EU data: consolidated text ' + D.source + '. US data: ' + (window.US_DATA ? window.US_DATA.source : 'not loaded') + '.';
+  $('#srcfoot').textContent = D.entries.length.toLocaleString('en') + ' entries extracted from the consolidated text ' + D.source + ' (EUR-Lex CELEX ' + D.celex + ').';
+
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm = s => String(s || '').toLowerCase().replace(/[‐‑–-]/g, ' ').replace(/\s+/g, ' ').trim();
+  const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // search indexes
+  D.entries.forEach((e, i) => {
+    e._i = i;
+    e._name = norm([e.chem, e.inci].concat(e.subs.map(s => s.inci)).join(' | '));
+    e._inci = e.subs.map(s => norm(s.inci)).concat(norm(e.inci)).filter(Boolean);
+    e._ids = [e.cas, e.ec, e.ci].concat(e.subs.map(s => [s.cas, s.ec, s.ci].join(' '))).join(' ');
+  });
+
+  function classify(q){
+    q = q.trim();
+    if (/^\d{2,7}-\d{2}-\d$/.test(q)) return ['cas', q];
+    if (/^\d{3}-\d{3}-\d$/.test(q)) return ['ec', q];
+    const m = q.match(/^(?:CI\s*)?(\d{4,6}(?::\d+)?)$/i);
+    if (m) return ['ci', m[1]];
+    return ['name', q];
+  }
+
+  function search(q){
+    const [kind, value] = classify(q);
+    const out = [];
+    if (kind !== 'name'){
+      const re = new RegExp('(^|[^\\d])' + reEsc(value) + '(?![\\d:])');
+      D.entries.forEach(e => { if (re.test(e._ids)) out.push([0, e]); });
+    } else {
+      const n = norm(value);
+      if (n.length < 2) return {kind, items: []};
+      const word = new RegExp('(^|[^a-z0-9])' + reEsc(n) + '($|[^a-z0-9])');
+      D.entries.forEach(e => {
+        if (!e._name.includes(n)) return;
+        const rank = e._inci.includes(n) ? 0 : word.test(e._name) ? 1 : 2;
+        out.push([rank, e]);
+      });
+    }
+    out.sort((a, b) => (a[0] - b[0]) || ((a[1].st !== 'active') - (b[1].st !== 'active')) || (a[1]._i - b[1]._i));
+    return {kind, items: out.map(x => x[1])};
+  }
+
+  function tierMatch(c, pt){
+    if (!pt) return null;
+    if (!c.pt) return 'any';
+    return norm(c.pt).includes(norm(pt)) ? 'hit' : 'miss';
+  }
+
+  function headline(c){
+    const raw = c.max.replace(/^\([a-z]{1,2}\)\s*/i, '');
+    if (raw && raw.length <= 34) return raw;
+    if (c.val != null) return c.val.toString().replace('.', ',') + ' ' + c.unit + (c.basis ? ' ' + c.basis : '');
+    return raw ? raw.slice(0, 60) + (raw.length > 60 ? '…' : '') : 'No maximum set';
+  }
+  const multiNote = c => c.multi ? ' · this cell sets more than one limit, see the table' : '';
+
+  const cite = (e, c) => e.a + '/' + e.ref + (c ? '#' + c.n : '');
+  const pageText = pg => !pg.length ? '' : pg.length === 1 ? 'p. ' + pg[0] : 'pp. ' + pg[0] + '–' + pg[pg.length - 1];
+
+  function mark(text, q, kind){
+    const t = esc(text);
+    if (kind !== 'name' || !q.trim()) return t;
+    try { return t.replace(new RegExp(reEsc(esc(q.trim())), 'ig'), m => '<mark>' + m + '</mark>'); } catch(_) { return t; }
+  }
+
+  function verdict(e, pt){
+    if (e.st !== 'active'){
+      return '<div class="verdict"><span class="big">' + (e.st === 'deleted' ? 'Entry deleted' : 'Moved or deleted') + '</span><span class="why">This entry no longer sets any condition. Check the other entries for this substance.</span></div>';
+    }
+    if (e.a === 'II'){
+      return '<div class="verdict"><span class="big bad">Prohibited</span><span class="cite">' + esc(cite(e)) + '</span><span class="why">Listed in Annex II. Not allowed in any cosmetic product.</span></div>';
+    }
+    if (!e.conds.length) return '';
+    if (!pt){
+      if (e.conds.length === 1){
+        const c = e.conds[0];
+        return '<div class="verdict"><span class="big">' + esc(headline(c)) + '</span><span class="cite">' + esc(cite(e, c)) + '</span><span class="why">' + (c.pt ? 'For ' + esc(c.pt.replace(/^\([a-z]{1,2}\)\s*/i, '')) : 'Applies to every product type') + esc(multiNote(c)) + '</span></div>';
+      }
+      return '<div class="verdict"><span class="why">' + e.conds.length + ' tiers with different limits. Enter a product type to pick the tier that applies.</span></div>';
+    }
+    const hits = e.conds.filter(c => tierMatch(c, pt) === 'hit');
+    const anys = e.conds.filter(c => tierMatch(c, pt) === 'any');
+    const use = hits.length ? hits : anys;
+    if (!use.length){
+      return '<div class="verdict"><span class="why">No tier names “' + esc(pt) + '”. Read the tiers below and decide which one covers your product.</span></div>';
+    }
+    return use.map(c => '<div class="verdict"><span class="big">' + esc(headline(c)) + '</span><span class="cite">' + esc(cite(e, c)) + '</span><span class="why">' +
+      (c.pt ? 'Tier for ' + esc(c.pt.replace(/^\([a-z]{1,2}\)\s*/i, '')) : 'Applies to every product type') + esc(multiNote(c)) + '</span></div>').join('');
+  }
+
+  const ICON_PDF = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 1.5h5.5L13 5v9.5H4z"/><path d="M9.5 1.5V5H13"/></svg>';
+  const ICON_OUT = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 2h5v5"/><path d="M14 2 7.5 8.5"/><path d="M12 9.5V14H2V4h4.5"/></svg>';
+
+  function actions(e){
+    if (!e.pg.length) return '';
+    const p = e.pg[0];
+    const span = e.pg.length > 1 ? '<small>Entry runs over ' + esc(pageText(e.pg)) + '</small>' : '';
+    if (localPdf){
+      return '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(LOCAL_PDF) + '#page=' + p + '">' + ICON_PDF + 'Open source PDF · p. ' + p + '</a>' +
+        '<a class="btn" target="_blank" rel="noopener" href="' + esc(EURLEX) + '#page=' + p + '">' + ICON_OUT + 'EUR-Lex</a>' + span + '</div>';
+    }
+    return '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(EURLEX) + '#page=' + p + '">' + ICON_PDF + 'Open on EUR-Lex · p. ' + p + '</a>' + span + '</div>';
+  }
+
+  function card(e, q, kind, pt){
+    const ax = ANNEX[e.a];
+    const title = e.inci || (e.subs[0] && e.subs[0].inci) || e.chem || '(no name)';
+    const flags = [];
+    if (e.st !== 'active') flags.push('<span class="flag del">' + (e.st === 'deleted' ? 'deleted' : 'moved or deleted') + '</span>');
+    const ids = [];
+    const casList = e.subs.length > 1 && e.subs.every(s => s.ok) ? e.subs.map(s => s.cas).filter(Boolean).join(', ') : e.cas;
+    const ecList = e.subs.length > 1 && e.subs.every(s => s.ok) ? e.subs.map(s => s.ec).filter(Boolean).join(', ') : e.ec;
+    if (e.ci) ids.push('CI <code>' + esc(e.ci) + '</code>');
+    if (casList) ids.push('CAS <code>' + esc(casList) + '</code>');
+    if (ecList) ids.push('EC <code>' + esc(ecList) + '</code>');
+    if (e.colour) ids.push('Colour <code>' + esc(e.colour) + '</code>');
+
+    let tiers = '';
+    if (e.conds.length){
+      tiers = '<div class="tiers"><table><thead><tr><th>Cite</th><th>Product type</th><th>Max. concentration</th><th>Other limits</th><th>Label warning</th></tr></thead><tbody>' +
+        e.conds.map(c => {
+          const m = tierMatch(c, pt);
+          const cls = m === 'hit' || (m === 'any') ? 'hit' : m === 'miss' ? 'miss' : '';
+          const multi = c.multi ? '\n(cell holds several values: ' + c.multi.join(', ') + ')' : '';
+          return '<tr class="' + cls + '"><td class="c">' + esc(cite(e, c)) + '</td><td>' + (c.pt ? esc(c.pt) : '<span class="any">any product</span>') +
+            '</td><td class="m">' + esc((c.max || '—') + multi) + '</td><td>' + esc(c.other || '—') + '</td><td>' + esc(c.warn || '—') + '</td></tr>';
+        }).join('') + '</tbody></table></div>';
+    }
+
+    const notes = [];
+    e.fn.forEach(f => notes.push('<p class="fn"><b>(' + esc(f[0]) + ')</b> ' + esc(f[1]) + '</p>'));
+    if (e.rev && e.revd) notes.push('<p>The CAS and EC columns of this entry do not pair one-to-one with the substance names. They are shown as printed, checked against the source on ' + esc(e.revd) + '.</p>');
+    else if (e.rev) notes.push('<p class="review">The CAS and EC columns of this entry could not be paired one-to-one with the substance names. They are shown as printed.</p>');
+
+    const chem = e.chem && norm(e.chem) !== norm(title)
+      ? '<details class="chem"' + (kind === 'name' && !e._inci.some(s => s.includes(norm(q))) ? ' open' : '') + '><summary>Chemical name / INN</summary><div>' + mark(e.chem, q, kind) + '</div></details>' : '';
+
+    return '<article class="card' + (e.st !== 'active' ? ' dead' : '') + '">' +
+      '<div class="head"><span class="annex ' + e.a + '">Annex ' + e.a + ' · ' + esc(ax.name) + '</span><span>Entry ' + esc(e.ref) + '</span>' +
+      (e.pg.length ? '<span>' + esc(pageText(e.pg)) + '</span>' : '') + (e.amd ? '<span>' + esc(e.amd) + '</span>' : '') + flags.join('') + '</div>' +
+      '<div class="name">' + mark(title, q, kind) + '</div>' +
+      (ids.length ? '<div class="ids">' + ids.join('') + '</div>' : '') + chem +
+      verdict(e, pt) + tiers +
+      (notes.length ? '<div class="notes">' + notes.join('') + '</div>' : '') +
+      actions(e) + '</article>';
+  }
+
+  function renderEU(q, pt){
+    const {kind, items} = search(q);
+    if (!items.length){
+      return {count: 0, sum: 'no entries',
+        html: '<div class="empty">Not listed in Annexes II–VI under that ' + (kind === 'name' ? 'name' : kind.toUpperCase() + ' number') + '. Try the CAS number or a shorter part of the name. An ingredient that appears in no annex is not restricted by them, but other rules of the Regulation still apply.</div>'};
+    }
+    const byAnnex = {};
+    items.forEach(e => byAnnex[e.a] = (byAnnex[e.a] || 0) + 1);
+    return {count: items.length,
+      sum: items.length + ' ' + (items.length === 1 ? 'entry' : 'entries') + (pt ? ' · product type “' + esc(pt) + '”' : '') + ' · ' + Object.keys(byAnnex).map(a => 'Annex ' + a + ': ' + byAnnex[a]).join(', '),
+      html: items.slice(0, shown).map(e => card(e, q, kind, pt)).join('') +
+        (items.length > shown ? '<button type="button" class="more" id="more">Show ' + Math.min(LIMIT, items.length - shown) + ' more of ' + (items.length - shown) + ' remaining</button>' : '')};
+  }
+
+  function render(){
+    const q = $('#q').value, pt = $('#pt').value.trim();
+    document.querySelectorAll('#qchips .chip').forEach(b => b.setAttribute('aria-pressed', String(norm(b.dataset.v) === norm(q))));
+    document.querySelectorAll('#ptchips .chip').forEach(b => b.setAttribute('aria-pressed', String(norm(b.dataset.v) === norm(pt))));
+    document.querySelectorAll('#juris button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.j === juris)));
+    const usOnly = juris === 'us';
+    $('#pt').closest('label').hidden = usOnly; $('#ptchips').hidden = usOnly;
+    if (!q.trim()){
+      summary.textContent = '';
+      results.innerHTML = '<div class="empty">Type an ingredient above, or pick one of the examples.</div>';
+      return;
+    }
+    const zones = [], parts = [];
+    if (juris !== 'us'){
+      const r = renderEU(q, pt);
+      parts.push('EU: <b>' + r.count + '</b>');
+      zones.push('<section class="zone" aria-label="EU results"><h2>EU · Regulation 1223/2009 <span>' + r.sum + '</span></h2>' + r.html + '</section>');
+    }
+    if (juris !== 'eu' && window.US_DATA){
+      const r = renderUS(q);
+      parts.push('US: <b>' + r.count + '</b>');
+      zones.push('<section class="zone" aria-label="US results"><h2>US · 21 CFR &amp; OTC monographs <span>' + r.sum + '</span></h2>' + r.html + '</section>');
+    }
+    summary.innerHTML = 'Results for <b>' + esc(q.trim()) + '</b> · ' + parts.join(' · ');
+    results.innerHTML = zones.join('');
+    const more = $('#more');
+    if (more) more.addEventListener('click', () => { shown += LIMIT; render(); });
+  }
+
+  // ---------------------------------------------------------------- US
+  const U = window.US_DATA;
+  const ECFR = s => 'https://www.ecfr.gov/current/title-21/section-' + s;
+  const MONO = {M020:'Sunscreen', M019:'Antiperspirant', M006:'Topical acne', M016:'Skin protectant', M032:'Dandruff, seborrheic dermatitis, psoriasis'};
+  const fmtPct = v => v == null ? '' : String(v);
+
+  function usSearch(q){
+    const out = {colors: [], actives: [], rules: [], via: ''};
+    if (!U) return out;
+    const [kind, value] = classify(q);
+    if (kind === 'cas'){
+      out.colors = U.colors.filter(c => c.cas && c.cas.split(/,\s*/).includes(value));
+      return out;
+    }
+    if (kind === 'ci'){
+      const ci = value.split(':')[0];
+      const nm = U.ci[ci];
+      if (nm){ out.colors = U.colors.filter(c => c.name === nm); out.via = 'CI ' + ci + ' → ' + nm + ' (curated CI-to-FDA name table)'; }
+      else out.via = 'CI ' + ci + ' is not in the CI-to-FDA name table';
+      return out;
+    }
+    if (kind === 'ec') return out;
+    const n = norm(value);
+    if (n.length < 2) return out;
+    // FDA color names: "Red 33" / "D&C Red No. 33" / plain names
+    const m = value.match(/\b(?:(?:Ext\.\s*D&C|FD&C|D&C)\s+)?(Red|Yellow|Orange|Blue|Green|Violet|Brown|Black)\s+(?:No\.?\s*)?(\d+)\b/i);
+    if (m){
+      const re = new RegExp('^(?:Ext\\. )?(?:FD&C|D&C) ' + m[1][0].toUpperCase() + m[1].slice(1).toLowerCase() + ' No\\. ' + m[2] + '$');
+      out.colors = U.colors.filter(c => re.test(c.name));
+    } else {
+      out.colors = U.colors.filter(c => norm(c.name).includes(n));
+    }
+    // OTC actives, by US name or by INCI alias
+    let usan = null;
+    Object.keys(U.alias).forEach(inci => { if (norm(inci) === n) usan = U.alias[inci]; });
+    out.actives = U.actives.filter(a => norm(a.ing).includes(n) || (usan && norm(a.ing) === norm(usan)));
+    if (usan && norm(usan) !== n) out.via = value.trim() + ' (INCI) → ' + usan + ' (US adopted name, curated alias table)';
+    out.rules = U.rules.filter(r => r.names.some(x => norm(x).includes(n) || n.includes(norm(x))));
+    return out;
+  }
+
+  function renderUS(q){
+    const r = usSearch(q);
+    const blocks = [];
+    if (r.via) blocks.push('<p class="summary">' + esc(r.via) + '</p>');
+    r.rules.forEach(x => blocks.push('<article class="card"><div class="head"><span class="annex II">21 CFR ' + esc(x.sec) + ' · Prohibited / restricted</span>' + (x.stayed === '1' ? '<span class="flag">stayed</span>' : '') + '</div>' +
+      '<div class="name">' + esc(x.title) + '</div>' +
+      '<div class="verdict"><span class="big bad">' + (x.sec === '700.16' ? 'Not in aerosols' : x.sec === '700.23' ? 'Not as propellant' : x.sec === '700.13' ? 'Restricted' : 'Prohibited') + '</span><span class="cite">21 CFR ' + esc(x.sec) + '</span></div>' +
+      '<details class="chem"><summary>Section text</summary><div>' + esc(x.text) + '</div></details>' +
+      '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(x.url) + '">' + ICON_OUT + 'Open on eCFR · § ' + esc(x.sec) + '</a></div></article>'));
+    r.colors.forEach(c => blocks.push('<article class="card"><div class="head"><span class="annex US">Color additive · cosmetics</span><span>21 CFR ' + esc(c.sec) + '</span>' + (c.cas ? '<span>CAS ' + esc(c.cas) + '</span>' : '') + '</div>' +
+      '<div class="name">' + esc(c.name) + '</div>' +
+      '<div class="verdict"><span class="big">' + (c.cert === 'required' ? 'Batch certification required' : 'Exempt from certification') + '</span><span class="cite">21 CFR ' + esc(c.sec) + '</span></div>' +
+      '<div class="notes"><p><b>Uses and restrictions:</b> ' + esc(c.uses || '—') + '</p></div>' +
+      '<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="' + esc(c.url) + '">' + ICON_OUT + 'Open on eCFR · § ' + esc(c.sec) + '</a></div></article>'));
+    const byIng = {};
+    r.actives.forEach(a => { (byIng[a.ing] = byIng[a.ing] || []).push(a); });
+    Object.keys(byIng).forEach(ing => {
+      const rows = byIng[ing];
+      const monos = Array.from(new Set(rows.map(a => a.mono)));
+      blocks.push('<article class="card"><div class="head"><span class="annex USD">OTC drug active</span><span>' + monos.map(m => m + ' ' + esc(MONO[m] || '')).join(' · ') + '</span></div>' +
+        '<div class="name">' + esc(ing) + '</div>' +
+        '<div class="verdict"><span class="why">Can be used in a cosmetic. If the label claims a ' + monos.map(m => (MONO[m] || m).toLowerCase()).join(' / ') + ' use, the product is an OTC drug and the active must sit in this range.</span></div>' +
+        '<div class="tiers"><table><thead><tr><th>Cite</th><th>Monograph</th><th>Range</th><th>Monograph text</th></tr></thead><tbody>' +
+        rows.map(a => '<tr><td class="c">' + esc(a.cite) + '</td><td>' + esc(MONO[a.mono] || a.mono) + '</td><td class="m">' +
+          (a.min != null && a.max != null ? (a.min === a.max ? fmtPct(a.max) + ' %' : fmtPct(a.min) + '–' + fmtPct(a.max) + ' %') : a.max != null ? 'up to ' + fmtPct(a.max) + ' %' : a.min != null ? 'at least ' + fmtPct(a.min) + ' %' : '—') +
+          '</td><td>' + esc(a.text) + (a.note ? '<div class="sub" style="font-size:12px;color:var(--muted)">' + esc(a.note) + '</div>' : '') + '</td></tr>').join('') + '</tbody></table></div>' +
+        (monos.includes('M020') ? '<div class="notes"><p>FDA has proposed that only zinc oxide and titanium dioxide are generally recognized as safe and effective; other M020 actives remain usable for now pending a final order.</p></div>' : '') +
+        '<div class="actions">' + Array.from(new Map(rows.filter(a => a.url).map(a => [a.url, a.note && a.note.startsWith('Added by') ? 'OTC000039' : a.mono === 'M020' ? 'M020 (21 CFR 352)' : a.mono])).entries()).map(([u, lab]) => '<a class="btn" target="_blank" rel="noopener" href="' + esc(u) + '">' + ICON_PDF + 'Open ' + esc(lab) + '</a>').join('') + '</div></article>');
+    });
+    const count = r.colors.length + Object.keys(byIng).length + r.rules.length;
+    if (!count){
+      blocks.push('<div class="empty">Not on any US federal list held here (color additives, 21 CFR 700 prohibitions, OTC monograph actives). The US has no general positive list for cosmetic ingredients, so an unlisted ingredient is not restricted by these rules; the safety substantiation required under MoCRA still applies.</div>');
+    }
+    return {count, sum: count ? count + ' ' + (count === 1 ? 'listing' : 'listings') : 'no federal listing', html: blocks.join('')};
+  }
+
+  function chips(id, list, input){
+    const box = $(id);
+    list.forEach(v => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip'; b.textContent = v; b.dataset.v = v;
+      b.addEventListener('click', () => {
+        input.value = (input.id === 'pt' && norm(input.value) === norm(v)) ? '' : v;
+        shown = LIMIT; render();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  // ------------------------------------------------------- formula check (US)
+  const VCLASS = {prohibited:'bad', exceeds_limit:'bad', not_listed:'bad', drug_claim_without_monograph_active:'bad', not_a_monograph_active:'bad', below_monograph_range:'bad',
+    drug_claim:'warn', restricted:'warn', listed_certification_required:'warn', warning_required:'warn', insufficient_data:'warn', possible_drug_claim:'warn', monograph_active_in_cosmetic:'info',
+    within_monograph:'ok', listed_exempt:'ok', note:'info'};
+  const VLABEL = {prohibited:'prohibited', exceeds_limit:'over range', not_listed:'not listed', drug_claim_without_monograph_active:'no permitted active', not_a_monograph_active:'not a US active',
+    below_monograph_range:'below range', drug_claim:'drug claim', restricted:'restricted', listed_certification_required:'certification needed', warning_required:'warning required',
+    insufficient_data:'check by hand', possible_drug_claim:'review claim', monograph_active_in_cosmetic:'claim limit', within_monograph:'within range', listed_exempt:'listed', note:'note'};
+  const GROUPS = [['claim','Claims'],['otc','OTC drug actives'],['ingredient','Prohibited / restricted ingredients'],['color','Color additives'],['label','Labeling']];
+  const CLASS_TEXT = {cosmetic:['Cosmetic',''], otc_drug:['OTC drug','drug'], cosmetic_and_drug:['Cosmetic and OTC drug','drug'], needs_review:['Needs review','review']};
+  let fcPresetIngs = null, fcPresetText = '';
+
+  function ingLine(i){ return [i.inci || i.name_as_written, i.actual_pct == null ? '' : i.actual_pct, (i.function || []).join(', ')].join(' | '); }
+  function parseIngs(text){
+    if (fcPresetIngs && text === fcPresetText) return fcPresetIngs;
+    return text.split('\n').map(s => s.trim()).filter(Boolean).map((line, k) => {
+      const parts = line.split(/\s*[|\t]\s*/);
+      const name = parts[0];
+      const pct = parts[1] !== undefined && parts[1] !== '' && !isNaN(Number(String(parts[1]).replace('%', '').replace(',', '.'))) ? Number(String(parts[1]).replace('%', '').replace(',', '.')) : null;
+      const fn = parts[2] ? parts[2].split(/\s*,\s*/).filter(Boolean) : [];
+      const ing = {seq: k + 1, name_as_written: name, inci: name, actual_pct: pct, function: fn};
+      if (/,\s/.test(name)) ing.known_components = name.split(/\s*,\s*/);
+      return ing;
+    });
+  }
+  function loadPreset(id){
+    const p = (window.US_DATA.presets || []).find(x => x.id === id);
+    if (!p){ fcPresetIngs = null; $('#fcName').value = ''; $('#fcCat').value = ''; $('#fcClaims').value = ''; $('#fcIngs').value = ''; return; }
+    $('#fcName').value = p.product.name || ''; $('#fcCat').value = p.product.category || '';
+    $('#fcClaims').value = (p.product.claims || []).join('\n');
+    fcPresetIngs = p.ingredients; fcPresetText = p.ingredients.map(ingLine).join('\n');
+    $('#fcIngs').value = fcPresetText;
+  }
+  function runCheck(){
+    const U = window.US_DATA, out = $('#fcOut');
+    if (!U || !window.usCheck){ out.innerHTML = '<div class="empty">US data did not load.</div>'; return; }
+    const product = {name: $('#fcName').value.trim(), category: $('#fcCat').value.trim(), claims: $('#fcClaims').value.split('\n').map(s => s.trim()).filter(Boolean)};
+    const ings = parseIngs($('#fcIngs').value);
+    if (!ings.length){ out.innerHTML = '<div class="empty">Add the ingredients, one per line, or start from one of the real formulas above.</div>'; return; }
+    const r = window.usCheck(product, ings, U, []);
+    const [label, cls] = CLASS_TEXT[r.product_class];
+    const why = r.drug_monographs.length ? 'Drug claims fall under ' + r.drug_monographs.map(m => m + ' (' + ({M020:'sunscreen',M019:'antiperspirant',M006:'topical acne',M016:'skin protectant',M032:'dandruff, seborrheic dermatitis, psoriasis'})[m] + ')').join(', ') + '.'
+      : r.product_class === 'needs_review' ? 'Some claim wording can be a drug claim depending on how it is framed. A person decides.' : 'No drug claim found in the name, type or claims.';
+    let html = '<div class="classBox ' + cls + '"><span class="eyebrow">US product class</span><span class="big">' + label + '</span><span class="why">' + esc(why) + ' ' + ings.length + ' ingredients checked.</span></div>';
+    GROUPS.forEach(([k, title]) => {
+      const fs = r.findings.filter(f => f.kind === k);
+      if (!fs.length) return;
+      html += '<div class="fgroup"><h3>' + title + '</h3>' + fs.map(f => '<div class="frow"><span class="pill ' + (VCLASS[f.verdict] || 'info') + '">' + esc(VLABEL[f.verdict] || f.verdict) + '</span><div class="ftext">' + esc(f.text) + '</div>' +
+        '<div class="fcite">' + (f.url ? '<a target="_blank" rel="noopener" href="' + esc(f.url) + '">' + esc(f.cite) + '</a>' : esc(f.cite)) + (f.source_phrase ? ' · source wording: “' + esc(f.source_phrase) + '”' : '') + '</div></div>').join('') + '</div>';
+    });
+    if (!r.findings.length) html += '<div class="empty">No federal finding for these ingredients and claims. The US has no general positive list for cosmetic ingredients; safety substantiation under MoCRA still applies.</div>';
+    html += '<p class="summary">Checks federal rules only: claims against the OTC monographs and 21 CFR 700.35, monograph actives and ranges, 21 CFR 700 Subpart B, color additives in 21 CFR 73/74 Subpart C, and 21 CFR 740 warnings. State law is not covered. Text matching is shown with its source so a person can confirm each step.</p>';
+    out.innerHTML = html;
+  }
+  if (window.US_DATA){
+    const sel = $('#fcPreset');
+    sel.innerHTML = '<option value="">Blank — type your own</option>' + (window.US_DATA.presets || []).map(p => '<option value="' + p.id + '">' + esc(p.id + ' · ' + (p.product.name || '') + ' (' + (p.product.category || '') + ')') + '</option>').join('');
+    sel.value = 'F3a'; loadPreset('F3a');
+    sel.addEventListener('change', () => { loadPreset(sel.value); runCheck(); });
+    let ft;
+    ['#fcName', '#fcCat', '#fcClaims', '#fcIngs'].forEach(id => $(id).addEventListener('input', () => { clearTimeout(ft); ft = setTimeout(runCheck, 200); }));
+    $('#fcForm').addEventListener('submit', ev => ev.preventDefault());
+  }
+  function setMode(m){
+    const check = m === 'check';
+    $('#tabLookup').setAttribute('aria-selected', String(!check)); $('#tabCheck').setAttribute('aria-selected', String(check));
+    $('#lookupPane').hidden = check; $('#fcPane').hidden = !check;
+    if (check) runCheck();
+    try { localStorage.setItem('mueu-mode', m); } catch(_) {}
+  }
+  $('#tabLookup').addEventListener('click', () => setMode('lookup'));
+  $('#tabCheck').addEventListener('click', () => setMode('check'));
+
+  let juris = 'both';
+  try { const j = localStorage.getItem('mueu-juris'); if (['both','eu','us'].includes(j)) juris = j; } catch(_) {}
+  $('#juris').addEventListener('click', ev => {
+    const b = ev.target.closest('button'); if (!b) return;
+    juris = b.dataset.j; shown = LIMIT;
+    try { localStorage.setItem('mueu-juris', juris); } catch(_) {}
+    render();
+  });
+  const qi = $('#q'), pti = $('#pt');
+  chips('#qchips', Q_EXAMPLES, qi);
+  chips('#ptchips', PT_EXAMPLES, pti);
+  let t;
+  [qi, pti].forEach(el => el.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { shown = LIMIT; render(); }, 120); }));
+  $('#f').addEventListener('submit', ev => { ev.preventDefault(); shown = LIMIT; render(); });
+
+  // starting state: a worked example, or ?q=…&pt=… when the page is opened with them
+  let params = null;
+  try { params = new URLSearchParams(location.search); } catch(_) {}
+  qi.value = (params && params.get('q')) || 'Retinol';
+  pti.value = (params && params.get('q')) ? (params.get('pt') || '') : 'Body lotion';
+  render();
+  let startMode = 'lookup';
+  try { if (location.hash === '#check' || localStorage.getItem('mueu-mode') === 'check') startMode = 'check'; } catch(_) {}
+  setMode(startMode);
+
+  // use a copy of the PDF next to this page when there is one
+  if (location.protocol !== 'file:'){
+    fetch(LOCAL_PDF, {method:'HEAD'}).then(r => {
+      if (r.ok && /pdf/i.test(r.headers.get('content-type') || '')){ localPdf = true; render(); }
+    }).catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>
