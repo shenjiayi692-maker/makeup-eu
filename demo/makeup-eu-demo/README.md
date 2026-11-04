@@ -18,7 +18,7 @@ When the tables don't cover a question, the page says so instead of answering: a
 
 22 of 22 test questions pass on the live page, including 7 that must be refused. See [`accuracy-report.md`](accuracy-report.md) for every question, the one error found on the first run, and how it was fixed.
 
-The offline lookup test now has 27 questions; all pass. The 5 added after the 2026-11-04 QA are regressions for fixed lookup bugs (methylisothiazolinone, 3-Carene, a "formulation" question that was wrongly refused, a CAS printed in the wrong column, and a spurious "acetate" match). The live page has not been retested since.
+The offline lookup test now has 27 questions; all pass. The 5 added after the 2026-11-04 QA are regressions for fixed lookup bugs (methylisothiazolinone, 3-Carene, a "formulation" question that was wrongly refused, a CAS printed in the wrong column, and a spurious "acetate" match). The owner reran all 28 questions on the live page on 2026-11-04 and found no problems.
 
 ## Files
 

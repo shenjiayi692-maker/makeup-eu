@@ -16,7 +16,7 @@
   + 每附件 4 个 CSV + `data/review_queue.csv`。
 - **下一步：人工核对 `data/review_queue.csv`（59 条，原 64 条中 5 条已确认可配对并放行），
   以及 `data/id_issues.csv` 里仍查不到权威号码的两个 EC（II/1414、III/260）。
-  线上 demo 待用预览版 https://claude.ai/artifact/SMnTxyR5xzArMbrMrPEmjd 跑完 #t1–#t28 后再更新。**
+  线上 demo 已于 2026-11-04 在预览版上跑完 #t1–#t28，由所有者确认无问题，并已更新到线上（第 6 版）。**
   这些是 c/d/e 三列数量对不上、代码刻意不做猜测性配对的条目，三列内容都完整保留着。
   核对完可以把结果写回 substances 表并把 split_ok 置 1。
 - 已发布：https://github.com/shenjiayi692-maker/makeup-eu （public，MIT）。
