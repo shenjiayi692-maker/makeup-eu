@@ -15,7 +15,7 @@
   conditions / footnotes / preamble 五张表，用 `annex` 区分）
   + 每附件 4 个 CSV + `data/review_queue.csv`。
 - **下一步：人工核对 `data/review_queue.csv`（59 条，原 64 条中 5 条已确认可配对并放行），
-  以及 `data/id_issues.csv` 里仍查不到权威号码的两个 EC（II/1414、III/260）。
+  `data/id_issues.csv` 里的 EC 号都已对照权威来源核实完毕（II/1414、III/260 已确认原文无误）。
   线上 demo 已于 2026-11-04 在预览版上跑完 #t1–#t28，由所有者确认无问题，并已更新到线上（第 6 版）。**
   这些是 c/d/e 三列数量对不上、代码刻意不做猜测性配对的条目，三列内容都完整保留着。
   核对完可以把结果写回 substances 表并把 split_ok 置 1。
@@ -86,3 +86,6 @@ SQLite 内容也一致。
   - 详见 docs/validation.md。
 - demo 页面 `#t24`–`#t28` 为新增回归题。本地浏览器跑过 28 题（无模型模式），检索和拒答都正确，页面无报错。
   中文题和 Lilial 两题需要模型参与，必须在 claude.ai 上测。
+- EC 校验位（第三轮）：剩下的两个也确认是原文无误，没有待查的了。
+  - II/1414 `427-050-1`：ECHA C&L 通报和 CosIng 都是这个号码；而且 427-050 前缀不存在合法校验位。
+  - III/260 `146-420-6`：SCCS/1292/10 和 CosIng 都是这个号码。

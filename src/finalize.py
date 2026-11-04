@@ -80,9 +80,18 @@ ERRATA = {
     ('III', '259', 'ec', '415-480-1'): ('415-480-0', _PC % ('415-480-0', '86419-69-4')),
 }
 
-# ELINCS numbers that fail the check digit but are the official numbers:
-# ECHA assigned them as printed (PubChem/ECHA list the same value for the CAS).
-OFFICIAL_BAD_CHECK = {'431-520-1', '424-550-1', '435-470-1', '433-460-1'}
+# Numbers that fail the check digit but are the ones the authorities use, so
+# they are kept as printed. Value -> where that was confirmed (2026-11-04).
+_ECHA = 'the number ECHA assigned (confirmed via PubChem)'
+OFFICIAL_BAD_CHECK = {
+    '431-520-1': _ECHA, '424-550-1': _ECHA, '435-470-1': _ECHA, '433-460-1': _ECHA,
+    # no check digit is valid for 427-050-x at all (weighted sum = 10 mod 11),
+    # so this cannot be a one-digit misprint of the check digit
+    '427-050-1': 'the number in ECHA\'s C&L notification and CosIng for CAS '
+                 '170016-25-8; no valid check digit exists for 427-050',
+    '146-420-6': 'the number given for CAS 104226-21-3 in SCCS opinion '
+                 'SCCS/1292/10 (HC Yellow n° 7, 21 Sep 2010) and in CosIng',
+}
 
 CORRECTIONS = ('corrected', 'cas_ec_swapped', 'clp_index_in_ec_column')
 
@@ -201,8 +210,8 @@ def check_ids(annex, e, s, issues):
         if EC_FMT.match(v):
             if v in OFFICIAL_BAD_CHECK:
                 add('ec', v, 'ec_check_digit_official',
-                    'fails the check digit, but is the number ECHA assigned '
-                    '(confirmed via PubChem); kept as printed')
+                    'fails the check digit, but is %s; kept as printed'
+                    % OFFICIAL_BAD_CHECK[v])
             elif not ec_ok(v):
                 add('ec', v, 'ec_checksum', 'check digit does not match; '
                     'no verified EC number found, kept as printed')
