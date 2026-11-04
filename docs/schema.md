@@ -62,7 +62,7 @@ SQLite：`data/cosmetics_reg.sqlite`。同样内容按附件拆成 CSV：
 | issue | 含义 | 处理 |
 |---|---|---|
 | `cas_checksum` / `ec_checksum` | 校验位不对，且查不到权威号码 | 只标记 |
-| `ec_check_digit_official` | 校验位不对，但 ECHA 登记的就是这个号码 | 只标记，保持原样 |
+| `ec_check_digit_official` | 校验位不对，但权威来源（ECHA、SCCS、CosIng）用的就是这个号码，`note` 注明来源 | 只标记，保持原样 |
 | `cas_format` / `ec_format` | 不是合法格式 | 只标记 |
 | `clp_index_in_ec_column` | EC 列里印的是 CLP 附录 VI 索引号（`613-062-00-4`） | 从 substances.ec 移除（不补 EC 号），原文保留在 entries.ec；`bench/lookup.py` 可按索引号查 |
 | `cas_ec_swapped` | CAS 和 EC 印在了对方的列（II/1712） | substances 中已换回；`value` 是原文 CAS 列的值 |

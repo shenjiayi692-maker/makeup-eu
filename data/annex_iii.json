@@ -12771,8 +12771,8 @@
     "seq": 1,
     "field": "ec",
     "value": "146-420-6",
-    "issue": "ec_checksum",
-    "note": "check digit does not match; no verified EC number found, kept as printed"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number given for CAS 104226-21-3 in SCCS opinion SCCS/1292/10 (HC Yellow n° 7, 21 Sep 2010) and in CosIng; kept as printed"
    }
   ]
  },

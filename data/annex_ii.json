@@ -48155,8 +48155,8 @@
     "seq": 1,
     "field": "ec",
     "value": "427-050-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match; no verified EC number found, kept as printed"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number in ECHA's C&L notification and CosIng for CAS 170016-25-8; no valid check digit exists for 427-050; kept as printed"
    }
   ]
  },
