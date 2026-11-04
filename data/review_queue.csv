@@ -1,9 +1,5 @@
 ﻿annex,ref_no,colour_index,inci_name,cas,ec,chemical_name,pages
-III,8a,,p-Phenylenediamine; p-Phenylenediamine HCl; p-Phenylenediamine Sulphate,"106-50-3, 624-18-0, 16245-77-5","203-404-7, 210-834-9, 240-357-1","p-Phenylenediamine
-and its salts","144,145,146"
-III,8b,,p-Phenylenediamine; p-Phenylenediamine HCl; p-Phenylenediamine Sulphate,"106-50-3, 624-18-0, 16245-77-5","203-404-7, 210-834-9, 240-357-1","p-Phenylenediamine
-and its salts","146,147"
-III,8c,,N N′-Bis(2- Hydroxyethyl)- 2-Nitro-p- Phenylenediamine,84041-77-0,281-856-4,"Ethanol, 2,2′-[(2-
+III,8c,,N N′-Bis(2-Hydroxyethyl)- 2-Nitro-p-Phenylenediamine,84041-77-0,281-856-4,"Ethanol, 2,2′-[(2-
 nitro-1,4-phenylene)
 diimino]bis-(9CI)","147,148"
 III,24,,Zinc Acetate Zinc Chloride Zinc Gluconate Zinc Glutamate Zinc Citrate Zinc Sulphate,"557-34-6, 5970-45-6, 7646-85-7, 4468-02-4, 1949-15-1, 546-46-3, 7733-02-0, 7446-19-7, 7446-20-0","209-170-2, 231-592-0, 224-736-9, 208-901-2, 231-793-3","Water-soluble zinc
@@ -12,7 +8,6 @@ exception of zinc 4-
 hydroxy-benzene
 sulphonate (entry 25
 of Annex III) (46)",162
-III,26,,Ammonium Monofluorophosphate,"20859-38-5, 66115-19-3",— / —,Ammonium monofluorophosphate,163
 III,65,,Benzalkonium bromide Benzalkonium chloride Benzalkonium saccharinate,"91080-29-4, 63449-41-2, 68391-01-5, 68424-85-1, 85409-22-9, 68989-01-5","293-522-5, 264-151-6, 269-919-4, 270-325-2, 287-089-1, 273-545-7","Benzalkonium
 chloride, bromide
 and saccharinate (8)",183
@@ -20,7 +15,7 @@ III,112,,Pinus Palustris Leaf Extract; Pinus Palustris Oil Pinus Palustris Twig 
 and extract",206
 III,122,,Cedrus Atlantica Bark Extract; Cedrus Atlantica Bark Oil; Cedrus Atlantica Bark Water; Cedrus Atlantica Leaf Extract; Cedrus Atlantica Wood Extract; Cedrus Atlantica Wood Oil,"92201-55-3, 8023-85-6",295-985-9,"Cedrus atlantica oil
 and extract (38)",209
-III,157,,Alpha- Damascone; cis-Rose ket- one 1 trans-Rose ketone 1 Rose ketone 4 (Damascenone) Rose ketone 3 (delta- Damascone) trans-Rose ketone 3 cis-Rose ketone 2 (cis-beta- Damascone) trans-Rose ketone 2 (trans-beta- Damascone),"43052-87-5, 23726-94-5, 24720-09-0, 23696-85-7, 57378-68-4, 71048-82-3, 23726-92-3, 23726-91-2","245-845-8, 246-430-4, 245-833-2, 260-709-8, 275-156-8, 245-843-7, 245-842-1","1-(2,6,6-trimethyl-2-
+III,157,,Alpha-Damascone; cis-Rose ket-one 1 trans-Rose ketone 1 Rose ketone 4 (Damascenone) Rose ketone 3 (delta-Damascone) trans-Rose ketone 3 cis-Rose ketone 2 (cis-beta-Damascone) trans-Rose ketone 2 (trans-beta-Damascone),"43052-87-5, 23726-94-5, 24720-09-0, 23696-85-7, 57378-68-4, 71048-82-3, 23726-92-3, 23726-91-2","245-845-8, 246-430-4, 245-833-2, 260-709-8, 275-156-8, 245-843-7, 245-842-1","1-(2,6,6-trimethyl-2-
 cyclohexen-1-yl)-2-
 buten-1-one (16) (38)
 1-(2,6,6-Trimethyl
@@ -41,7 +36,7 @@ hexen-1-yl)-2-buten-
 1-one (16) (38)","218,219"
 III,196,,Lippia citriodora absolute,"8024-12-2, 85116-63-8",285-515-0,"Verbena
 absolute (38) (39)",228
-III,198,,N N-bis(2- Hydroxyethyl)- p-Phenylenediamine Sulfate,54381-16-7,259-134-5,"2,2'-[(4-Aminophenyl)imino]bis(ethanol) sulphate",229
+III,198,,N N-bis(2-Hydroxyethyl)- p-Phenylenediamine Sulfate,54381-16-7,259-134-5,"2,2'-[(4-Aminophenyl)imino]bis(ethanol) sulphate",229
 III,204,,Dihydroxy indoline Dihydroxy indoline HBr,"29539-03-5, 138937-28-7",421-170-6,"2,3-Dihydro-1H-
 indole-5,6-diol and
 its hydrobromide
@@ -53,26 +48,26 @@ sulphate","256,257"
 III,224,,HC Violet No 2,104226-19-9,410-910-3,"1-Propanol, 3-[[4-
 [bis(2-hydroxyethyl)
 amino]-2-nitrophenyl]amino] (17)",257
-III,226,,"1,3-bis-(2,4- Diaminophenoxy) propane 1,3-bis-(2,4- Diaminophenoxy) propane HCl","81892-72-0, 74918-21-1","279-845-4, 278-022-7","4,4′-[1,3-Propanediylbis(oxy)]
+III,226,,"1,3-bis-(2,4-Diaminophenoxy) propane 1,3-bis-(2,4-Diaminophenoxy) propane HCl","81892-72-0, 74918-21-1","279-845-4, 278-022-7","4,4′-[1,3-Propanediylbis(oxy)]
 bisbenzene-1,3-
 diamine and its
 tetrahydrochloride
 salt (17)","258,259"
-III,227,,"3-Amino-2,4- dichlorophenol 3-Amino-2,4- dichlorophenol HCl","61693-42-3, 61693-43-4",262-909-0,"3-Amino-2,4-dichlorophenol and its
+III,227,,"3-Amino-2,4-dichlorophenol 3-Amino-2,4-dichlorophenol HCl","61693-42-3, 61693-43-4",262-909-0,"3-Amino-2,4-dichlorophenol and its
 hydrochloride","259,260"
-III,232,,"2,6-Dimethoxy- 3,5-pyridinediamine 2,6-Dimethoxy- 3,5-pyridinediamine HCl","56216-28-5, 85679-78-3",260-062-1,"2,6-Dimethoxy-3,5-
+III,232,,"2,6-Dimethoxy-3,5-pyridinediamine 2,6-Dimethoxy-3,5-pyridinediamine HCl","56216-28-5, 85679-78-3",260-062-1,"2,6-Dimethoxy-3,5-
 pyridinediamine and
 its hydrochloride","264,265"
 III,237,,HC Red No 13,"29705-39-3, 94158-13-1",303-083-4,"2,2′-[(4-Amino-3-
 nitrophenyl)imino]
 bisethanol and its
 hydrochloride",268
-III,239,,Hydroxypropyl bis(N-hydroxyethyl-p- phenylenediamine) HCl,"128729-30-6, 128729-28-2",416-320-2,"Hydroxypropyl bis
+III,239,,Hydroxypropyl bis(N-hydroxyethyl-p-phenylenediamine) HCl,"128729-30-6, 128729-28-2",416-320-2,"Hydroxypropyl bis
 (N-hydroxyethyl-p-
 phenylenediamine)
 and its tetrahydro-
 chloride",270
-III,245,,2-Amino-4- Hydroxyethylaminoanisole 2-Amino-4- Hydroxyethylaminoanisole sulfate,"83763-47-7, 83763-48-8","280-733-2, 280-734-8","2-[(3amino-4-
+III,245,,2-Amino-4-Hydroxyethylaminoanisole 2-Amino-4-Hydroxyethylaminoanisole sulfate,"83763-47-7, 83763-48-8","280-733-2, 280-734-8","2-[(3amino-4-
 methoxyphenyl)
 amino]ethanol and
 its sulphate","281,282,283"
@@ -81,7 +76,7 @@ III,250,,HC Red No 10 + HC Red No 11,"95576-89-9, 95576-92-4",,"1-Amino-2-nitro-
 chlorobenzene +
 1,4-bis-(2’,3’-dihydroxypropyl)amino-
 2-nitro-5-chlorobenzene",288
-III,271,,"Disperse Blue 377 is a mixture of three dyes: (1) 1,4-bis[(2- hydroxyethyl) amino] anthra- 9,10- quinone (2) 1-[(2- hydroxyethyl) amino]-4- [(3- hydroxypropyl) amino] anthra- 9,10- quinone (3) 1,4-bis[(3- hydroxypropyl) amino] anthra- 9,10- quinone","4471-41-4, 67674-26-4, 67701-36-4","224-743-7, 266-865-3, 266-954-7","Mixture of (1), (2)
+III,271,,"Disperse Blue 377 is a mixture of three dyes: (1) 1,4-bis[(2-hydroxyethyl) amino] anthra-9,10-quinone (2) 1-[(2-hydroxyethyl) amino]-4- [(3-hydroxypropyl) amino] anthra-9,10-quinone (3) 1,4-bis[(3-hydroxypropyl) amino] anthra-9,10-quinone","4471-41-4, 67674-26-4, 67701-36-4","224-743-7, 266-865-3, 266-954-7","Mixture of (1), (2)
 & (3) in dispersing
 agent (lignosulphate):
 (1) 9,10-Anthracenedione-1,4-
@@ -93,7 +88,7 @@ Hydroxypropyl)
 amino]
 (3) 9,10-anthracenedione-1,4-bis
 [(3-hydroxypropyl)amino",301
-III,283,,5-Amino-6- Chloro-o- Cresol 5-Amino-6- Chloro-o- Cresol HCl,"84540-50-1, 80419-48-3",283-144-9,"3-amino-2-chlor-6-
+III,283,,5-Amino-6-Chloro-o-Cresol 5-Amino-6-Chloro-o-Cresol HCl,"84540-50-1, 80419-48-3",283-144-9,"3-amino-2-chlor-6-
 methylphenol
 3-amino-4-chloro-6-
 methylphenol HCl","313,314"
@@ -103,7 +98,7 @@ pyridinin-1-ium]
 butanoyl]
 aminoethyl]
 disulfanyl dichloride","329,330"
-III,300,,"1-Hexyl 4,5- Diamino Pyrazole Sulfate",1361000-03-4,,"1H-Pyrazole-4,5-
+III,300,,"1-Hexyl 4,5-Diamino Pyrazole Sulfate",1361000-03-4,,"1H-Pyrazole-4,5-
 diamine, 1-hexyl-,
 sulfate (2:1)","330,331"
 III,302,,Hydroxyethoxy Aminopyrazo lopyridine HCl,1079221-49-0,695-745-7,"2-[(3-Aminopyrazolo[1,5-a]pyridin-
@@ -111,8 +106,6 @@ III,302,,Hydroxyethoxy Aminopyrazo lopyridine HCl,1079221-49-0,695-745-7,"2-[(3-
 hydrochloride","332,333"
 III,306,,Arachis Hypogaea Oil Arachis Hypogaea Seedcoat Extract Arachis Hypogaea Flour Arachis Hypogaea Fruit Extract Arachis Hypogaea Sprout Extract Hydrogenated Peanut Oil Peanut Acid Peanut Glycerides Peanut Oil PEG-6 Esters Peanutamide MEA Peanutamide MIPA Potassium Peanutate Sodium Peanutamphoacetate Sodium Peanutate Sulfated Peanut Oil,"8002-03-7, 8002-03-7, 8002-03-7, 8002-03-7, 68425-36-5, 91051-35-3, 91744-77-3, 68440-49-3, 93572-05-5, 61789-56-8, 61789-57-9, 73138-79-1","232-296-4, 232-296-4, 232-296-4, 232-296-4, 270-350-9, 293-087-1, 294-643-6, 297-433-2, 263-069-8, 263-070-3, 277-298-6","Peanut oil, extracts
 and derivatives","335,336"
-III,307,,Hydrolyzed Wheat Protein,"94350-06-8, 222400-28-4, 70084-87-6, 100209-50-5","305-225-0, 309-358-5","Hydrolyzed wheat
-protein",336
 III,308,,Tagetes minuta flower extract Tagetes minuta flower oil,"91770-75-1, 91770-75-1, 8016-84-0","294-862-7, 294-862-7","Tagetes minuta
 flower extract (24)
 Tagetes minuta
@@ -157,9 +150,6 @@ flower oil and
 extract; Ylang
 Ylang flower oil
 and extract (40)",356
-III,349,,Cinnamomum Zeylanicum Bark Oil,"8015-91-6, 84649-98-9",283-479-0,"Cinnamomum
-zeylanicum bark
-oil (40)",357
 III,350,,Citrus Aurantium Amara Flower Oil Citrus Aurantium Dulcis Flower Oil,"72968-50-4, 8028-48-6, 8016-38-4","277-143-2, 232-433-8","Citrus aurantium
 amara and dulcis
 flower oil (40)",357
@@ -227,7 +217,7 @@ zizanioides, ext.,
 acetylated (46)
 Oils, vetiver,
 acetylated (46)",378
-III,383,,HC Blue No 18,"1166834-57-6, 852356-91-3",-/-,"3-[(E)-(3-chloro-4-
+III,383,,HC Blue No 18,"1166834-57-6, 852356-91-3",,"3-[(E)-(3-chloro-4-
 hydroxyphenyl)
 diazenyl]-2,l-benzisothiazole-5-
 sulfonamide",379

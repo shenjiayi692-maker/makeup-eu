@@ -25,8 +25,28 @@ DB = os.environ.get('CELEX_DB') or os.path.join(
 
 CAS_RE = re.compile(r'^\d{2,7}-\d{2}-\d$')
 EC_RE = re.compile(r'^\d{3}-\d{3}-\d$')
+CLP_RE = re.compile(r'^\d{3}-\d{3}-\d{2}-[\dX]$', re.I)
 CIX_RE = re.compile(r'^(?:CI\s*)?(\d{4,6}(?::\d+)?)$', re.I)
 FOOTNOTE_REF = re.compile(r'\(\s*(\d{1,2})\s*\)')
+ID_TOKEN = {
+    'cas': re.compile(r'(?<![\d-])\d{2,7}-\d{2}-\d(?![\d-])'),
+    'ec': re.compile(r'(?<![\d-])\d{3}-\d{3}-\d(?![\d-])'),
+    'colour_index': re.compile(r'(?<![\d:])\d{4,6}(?::\d+)?(?![\d:])'),
+}
+
+
+def _alnum(s):
+    """Letters and digits only. Names in the source wrap with a hyphen
+    ("Methylisothiazoli-/none") and spacing varies ("2- hydroxy"), so names are
+    compared in this form on both sides."""
+    return re.sub(r'[^0-9a-z]', '', (s or '').lower())
+
+
+def _ids(cell, kind):
+    """Whole identifiers in a cell. Whitespace around hyphens is removed
+    first, because a number can wrap inside the cell ("59866-\\n70-5")."""
+    t = re.sub(r'\s*-\s*', '-', cell or '')
+    return set(ID_TOKEN[kind].findall(t))
 
 
 def _conn():
@@ -34,6 +54,10 @@ def _conn():
         sys.exit("database not found: %s\n(build it with src/build.py, or set CELEX_DB)" % DB)
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
+    con.create_function('alnum', 1, _alnum, deterministic=True)
+    con.create_function('has_id', 3,
+                        lambda cell, kind, v: v in _ids(cell, kind),
+                        deterministic=True)
     return con
 
 
@@ -44,6 +68,8 @@ def classify(q):
         return 'cas', q
     if EC_RE.match(q):
         return 'ec', q
+    if CLP_RE.match(q):
+        return 'clp', q.upper()
     m = CIX_RE.match(q)
     if m:
         return 'colour_index', m.group(1)
@@ -59,30 +85,47 @@ def _entry_keys(con, kind, value):
         for r in rows:
             hits.setdefault((r['annex'], r['entry_seq']), set()).add(why)
 
-    if kind in ('cas', 'ec', 'colour_index'):
+    if kind == 'clp':
+        # Annex II prints some CLP index numbers in its EC column; they are
+        # kept in entries.ec and id_issues, not in substances.ec
+        add(cur.execute(
+            "SELECT annex, entry_seq FROM id_issues WHERE upper(value) = ?",
+            (value,)).fetchall(), 'CLP index (see id_issues)')
+        add(cur.execute(
+            "SELECT annex, entry_seq FROM entries"
+            " WHERE instr(upper(replace(replace(ec, ' ', ''), char(10), '')), ?) > 0",
+            (value,)).fetchall(), 'CLP index in entry cell')
+    elif kind in ('cas', 'ec', 'colour_index'):
         col = kind
         # exact match on the split-out rows
         add(cur.execute(
             "SELECT annex, entry_seq FROM substances WHERE %s = ?" % col,
             (value,)).fetchall(), '%s exact' % col)
-        # split_ok=0 rows keep the whole list in one cell; so do entries.*
-        like = '%' + value + '%'
+        # split_ok=0 rows keep the whole list in one cell; so do entries.*.
+        # Match whole numbers only: a substring test would let 57-24-9 hit
+        # 657-24-9.
         add(cur.execute(
-            "SELECT annex, entry_seq FROM substances WHERE %s LIKE ?" % col,
-            (like,)).fetchall(), '%s in list' % col)
+            "SELECT annex, entry_seq FROM substances WHERE has_id(%s, ?, ?)" % col,
+            (kind, value)).fetchall(), '%s in list' % col)
         add(cur.execute(
-            "SELECT annex, entry_seq FROM entries WHERE %s LIKE ?" % col,
-            (like,)).fetchall(), '%s in entry cell' % col)
+            "SELECT annex, entry_seq FROM entries WHERE has_id(%s, ?, ?)" % col,
+            (kind, value)).fetchall(), '%s in entry cell' % col)
+        # the value as printed in the source, where finalize corrected it
+        add(cur.execute(
+            "SELECT annex, entry_seq FROM id_issues WHERE value = ?",
+            (value,)).fetchall(), 'source value (see id_issues)')
     else:
-        like = '%' + value.lower() + '%'
-        for col in ('inci_name', 'cas'):
+        key = '%' + _alnum(value) + '%'
+        if key == '%%':
+            return hits
+        for col in ('name', 'inci_name'):
             add(cur.execute(
-                "SELECT annex, entry_seq FROM substances WHERE lower(%s) LIKE ?" % col,
-                (like,)).fetchall(), 'substance.%s' % col)
+                "SELECT annex, entry_seq FROM substances WHERE alnum(%s) LIKE ?" % col,
+                (key,)).fetchall(), 'substance.%s' % col)
         for col in ('inci_name', 'chemical_name'):
             add(cur.execute(
-                "SELECT annex, entry_seq FROM entries WHERE lower(%s) LIKE ?" % col,
-                (like,)).fetchall(), 'entry.%s' % col)
+                "SELECT annex, entry_seq FROM entries WHERE alnum(%s) LIKE ?" % col,
+                (key,)).fetchall(), 'entry.%s' % col)
     return hits
 
 
@@ -125,7 +168,7 @@ def lookup(query, annex=None):
             continue
         e = dict(e)
         subs = [dict(r) for r in con.execute(
-            "SELECT seq, colour_index, inci_name, cas, ec, split_ok FROM substances"
+            "SELECT seq, colour_index, inci_name, name, cas, ec, split_ok FROM substances"
             " WHERE annex=? AND entry_seq=? ORDER BY seq", (ax, seq))]
         conds = [dict(r) for r in con.execute(
             "SELECT tier_seq, tier, tier_source, product_type, max_concentration,"
@@ -136,6 +179,9 @@ def lookup(query, annex=None):
         for c in conds:
             # the citation key the annotation spec asks for: 附件/条目#分档序号
             c['cite'] = "%s/%s#%d" % (ax, e['ref_no'], c['tier_seq'])
+        e['id_issues'] = [dict(r) for r in con.execute(
+            "SELECT seq, field, value, issue, note FROM id_issues"
+            " WHERE annex=? AND entry_seq=? ORDER BY seq, rowid", (ax, seq))]
         e['matched_on'] = sorted(why)
         e['substances'] = subs
         e['conditions'] = conds
@@ -186,9 +232,12 @@ def render(hits, query):
             L.append("  化学名:")
             L += _wrap(e['chemical_name'].replace("\n", " "), 6)
         for s in e['substances']:
-            bits = [x for x in (s['colour_index'], s['inci_name'], s['cas'], s['ec']) if x]
+            bits = [x for x in (s['colour_index'], s['inci_name'] or s['name'],
+                                s['cas'], s['ec']) if x]
             warn = "" if s['split_ok'] else "   <-- 未配对，需人工核对"
             L.append("    - " + " | ".join(bits) + warn)
+        for i in e['id_issues']:
+            L.append("    ! %s %s: %s  (%s)" % (i['field'], i['value'], i['issue'], i['note']))
         if not e['conditions']:
             L.append("  (无条件列——附件 II 为禁用清单)" if e['annex'] == 'II' else "  (无条件)")
         for c in e['conditions']:
@@ -225,7 +274,7 @@ def render(hits, query):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('query', help='INCI / chemical name, CAS, EC, or CI number')
+    ap.add_argument('query', help='INCI / chemical name, CAS, EC, CLP index, or CI number')
     ap.add_argument('--annex', help='restrict to one annex (II/III/IV/V/VI)')
     ap.add_argument('--json', action='store_true', help='machine-readable output')
     a = ap.parse_args()

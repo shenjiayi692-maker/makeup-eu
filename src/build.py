@@ -1,15 +1,15 @@
 """Build structured tables from the annex tables of consolidated Reg. 1223/2009."""
 import sys, re, os, csv, sqlite3, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import pymupdf
 from celex import (parse_pages, merge_pages, lines_text, text_lines,
                    page_geometry, doc, PDF)
 from split import (slice_tiers, split_cas, split_ec, split_names,
                    names_by_anchor, NAME_SPLIT, DASH)
 from spec import SPECS
+from finalize import finalize, write_review_queue
 
 CONC = re.compile(r'(\d+(?:[,.]\d+)?)\s*(%|ppm|ppb|mg/kg)')
-BASIS = re.compile(r'\((?:as\s+|of\s+)?([^)]{1,40}?)\)')
+BASIS = re.compile(r'\(([^)]{1,40}?)\)')
 CIX = re.compile(r'^\d{4,6}(?::\d+)?$')
 
 def all_concs(text):
@@ -24,9 +24,17 @@ def parse_conc(text):
     m = CONC.search(" ".join(text.split()))
     if not m:
         return None, None, None
-    b = BASIS.search(text[m.end():m.end() + 60])
+    b = BASIS.search(" ".join(text[m.end():m.end() + 60].split()))
     basis = b.group(1).strip() if b else None
-    if basis and (len(basis.split()) > 4 or not re.search(r'[A-Za-z]', basis)):
+    if basis:
+        basis = re.sub(r'^(?:calculated\s+)?(?:as|of)\s+', '', basis, flags=re.I)
+        basis = re.sub(r'\bAI\b', 'Al', basis)       # "As AI": capital i for Al
+    # a basis names a substance or unit, never a number, a roman-numeral
+    # sub-item "(ii)", or a use condition "(after mixing for use)"
+    if basis and (len(basis.split()) > 4 or not re.search(r'[A-Za-z]', basis)
+                  or re.match(r'\d', basis) or '%' in basis
+                  or re.fullmatch(r'[ivx]+', basis)
+                  or re.match(r'(?:after|before|when|for)\b', basis, re.I)):
         basis = None
     return float(m.group(1).replace(',', '.')), m.group(2), basis
 
@@ -154,19 +162,7 @@ def build(annex, report=None):
             needs_review=int(review), substances=subs, conditions=tiers))
     for i, e in enumerate(ents, 1):
         e['entry_seq'] = i
-    num = lambda s: int(re.match(r'\d+', s).group()) if s and s[0].isdigit() else None
-    for k, e in enumerate(ents):
-        if e['ref_no'] is None:
-            prv = next((num(ents[j]['ref_no']) for j in range(k - 1, -1, -1)
-                        if ents[j]['ref_no']), None)
-            nxt = next((num(ents[j]['ref_no']) for j in range(k + 1, len(ents))
-                        if ents[j]['ref_no']), None)
-            lo = prv + 1 if prv is not None else (nxt - 1 if nxt else None)
-            hi = nxt - 1 if nxt is not None else (prv + 1 if prv else None)
-            if lo is not None and hi is not None and lo <= hi:
-                e['ref_no'] = str(lo) if lo == hi else '%d-%d' % (lo, hi)
-                e['ref_inferred'] = 1
-    return ents
+    return ents                     # ref_no inference happens in finalize()
 
 FN = re.compile(r'^\(\s*(\d{1,3})\s*\)\s*(.*)$')
 MARK_ANY = re.compile(r'[►◄▼]\s*[A-Z]{0,2}\d*')
@@ -188,6 +184,10 @@ def _pdf_lines(pno):
     marks straddle two baselines), and the engine already knows the real
     reading order. rotation_matrix maps landscape pages into display space.
     """
+    import pymupdf
+    global _mu
+    if _mu is None:
+        _mu = None      # opened lazily, so write() works without the PDF
     mp = _mu[pno - 1]
     m = mp.rotation_matrix
     out = []
@@ -199,7 +199,7 @@ def _pdf_lines(pno):
                 out.append((r.y0, r.x0, txt))
     return sorted(out)
 
-_mu = pymupdf.open(PDF)
+_mu = None      # opened lazily, so write() works without the PDF
 
 def annex_notes(annex):
     """Preamble and footnotes. Footnotes sit under the table and, in a long
@@ -248,7 +248,9 @@ OUT = os.environ.get('CELEX_OUT') or os.path.join(
 ECOLS = ['annex','entry_seq','ref_no','ref_inferred','status','amended_by','mid_amendments',
          'pages','chemical_name','colour_index','inci_name','cas','ec','colour',
          'product_type','max_concentration','other','wording','needs_review']
-SCOLS = ['annex','entry_seq','ref_no','seq','colour_index','inci_name','cas','ec','split_ok']
+SCOLS = ['annex','entry_seq','ref_no','seq','colour_index','inci_name','name','cas','ec',
+         'split_ok']
+ICOLS = ['annex','entry_seq','ref_no','seq','field','value','issue','note']
 CCOLS = ['annex','entry_seq','ref_no','tier_seq','tier','tier_source','product_type',
          'max_concentration','max_conc_value','max_conc_unit','max_conc_basis',
          'all_conc_values','other','wording']
@@ -260,6 +262,9 @@ CREATE TABLE IF NOT EXISTS conditions(%s);
 CREATE TABLE IF NOT EXISTS footnotes(annex TEXT, marker TEXT, text TEXT,
                                      amended_by TEXT);
 CREATE TABLE IF NOT EXISTS preamble(annex TEXT, text TEXT);
+CREATE TABLE IF NOT EXISTS id_issues(annex TEXT, entry_seq INT, ref_no TEXT,
+                                     seq INT, field TEXT, value TEXT,
+                                     issue TEXT, note TEXT);
 CREATE INDEX IF NOT EXISTS entries_ref ON entries(annex, ref_no);
 CREATE INDEX IF NOT EXISTS subs_ref ON substances(annex, entry_seq);
 CREATE INDEX IF NOT EXISTS cond_ref ON conditions(annex, entry_seq);
@@ -275,16 +280,23 @@ CREATE INDEX IF NOT EXISTS cond_ref ON conditions(annex, entry_seq);
 def write(annex, ents, pre, foot):
     os.makedirs(OUT, exist_ok=True)
     con = sqlite3.connect(os.path.join(OUT, 'cosmetics_reg.sqlite')); c = con.cursor()
+    have = [r[1] for r in c.execute("PRAGMA table_info(substances)")]
+    if have and have != SCOLS:      # older schema: rebuild the tables
+        for t in ('entries','substances','conditions','footnotes','preamble','id_issues'):
+            c.execute("DROP TABLE IF EXISTS %s" % t)
     c.executescript(DDL)
-    for t in ('entries','substances','conditions','footnotes','preamble'):
+    for t in ('entries','substances','conditions','footnotes','preamble','id_issues'):
         c.execute("DELETE FROM %s WHERE annex=?" % t, (annex,))
-    erows, srows, crows = [], [], []
+    erows, srows, crows, irows = [], [], [], []
     for e in ents:
         erows.append([e[k] for k in ECOLS])
         for s in e['substances']:
             srows.append([e['annex'], e['entry_seq'], e['ref_no'], s['seq'],
-                          s['colour_index'], s['inci_name'], s['cas'], s['ec'],
-                          s['split_ok']])
+                          s['colour_index'], s['inci_name'], s.get('name'),
+                          s['cas'], s['ec'], s['split_ok']])
+        for i in e.get('id_issues', []):
+            irows.append([e['annex'], e['entry_seq'], e['ref_no'], i['seq'],
+                          i['field'], i['value'], i['issue'], i['note']])
         cond = SPECS[annex]['cond']
         pt, mc, ot, wd = ((n for n, _ in cond) if cond
                           else ('product_type','max_concentration','other','wording'))
@@ -296,6 +308,7 @@ def write(annex, ents, pre, foot):
     c.executemany("INSERT INTO entries VALUES(%s)" % ",".join("?"*len(ECOLS)), erows)
     c.executemany("INSERT INTO substances VALUES(%s)" % ",".join("?"*len(SCOLS)), srows)
     c.executemany("INSERT INTO conditions VALUES(%s)" % ",".join("?"*len(CCOLS)), crows)
+    c.executemany("INSERT INTO id_issues VALUES(%s)" % ",".join("?"*len(ICOLS)), irows)
     c.executemany("INSERT INTO footnotes VALUES(?,?,?,?)",
                   [(annex, n, x, mk) for n, x, mk in foot])
     c.execute("INSERT INTO preamble VALUES(?,?)", (annex, pre))
@@ -311,10 +324,15 @@ def write(annex, ents, pre, foot):
          [[annex, n, x, mk] for n, x, mk in foot])
     return len(erows), len(srows), len(crows), len(foot)
 
+def dump_json(annex, ents):
+    with open(os.path.join(OUT, 'annex_%s.json' % annex.lower()), 'w',
+              encoding='utf-8') as f:
+        json.dump(ents, f, ensure_ascii=False, indent=1)
+
 if __name__ == '__main__':
     for annex in sys.argv[1:]:
         report = []
-        ents = build(annex, report)
+        ents = finalize(annex, build(annex, report))
         pre, foot = annex_notes(annex)
         n = write(annex, ents, pre, foot)
         print("Annex %-3s entries=%d substances=%d conditions=%d footnotes=%d"
@@ -323,5 +341,5 @@ if __name__ == '__main__':
             print("   pages not parsed as tables (%d):" % len(report))
             for pno, why in report:
                 print("      p%d: %s" % (pno, why))
-        json.dump(ents, open(os.path.join(OUT, 'annex_%s.json' % annex.lower()), 'w'),
-                  ensure_ascii=False, indent=1)
+        dump_json(annex, ents)
+    print("review queue: %d rows" % write_review_queue(OUT))

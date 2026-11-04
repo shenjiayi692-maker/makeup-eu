@@ -25,7 +25,8 @@
     "inci_name": "Benzoic acid",
     "cas": "65-85-0",
     "ec": "200-618-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzoic acid"
    },
    {
     "seq": 2,
@@ -33,7 +34,8 @@
     "inci_name": "Sodium Benzoate",
     "cas": "532-32-1",
     "ec": "208-534-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium Benzoate"
    }
   ],
   "conditions": [
@@ -62,7 +64,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 1
+  "entry_seq": 1,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -90,7 +93,8 @@
     "inci_name": "Ammonium benzoate",
     "cas": "1863-63-4",
     "ec": "217-468-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ammonium benzoate"
    },
    {
     "seq": 2,
@@ -98,7 +102,8 @@
     "inci_name": "calcium benzoate",
     "cas": "2090-05-3",
     "ec": "218-235-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "calcium benzoate"
    },
    {
     "seq": 3,
@@ -106,7 +111,8 @@
     "inci_name": "potassium benzoate",
     "cas": "582-25-2",
     "ec": "209-481-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium benzoate"
    },
    {
     "seq": 4,
@@ -114,7 +120,8 @@
     "inci_name": "magnesium benzoate",
     "cas": "553-70-8",
     "ec": "209-045-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "magnesium benzoate"
    },
    {
     "seq": 5,
@@ -122,7 +129,8 @@
     "inci_name": "MEA-benzoate",
     "cas": "4337-66-0",
     "ec": "224-387-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "MEA-benzoate"
    },
    {
     "seq": 6,
@@ -130,7 +138,8 @@
     "inci_name": "methyl benzoate",
     "cas": "93-58-3",
     "ec": "202-259-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "methyl benzoate"
    },
    {
     "seq": 7,
@@ -138,7 +147,8 @@
     "inci_name": "ethyl benzoate",
     "cas": "93-89-0",
     "ec": "202-284-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "ethyl benzoate"
    },
    {
     "seq": 8,
@@ -146,7 +156,8 @@
     "inci_name": "propyl benzoate",
     "cas": "2315-68-6",
     "ec": "219-020-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "propyl benzoate"
    },
    {
     "seq": 9,
@@ -154,7 +165,8 @@
     "inci_name": "butyl benzoate",
     "cas": "136-60-7",
     "ec": "205-252-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "butyl benzoate"
    },
    {
     "seq": 10,
@@ -162,7 +174,8 @@
     "inci_name": "isobutyl benzoate",
     "cas": "120-50-3",
     "ec": "204-401-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "isobutyl benzoate"
    },
    {
     "seq": 11,
@@ -170,7 +183,8 @@
     "inci_name": "isopropyl benzoate",
     "cas": "939-48-0",
     "ec": "213-361-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "isopropyl benzoate"
    },
    {
     "seq": 12,
@@ -178,7 +192,8 @@
     "inci_name": "phenyl benzoate",
     "cas": "93-99-2",
     "ec": "202-293-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "phenyl benzoate"
    }
   ],
   "conditions": [
@@ -191,7 +206,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 2
+  "entry_seq": 2,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -219,7 +235,8 @@
     "inci_name": "Propionic acid",
     "cas": "79-09-4",
     "ec": "201-176-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Propionic acid"
    },
    {
     "seq": 2,
@@ -227,7 +244,8 @@
     "inci_name": "ammonium propionate",
     "cas": "17496-08-1",
     "ec": "241-503-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "ammonium propionate"
    },
    {
     "seq": 3,
@@ -235,7 +253,8 @@
     "inci_name": "calcium propionate",
     "cas": "4075-81-4",
     "ec": "223-795-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "calcium propionate"
    },
    {
     "seq": 4,
@@ -243,7 +262,8 @@
     "inci_name": "magnesium propionate",
     "cas": "557-27-7",
     "ec": "209-166-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "magnesium propionate"
    },
    {
     "seq": 5,
@@ -251,7 +271,8 @@
     "inci_name": "potassium propionate",
     "cas": "327-62-8",
     "ec": "206-323-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium propionate"
    },
    {
     "seq": 6,
@@ -259,7 +280,8 @@
     "inci_name": "sodium propionate",
     "cas": "137-40-6",
     "ec": "205-290-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium propionate"
    }
   ],
   "conditions": [
@@ -272,7 +294,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 3
+  "entry_seq": 3,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -300,7 +323,8 @@
     "inci_name": "Salicylic acid",
     "cas": "69-72-7",
     "ec": "200-712-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Salicylic acid"
    },
    {
     "seq": 2,
@@ -308,7 +332,8 @@
     "inci_name": "Calcium salicylate",
     "cas": "824-35-1",
     "ec": "212-525-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium salicylate"
    },
    {
     "seq": 3,
@@ -316,15 +341,17 @@
     "inci_name": "magnesium salicylate",
     "cas": "18917-89-0",
     "ec": "242-669-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "magnesium salicylate"
    },
    {
     "seq": 4,
     "colour_index": null,
-    "inci_name": "MEA- salicylate",
+    "inci_name": "MEA-salicylate",
     "cas": "59866-70-5",
     "ec": "261-963-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "MEA-salicylate"
    },
    {
     "seq": 5,
@@ -332,7 +359,8 @@
     "inci_name": "sodium salicylate",
     "cas": "54-21-7",
     "ec": "200-198-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium salicylate"
    },
    {
     "seq": 6,
@@ -340,15 +368,17 @@
     "inci_name": "potassium salicylate",
     "cas": "578-36-9",
     "ec": "209-421-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium salicylate"
    },
    {
     "seq": 7,
     "colour_index": null,
-    "inci_name": "TEA- salicylate",
+    "inci_name": "TEA-salicylate",
     "cas": "2174-16-5",
     "ec": "218-531-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "TEA-salicylate"
    }
   ],
   "conditions": [
@@ -369,7 +399,8 @@
     "wording": "Not to be used\nfor children\nunder 3 years of\nage (2)"
    }
   ],
-  "entry_seq": 4
+  "entry_seq": 4,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -397,7 +428,8 @@
     "inci_name": "Sorbic acid",
     "cas": "110-44-1",
     "ec": "203-768-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sorbic acid"
    },
    {
     "seq": 2,
@@ -405,7 +437,8 @@
     "inci_name": "calcium sorbate",
     "cas": "7492-55-9",
     "ec": "231-321-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "calcium sorbate"
    },
    {
     "seq": 3,
@@ -413,7 +446,8 @@
     "inci_name": "sodium sorbate",
     "cas": "7757-81-5",
     "ec": "231-819-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium sorbate"
    },
    {
     "seq": 4,
@@ -421,7 +455,8 @@
     "inci_name": "potassium sorbate",
     "cas": "24634-61-5",
     "ec": "246-376-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium sorbate"
    }
   ],
   "conditions": [
@@ -434,7 +469,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 5
+  "entry_seq": 5,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -462,7 +498,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -475,7 +512,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 6
+  "entry_seq": 6,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -503,7 +541,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Moved or deleted"
    }
   ],
   "conditions": [
@@ -516,7 +555,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 7
+  "entry_seq": 7,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -544,7 +584,8 @@
     "inci_name": "o-Phenylphenol",
     "cas": "90-43-7",
     "ec": "201-993-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "o-Phenylphenol"
    },
    {
     "seq": 2,
@@ -552,7 +593,8 @@
     "inci_name": "Sodium o-Phenylphenate",
     "cas": "132-27-4",
     "ec": "205-055-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium o-Phenylphenate"
    }
   ],
   "conditions": [
@@ -573,7 +615,8 @@
     "wording": "Avoid contact\nwith eyes"
    }
   ],
-  "entry_seq": 8
+  "entry_seq": 8,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -601,7 +644,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -614,7 +658,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 9
+  "entry_seq": 9,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -642,7 +687,8 @@
     "inci_name": "Sodium sulfite",
     "cas": "7757-83-7",
     "ec": "231-821-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium sulfite"
    },
    {
     "seq": 2,
@@ -650,7 +696,8 @@
     "inci_name": "ammonium bisulfite",
     "cas": "10192-30-0",
     "ec": "233-469-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "ammonium bisulfite"
    },
    {
     "seq": 3,
@@ -658,7 +705,8 @@
     "inci_name": "ammonium sulfite",
     "cas": "10196-04-0",
     "ec": "233-484-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "ammonium sulfite"
    },
    {
     "seq": 4,
@@ -666,7 +714,8 @@
     "inci_name": "potassium sulfite",
     "cas": "10117-38-1",
     "ec": "233-321-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium sulfite"
    },
    {
     "seq": 5,
@@ -674,7 +723,8 @@
     "inci_name": "potassium hydrogen sulfite",
     "cas": "7773-03-7",
     "ec": "231-870-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium hydrogen sulfite"
    },
    {
     "seq": 6,
@@ -682,7 +732,8 @@
     "inci_name": "sodium bisulfite",
     "cas": "7631-90-5",
     "ec": "231-548-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium bisulfite"
    },
    {
     "seq": 7,
@@ -690,7 +741,8 @@
     "inci_name": "sodium metabisulfite",
     "cas": "7681-57-4",
     "ec": "231-673-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium metabisulfite"
    },
    {
     "seq": 8,
@@ -698,7 +750,8 @@
     "inci_name": "potassium metabisulfite",
     "cas": "16731-55-8",
     "ec": "240-795-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium metabisulfite"
    }
   ],
   "conditions": [
@@ -711,7 +764,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 10
+  "entry_seq": 10,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -739,7 +793,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Moved or deleted"
    }
   ],
   "conditions": [
@@ -752,7 +807,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 11
+  "entry_seq": 11,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -780,7 +836,8 @@
     "inci_name": "Chlorobutanol",
     "cas": "57-15-8",
     "ec": "200-317-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorobutanol"
    }
   ],
   "conditions": [
@@ -793,7 +850,8 @@
     "wording": "Contains Chlorobutanol"
    }
   ],
-  "entry_seq": 12
+  "entry_seq": 12,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -821,7 +879,8 @@
     "inci_name": "4-Hydroxybenzoic acid",
     "cas": "99-96-7",
     "ec": "202-804-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4-Hydroxybenzoic acid"
    },
    {
     "seq": 2,
@@ -829,7 +888,8 @@
     "inci_name": "methylparaben",
     "cas": "99-76-3",
     "ec": "202-785-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "methylparaben"
    },
    {
     "seq": 3,
@@ -837,7 +897,8 @@
     "inci_name": "potassium ethylparaben",
     "cas": "36457-19-9",
     "ec": "253-048-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium ethylparaben"
    },
    {
     "seq": 4,
@@ -845,7 +906,8 @@
     "inci_name": "potassium paraben",
     "cas": "16782-08-4",
     "ec": "240-830-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium paraben"
    },
    {
     "seq": 5,
@@ -853,7 +915,8 @@
     "inci_name": "sodium methylparaben",
     "cas": "5026-62-0",
     "ec": "225-714-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium methylparaben"
    },
    {
     "seq": 6,
@@ -861,7 +924,8 @@
     "inci_name": "sodium ethylparaben",
     "cas": "35285-68-8",
     "ec": "252-487-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium ethylparaben"
    },
    {
     "seq": 7,
@@ -869,7 +933,8 @@
     "inci_name": "ethylparaben",
     "cas": "120-47-8",
     "ec": "204-399-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "ethylparaben"
    },
    {
     "seq": 8,
@@ -877,7 +942,8 @@
     "inci_name": "sodium paraben",
     "cas": "114-63-6",
     "ec": "204-051-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium paraben"
    },
    {
     "seq": 9,
@@ -885,7 +951,8 @@
     "inci_name": "potassium methylparaben",
     "cas": "26112-07-2",
     "ec": "247-464-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium methylparaben"
    },
    {
     "seq": 10,
@@ -893,7 +960,8 @@
     "inci_name": "calcium paraben",
     "cas": "69959-44-0",
     "ec": "274-235-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "calcium paraben"
    }
   ],
   "conditions": [
@@ -906,7 +974,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 13
+  "entry_seq": 13,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -934,7 +1003,8 @@
     "inci_name": "Butylparaben",
     "cas": "94-26-8",
     "ec": "202-318-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Butylparaben"
    },
    {
     "seq": 2,
@@ -942,7 +1012,8 @@
     "inci_name": "propylparaben",
     "cas": "94-13-3",
     "ec": "202-307-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "propylparaben"
    },
    {
     "seq": 3,
@@ -950,7 +1021,8 @@
     "inci_name": "sodium propylparaben",
     "cas": "35285-69-9",
     "ec": "252-488-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium propylparaben"
    },
    {
     "seq": 4,
@@ -958,7 +1030,8 @@
     "inci_name": "sodium butylparaben",
     "cas": "36457-20-2",
     "ec": "253-049-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium butylparaben"
    },
    {
     "seq": 5,
@@ -966,7 +1039,8 @@
     "inci_name": "potassium butylparaben",
     "cas": "38566-94-8",
     "ec": "254-009-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium butylparaben"
    },
    {
     "seq": 6,
@@ -974,7 +1048,8 @@
     "inci_name": "potassium propylparaben",
     "cas": "84930-16-5",
     "ec": "284-597-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "potassium propylparaben"
    }
   ],
   "conditions": [
@@ -987,7 +1062,8 @@
     "wording": "For leave-on\nproducts\ndesigned for\nchildren under\nthree years of\nage:\n‘Do not use on\nthe nappy area’"
    }
   ],
-  "entry_seq": 14
+  "entry_seq": 14,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1015,7 +1091,8 @@
     "inci_name": "Dehydroacetic acid sodium dehydroacetate",
     "cas": "520-45-6, 4418-26-2, 16807-48-0",
     "ec": "208-293-9, 224-580-1",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Dehydroacetic acid sodium dehydroacetate"
    }
   ],
   "conditions": [
@@ -1028,7 +1105,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 15
+  "entry_seq": 15,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1056,7 +1134,8 @@
     "inci_name": "Formic acid",
     "cas": "64-18-6",
     "ec": "200-579-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Formic acid"
    },
    {
     "seq": 2,
@@ -1064,7 +1143,8 @@
     "inci_name": "sodium formate",
     "cas": "141-53-7",
     "ec": "205-488-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "sodium formate"
    }
   ],
   "conditions": [
@@ -1077,7 +1157,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 16
+  "entry_seq": 16,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1105,7 +1186,8 @@
     "inci_name": "Dibromohexamidine Isethionate",
     "cas": "93856-83-8",
     "ec": "299-116-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Dibromohexamidine Isethionate"
    }
   ],
   "conditions": [
@@ -1118,7 +1200,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 17
+  "entry_seq": 17,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1146,7 +1229,8 @@
     "inci_name": "Thimerosal",
     "cas": "54-64-8",
     "ec": "200-210-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Thimerosal"
    }
   ],
   "conditions": [
@@ -1159,7 +1243,8 @@
     "wording": "Contains\nThiomersal"
    }
   ],
-  "entry_seq": 18
+  "entry_seq": 18,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1187,7 +1272,8 @@
     "inci_name": "Phenyl Mercuric Acetate",
     "cas": "62-38-4",
     "ec": "200-532-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenyl Mercuric Acetate"
    },
    {
     "seq": 2,
@@ -1195,7 +1281,8 @@
     "inci_name": "Phenyl Mercuric Benzoate",
     "cas": "94-43-9",
     "ec": "202-331-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenyl Mercuric Benzoate"
    }
   ],
   "conditions": [
@@ -1208,7 +1295,8 @@
     "wording": "Contains\nPhenylmercuric\ncompounds"
    }
   ],
-  "entry_seq": 19
+  "entry_seq": 19,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1236,7 +1324,8 @@
     "inci_name": "Undecylenic acid potassium undecylenate sodium undecylenate calcium undecylenate TEA-undecylenate MEA-undecylenate",
     "cas": "112-38-9, 6159-41-7, 3398-33-2, 1322-14-1, 84471-25-0, 56532-40-2",
     "ec": "203-965-8, 222-264-8, 215-331-8, 282-908-9, 260-247-7",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Undecylenic acid potassium undecylenate sodium undecylenate calcium undecylenate TEA-undecylenate MEA-undecylenate"
    }
   ],
   "conditions": [
@@ -1249,7 +1338,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 20
+  "entry_seq": 20,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1277,7 +1367,8 @@
     "inci_name": "Hexetidine",
     "cas": "141-94-6",
     "ec": "205-513-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hexetidine"
    }
   ],
   "conditions": [
@@ -1290,7 +1381,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 21
+  "entry_seq": 21,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1315,10 +1407,11 @@
    {
     "seq": 1,
     "colour_index": null,
-    "inci_name": "5-Bromo-5-nitro-1,3- dioxane",
+    "inci_name": "5-Bromo-5-nitro-1,3-dioxane",
     "cas": "30007-47-7",
     "ec": "250-001-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "5-Bromo-5-nitro-1,3-dioxane"
    }
   ],
   "conditions": [
@@ -1331,7 +1424,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 22
+  "entry_seq": 22,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1359,7 +1453,8 @@
     "inci_name": "2-Bromo-2-nitropropane-1,3-diol",
     "cas": "52-51-7",
     "ec": "200-143-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-Bromo-2-nitropropane-1,3-diol"
    }
   ],
   "conditions": [
@@ -1372,7 +1467,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 23
+  "entry_seq": 23,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1400,7 +1496,8 @@
     "inci_name": "Dichlorobenzyl Alcohol",
     "cas": "1777-82-8",
     "ec": "217-210-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Dichlorobenzyl Alcohol"
    }
   ],
   "conditions": [
@@ -1413,7 +1510,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 24
+  "entry_seq": 24,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1441,7 +1539,8 @@
     "inci_name": "Triclocarban",
     "cas": "101-20-2",
     "ec": "202-924-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Triclocarban"
    }
   ],
   "conditions": [
@@ -1454,7 +1553,8 @@
     "wording": "For toothpaste\ncontaining Triclocarban the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 6\nyears of age’."
    }
   ],
-  "entry_seq": 25
+  "entry_seq": 25,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1482,7 +1582,8 @@
     "inci_name": "p-Chloro-m-Cresol",
     "cas": "59-50-7",
     "ec": "200-431-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "p-Chloro-m-Cresol"
    }
   ],
   "conditions": [
@@ -1495,7 +1596,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 26
+  "entry_seq": 26,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1523,7 +1625,8 @@
     "inci_name": "Triclosan",
     "cas": "3380-34-5",
     "ec": "222-182-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Triclosan"
    }
   ],
   "conditions": [
@@ -1536,7 +1639,8 @@
     "wording": "For toothpaste\ncontaining\nTriclosan the\nfollowing\nlabelling is\nobligatory: ‘Not\nto be used for\nchildren under 3\nyears of age’."
    }
   ],
-  "entry_seq": 27
+  "entry_seq": 27,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1564,7 +1668,8 @@
     "inci_name": "Chloroxylenol",
     "cas": "88-04-0",
     "ec": "201-793-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chloroxylenol"
    }
   ],
   "conditions": [
@@ -1577,7 +1682,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 28
+  "entry_seq": 28,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1605,7 +1711,8 @@
     "inci_name": "Imidazolidinyl urea",
     "cas": "39236-46-9",
     "ec": "254-372-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Imidazolidinyl urea"
    }
   ],
   "conditions": [
@@ -1618,7 +1725,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 29
+  "entry_seq": 29,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1646,7 +1754,8 @@
     "inci_name": "Polyaminopropyl biguanide",
     "cas": "32289-58-0, 27083-27-8, 28757-47-3, 133029-32-0",
     "ec": "608-723-9, 608-042-7",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Polyaminopropyl biguanide"
    }
   ],
   "conditions": [
@@ -1659,7 +1768,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 30
+  "entry_seq": 30,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1687,7 +1797,8 @@
     "inci_name": "Phenoxyethanol",
     "cas": "122-99-6",
     "ec": "204-589-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenoxyethanol"
    }
   ],
   "conditions": [
@@ -1700,7 +1811,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 31
+  "entry_seq": 31,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1728,7 +1840,8 @@
     "inci_name": "Methenamine",
     "cas": "100-97-0",
     "ec": "202-905-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methenamine"
    }
   ],
   "conditions": [
@@ -1741,7 +1854,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 32
+  "entry_seq": 32,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1769,7 +1883,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -1782,7 +1897,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 33
+  "entry_seq": 33,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1810,7 +1926,8 @@
     "inci_name": "Climbazole",
     "cas": "38083-17-9",
     "ec": "253-775-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Climbazole"
    }
   ],
   "conditions": [
@@ -1847,7 +1964,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 34
+  "entry_seq": 34,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1875,7 +1993,8 @@
     "inci_name": "DMDM Hydantoin",
     "cas": "6440-58-0",
     "ec": "229-222-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "DMDM Hydantoin"
    }
   ],
   "conditions": [
@@ -1888,7 +2007,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 35
+  "entry_seq": 35,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1916,7 +2036,8 @@
     "inci_name": "Benzyl Alcohol",
     "cas": "100-51-6",
     "ec": "202-859-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzyl Alcohol"
    }
   ],
   "conditions": [
@@ -1929,7 +2050,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 36
+  "entry_seq": 36,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -1957,7 +2079,8 @@
     "inci_name": "1-Hydroxy-4-methyl-6- (2,4,4-trimethylpentyl) 2-pyridon Piroctone Olamine",
     "cas": "50650-76-5, 68890-66-4",
     "ec": "272-574-2",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "1-Hydroxy-4-methyl-6- (2,4,4-trimethylpentyl) 2-pyridon Piroctone Olamine"
    }
   ],
   "conditions": [
@@ -1978,7 +2101,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 37
+  "entry_seq": 37,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2006,7 +2130,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Moved or deleted"
    }
   ],
   "conditions": [
@@ -2019,7 +2144,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 38
+  "entry_seq": 38,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2047,7 +2173,8 @@
     "inci_name": "Bromochlorophene",
     "cas": "15435-29-7",
     "ec": "239-446-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bromochlorophene"
    }
   ],
   "conditions": [
@@ -2060,7 +2187,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 39
+  "entry_seq": 39,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2088,7 +2216,8 @@
     "inci_name": "o-Cymen-5-ol",
     "cas": "3228-02-2",
     "ec": "221-761-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "o-Cymen-5-ol"
    }
   ],
   "conditions": [
@@ -2101,7 +2230,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 40
+  "entry_seq": 40,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2129,7 +2259,8 @@
     "inci_name": "Methylchloroisothiazolinone (and) Methylisothiazolinone (17)",
     "cas": "26172-55-4, 2682-20-4, 55965-84-9",
     "ec": "247-500-7, 220-239-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methylchloroisothiazolinone (and) Methylisothiazolinone (17)"
    }
   ],
   "conditions": [
@@ -2142,7 +2273,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 41
+  "entry_seq": 41,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2170,7 +2302,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -2183,7 +2316,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 42
+  "entry_seq": 42,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2211,7 +2345,8 @@
     "inci_name": "Chlorhexidine",
     "cas": "55-56-1",
     "ec": "200-238-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorhexidine"
    },
    {
     "seq": 2,
@@ -2219,7 +2354,8 @@
     "inci_name": "Chlorhexidine Diacetate",
     "cas": "56-95-1",
     "ec": "200-302-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorhexidine Diacetate"
    },
    {
     "seq": 3,
@@ -2227,7 +2363,8 @@
     "inci_name": "Chlorhexidine Digluconate",
     "cas": "18472-51-0",
     "ec": "242-354-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorhexidine Digluconate"
    },
    {
     "seq": 4,
@@ -2235,7 +2372,8 @@
     "inci_name": "Chlorhexidine Dihydrochloride",
     "cas": "3697-42-5",
     "ec": "223-026-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorhexidine Dihydrochloride"
    }
   ],
   "conditions": [
@@ -2248,7 +2386,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 43
+  "entry_seq": 43,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2276,7 +2415,8 @@
     "inci_name": "Phenoxyisopropanol",
     "cas": "770-35-4",
     "ec": "212-222-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenoxyisopropanol"
    }
   ],
   "conditions": [
@@ -2289,7 +2429,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 44
+  "entry_seq": 44,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2317,7 +2458,8 @@
     "inci_name": "Behentrimonium chloride (15)",
     "cas": "17301-53-0",
     "ec": "241-327-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Behentrimonium chloride (15)"
    },
    {
     "seq": 2,
@@ -2325,15 +2467,17 @@
     "inci_name": "cetrimonium bromide",
     "cas": "57-09-0",
     "ec": "200-311-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "cetrimonium bromide"
    },
    {
     "seq": 3,
     "colour_index": null,
-    "inci_name": "cetrimonium chlor- ide (16)",
+    "inci_name": "cetrimonium chlor-ide (16)",
     "cas": "112-02-7",
     "ec": "203-928-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "cetrimonium chlor-ide (16)"
    },
    {
     "seq": 4,
@@ -2341,7 +2485,8 @@
     "inci_name": "laurtrimonium bromide",
     "cas": "1119-94-4",
     "ec": "214-290-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "laurtrimonium bromide"
    },
    {
     "seq": 5,
@@ -2349,7 +2494,8 @@
     "inci_name": "laurtrimonium chloride",
     "cas": "112-00-5",
     "ec": "203-927-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "laurtrimonium chloride"
    },
    {
     "seq": 6,
@@ -2357,7 +2503,8 @@
     "inci_name": "steartrimonium bromide",
     "cas": "1120-02-1",
     "ec": "214-294-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "steartrimonium bromide"
    },
    {
     "seq": 7,
@@ -2365,7 +2512,8 @@
     "inci_name": "steartrimonium chloride (16)",
     "cas": "112-03-8",
     "ec": "203-929-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "steartrimonium chloride (16)"
    }
   ],
   "conditions": [
@@ -2378,7 +2526,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 45
+  "entry_seq": 45,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2406,7 +2555,8 @@
     "inci_name": "Dimethyl Oxazolidine",
     "cas": "51200-87-4",
     "ec": "257-048-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Dimethyl Oxazolidine"
    }
   ],
   "conditions": [
@@ -2419,7 +2569,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 46
+  "entry_seq": 46,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2447,7 +2598,8 @@
     "inci_name": "Diazolidinyl Urea",
     "cas": "78491-02-8",
     "ec": "278-928-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Diazolidinyl Urea"
    }
   ],
   "conditions": [
@@ -2460,7 +2612,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 47
+  "entry_seq": 47,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2488,7 +2641,8 @@
     "inci_name": "Hexamidine Hexamidine diisethionate Hexamidine paraben",
     "cas": "3811-75-4, 659-40-5, 93841-83-9",
     "ec": "211-533-5, 299-055-3",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Hexamidine Hexamidine diisethionate Hexamidine paraben"
    }
   ],
   "conditions": [
@@ -2501,7 +2655,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 48
+  "entry_seq": 48,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2529,7 +2684,8 @@
     "inci_name": "Glutaral",
     "cas": "111-30-8",
     "ec": "203-856-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Glutaral"
    }
   ],
   "conditions": [
@@ -2542,7 +2698,8 @@
     "wording": "Contains gluta-\nral (9)"
    }
   ],
-  "entry_seq": 49
+  "entry_seq": 49,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2570,7 +2727,8 @@
     "inci_name": "7-Ethylbicyclooxazolidine",
     "cas": "7747-35-5",
     "ec": "231-810-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "7-Ethylbicyclooxazolidine"
    }
   ],
   "conditions": [
@@ -2583,7 +2741,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 50
+  "entry_seq": 50,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2611,7 +2770,8 @@
     "inci_name": "Chlorphenesin",
     "cas": "104-29-0",
     "ec": "203-192-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chlorphenesin"
    }
   ],
   "conditions": [
@@ -2624,7 +2784,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 51
+  "entry_seq": 51,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2652,7 +2813,8 @@
     "inci_name": "Sodium Hydroxymethylglycinate",
     "cas": "70161-44-3",
     "ec": "274-357-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium Hydroxymethylglycinate"
    }
   ],
   "conditions": [
@@ -2665,7 +2827,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 52
+  "entry_seq": 52,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2693,7 +2856,8 @@
     "inci_name": "Silver chloride",
     "cas": "7783-90-6",
     "ec": "232-033-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Silver chloride"
    }
   ],
   "conditions": [
@@ -2706,7 +2870,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 53
+  "entry_seq": 53,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2734,7 +2899,8 @@
     "inci_name": "Benzethonium Chloride",
     "cas": "121-54-0",
     "ec": "204-479-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzethonium Chloride"
    }
   ],
   "conditions": [
@@ -2755,7 +2921,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 54
+  "entry_seq": 54,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2783,7 +2950,8 @@
     "inci_name": "Benzalkonium chloride benzalkonium bromide benzalkonium saccharinate",
     "cas": "8001-54-5, 63449-41-2, 91080-29-4, 68989-01-5, 68424-85-1, 68391-01-5, 61789-71-7, 85409-22-9",
     "ec": "264-151-6, 293-522-5, 273-545-7, 270-325-2, 269-919-4, 263-080-8, 287-089-1",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Benzalkonium chloride benzalkonium bromide benzalkonium saccharinate"
    }
   ],
   "conditions": [
@@ -2796,7 +2964,8 @@
     "wording": "Avoid contact\nwith eyes"
    }
   ],
-  "entry_seq": 55
+  "entry_seq": 55,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2824,7 +2993,8 @@
     "inci_name": "Benzylhemiformal",
     "cas": "14548-60-8",
     "ec": "238-588-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzylhemiformal"
    }
   ],
   "conditions": [
@@ -2837,7 +3007,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 56
+  "entry_seq": 56,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2865,7 +3036,8 @@
     "inci_name": "Iodopropynyl butylcarbamate",
     "cas": "55406-53-6",
     "ec": "259-627-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Iodopropynyl butylcarbamate"
    }
   ],
   "conditions": [
@@ -2894,7 +3066,8 @@
     "wording": "(b) and (c) Not\nto be used for\nchildren under 3\nyears of age (12)"
    }
   ],
-  "entry_seq": 57
+  "entry_seq": 57,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2919,10 +3092,11 @@
    {
     "seq": 1,
     "colour_index": null,
-    "inci_name": "Methylisothiazoli- none (18)",
+    "inci_name": "Methylisothiazoli-none (18)",
     "cas": "2682-20-4",
     "ec": "220-239-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methylisothiazoli-none (18)"
    }
   ],
   "conditions": [
@@ -2935,7 +3109,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 58
+  "entry_seq": 58,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -2963,7 +3138,8 @@
     "inci_name": "Ethyl Lauroyl Arginate HCl",
     "cas": "60372-77-2",
     "ec": "434-630-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethyl Lauroyl Arginate HCl"
    }
   ],
   "conditions": [
@@ -2984,7 +3160,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 59
+  "entry_seq": 59,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -3012,7 +3189,8 @@
     "inci_name": "Citric acid (and) Silver citrate",
     "cas": null,
     "ec": "460-890-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Citric acid (and) Silver citrate"
    }
   ],
   "conditions": [
@@ -3025,7 +3203,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 60
+  "entry_seq": 60,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -3053,7 +3232,8 @@
     "inci_name": "Hydroxyethoxyphenyl Butanone",
     "cas": "569646-79-3",
     "ec": "933-435-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydroxyethoxyphenyl Butanone"
    }
   ],
   "conditions": [
@@ -3066,7 +3246,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 61
+  "entry_seq": 61,
+  "id_issues": []
  },
  {
   "annex": "V",
@@ -3094,7 +3275,8 @@
     "inci_name": "Ammonium Silver Zinc Aluminium Silicate",
     "cas": "130328-20-0",
     "ec": "603-404-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ammonium Silver Zinc Aluminium Silicate"
    }
   ],
   "conditions": [
@@ -3115,6 +3297,7 @@
     "wording": ""
    }
   ],
-  "entry_seq": 62
+  "entry_seq": 62,
+  "id_issues": []
  }
 ]
