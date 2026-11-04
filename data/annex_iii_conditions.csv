@@ -4,7 +4,7 @@ III,2,2a,1,a,label,"(a) Hair waving or
 straightening
 products","(a)
 (i) 8 %
-(ii) 11 %",8.0,%,ii,"[8.0, 11.0]","(a)
+(ii) 11 %",8.0,%,,"[8.0, 11.0]","(a)
 (i) General use
 ready for use pH 7 to
 9,5
@@ -493,7 +493,7 @@ III,17,11,1,,none,,"0,5 %",0.5,%,,,,Contains Dichlorophen
 III,18,12,1,a,label,(a) Hair products,"(a) 12 % of
 H2O2
 (40 volumes), present
-or released",12.0,%,40 volumes,,,"(a) (f) Wear suitable gloves
+or released",12.0,%,,,,"(a) (f) Wear suitable gloves
 (a) (b) (c) (e)
 Contains hydrogen peroxide
 Avoid contact with eyes
@@ -587,8 +587,7 @@ Contains hydrogen peroxide’"
 III,19,13,1,,none,,,,,,,,
 III,20,14,1,,none,"Artificial nail
 systems","0,02 % (after
-mixing for use)",0.02,%,"after
-mixing for use",,Professional use only,"— For professional use only
+mixing for use)",0.02,%,,,Professional use only,"— For professional use only
 — Avoid skin contact
 — Read directions for use carefully"
 III,21,15a,1,a,label,"(a) Nail cuticle
@@ -655,8 +654,7 @@ hydroxide and
 a guanidine
 salt","(a) 7 % (as
 calcium
-hydroxide)",7.0,%,"calcium
-hydroxide",,,"(a) Contains alkali
+hydroxide)",7.0,%,calcium hydroxide,,,"(a) Contains alkali
 Avoid contact with eyes
 Keep out of reach of children
 Can cause blindness"
@@ -711,13 +709,11 @@ III,29,20,1,,none,,,,,,,,
 III,30,21,1,a,label,"(a) Hair rinse-off
 products","(a) 0,5 % (as
 quinine
-base)",0.5,%,"quinine
-base",,,
+base)",0.5,%,quinine base,,,
 III,30,21,2,b,label,"(b) Hair leave-on
 products","(b) 0,2 % (as
 quinine
-base)",0.2,%,"quinine
-base",,,
+base)",0.2,%,quinine base,,,
 III,31,22,1,a,label,"(a) Hair dye
 substance in
 oxidative hair
@@ -1873,8 +1869,7 @@ For professional use only
 Wear suitable gloves"
 III,75,65,1,,none,"Rinse-off hair
 (head) products","3 % (as benzalkonium
-chloride)",3.0,%,"benzalkonium
-chloride",,"In the final products the
+chloride)",3.0,%,benzalkonium chloride,,"In the final products the
 concentrations of benzalkonium chloride, bromide
 and saccharinate with an
 alkyl chain of C14, or less
@@ -2400,14 +2395,12 @@ products",
 III,103,93,1,,none,Hair products,"1,5 %",1.5,%,,,,
 III,104,94,1,,none,"Artificial nail
 systems","0,7 % (after
-mixing for use)",0.7,%,"after
-mixing for use",,Professional use,"For professional use only
+mixing for use)",0.7,%,,,Professional use,"For professional use only
 Avoid skin contact
 Read directions for use carefully"
 III,105,95,1,,none,"Artificial nail
 systems","0,02 % (after
-mixing for use)",0.02,%,"after
-mixing for use",,Professional use,"For professional use only
+mixing for use)",0.02,%,,,Professional use,"For professional use only
 Avoid skin contact
 Read directions for use carefully"
 III,106,96,1,a,label,"All cosmetic
@@ -2510,8 +2503,7 @@ years of age (10)"
 III,109,99,1,a,label,"(a) Oxidative hair
 dye products","(a) 0,67 %
 (as free
-SO2)",0.67,%,"free
-SO2",,"For purposes other than
+SO2)",0.67,%,free SO2,,"For purposes other than
 inhibiting the development
 of micro-organisms in the
 product. This purpose has to
@@ -2520,8 +2512,7 @@ III,109,99,2,b,label,"(b) Hair
 straightening
 products","(b) 6,7 %
 (as free
-SO2)",6.7,%,"free
-SO2",,"For purposes other than
+SO2)",6.7,%,free SO2,,"For purposes other than
 inhibiting the development
 of micro-organisms in the
 product. This purpose has to
@@ -3066,8 +3057,7 @@ substance in
 non-oxidative
 hair dye
 products","(b) 3,4 % (calculated as
-sulfate)",3.4,%,"calculated as
-sulfate",,,
+sulfate)",3.4,%,sulfate,,,
 III,206,200,3,c,label,"(c) Products
 intended for
 colouring
@@ -3242,8 +3232,7 @@ contact with them.’ ◄"
 III,209,203,2,b,label,,"(b) 0,68 % as
 free base
 (1,0 % as
-dihydrochloride)",0.68,%,"1,0 % as
-dihydrochloride","[0.68, 1.0]","For (a) and (c): After mixing
+dihydrochloride)",0.68,%,,"[0.68, 1.0]","For (a) and (c): After mixing
 under oxidative conditions
 the maximum concentration
 applied to hair or eyelashes
@@ -8211,7 +8200,7 @@ sunscreen products that may
 lead to exposure of the end
 user’s lungs by inhalation.","For (r): Keep powder away from
 children’s nose and mouth"
-III,387,381,6,f,label,(f) Bar soap,(f) 4 % (As AI),4.0,%,As AI,,"For (q): Not to be used in
+III,387,381,6,f,label,(f) Bar soap,(f) 4 % (As AI),4.0,%,Al,,"For (q): Not to be used in
 sunscreen products that may
 lead to exposure of the end
 user’s lungs by inhalation.","For (r): Keep powder away from
@@ -8276,8 +8265,7 @@ lead to exposure of the end
 user’s lungs by inhalation.","For (r): Keep powder away from
 children’s nose and mouth"
 III,387,381,14,n,label,(n) Mascara,"(n) 3,13 % (As
-Al)",3.13,%,"As
-Al",,"For (q): Not to be used in
+Al)",3.13,%,Al,,"For (q): Not to be used in
 sunscreen products that may
 lead to exposure of the end
 user’s lungs by inhalation.","For (r): Keep powder away from

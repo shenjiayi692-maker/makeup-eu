@@ -19,12 +19,14 @@ git clone https://github.com/shenjiayi692-maker/makeup-eu && sqlite3 makeup-eu/d
 | 附件 | 主题 | PDF 页码 | 条目 | 物质 | 限制条件 | 脚注 |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | II | 禁用物质 | 35–139 | 1,765 | 1,766 | — | 13 |
-| III | 限用物质 | 140–384 | 392 | 411 | 629 | 47 |
+| III | 限用物质 | 140–384 | 392 | 415 | 629 | 47 |
 | IV | 准用着色剂 | 385–412 | 154 | 155 | 155 | 2 |
 | V | 准用防腐剂 | 413–428 | 62 | 121 | 75 | 22 |
 | VI | 准用防晒剂 | 429–439 | 37 | 37 | 40 | 10 |
 
-提交的产物包含 **2,490 条物质记录**。其中 2,426 条是干净的一对一拆分，另外 64 条因源列无法安全配对而保留在 [`data/review_queue.csv`](./data/review_queue.csv)。
+提交的产物包含 **2,494 条物质记录**。其中 2,435 条是干净的一对一拆分，另外 59 条因源列无法安全配对而保留在 [`data/review_queue.csv`](./data/review_queue.csv)。
+
+每个 CAS / EC 号都做了校验位检查，发现的问题（原文印错的校验位、EC 列里的 CLP 索引号、CAS 与 EC 印反等）记录在 [`data/id_issues.csv`](./data/id_issues.csv)。少数能确定正确值的已在 `substances` 表中更正，原文印的值仍保留在 `entries` 和 `id_issues` 里。
 
 字符级覆盖检查对五个表格区域的每一个字符都做了核对。与源字符流的唯一差异是刻意移除的软连字符，没有多捕获任何字符。详见[校验说明](./docs/validation.md)。
 
@@ -49,6 +51,14 @@ CSV 导出按附件和表拆分：`entries`、`substances`、`conditions`、`foo
 
 先从 [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2009/1223/consolidated) 下载合并版英文 PDF，然后：
 
+只改了文本后处理规则（`src/finalize.py`）时不需要 PDF，直接在已提交的抽取结果上重跑即可：
+
+```bash
+CELEX_OUT=./data python src/refinalize.py
+```
+
+完整重建：
+
 ```bash
 pip install pdfplumber pymupdf
 export CELEX_PDF=/path/to/CELEX_02009R1223-20260518_EN_TXT.pdf
@@ -66,6 +76,8 @@ CELEX_OUT=./data python src/coverage.py II III IV V VI
 | [`spec.py`](./src/spec.py) | 每个附件各自维护一套列映射 |
 | [`split.py`](./src/split.py) | 保守地拆分物质与分级限制条件 |
 | [`build.py`](./src/build.py) | 组装规范化记录，写出 SQLite / CSV |
+| [`finalize.py`](./src/finalize.py) | 文本层后处理：编号推断、复核误报放行、名称与编号规范化、编号校验 |
+| [`refinalize.py`](./src/refinalize.py) | 不用 PDF，在已提交的抽取结果上重跑 `finalize.py` |
 | [`coverage.py`](./src/coverage.py) | 将抽取出的单元格与 PDF 原始字符流比对 |
 
 当 INCI、CAS、EC 三列数量不一致时，不引入任何人造配对。这些源字符串被整体保留，置 `split_ok=0`，该行转入复核队列。

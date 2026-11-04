@@ -19,12 +19,14 @@ A reproducible extraction pipeline for Annexes II–VI of the consolidated Engli
 | Annex | Subject | PDF pages | Entries | Substances | Conditions | Footnotes |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | II | Prohibited substances | 35–139 | 1,765 | 1,766 | — | 13 |
-| III | Restricted substances | 140–384 | 392 | 411 | 629 | 47 |
+| III | Restricted substances | 140–384 | 392 | 415 | 629 | 47 |
 | IV | Allowed colorants | 385–412 | 154 | 155 | 155 | 2 |
 | V | Allowed preservatives | 413–428 | 62 | 121 | 75 | 22 |
 | VI | Allowed UV filters | 429–439 | 37 | 37 | 40 | 10 |
 
-The committed output contains **2,490 substance records**. Of these, 2,426 are clean one-to-one splits and 64 are retained in [`data/review_queue.csv`](./data/review_queue.csv) because the source columns cannot be paired safely.
+The committed output contains **2,494 substance records**. Of these, 2,435 are clean one-to-one splits and 59 are retained in [`data/review_queue.csv`](./data/review_queue.csv) because the source columns cannot be paired safely.
+
+Every CAS and EC number is checked against its check digit. Problems found in the source (bad check digits, CLP index numbers in the EC column, CAS and EC printed in each other's column) are listed in [`data/id_issues.csv`](./data/id_issues.csv). Where the correct value is certain, `substances` carries the corrected value; the printed value stays in `entries` and `id_issues`.
 
 Character-level coverage checks account for every character in the five table regions. The only difference from the source stream is intentionally removed soft hyphenation; there are no extra captured characters. See the complete [validation report](./docs/validation.md).
 
@@ -51,6 +53,14 @@ CSV exports are split by annex and table: `entries`, `substances`, `conditions`,
 
 Download the consolidated English PDF from [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2009/1223/consolidated), then:
 
+If you only changed the text post-processing rules (`src/finalize.py`), you don't need the PDF. Re-run them on the committed extraction:
+
+```bash
+CELEX_OUT=./data python src/refinalize.py
+```
+
+Full rebuild:
+
 ```bash
 pip install pdfplumber pymupdf
 export CELEX_PDF=/path/to/CELEX_02009R1223-20260518_EN_TXT.pdf
@@ -68,6 +78,8 @@ The pipeline expects document `02009R1223 — EN — 18.05.2026 — 041.001`, 44
 | [`spec.py`](./src/spec.py) | Keeps a separate column mapping for each annex |
 | [`split.py`](./src/split.py) | Splits substances and tiered conditions conservatively |
 | [`build.py`](./src/build.py) | Assembles normalized records and writes SQLite / CSV |
+| [`finalize.py`](./src/finalize.py) | Text-level post-processing: ref inference, releasing false review flags, name and identifier normalization, identifier checks |
+| [`refinalize.py`](./src/refinalize.py) | Re-runs `finalize.py` on the committed extraction, without the PDF |
 | [`coverage.py`](./src/coverage.py) | Compares extracted cells against the raw PDF character stream |
 
 No synthetic pairing is introduced when INCI, CAS, and EC columns have different counts. Those source strings are preserved together, `split_ok=0` is set, and the row is routed to review.

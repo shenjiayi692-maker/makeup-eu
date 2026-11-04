@@ -25,7 +25,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium tris(1,2-naphthoquinone 1-oximato-O,O') ferrate(1-)"
    }
   ],
   "conditions": [
@@ -38,7 +39,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 1
+  "entry_seq": 1,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -66,7 +68,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium tris[5,6-dihydro-5- (hydroxyimino)-6-oxonaphthalene-2-sulphonato(2-)- N5,O6]ferrate(3-)"
    }
   ],
   "conditions": [
@@ -79,7 +82,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 2
+  "entry_seq": 2,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -107,7 +111,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 5,7-dinitro-8-oxidonaphthalene-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -120,7 +125,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 3
+  "entry_seq": 3,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -148,7 +154,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-[(4-Methyl-2-nitrophenyl) azo]-3-oxo-N-phenylbutyramide"
    }
   ],
   "conditions": [
@@ -161,7 +168,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 4
+  "entry_seq": 4,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -189,7 +197,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-[(4-Chloro-2-nitrophenyl) azo]-N-(2-chlorophenyl)-3-oxobutyramide"
    }
   ],
   "conditions": [
@@ -202,7 +211,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 5
+  "entry_seq": 5,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -230,7 +240,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-[(4-Methoxy-2-nitrophenyl) azo]-3-oxo-N-(o-tolyl)butyramide"
    }
   ],
   "conditions": [
@@ -243,7 +254,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 6
+  "entry_seq": 6,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -271,7 +283,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4-(Phenylazo)resorcinol"
    }
   ],
   "conditions": [
@@ -284,7 +297,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 7
+  "entry_seq": 7,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -312,7 +326,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4-[(4-Ethoxyphenyl)azo] naphthol"
    }
   ],
   "conditions": [
@@ -325,7 +340,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 8
+  "entry_seq": 8,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -353,7 +369,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1-[(2-Chloro-4-nitrophenyl) azo]-2-naphthol and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -366,7 +383,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 9
+  "entry_seq": 9,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -394,7 +412,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1-[(4-Methyl-2-nitrophenyl) azo]-2-naphthol"
    }
   ],
   "conditions": [
@@ -407,7 +426,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 10
+  "entry_seq": 10,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -435,7 +455,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "3-Hydroxy-N-(o-tolyl)-4- [(2,4,5-trichlorophenyl)azo] naphthalene-2-carboxamide"
    }
   ],
   "conditions": [
@@ -448,7 +469,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 11
+  "entry_seq": 11,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -476,7 +498,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "N-(4-Chloro-2-methylphenyl)- 4-[(4-chloro-2-methylphenyl) azo]-3-hydroxynaphthalene-2-carboxamide"
    }
   ],
   "conditions": [
@@ -489,7 +512,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 12
+  "entry_seq": 12,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -517,7 +541,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4-[(2,5-Dichlorophenyl)azo]- N-(2,5-dimethoxyphenyl)-3-hydroxynaphthalene-2-carboxamide"
    }
   ],
   "conditions": [
@@ -530,7 +555,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 13
+  "entry_seq": 13,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -558,7 +584,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "N-(5-Chloro-2,4-dimethoxyphenyl)-4-[[5-[(diethylamino) sulphonyl]-2-methoxyphenyl] azo]-3-hydroxynaphthalene-2-carboxamide"
    }
   ],
   "conditions": [
@@ -571,7 +598,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 14
+  "entry_seq": 14,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -599,7 +627,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2,4-Dihydro-5-methyl-2-phenyl-4-(phenylazo)-3H-pyrazol-3-one"
    }
   ],
   "conditions": [
@@ -612,7 +641,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 15
+  "entry_seq": 15,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -640,7 +670,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2-amino-5-[(4-sulphonatophenyl)azo] benzenesulphonate"
    }
   ],
   "conditions": [
@@ -653,7 +684,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 16
+  "entry_seq": 16,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -681,7 +713,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-(2,4-dihydroxyphenylazo)benzenesulphonate"
    }
   ],
   "conditions": [
@@ -694,7 +727,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 17
+  "entry_seq": 17,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -722,7 +756,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 3-[(2,4-dimethyl-5-sulphonatophenyl)azo]-4-hydroxynaphthalene-1-sulphonate"
    }
   ],
   "conditions": [
@@ -735,7 +770,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 18
+  "entry_seq": 18,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -763,7 +799,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "222-657-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 4-hydroxy-3-[(4-sulphonatonaphthyl)azo]naphthalenesulphonate"
    }
   ],
   "conditions": [
@@ -776,7 +813,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 19
+  "entry_seq": 19,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -804,7 +842,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 6-[(2,4-dimethyl-6-sulphonatophenyl)azo]-5-hydroxynaphthalene-1-sulphonate"
    }
   ],
   "conditions": [
@@ -817,7 +856,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 20
+  "entry_seq": 20,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -845,7 +885,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-[(2-hydroxy-1-naphthyl)azo]benzenesulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -858,7 +899,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 21
+  "entry_seq": 21,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -886,7 +928,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium disodium bis[2-chloro-5-[(2-hydroxy-1-naphthyl)azo]-4-sulphonatobenzoate]"
    }
   ],
   "conditions": [
@@ -899,7 +942,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 22
+  "entry_seq": 22,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -927,7 +971,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Barium bis[4-[(2-hydroxy-1-naphthyl)azo]-2-methylbenzenesul-phonate]"
    }
   ],
   "conditions": [
@@ -940,7 +985,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 23
+  "entry_seq": 23,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -968,7 +1014,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-[(2-Hydroxy-1-naphthyl)azo]naphthalenesulphonate"
    }
   ],
   "conditions": [
@@ -981,7 +1028,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 24
+  "entry_seq": 24,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1009,7 +1057,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 2-[(2-hydroxynaphthyl)azo]naphthalenesulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1022,7 +1071,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 25
+  "entry_seq": 25,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1050,7 +1100,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium bis[3-hydroxy-4- (phenylazo)-2-naphthoate]"
    }
   ],
   "conditions": [
@@ -1063,7 +1114,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 26
+  "entry_seq": 26,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1091,7 +1143,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "226-109-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 3-hydroxy-4-[(4-methyl-2-sulphonatophenyl) azo]-2-naphthoate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1104,7 +1157,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 27
+  "entry_seq": 27,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1132,7 +1186,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 4-[(5-chloro-4-methyl-2-sulphonatophenyl) azo]-3-hydroxy-2-naphthoate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1145,7 +1200,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 28
+  "entry_seq": 28,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1173,7 +1229,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium 3-hydroxy-4-[(1-sulphonato-2-naphthyl)azo]-2-naphthoate"
    }
   ],
   "conditions": [
@@ -1186,7 +1243,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 29
+  "entry_seq": 29,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1214,7 +1272,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 6-hydroxy-5-[(3-sulphonatophenyl)azo]naphthalene-2-sulphonate"
    }
   ],
   "conditions": [
@@ -1227,7 +1286,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 30
+  "entry_seq": 30,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1255,7 +1315,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "220-491-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 6-hydroxy-5-[(4-sulphonatophenyl)azo]naphthalene-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1268,7 +1329,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 31
+  "entry_seq": 31,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1296,7 +1358,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "247-368-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 6-hydroxy-5-[(2-methoxy-4-sulphonato-m-tolyl) azo]naphthalene-2-sulphonate"
    }
   ],
   "conditions": [
@@ -1309,7 +1372,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 32
+  "entry_seq": 32,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1337,7 +1401,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "213-022-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium 3-hydroxy-4-[(4'- sulphonatonaphthyl)azo]naphthalene-2,7-disulphonate"
    }
   ],
   "conditions": [
@@ -1350,7 +1415,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 33
+  "entry_seq": 33,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1378,7 +1444,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 7-hydroxy-8- (phenylazo)naphthalene-1,3-disulphonate"
    }
   ],
   "conditions": [
@@ -1391,7 +1458,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 34
+  "entry_seq": 34,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1419,7 +1487,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "220-036-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium 1-(1-naphthylazo)- 2-hydroxynaphthalene-4',6,8-trisulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1432,7 +1501,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 35
+  "entry_seq": 35,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1460,7 +1530,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Tetrasodium 7-hydroxy-8-[(4-sulphonato-1-naphthyl)azo] naphthalene-1,3,6-trisulphonate"
    }
   ],
   "conditions": [
@@ -1473,7 +1544,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 36
+  "entry_seq": 36,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1501,7 +1573,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 5-amino-4-hydroxy-3-(phenylazo)naphthalene-2,7-disulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1514,7 +1587,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 37
+  "entry_seq": 37,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1542,7 +1616,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "223-098-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 5-acetylamino-4-hydroxy-3-(phenylazo)naphthalene-2,7-disulphonate"
    }
   ],
   "conditions": [
@@ -1555,7 +1630,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 38
+  "entry_seq": 38,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1583,7 +1659,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2,7-Naphthalenedisulfonic acid, 3-((4-cyclohexyl-2-methylphenyl)azo)-4-hydroxy-5-(((4-methylphenyl)sulfonyl) amino)-, disodium salt"
    }
   ],
   "conditions": [
@@ -1596,7 +1673,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 39
+  "entry_seq": 39,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1624,7 +1702,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen bis[2-[(4,5-dihydro-3-methyl-5-oxo-1-phenyl-1H-pyrazol-4-yl)azo]benzoato(2-)] chromate(1-)"
    }
   ],
   "conditions": [
@@ -1637,7 +1716,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 40
+  "entry_seq": 40,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1665,7 +1745,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium hydrogen bis[5-chloro-3-[(4,5-dihydro-3-methyl-5-oxo-1-phenyl-1H-pyrazol-4-yl)azo]-2-hydroxybenzenesulphonato(3-)] chromate(3-)"
    }
   ],
   "conditions": [
@@ -1678,7 +1759,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 41
+  "entry_seq": 41,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1706,7 +1788,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-(3-hydroxy-5-methyl-4-(phenylazo)pyrazol-2-yl)benzenesulphonate"
    }
   ],
   "conditions": [
@@ -1719,7 +1802,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 42
+  "entry_seq": 42,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1747,7 +1831,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2,5-dichloro-4-(5-hydroxy-3-methyl-4-((sulphophenyl)azo)pyrazol-1-yl) benzenesulphonate"
    }
   ],
   "conditions": [
@@ -1760,7 +1845,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 43
+  "entry_seq": 43,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1788,7 +1874,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "217-699-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium 5-hydroxy-1-(4-sulphophenyl)-4-((4-sulphophenyl)azo)pyrazole-3-carboxylate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -1801,7 +1888,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 44
+  "entry_seq": 44,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1829,7 +1917,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "N,N'-(3,3'-Dimethyl[1,1'- biphenyl]-4,4'-diyl)bis[2-[(2,4-dichlorophenyl)azo]-3-oxobutyramide]"
    }
   ],
   "conditions": [
@@ -1842,7 +1931,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 45
+  "entry_seq": 45,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1870,7 +1960,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-amino-5-hydroxy-3- ((4-nitrophenyl)azo)-6- (phenylazo)naphthalene-2,7-disulphonate"
    }
   ],
   "conditions": [
@@ -1883,7 +1974,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 46
+  "entry_seq": 46,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1911,7 +2003,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2,2'-[(3,3'-Dichloro[1,1'- biphenyl]-4,4'-diyl)bis(azo)]bis [N-(2,4-dimethylphenyl)-3-oxobutyramide]"
    }
   ],
   "conditions": [
@@ -1924,7 +2017,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 47
+  "entry_seq": 47,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1952,7 +2046,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2,2'-[(3,3'-Dichloro[1,1'- biphenyl]-4,4'-diyl)bis(azo)]bis [N-(4-chloro-2,5-dimethoxyphenyl)-3-oxobutyramide]"
    }
   ],
   "conditions": [
@@ -1965,7 +2060,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 48
+  "entry_seq": 48,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -1993,7 +2089,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2,2'-[Cyclohexylidenebis[(2-methyl-4,1-phenylene)azo]]bis [4-cyclohexylphenol]"
    }
   ],
   "conditions": [
@@ -2006,7 +2103,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 49
+  "entry_seq": 49,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2034,7 +2132,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 4,6-dihydroxy-3-[[4- [1-[4-[[1-hydroxy-7-[(phenylsulphonyl)oxy]-3-sulphonato-2-naphthyl]azo] phenyl]cyclohexyl]phenyl]azo] naphthalene-2-sulphonate"
    }
   ],
   "conditions": [
@@ -2047,7 +2146,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 50
+  "entry_seq": 50,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2075,7 +2175,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1-(4-(Phenylazo)phenylazo)-2-naphthol"
    }
   ],
   "conditions": [
@@ -2088,7 +2189,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 51
+  "entry_seq": 51,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2116,7 +2218,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Tetrasodium 6-amino-4-hydroxy-3-[[7-sulphonato-4- [(4-sulphonatophenyl)azo]-1-naphthyl]azo]naphthalene-2,7-disulphonate"
    }
   ],
   "conditions": [
@@ -2129,7 +2232,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 52
+  "entry_seq": 52,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2157,7 +2261,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "219-746-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Tetrasodium 1-acetamido-2-hydroxy-3-(4-((4-sulphonatophenylazo)-7-sulphonato-1-naphthylazo))naphthalene-4,6-disulphonate"
    }
   ],
   "conditions": [
@@ -2170,7 +2275,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 53
+  "entry_seq": 53,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2198,7 +2304,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzenesulfonic acid, 2,2'- (1,2-ethenediyl)bis[5-nitro-, disodium salt, reaction products with 4-[(4-aminophenyl)azo] benzenesulfonic acid, sodium salts"
    }
   ],
   "conditions": [
@@ -2211,7 +2318,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 54
+  "entry_seq": 54,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2239,7 +2347,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "230-636-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "beta Carotene"
    }
   ],
   "conditions": [
@@ -2252,7 +2361,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 55
+  "entry_seq": 55,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2280,7 +2390,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "8'-apo-.beta.-Caroten-8'-al"
    }
   ],
   "conditions": [
@@ -2293,7 +2404,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 56
+  "entry_seq": 56,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2321,7 +2433,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "214-173-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethyl 8'-apo-.beta.-caroten-8'- oate"
    }
   ],
   "conditions": [
@@ -2334,7 +2447,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 57
+  "entry_seq": 57,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2362,7 +2476,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "208-187-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Canthaxanthin"
    }
   ],
   "conditions": [
@@ -2375,7 +2490,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 58
+  "entry_seq": 58,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2403,7 +2519,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ammonium, (4-(alpha-(p-(diethylamino)phenyl)-2,4-disulfobenzylidene)-2,5-cyclohexadien-1-ylidene)diethyl-, hydroxide, monosodium salt"
    }
   ],
   "conditions": [
@@ -2416,7 +2533,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 59
+  "entry_seq": 59,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2444,7 +2562,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "222-573-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethanaminium, N-(4-((4-(diethylamino)phenyl)(5-hydroxy-2,4-disulfophenyl)methylene)- 2,5-cyclohexadien-1-ylidene)- N-ethyl-, hydroxide, inner salt, calcium salt (2:1) and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -2457,7 +2576,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 60
+  "entry_seq": 60,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2485,7 +2605,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzene-methanaminium, N-ethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl) (4-hydroxy-2-sulfophenyl) methylene)-2,5-cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium salt"
    }
   ],
   "conditions": [
@@ -2498,7 +2619,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 61
+  "entry_seq": 61,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2526,7 +2648,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen (benzyl)[4-[[4- [benzylethylamino]phenyl] (2,4-disulphonatophenyl) methylene]cyclohexa-2,5-dien-1-ylidene](ethyl)ammonium, sodium salt"
    }
   ],
   "conditions": [
@@ -2539,7 +2662,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 62
+  "entry_seq": 62,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2567,7 +2691,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "223-339-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzene-methanaminium, N-ethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino) phenyl) (2-sulfophenyl)methylene)-2,5-cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium salt"
    }
   ],
   "conditions": [
@@ -2580,7 +2705,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 63
+  "entry_seq": 63,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2608,7 +2734,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen [4-[(2-chlorophenyl) [4-[ethyl(3-sulphonatobenzyl) amino]phenyl]methylene] cyclohexa-2,5-dien-1-ylidene] (ethyl)(3-sulphonatobenzyl) ammonium, sodium salt"
    }
   ],
   "conditions": [
@@ -2621,7 +2748,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 64
+  "entry_seq": 64,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2649,7 +2777,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen [4-[(2-chlorophenyl) [4-[ethyl(3-sulphonatobenzyl) amino]-o-tolyl]methylene]-3-methylcyclohexa-2,5-dien-1-ylidene](ethyl)(3-sulphonatobenzyl)ammonium, sodium salt"
    }
   ],
   "conditions": [
@@ -2662,7 +2791,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 65
+  "entry_seq": 65,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2690,7 +2820,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "(4-(4-Aminophenyl)(4-iminocyclohexa-2,5-dienylidene) methyl)-2-methylaniline hydrochloride"
    }
   ],
   "conditions": [
@@ -2703,7 +2834,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 66
+  "entry_seq": 66,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2731,7 +2863,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4-[(4-Amino-m-tolyl)(4-imino-3-methylcyclohexa-2,5-dien-1-ylidene)methyl]-o-toluidine monohydrochloride"
    }
   ],
   "conditions": [
@@ -2744,7 +2877,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 67
+  "entry_seq": 67,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2772,7 +2906,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen [4-[[4-(diethylamino)phenyl][4-[ethyl[(3-sulphonatobenzyl)amino]-o-tolyl]methylene]-3-methylcyclohexa-2,5-dien-1-ylidene] (ethyl)(3-sulphonatobenzyl) ammonium, sodium salt"
    }
   ],
   "conditions": [
@@ -2785,7 +2920,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 68
+  "entry_seq": 68,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2813,7 +2949,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "[4-[[4-Anilino-1-naphthyl][4- (dimethylamino)phenyl] methylene]cyclohexa-2,5-dien-1-ylidene]dimethylammonium chloride"
    }
   ],
   "conditions": [
@@ -2826,7 +2963,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 69
+  "entry_seq": 69,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2854,7 +2992,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "221-409-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen [4-[4-(dimethylamino)-.alpha.-(2-hydroxy-3,6-disulphonato-1-naphthyl) benzylidene]cyclohexa-2,5-dien-1-ylidene]dimethylammonium, monosodium salt"
    }
   ],
   "conditions": [
@@ -2867,7 +3006,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 70
+  "entry_seq": 70,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2895,7 +3035,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen 3,6-bis(diethylamino)-9-(2,4-disulphonatophenyl)xanthylium, sodium salt"
    }
   ],
   "conditions": [
@@ -2908,7 +3049,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 71
+  "entry_seq": 71,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2936,7 +3078,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen 9-(2-carboxylatophenyl)-3-(2-methylanilino)-6- (2-methyl-4-sulphoanilino) xanthylium, monosodium salt"
    }
   ],
   "conditions": [
@@ -2949,7 +3092,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 72
+  "entry_seq": 72,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -2977,7 +3121,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen 9-(2,4-disulphonatophenyl)-3,6-bis(ethylamino)-2,7-dimethylxanthylium, monosodium salt"
    }
   ],
   "conditions": [
@@ -2990,7 +3135,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 73
+  "entry_seq": 73,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3018,7 +3164,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2-(3-oxo-6-oxidoxanthen-9-yl)benzoate"
    }
   ],
   "conditions": [
@@ -3031,7 +3178,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 74
+  "entry_seq": 74,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3059,7 +3207,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "4',5'-Dibromo-3',6'-dihydroxyspiro[isobenzofuran-1 (3H),9'-[9H]xanthene]-3-one and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -3072,7 +3221,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 75
+  "entry_seq": 75,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3100,7 +3250,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2-(2,4,5,7-tetrabromo-6-oxido-3-oxoxanthen-9-yl)benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -3113,7 +3264,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 76
+  "entry_seq": 76,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3141,7 +3293,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "3',6'-Dihydroxy-4',5'-dinitrospiro[isobenzofuran-1 (3H),9'-[9H]xanthene]-3-one"
    }
   ],
   "conditions": [
@@ -3154,7 +3307,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 77
+  "entry_seq": 77,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3182,7 +3336,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Dipotassium 3,6-dichloro-2- (2,4,5,7-tetrabromo-6-oxido-3-oxoxanthen-9-yl)benzoate"
    }
   ],
   "conditions": [
@@ -3195,7 +3350,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 78
+  "entry_seq": 78,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3223,7 +3379,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "3,4,5,6-Tetrachloro-2-(1,4,5,8-tetrabromo-6-hydroxy-3-oxoxanthen-9-yl)benzoic acid and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -3236,7 +3393,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 79
+  "entry_seq": 79,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3264,7 +3422,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "240-474-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2-(2,4,5,7-tetraiodo-6-oxido-3-oxoxanthen-9-yl) benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments"
    }
   ],
   "conditions": [
@@ -3277,7 +3436,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 80
+  "entry_seq": 80,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3305,7 +3465,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1,3-Isobenzofurandione, reaction products with methylquinoline and quinoline"
    }
   ],
   "conditions": [
@@ -3318,7 +3479,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 81
+  "entry_seq": 81,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3346,7 +3508,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "305-897-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1H-Indene-1,3(2H)-dione, 2- (2-quinolinyl)-, sulfonated, sodium salts"
    }
   ],
   "conditions": [
@@ -3359,7 +3522,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 82
+  "entry_seq": 82,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3387,7 +3551,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Hydrogen 9-[(3-methoxyphenyl)amino]-7-phenyl-5- (phenylamino)-4,10-disulphonatobenzo[a]phenazinium, sodium salt"
    }
   ],
   "conditions": [
@@ -3400,7 +3565,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 83
+  "entry_seq": 83,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3428,7 +3594,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sulfonated nigrosine color"
    }
   ],
   "conditions": [
@@ -3441,7 +3608,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 84
+  "entry_seq": 84,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3469,7 +3637,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "8,18-Dichloro-5,15-diethyl-5,15-dihydrodiindolo[3,2-b:3',2'-m]triphenodioxazine"
    }
   ],
   "conditions": [
@@ -3482,7 +3651,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 85
+  "entry_seq": 85,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3510,7 +3680,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1,2-Dihydroxyanthraquinone"
    }
   ],
   "conditions": [
@@ -3523,7 +3694,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 86
+  "entry_seq": 86,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3551,7 +3723,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium 8-hydroxypyrene-1,3,6-trisulphonate"
    }
   ],
   "conditions": [
@@ -3564,7 +3737,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 87
+  "entry_seq": 87,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3592,7 +3766,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1-Anilino-4-hydroxyanthraquinone"
    }
   ],
   "conditions": [
@@ -3605,7 +3780,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 88
+  "entry_seq": 88,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3633,7 +3809,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1-Hydroxy-4-(p-toluidino) anthraquinone"
    }
   ],
   "conditions": [
@@ -3646,7 +3823,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 89
+  "entry_seq": 89,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3674,7 +3852,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 4-[(9,10-dihydro-4-hydroxy-9,10-dioxo-1-anthryl) amino]toluene-3-sulphonate"
    }
   ],
   "conditions": [
@@ -3687,7 +3866,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 90
+  "entry_seq": 90,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3715,7 +3895,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "1,4-bis(p-Tolylamino)anthraquinone"
    }
   ],
   "conditions": [
@@ -3728,7 +3909,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 91
+  "entry_seq": 91,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3756,7 +3938,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 2,2'-(9,10-dioxoanthracene-1,4-diyldiimino)bis(5-methylsulphonate)"
    }
   ],
   "conditions": [
@@ -3769,7 +3952,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 92
+  "entry_seq": 92,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3797,7 +3981,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 3,3'-(9,10-dioxoanthracene-1,4-diyldiimino)bis (2,4,6-trimethylbenzenesulphonate)"
    }
   ],
   "conditions": [
@@ -3810,7 +3995,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 93
+  "entry_seq": 93,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3838,7 +4024,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Sodium 1-amino-4-(cyclohexylamino)-9,10-dihydro-9,10-dioxoanthracene-2-sulphonate"
    }
   ],
   "conditions": [
@@ -3851,7 +4038,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 94
+  "entry_seq": 94,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3879,7 +4067,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "6,15-Dihydroanthrazine-5,9,14,18-tetrone"
    }
   ],
   "conditions": [
@@ -3892,7 +4081,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 95
+  "entry_seq": 95,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3920,7 +4110,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "7,16-dichloro-6,15-dihydroanthrazine-5,9,14,18-tetrone"
    }
   ],
   "conditions": [
@@ -3933,7 +4124,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 96
+  "entry_seq": 96,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -3961,7 +4153,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bisbenzimidazo[2,1-b:2',1'-i] benzo[lmn][3,8]phenanthroline-8,17-dione"
    }
   ],
   "conditions": [
@@ -3974,7 +4167,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 97
+  "entry_seq": 97,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4002,7 +4196,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-(1,3-Dihydro-3-oxo-2H-indazol-2-ylidene)-1,2-dihydro-3H-indol-3-one"
    }
   ],
   "conditions": [
@@ -4015,7 +4210,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 98
+  "entry_seq": 98,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4043,7 +4239,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "212-728-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium 5,5'-(2-(1,3-dihydro-3-oxo-2H-indazol-2-ylidene)- 1,2-dihydro-3H-indol-3-one) disulphonate"
    }
   ],
   "conditions": [
@@ -4056,7 +4253,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 99
+  "entry_seq": 99,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4084,7 +4282,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "6-Chloro-2-(6-chloro-4-methyl-3-oxobenzo[b]thien-2 (3H)-ylidene)-4-methylbenzo [b]thiophene-3(2H)-one"
    }
   ],
   "conditions": [
@@ -4097,7 +4296,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 100
+  "entry_seq": 100,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4125,7 +4325,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "5-Chloro-2-(5-chloro-7-methyl-3-oxobenzo[b]thien-2 (3H)-ylidene)-7-methylbenzo [b]thiophene-3(2H)-one"
    }
   ],
   "conditions": [
@@ -4138,7 +4339,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 101
+  "entry_seq": 101,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4166,7 +4368,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "5,12-Dihydroquino[2,3-b] acridine-7,14-dione"
    }
   ],
   "conditions": [
@@ -4179,7 +4382,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 102
+  "entry_seq": 102,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4207,7 +4411,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "5,12-Dihydro-2,9-dimethylquino[2,3-b]acridine-7,14-dione"
    }
   ],
   "conditions": [
@@ -4220,7 +4425,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 103
+  "entry_seq": 103,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4248,7 +4454,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "29H,31H-Phthalocyanine"
    }
   ],
   "conditions": [
@@ -4261,7 +4468,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 104
+  "entry_seq": 104,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4289,7 +4497,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "29H,31H-Phthalocyaninato (2-)-N29,N30,N31,N32 copper"
    }
   ],
   "conditions": [
@@ -4302,7 +4511,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 105
+  "entry_seq": 105,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4330,7 +4540,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium [29H,31H-phthalocyaninedisulphonato (4-)-N29,N30,N31,N32] cuprate (2-)"
    }
   ],
   "conditions": [
@@ -4343,7 +4554,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 106
+  "entry_seq": 106,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4371,7 +4583,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Polychloro copper phthalocyanine"
    }
   ],
   "conditions": [
@@ -4384,7 +4597,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 107
+  "entry_seq": 107,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4412,7 +4626,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "8,8'-diapo-.psi.,.psi.-Carotenedioic acid"
    }
   ],
   "conditions": [
@@ -4425,7 +4640,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 108
+  "entry_seq": 108,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4453,7 +4669,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "215-735-4, 289-561-2, 230-248-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Annatto"
    }
   ],
   "conditions": [
@@ -4466,7 +4683,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 109
+  "entry_seq": 109,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4494,7 +4712,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Lycopene"
    }
   ],
   "conditions": [
@@ -4507,7 +4726,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 110
+  "entry_seq": 110,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4535,7 +4755,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "214-171-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "CI Food Orange 5"
    }
   ],
   "conditions": [
@@ -4548,7 +4769,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 111
+  "entry_seq": 111,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4576,7 +4798,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "(3R)-beta-4-Caroten-3-ol"
    }
   ],
   "conditions": [
@@ -4589,7 +4812,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 112
+  "entry_seq": 112,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4617,7 +4841,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "2-Amino-1,7-dihydro-6H-purin-6-one"
    }
   ],
   "conditions": [
@@ -4630,7 +4855,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 113
+  "entry_seq": 113,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4658,7 +4884,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "207-280-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Curcumins"
    }
   ],
   "conditions": [
@@ -4671,7 +4898,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 114
+  "entry_seq": 114,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4699,7 +4927,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "215-680-6, 215-023-3, 215-724-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Carmines"
    }
   ],
   "conditions": [
@@ -4712,7 +4941,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 115
+  "entry_seq": 115,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4740,7 +4970,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "215-800-7, 207-536-6, 208-272-4, 287-483-3, 239-830-5, 246-020-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trisodium (2S-trans)-[18-carboxy-20-(carboxymethyl)- 13-ethyl-2,3-dihydro-3,7,12,17-tetramethyl-8-vinyl-21H,23H-porphine-2-propionato (5-)-N21,N22,N23,N24] cuprate(3-) (Chlorophylls)"
    }
   ],
   "conditions": [
@@ -4753,7 +4984,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 116
+  "entry_seq": 116,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4781,7 +5013,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "231-072-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Aluminium"
    }
   ],
   "conditions": [
@@ -4794,7 +5027,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 117
+  "entry_seq": 117,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4822,7 +5056,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Aluminium hydroxide sulphate"
    }
   ],
   "conditions": [
@@ -4835,7 +5070,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 118
+  "entry_seq": 118,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4863,7 +5099,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Natural hydrated aluminium silicate, Al2O3.2SiO2.2H2O, containing calcium, magnesium or iron carbonates, ferric hydroxide, quartz-sand, mica, etc. as impurities"
    }
   ],
   "conditions": [
@@ -4876,7 +5113,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 119
+  "entry_seq": 119,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4904,7 +5142,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Lazurite"
    }
   ],
   "conditions": [
@@ -4917,7 +5156,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 120
+  "entry_seq": 120,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4945,7 +5185,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Aluminum silicate coloured with ferric oxide"
    }
   ],
   "conditions": [
@@ -4958,7 +5199,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 121
+  "entry_seq": 121,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -4986,7 +5228,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Barium sulfate"
    }
   ],
   "conditions": [
@@ -4999,7 +5242,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 122
+  "entry_seq": 122,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5027,7 +5271,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bismuth chloride oxide"
    }
   ],
   "conditions": [
@@ -5040,7 +5285,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 123
+  "entry_seq": 123,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5068,7 +5314,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "207-439-9, 215-279-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium carbonate"
    }
   ],
   "conditions": [
@@ -5081,7 +5328,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 124
+  "entry_seq": 124,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5109,7 +5357,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Calcium sulfate"
    }
   ],
   "conditions": [
@@ -5122,7 +5371,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 125
+  "entry_seq": 125,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5150,7 +5400,8 @@
     "inci_name": null,
     "cas": "1333-86-4, 7440-44-0",
     "ec": "215-609-9, 231-153-3, 931-328-0, 931-334-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Carbon black"
    }
   ],
   "conditions": [
@@ -5163,7 +5414,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 126
+  "entry_seq": 126,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5191,7 +5443,8 @@
     "inci_name": "Carbon Black (nano)",
     "cas": "1333-86-4, 7440-44-0",
     "ec": "215-609-9, 231-153-3, 931-328-0, 931-334-3",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Carbon Black (nano)"
    }
   ],
   "conditions": [
@@ -5204,7 +5457,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 127
+  "entry_seq": 127,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5232,7 +5486,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Charcoal, bone. A fine black powder obtained by burning animal bones in a closed container. It consists primarily of calcium phosphate and carbon"
    }
   ],
   "conditions": [
@@ -5245,7 +5500,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 128
+  "entry_seq": 128,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5273,7 +5529,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Coke black"
    }
   ],
   "conditions": [
@@ -5286,7 +5543,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 129
+  "entry_seq": 129,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5314,7 +5572,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chromium (III) oxide"
    }
   ],
   "conditions": [
@@ -5327,7 +5586,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 130
+  "entry_seq": 130,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5355,7 +5615,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Chromium (III) hydroxide"
    }
   ],
   "conditions": [
@@ -5368,7 +5629,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 131
+  "entry_seq": 131,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5396,7 +5658,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Cobalt Aluminum Oxide"
    }
   ],
   "conditions": [
@@ -5409,7 +5672,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 132
+  "entry_seq": 132,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5437,7 +5701,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Copper"
    }
   ],
   "conditions": [
@@ -5450,7 +5715,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 133
+  "entry_seq": 133,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5478,7 +5744,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "231-165-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Gold"
    }
   ],
   "conditions": [
@@ -5491,7 +5758,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 134
+  "entry_seq": 134,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5519,7 +5787,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Iron oxide"
    }
   ],
   "conditions": [
@@ -5532,7 +5801,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 135
+  "entry_seq": 135,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5560,7 +5830,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "215-168-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Iron Oxide Red"
    }
   ],
   "conditions": [
@@ -5573,7 +5844,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 136
+  "entry_seq": 136,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5601,7 +5873,8 @@
     "inci_name": null,
     "cas": "51274-00-1",
     "ec": "257-098-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Iron Oxide Yellow"
    }
   ],
   "conditions": [
@@ -5614,7 +5887,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 137
+  "entry_seq": 137,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5642,7 +5916,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "235-442-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Iron Oxide Black"
    }
   ],
   "conditions": [
@@ -5655,7 +5930,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 138
+  "entry_seq": 138,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5683,7 +5959,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ferric Ammonium Ferrocyanide"
    }
   ],
   "conditions": [
@@ -5696,7 +5973,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 139
+  "entry_seq": 139,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5724,7 +6002,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Magnesium carbonate"
    }
   ],
   "conditions": [
@@ -5737,7 +6016,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 140
+  "entry_seq": 140,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5765,7 +6045,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ammonium manganese(3+) diphosphate"
    }
   ],
   "conditions": [
@@ -5778,7 +6059,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 141
+  "entry_seq": 141,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5806,7 +6088,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Trimanganese bis (orthophosphate)"
    }
   ],
   "conditions": [
@@ -5819,7 +6102,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 142
+  "entry_seq": 142,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5847,7 +6131,8 @@
     "inci_name": null,
     "cas": "7440-22-4",
     "ec": "231-131-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Silver (powder) [100 nm < particle diameter < 1 mm]"
    }
   ],
   "conditions": [
@@ -5868,7 +6153,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 143
+  "entry_seq": 143,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5896,7 +6182,8 @@
     "inci_name": null,
     "cas": null,
     "ec": "236-675-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Titanium dioxide (1)"
    }
   ],
   "conditions": [
@@ -5909,7 +6196,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 144
+  "entry_seq": 144,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5937,7 +6225,8 @@
     "inci_name": null,
     "cas": "1314-13-2",
     "ec": "215-222-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Zinc oxide (2)"
    }
   ],
   "conditions": [
@@ -5950,7 +6239,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 145
+  "entry_seq": 145,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -5978,7 +6268,8 @@
     "inci_name": "Lactoflavin",
     "cas": null,
     "ec": "201-507-1, 204-988-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Lactoflavin"
    }
   ],
   "conditions": [
@@ -5991,7 +6282,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 146
+  "entry_seq": 146,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6019,7 +6311,8 @@
     "inci_name": "Caramel",
     "cas": null,
     "ec": "232-435-9",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Caramel"
    }
   ],
   "conditions": [
@@ -6032,7 +6325,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 147
+  "entry_seq": 147,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6060,7 +6354,8 @@
     "inci_name": "Capsanthin",
     "cas": null,
     "ec": "207-364-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Capsanthin"
    },
    {
     "seq": 2,
@@ -6068,7 +6363,8 @@
     "inci_name": "capsorubin",
     "cas": null,
     "ec": "207-425-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "capsorubin"
    }
   ],
   "conditions": [
@@ -6081,7 +6377,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 148
+  "entry_seq": 148,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6109,7 +6406,8 @@
     "inci_name": "Beetroot Red",
     "cas": "7659-95-2",
     "ec": "231-628-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Beetroot Red"
    }
   ],
   "conditions": [
@@ -6122,7 +6420,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 149
+  "entry_seq": 149,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6150,7 +6449,8 @@
     "inci_name": "Anthocyanins",
     "cas": "528-58-5, 134-01-0, 528-53-0, 643-84-5, 134-04-3",
     "ec": "208-438-6, 205-125-6, 211-403-8, 208-437-0, 205-127-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Anthocyanins"
    }
   ],
   "conditions": [
@@ -6163,7 +6463,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 150
+  "entry_seq": 150,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6191,7 +6492,8 @@
     "inci_name": "Aluminum stearate Zinc stearate Magnesium stearate Calcium stearate",
     "cas": "7047-84-9, 557-05-1, 557-04-0",
     "ec": "230-325-5, 209-151-9, 209-150-3, 216-472-8",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Aluminum stearate Zinc stearate Magnesium stearate Calcium stearate"
    }
   ],
   "conditions": [
@@ -6204,7 +6506,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 151
+  "entry_seq": 151,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6232,7 +6535,8 @@
     "inci_name": "Bromothymol blue",
     "cas": "76-59-5",
     "ec": "200-971-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bromothymol blue"
    }
   ],
   "conditions": [
@@ -6245,7 +6549,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 152
+  "entry_seq": 152,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6273,7 +6578,8 @@
     "inci_name": "Bromocresol green",
     "cas": "76-60-8",
     "ec": "200-972-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bromocresol green"
    }
   ],
   "conditions": [
@@ -6286,7 +6592,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 153
+  "entry_seq": 153,
+  "id_issues": []
  },
  {
   "annex": "IV",
@@ -6314,7 +6621,8 @@
     "inci_name": "Acid red 195",
     "cas": "12220-24-5",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Acid red 195"
    }
   ],
   "conditions": [
@@ -6327,6 +6635,7 @@
     "wording": ""
    }
   ],
-  "entry_seq": 154
+  "entry_seq": 154,
+  "id_issues": []
  }
 ]

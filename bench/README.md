@@ -39,7 +39,15 @@ python bench/lookup.py "sodium benzoate" --json   # 喂给脚本
 `annex_entry`。同时会把条目正文里 `(9)` 这类脚注引用解析出来附在后面——
 III/98 的脚注 (9) 指向 V/3，正是 H 组要考的跨附件路由。
 
+匹配规则：
+
+- 名称只比较字母和数字。原文常在行尾用硬连字符断词（`Methylisothiazoli-none`），所以 `Methylisothiazolinone` 也能命中 V/57。
+- CAS / EC / CI 号按整个号码匹配，`57-24-9` 不会命中 `657-24-9`。
+- 按原文印错的号码查（如 `542-56-2`）也能找到，输出里会给出更正说明。
+
 几个会影响判定的提示会直接打在输出里：
+
+- `! cas … corrected` / `ec_checksum` / `clp_index_in_ec_column`——编号问题，见 `data/id_issues.csv`
 
 - `[deleted]` / `[moved_or_deleted]`——条目已失效
 - `未配对，需人工核对`——该条目的 c/d/e 三列数量对不上，CAS 与物质的对应关系未确定

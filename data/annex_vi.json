@@ -25,7 +25,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -38,7 +39,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 1
+  "entry_seq": 1,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -66,7 +68,8 @@
     "inci_name": "Camphor Benzalkonium Methosulfate",
     "cas": "52793-97-2",
     "ec": "258-190-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Camphor Benzalkonium Methosulfate"
    }
   ],
   "conditions": [
@@ -79,7 +82,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 2
+  "entry_seq": 2,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -107,7 +111,8 @@
     "inci_name": "Homosalate",
     "cas": "118-56-9",
     "ec": "204-260-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Homosalate"
    }
   ],
   "conditions": [
@@ -120,7 +125,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 3
+  "entry_seq": 3,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -148,7 +154,8 @@
     "inci_name": "Benzophenone-3",
     "cas": "131-57-7",
     "ec": "205-031-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzophenone-3"
    }
   ],
   "conditions": [
@@ -177,7 +184,8 @@
     "wording": "For a) and b):\nContains Benzophenone-3 (1)"
    }
   ],
-  "entry_seq": 4
+  "entry_seq": 4,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -205,7 +213,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Moved or deleted"
    }
   ],
   "conditions": [
@@ -218,7 +227,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 5
+  "entry_seq": 5,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -246,7 +256,8 @@
     "inci_name": "Phenylbenzimidazole Sulfonic Acid",
     "cas": "27503-81-7",
     "ec": "248-502-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenylbenzimidazole Sulfonic Acid"
    }
   ],
   "conditions": [
@@ -259,7 +270,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 6
+  "entry_seq": 6,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -287,7 +299,8 @@
     "inci_name": "Terephthalylidene Dicamphor Sulfonic Acid",
     "cas": "92761-26-7, 90457-82-2",
     "ec": "410-960-6",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Terephthalylidene Dicamphor Sulfonic Acid"
    }
   ],
   "conditions": [
@@ -300,7 +313,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 7
+  "entry_seq": 7,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -328,7 +342,8 @@
     "inci_name": "Butyl Methoxydibenzoylmethane",
     "cas": "70356-09-1",
     "ec": "274-581-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Butyl Methoxydibenzoylmethane"
    }
   ],
   "conditions": [
@@ -341,7 +356,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 8
+  "entry_seq": 8,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -369,7 +385,8 @@
     "inci_name": "Benzylidene Camphor Sulfonic Acid",
     "cas": "56039-58-8",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Benzylidene Camphor Sulfonic Acid"
    }
   ],
   "conditions": [
@@ -382,7 +399,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 9
+  "entry_seq": 9,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -410,7 +428,8 @@
     "inci_name": "Octocrylene",
     "cas": "6197-30-4",
     "ec": "228-250-8",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Octocrylene"
    }
   ],
   "conditions": [
@@ -431,7 +450,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 10
+  "entry_seq": 10,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -459,7 +479,8 @@
     "inci_name": "Polyacrylamidomethyl Benzylidene Camphor",
     "cas": "113783-61-2",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Polyacrylamidomethyl Benzylidene Camphor"
    }
   ],
   "conditions": [
@@ -472,7 +493,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 11
+  "entry_seq": 11,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -500,7 +522,8 @@
     "inci_name": "Ethylhexyl Methoxycinnamate",
     "cas": "5466-77-3",
     "ec": "226-775-7",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethylhexyl Methoxycinnamate"
    }
   ],
   "conditions": [
@@ -513,7 +536,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 12
+  "entry_seq": 12,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -541,7 +565,8 @@
     "inci_name": "PEG-25 PABA",
     "cas": "116242-27-4",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "PEG-25 PABA"
    }
   ],
   "conditions": [
@@ -554,7 +579,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 13
+  "entry_seq": 13,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -582,7 +608,8 @@
     "inci_name": "Isoamyl p-Methoxycinnamate",
     "cas": "71617-10-2",
     "ec": "275-702-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Isoamyl p-Methoxycinnamate"
    }
   ],
   "conditions": [
@@ -595,7 +622,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 14
+  "entry_seq": 14,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -623,7 +651,8 @@
     "inci_name": "Ethylhexyl Triazone",
     "cas": "88122-99-0",
     "ec": "402-070-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethylhexyl Triazone"
    }
   ],
   "conditions": [
@@ -636,7 +665,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 15
+  "entry_seq": 15,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -664,7 +694,8 @@
     "inci_name": "Drometrizole Trisiloxane",
     "cas": "155633-54-8",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Drometrizole Trisiloxane"
    }
   ],
   "conditions": [
@@ -677,7 +708,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 16
+  "entry_seq": 16,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -705,7 +737,8 @@
     "inci_name": "Diethylhexyl Butamido Triazone",
     "cas": "154702-15-5",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Diethylhexyl Butamido Triazone"
    }
   ],
   "conditions": [
@@ -718,11 +751,12 @@
     "wording": ""
    }
   ],
-  "entry_seq": 17
+  "entry_seq": 17,
+  "id_issues": []
  },
  {
   "annex": "VI",
-  "ref_no": "18-19",
+  "ref_no": "18",
   "ref_inferred": 1,
   "status": "deleted",
   "amended_by": "▼M51",
@@ -746,7 +780,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -759,7 +794,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 18
+  "entry_seq": 18,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -787,7 +823,8 @@
     "inci_name": null,
     "cas": null,
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": null
    }
   ],
   "conditions": [
@@ -800,7 +837,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 19
+  "entry_seq": 19,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -828,7 +866,8 @@
     "inci_name": "Ethylhexyl Salicylate",
     "cas": "118-60-5",
     "ec": "204-263-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethylhexyl Salicylate"
    }
   ],
   "conditions": [
@@ -841,7 +880,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 20
+  "entry_seq": 20,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -869,7 +909,8 @@
     "inci_name": "Ethylhexyl Dimethyl PABA",
     "cas": "21245-02-3",
     "ec": "244-289-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Ethylhexyl Dimethyl PABA"
    }
   ],
   "conditions": [
@@ -882,7 +923,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 21
+  "entry_seq": 21,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -910,7 +952,8 @@
     "inci_name": "Benzophenone-4 Benzophenone-5",
     "cas": "4065-45-6, 6628-37-1",
     "ec": "223-772-2",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Benzophenone-4 Benzophenone-5"
    }
   ],
   "conditions": [
@@ -923,7 +966,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 22
+  "entry_seq": 22,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -951,7 +995,8 @@
     "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
     "cas": "103597-45-1",
     "ec": "403-800-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol"
    }
   ],
   "conditions": [
@@ -964,7 +1009,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 23
+  "entry_seq": 23,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -992,7 +1038,8 @@
     "inci_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)",
     "cas": "103597-45-1",
     "ec": "403-800-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)"
    }
   ],
   "conditions": [
@@ -1005,7 +1052,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 24
+  "entry_seq": 24,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1033,7 +1081,8 @@
     "inci_name": "Disodium Phenyl Dibenzimidazole Tetrasulfonate",
     "cas": "180898-37-7",
     "ec": "429-750-0",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Disodium Phenyl Dibenzimidazole Tetrasulfonate"
    }
   ],
   "conditions": [
@@ -1046,7 +1095,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 25
+  "entry_seq": 25,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1074,7 +1124,8 @@
     "inci_name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
     "cas": "187393-00-6",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine"
    }
   ],
   "conditions": [
@@ -1087,7 +1138,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 26
+  "entry_seq": 26,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1115,7 +1167,8 @@
     "inci_name": "Polysilicone-15",
     "cas": "207574-74-1",
     "ec": "426-000-4",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Polysilicone-15"
    }
   ],
   "conditions": [
@@ -1128,7 +1181,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 27
+  "entry_seq": 27,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1156,7 +1210,8 @@
     "inci_name": "Titanium Dioxide",
     "cas": "13463-67-7, 1317-70-0, 1317-80-2",
     "ec": "236-675-5, 215-280-1, 215-282-2",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Titanium Dioxide"
    }
   ],
   "conditions": [
@@ -1169,7 +1224,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 28
+  "entry_seq": 28,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1197,7 +1253,8 @@
     "inci_name": "Titanium Dioxide (nano)",
     "cas": "13463-67-7, 1317-70-0, 1317-80-2",
     "ec": "236-675-5, 215-280-1, 215-282-2",
-    "split_ok": 0
+    "split_ok": 0,
+    "name": "Titanium Dioxide (nano)"
    }
   ],
   "conditions": [
@@ -1210,7 +1267,8 @@
     "wording": "For face products\ncontaining\nTitanium Dioxide\n(nano) coated\nwith the\ncombination\nAlumina and\nManganese\nDioxide:\nNot to be used on\nthe lips."
    }
   ],
-  "entry_seq": 29
+  "entry_seq": 29,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1238,7 +1296,8 @@
     "inci_name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
     "cas": "302776-68-7",
     "ec": "443-860-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)"
    }
   ],
   "conditions": [
@@ -1251,7 +1310,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 30
+  "entry_seq": 30,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1279,7 +1339,8 @@
     "inci_name": "Tris-biphenyl triazine Tris-biphenyl triazine (nano)",
     "cas": "31274-51-8",
     "ec": null,
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Tris-biphenyl triazine Tris-biphenyl triazine (nano)"
    }
   ],
   "conditions": [
@@ -1292,7 +1353,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 31
+  "entry_seq": 31,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1320,7 +1382,8 @@
     "inci_name": "Zinc Oxide",
     "cas": "1314-13-2",
     "ec": "215-222-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Zinc Oxide"
    }
   ],
   "conditions": [
@@ -1333,7 +1396,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 32
+  "entry_seq": 32,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1361,7 +1425,8 @@
     "inci_name": "Zinc Oxide (nano)",
     "cas": "1314-13-2",
     "ec": "215-222-5",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Zinc Oxide (nano)"
    }
   ],
   "conditions": [
@@ -1374,7 +1439,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 33
+  "entry_seq": 33,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1402,7 +1468,8 @@
     "inci_name": "Phenylene Bis-Diphenyltriazine",
     "cas": "55514-22-2",
     "ec": "700-823-1",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Phenylene Bis-Diphenyltriazine"
    }
   ],
   "conditions": [
@@ -1415,7 +1482,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 34
+  "entry_seq": 34,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1443,7 +1511,8 @@
     "inci_name": "Methoxypropylamino Cyclohexenylidene Ethoxyethylcyanoacetate",
     "cas": "1419401-88-9",
     "ec": "700-860-3",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Methoxypropylamino Cyclohexenylidene Ethoxyethylcyanoacetate"
    }
   ],
   "conditions": [
@@ -1456,7 +1525,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 35
+  "entry_seq": 35,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1484,7 +1554,8 @@
     "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine",
     "cas": "919803-06-8",
     "ec": "485-100-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine"
    }
   ],
   "conditions": [
@@ -1497,7 +1568,8 @@
     "wording": ""
    }
   ],
-  "entry_seq": 36
+  "entry_seq": 36,
+  "id_issues": []
  },
  {
   "annex": "VI",
@@ -1525,7 +1597,8 @@
     "inci_name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine (nano)",
     "cas": "919803-06-8",
     "ec": "485-100-6",
-    "split_ok": 1
+    "split_ok": 1,
+    "name": "Bis-(Diethylaminohydroxybenzoyl Benzoyl) Piperazine (nano)"
    }
   ],
   "conditions": [
@@ -1538,6 +1611,7 @@
     "wording": ""
    }
   ],
-  "entry_seq": 37
+  "entry_seq": 37,
+  "id_issues": []
  }
 ]

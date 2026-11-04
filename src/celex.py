@@ -1,6 +1,5 @@
 """Cell-level extractor for the annex tables of consolidated EU Reg. 1223/2009."""
 import os, re, statistics
-import pdfplumber
 from collections import defaultdict, Counter
 
 # Path to the source PDF; override with CELEX_PDF.
@@ -11,6 +10,7 @@ _pdf = None
 def doc():
     global _pdf
     if _pdf is None:
+        import pdfplumber
         _pdf = pdfplumber.open(PDF)
     return _pdf
 

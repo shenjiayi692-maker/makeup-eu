@@ -2,6 +2,8 @@
 
 Test date: 2026-09-26. Data: makeup-eu extraction of Annexes II–VI, consolidated text of 18 May 2026 (2,410 entries, 64 flagged for review).
 
+> **Update 2026-11-04.** The data and `engine.js` changed after this test: 59 entries are now flagged for review (III/8a and 8b were released, so question 3 no longer shows a review notice), and the lookup fixes listed in `README.md` were added. The offline test (`node test_retrieval.js`, 27 questions) passes. The live run below was not repeated.
+
 **Result: 21 of 22 passed on the first live run; 22 of 22 plus the bonus question after two prompt fixes (retested 2026-09-27).** All 7 questions that should be refused were refused. On the first run, one Chinese answer reversed the meaning of one condition, and a bonus trade-name question missed (the page refused instead of answering wrongly). Both pass after the fixes below.
 
 ## How the demo answers

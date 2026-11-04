@@ -1,7 +1,7 @@
 [
  {"q":"Max concentration of thioglycolic acid in depilatories?","expect":"answer","refs":["III/2a"],"key":"5 %","page":"140"},
  {"q":"Thioglycolic acid limit in eyelash waving products?","expect":"answer","refs":["III/2a"],"key":"11 %","page":"140"},
- {"q":"Is p-Phenylenediamine restricted?","expect":"answer","refs":["III/8a"],"review":true,"page":"144"},
+ {"q":"Is p-Phenylenediamine restricted?","expect":"answer","refs":["III/8a"],"page":"144"},
  {"q":"Is this ingredient allowed in Canada?","expect":"refuse","why":"jurisdiction"},
  {"q":"Is Zorbitaxol allowed in face creams?","expect":"refuse","why":"not found"},
  {"q":"What is the maximum concentration of phenoxyethanol as a preservative?","expect":"answer","refs":["V/29"],"key":"1,0 %","page":"421"},
@@ -20,5 +20,10 @@
  {"q":"Give me a recipe for a sunscreen with zinc oxide","expect":"refuse","why":"advice"},
  {"q":"甲醛在中国国内能用吗？","terms":["formaldehyde"],"expect":"refuse","why":"jurisdiction","lang":"zh"},
  {"q":"Is methylparaben safe for pregnant women?","expect":"refuse","why":"advice"},
- {"q":"Is Glowmaxin-7 permitted in lipsticks?","expect":"refuse","why":"not found"}
+ {"q":"Is Glowmaxin-7 permitted in lipsticks?","expect":"refuse","why":"not found"},
+ {"q":"Max concentration of methylisothiazolinone?","expect":"answer","refs":["V/57","V/39"]},
+ {"q":"Is 3-Carene restricted?","expect":"answer","refs":["III/121"]},
+ {"q":"What is the max salicylic acid allowed in my leave-on formulation?","expect":"answer","refs":["III/98"]},
+ {"q":"Is Fluopicolide (CAS 239110-15-7) banned?","expect":"answer","refs":["II/1712"]},
+ {"q":"Is lead acetate allowed?","expect":"refuse","why":"not found (must not match cobalt or dibutyltin di(acetate))"}
 ]

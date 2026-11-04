@@ -21,6 +21,8 @@
   function tokens(s) {
     return norm(s).split(/[^a-z0-9]+/).filter(Boolean);
   }
+  // Join letters split by a hyphen: the source hyphenates long words at line ends.
+  function squash(s) { return s.replace(/([a-z])-\s*([a-z])/g, '$1$2'); }
   // Strip qualifiers that are not part of the substance name.
   function baseName(s) {
     return norm(s)
@@ -41,8 +43,12 @@
     { re: /\b(canada|canadian|health canada|usa|u\.s\.|united states|fda|mocra|china|chinese regulation|nmpa|japan|korea|uk|united kingdom|brazil|anvisa|australia|india|asean|gcc|switzerland)\b|加拿大|美国|中国法规|国内|日本|韩国|英国|澳大利亚|巴西|canadá|états-unis|etats-unis|chine|japon|royaume-uni/i,
       reason: 'jurisdiction' },
     { re: /\b(formulat\w*|recipe|how (do|can) i make|is it safe|safe (for|to|during|in)|should i use|recommend\w*|side effects?|toxic\w*|cause cancer|pregnan\w*)\b|配方|安全吗|推荐|副作用|recette|est-ce sans danger|devrais-je/i,
-      reason: 'advice' },
+      reason: 'advice', unlessRegulatory: true },
   ];
+  // A question that also asks what the annexes say ("max ... allowed in my
+  // leave-on formulation", "toxic enough to be restricted") is a regulatory
+  // question with some context, not a request for advice.
+  const REGULATORY = /\b(allowed|permitted|banned|prohibited|restricted|restriction|limit|limits|max(imum)?|concentration|annex|legal|compliant|listed)\b|限量|最高|浓度|禁用|限用|允许|附件|autoris\w*|interdit\w*|concentration maximale|limite/i;
 
   function build(data) {
     const entries = data.entries.map((e, i) => Object.assign({ id: i }, e));
@@ -51,6 +57,7 @@
     let maxLen = 1;
     const add = (key, id) => {
       if (!key || key.length < 4) return;
+      if (!key.includes(' ') && GENERIC.has(key)) return;   // "acetate" alone names nothing
       if (!byName.has(key)) byName.set(key, new Set());
       byName.get(key).add(id);
       maxLen = Math.max(maxLen, key.split(' ').length);
@@ -58,12 +65,19 @@
     for (const e of entries) {
       const names = [];
       if (e.inci) e.inci.split(/\||;|\(and\)|\n(?=[A-Z])/).forEach(n => names.push(n));
-      if (e.chem) names.push(e.chem, e.chem.replace(/\n/g, ' '));
+      if (e.chem) {
+        names.push(e.chem, e.chem.replace(/\n/g, ' '));
+        // "3-Carene; 3,7,7-Trimethylbicyclo[4.1.0]hept-3-ene": each synonym on its own
+        if (e.chem.includes(';')) e.chem.split(';').forEach(n => names.push(n));
+      }
       for (const n of names) {
         const b = baseName(n);
         add(tokens(b).join(' '), e.id);
-        // "Name (Synonym)" → both parts
-        const m = b.match(/^(.*?)\s*\(([^()]+)\)\s*$/);
+        // a word broken at a line-end hyphen ("Methylisothiazoli-none")
+        add(tokens(squash(b)).join(' '), e.id);
+        // "Name (Synonym)" → both parts. Needs a space before the bracket, so
+        // "Cobalt di(acetate)" is not indexed under "acetate".
+        const m = b.match(/^(.*?)\s+\(([^()]+)\)\s*$/);
         if (m) { add(tokens(m[1]).join(' '), e.id); add(tokens(m[2]).join(' '), e.id); }
       }
       // Review-queue rows keep several names unsplit ("Retinol Retinyl Acetate ...").
@@ -108,7 +122,11 @@
   }
 
   function scopeCheck(q) {
-    for (const r of OUT_OF_SCOPE) if (r.re.test(q)) return r.reason;
+    for (const r of OUT_OF_SCOPE) {
+      if (!r.re.test(q)) continue;
+      if (r.unlessRegulatory && REGULATORY.test(q)) continue;
+      return r.reason;
+    }
     return null;
   }
 
