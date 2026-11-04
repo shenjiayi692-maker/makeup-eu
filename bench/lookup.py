@@ -25,6 +25,7 @@ DB = os.environ.get('CELEX_DB') or os.path.join(
 
 CAS_RE = re.compile(r'^\d{2,7}-\d{2}-\d$')
 EC_RE = re.compile(r'^\d{3}-\d{3}-\d$')
+CLP_RE = re.compile(r'^\d{3}-\d{3}-\d{2}-[\dX]$', re.I)
 CIX_RE = re.compile(r'^(?:CI\s*)?(\d{4,6}(?::\d+)?)$', re.I)
 FOOTNOTE_REF = re.compile(r'\(\s*(\d{1,2})\s*\)')
 ID_TOKEN = {
@@ -67,6 +68,8 @@ def classify(q):
         return 'cas', q
     if EC_RE.match(q):
         return 'ec', q
+    if CLP_RE.match(q):
+        return 'clp', q.upper()
     m = CIX_RE.match(q)
     if m:
         return 'colour_index', m.group(1)
@@ -82,7 +85,17 @@ def _entry_keys(con, kind, value):
         for r in rows:
             hits.setdefault((r['annex'], r['entry_seq']), set()).add(why)
 
-    if kind in ('cas', 'ec', 'colour_index'):
+    if kind == 'clp':
+        # Annex II prints some CLP index numbers in its EC column; they are
+        # kept in entries.ec and id_issues, not in substances.ec
+        add(cur.execute(
+            "SELECT annex, entry_seq FROM id_issues WHERE upper(value) = ?",
+            (value,)).fetchall(), 'CLP index (see id_issues)')
+        add(cur.execute(
+            "SELECT annex, entry_seq FROM entries"
+            " WHERE instr(upper(replace(replace(ec, ' ', ''), char(10), '')), ?) > 0",
+            (value,)).fetchall(), 'CLP index in entry cell')
+    elif kind in ('cas', 'ec', 'colour_index'):
         col = kind
         # exact match on the split-out rows
         add(cur.execute(
@@ -261,7 +274,7 @@ def render(hits, query):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('query', help='INCI / chemical name, CAS, EC, or CI number')
+    ap.add_argument('query', help='INCI / chemical name, CAS, EC, CLP index, or CI number')
     ap.add_argument('--annex', help='restrict to one annex (II/III/IV/V/VI)')
     ap.add_argument('--json', action='store_true', help='machine-readable output')
     a = ap.parse_args()

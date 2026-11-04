@@ -329,7 +329,7 @@ II,327,327,1,,Trichlormethine (INN) and its salts,Trichlormethine (INN) and its 
 II,328,328,1,,Tretamine (INN),Tretamine (INN),51-18-3,200-083-5,1
 II,329,329,1,,Gallamine triethiodide (INN),Gallamine triethiodide (INN),65-29-2,200-605-1,1
 II,330,330,1,,Urginea scilla Steinh. and its galenical preparations,Urginea scilla Steinh. and its galenical preparations,84650-62-4,283-520-2,1
-II,331,331,1,,"Veratrine, its salts and galenical preparations","Veratrine, its salts and galenical preparations",8051-02-3,613-062-00-4,1
+II,331,331,1,,"Veratrine, its salts and galenical preparations","Veratrine, its salts and galenical preparations",8051-02-3,,1
 II,332,332,1,,Schoenocaulon officinale Lind (seeds and galenical preparations),Schoenocaulon officinale Lind (seeds and galenical preparations),84604-18-2,283-296-6,1
 II,333,333,1,,Veratrum spp. and their preparations,Veratrum spp. and their preparations,90131-91-2,290-407-1,1
 II,334,334,1,,Vinyl chloride monomer,Vinyl chloride monomer,75-01-4,200-831-0,1
@@ -363,7 +363,7 @@ II,361,361,1,,"5,5'-Di-isopropyl-2,2'-dimethylbiphenyl-4,4'-diyl dihypoiodite (t
 II,362,362,1,,"3'-Ethyl-5',6',7',8'-tetrahydro-5',5',8',8'-tetramethyl-2'-acetonaphthone or 7-acetyl-6-ethyl-1,1,4,4-tetramethyl-1,2,3,4-tetrahydronaphtalen (AETT; Versalide)","3'-Ethyl-5',6',7',8'-tetrahydro-5',5',8',8'-tetramethyl-2'-acetonaphthone or 7-acetyl-6-ethyl-1,1,4,4-tetramethyl-1,2,3,4-tetrahydronaphtalen (AETT; Versalide)",88-29-9,201-817-7,1
 II,363,363,1,,o-Phenylenediamine and its salts,o-Phenylenediamine and its salts,95-54-5,202-430-6,1
 II,364,364,1,,"4-Methyl-m-phenylenediamine (Toluene-2,4-diamine) and its salts","4-Methyl-m-phenylenediamine (Toluene-2,4-diamine) and its salts",95-80-7,202-453-1,1
-II,365,365,1,,Aristolochic acid and its salts; Aristolochia spp. and their preparations,Aristolochic acid and its salts; Aristolochia spp. and their preparations,"475-80-9, 313-67-7, 15918-62-4","202-499-6, 206-238-3",1
+II,365,365,1,,Aristolochic acid and its salts; Aristolochia spp. and their preparations,Aristolochic acid and its salts; Aristolochia spp. and their preparations,"475-80-9, 313-67-7, 15918-62-4","207-499-6, 206-238-3",1
 II,366,366,1,,Chloroform,Chloroform,67-66-3,200-663-8,1
 II,367,367,1,,"2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD)","2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD)",1746-01-6,217-122-7,1
 II,368,368,1,,"2,6-Dimethyl-1,3-dioxan-4-yl acetate (Dimethoxane)","2,6-Dimethyl-1,3-dioxan-4-yl acetate (Dimethoxane)",828-00-2,212-579-9,1
@@ -722,7 +722,7 @@ II,720,721,1,,"4,4′-Bi-o-toluidine (ortho-Tolidine)","4,4′-Bi-o-toluidine (o
 II,721,722,1,,"4,4′-Bi-o-toluidine dihydrochloride","4,4′-Bi-o-toluidine dihydrochloride",612-82-8,210-322-5,1
 II,722,723,1,,"[3,3′-Dimethyl[1,1′-biphenyl]-4,4′-diyl]diammonium bis(hydrogen sulphate)","[3,3′-Dimethyl[1,1′-biphenyl]-4,4′-diyl]diammonium bis(hydrogen sulphate)",64969-36-4,265-294-7,1
 II,723,724,1,,"4,4′-Bi-o-toluidine sulphate","4,4′-Bi-o-toluidine sulphate",74753-18-7,277-985-0,1
-II,724,725,1,,o-Tolidine based dyes,o-Tolidine based dyes,,611-030-00-4,1
+II,724,725,1,,o-Tolidine based dyes,o-Tolidine based dyes,,,1
 II,725,726,1,,Biphenyl-4-ylamine (4-Aminobiphenyl) and its salts,Biphenyl-4-ylamine (4-Aminobiphenyl) and its salts,92-67-1,202-177-1,1
 II,726,727,1,,Azobenzene,Azobenzene,103-33-3,203-102-5,1
 II,727,728,1,,(Methyl-ONN-azoxy)methyl acetate,(Methyl-ONN-azoxy)methyl acetate,592-62-1,209-765-7,1
@@ -733,11 +733,11 @@ II,731,732,1,,Furan,Furan,110-00-9,203-727-3,1
 II,732,733,1,,Aziridine,Aziridine,151-56-4,205-793-9,1
 II,733,734,1,,Captafol,Captafol,2425-06-1,219-363-3,1
 II,734,735,1,,Carbadox,Carbadox,6804-07-5,229-879-0,1
-II,735,736,1,,Flumioxazin,Flumioxazin,103361-09-7,613-166-00-X,1
+II,735,736,1,,Flumioxazin,Flumioxazin,103361-09-7,,1
 II,736,737,1,,Tridemorph,Tridemorph,24602-86-6,246-347-3,1
 II,737,738,1,,Vinclozolin,Vinclozolin,50471-44-8,256-599-6,1
 II,738,739,1,,Fluazifop-butyl,Fluazifop-butyl,69806-50-4,274-125-6,1
-II,739,740,1,,Flusilazole,Flusilazole,85509-19-9,014-017-00-6,1
+II,739,740,1,,Flusilazole,Flusilazole,85509-19-9,,1
 II,740,741,1,,"1,3,5-Tris(oxiranylmethyl)-1,3,5-triazine-2,4,6 (1H,3H,5H)-trione (TGIC)","1,3,5-Tris(oxiranylmethyl)-1,3,5-triazine-2,4,6 (1H,3H,5H)-trione (TGIC)",2451-62-9,219-514-3,1
 II,741,742,1,,Thioacetamide,Thioacetamide,62-55-5,200-541-4,1
 II,742,743,1,,Moved or deleted,Moved or deleted,,,1
@@ -752,14 +752,14 @@ II,750,751,1,,"1,3-Propanesultone","1,3-Propanesultone",1120-71-4,214-317-9,1
 II,751,752,1,,Dimethylsulphamoyl-chloride,Dimethylsulphamoyl-chloride,13360-57-1,236-412-4,1
 II,752,753,1,,Sulfallate,Sulfallate,95-06-7,202-388-9,1
 II,753,754,1,,"A mixture of: 4-[[bis-(4-Fluorophenyl)methylsilyl]methyl]-4H-1,2,4-triazole and 1-[[bis-(4-fluorophenyl)methylsilyl]methyl]-1 H-1,2,4-triazole","A mixture of: 4-[[bis-(4-Fluorophenyl)methylsilyl]methyl]-4H-1,2,4-triazole and 1-[[bis-(4-fluorophenyl)methylsilyl]methyl]-1 H-1,2,4-triazole",,403-250-2,1
-II,754,755,1,,(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate,(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate,119738-06-6,607-373-00-4,1
+II,754,755,1,,(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate,(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate,119738-06-6,,1
 II,755,756,1,,"6-Hydroxy-1-(3-Isopropoxypropyl)-4-methyl-2-oxo-5-[4-(phenylazo)phenylazo]-1,2-dihydro-3-pyridinecarbonitrile","6-Hydroxy-1-(3-Isopropoxypropyl)-4-methyl-2-oxo-5-[4-(phenylazo)phenylazo]-1,2-dihydro-3-pyridinecarbonitrile",85136-74-9,400-340-3,1
 II,756,757,1,,"(6-(4-Hydroxy-3-(2-methoxyphenylazo)-2-sulfonato-7-naphthylamino)-1,3,5-triazine-2,4-diyl)bis[(amino-1-methylethyl)ammonium] formate","(6-(4-Hydroxy-3-(2-methoxyphenylazo)-2-sulfonato-7-naphthylamino)-1,3,5-triazine-2,4-diyl)bis[(amino-1-methylethyl)ammonium] formate",108225-03-2,402-060-7,1
 II,757,758,1,,"Trisodium [4′-(8-acetylamino-3,6-disulfonato-2-naphthylazo)-4″-(6-benzoylamino-3-Sulfonato-2-naphthylazo)-biphenyl-1,3′,3″,1′′′-tetraolato-O,O′, O″,O′′′]copper(II)","Trisodium [4′-(8-acetylamino-3,6-disulfonato-2-naphthylazo)-4″-(6-benzoylamino-3-Sulfonato-2-naphthylazo)-biphenyl-1,3′,3″,1′′′-tetraolato-O,O′, O″,O′′′]copper(II)",,413-590-3,1
 II,758,759,1,,"A mixture of: N-[3-Hydroxy-2-(2-methylacryloylaminomethoxy)propoxymethyl]-2-methylacrylamide and N-[2,3-bis-(2-Methylacryloylaminomethoxy)propoxymethyl]-2-methylacrylamide and methacrylamide and 2-methyl-N-(2-methylacryloylaminomethoxymethyl)-acrylamide and N-(2,3-dihydroxypropoxymethyl)-2-methylacrylamide","A mixture of: N-[3-Hydroxy-2-(2-methylacryloylaminomethoxy)propoxymethyl]-2-methylacrylamide and N-[2,3-bis-(2-Methylacryloylaminomethoxy)propoxymethyl]-2-methylacrylamide and methacrylamide and 2-methyl-N-(2-methylacryloylaminomethoxymethyl)-acrylamide and N-(2,3-dihydroxypropoxymethyl)-2-methylacrylamide",,412-790-8,1
-II,759,760,1,,"1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)","1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)",59653-74-6,616-091-00-0,1
-II,760,761,1,,Erionite,Erionite,12510-42-8,650-012-00-0,1
-II,761,762,1,,Asbestos,Asbestos,12001-28-4,650-013-00-6,1
+II,759,760,1,,"1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)","1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)",59653-74-6,,1
+II,760,761,1,,Erionite,Erionite,12510-42-8,,1
+II,761,762,1,,Asbestos,Asbestos,12001-28-4,,1
 II,762,763,1,,Petroleum,Petroleum,8002-05-9,232-298-5,1
 II,763,764,1,,"Distillates (petroleum), heavy hydrocracked, if they contain > 3 % w/w DMSO extract","Distillates (petroleum), heavy hydrocracked, if they contain > 3 % w/w DMSO extract",64741-76-0,265-077-7,1
 II,764,765,1,,"Distillates (petroleum), solvent-refined heavy paraffinic, if they contain > 3 % w/w DMSO extract","Distillates (petroleum), solvent-refined heavy paraffinic, if they contain > 3 % w/w DMSO extract",64741-88-4,265-090-8,1
@@ -1016,9 +1016,9 @@ II,1014,1015,1,,N-2-Naphthylaniline,N-2-Naphthylaniline,135-88-6,205-223-9,1
 II,1015,1016,1,,Ziram,Ziram,137-30-4,205-288-3,1
 II,1016,1017,1,,"1-Bromo-3,4,5-trifluorobenzene","1-Bromo-3,4,5-trifluorobenzene",138526-69-9,418-480-9,1
 II,1017,1018,1,,Propazine,Propazine,139-40-2,205-359-9,1
-II,1018,1019,1,,"3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA","3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA",140-41-0,006-043-00-1,1
-II,1019,1020,1,,Isoxaflutole,Isoxaflutole,141112-29-0,606-054-00-7,1
-II,1020,1021,1,,Kresoxim-methyl,Kresoxim-methyl,143390-89-0,607-310-00-0,1
+II,1018,1019,1,,"3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA","3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA",140-41-0,,1
+II,1019,1020,1,,Isoxaflutole,Isoxaflutole,141112-29-0,,1
+II,1020,1021,1,,Kresoxim-methyl,Kresoxim-methyl,143390-89-0,,1
 II,1021,1022,1,,Chlordecone,Chlordecone,143-50-0,205-601-3,1
 II,1022,1023,1,,9-Vinylcarbazole,9-Vinylcarbazole,1484-13-5,216-055-0,1
 II,1023,1024,1,,2-ethylhexanoic acid and its salts with the exception of those specified elsewhere in Annex VI to Regulation (EC) No 1272/2008,2-ethylhexanoic acid and its salts with the exception of those specified elsewhere in Annex VI to Regulation (EC) No 1272/2008,149-57-5,205-743-6,1
@@ -1081,14 +1081,14 @@ II,1079,1080,1,,Chlordimeform,Chlordimeform,6164-98-3,228-200-5,1
 II,1080,1081,1,,Amitrole,Amitrole,61-82-5,200-521-5,1
 II,1081,1082,1,,Carbaryl,Carbaryl,63-25-2,200-555-0,1
 II,1082,1083,1,,"Distillates (petroleum), light hydrocracked","Distillates (petroleum), light hydrocracked",64741-77-1,265-078-2,1
-II,1083,1084,1,,1-Ethyl-1-methylmorpholinium bromide,1-Ethyl-1-methylmorpholinium bromide,65756-41-4,612-182-00-4,1
+II,1083,1084,1,,1-Ethyl-1-methylmorpholinium bromide,1-Ethyl-1-methylmorpholinium bromide,65756-41-4,,1
 II,1084,1085,1,,(3-Chlorophenyl)-(4-methoxy-3-nitrophenyl) methanone,(3-Chlorophenyl)-(4-methoxy-3-nitrophenyl) methanone,66938-41-8,423-290-4,1
 II,1085,1086,1,,"Fuels, diesel, except if the full refining history is known and it can be shown that the substance from which it is produced is not a carcinogen","Fuels, diesel, except if the full refining history is known and it can be shown that the substance from which it is produced is not a carcinogen",68334-30-5,269-822-7,1
 II,1086,1087,1,,"Fuel oil, no. 2","Fuel oil, no. 2",68476-30-2,270-671-4,1
 II,1087,1088,1,,"Fuel oil, no. 4","Fuel oil, no. 4",68476-31-3,270-673-5,1
 II,1088,1089,1,,"Fuels, diesel, no. 2","Fuels, diesel, no. 2",68476-34-6,270-676-1,1
 II,1089,1090,1,,"2,2-Dibromo-2-nitroethanol","2,2-Dibromo-2-nitroethanol",69094-18-4,412-380-9,1
-II,1090,1091,1,,1-Ethyl-1-methylpyrrolidinium bromide,1-Ethyl-1-methylpyrrolidinium bromide,69227-51-6,612-183-00-X,1
+II,1090,1091,1,,1-Ethyl-1-methylpyrrolidinium bromide,1-Ethyl-1-methylpyrrolidinium bromide,69227-51-6,,1
 II,1091,1092,1,,Monocrotophos,Monocrotophos,6923-22-4,230-042-7,1
 II,1092,1093,1,,Nickel,Nickel,7440-02-0,231-111-4,1
 II,1093,1094,1,,Bromomethane (Methyl bromide - ISO),Bromomethane (Methyl bromide - ISO),74-83-9,200-813-2,1
@@ -1100,7 +1100,7 @@ II,1098,1099,1,,Fentin hydroxide,Fentin hydroxide,76-87-9,200-990-6,1
 II,1099,1100,1,,Nickel sulphate,Nickel sulphate,7786-81-4,232-104-9,1
 II,1100,1101,1,,"3,5,5-Trimethylcyclohex-2-enone (Isophorone)","3,5,5-Trimethylcyclohex-2-enone (Isophorone)",78-59-1,201-126-0,1
 II,1101,1102,1,,"2,3-Dichloropropene","2,3-Dichloropropene",78-88-6,201-153-8,1
-II,1102,1103,1,,Fluazifop-P-butyl (ISO),Fluazifop-P-butyl (ISO),79241-46-6,607-305-00-3,1
+II,1102,1103,1,,Fluazifop-P-butyl (ISO),Fluazifop-P-butyl (ISO),79241-46-6,,1
 II,1103,1104,1,,"(S)-2,3-Dihydro-1H-indole-carboxylic acid","(S)-2,3-Dihydro-1H-indole-carboxylic acid",79815-20-6,410-860-2,1
 II,1104,1105,1,,Toxaphene,Toxaphene,8001-35-2,232-283-3,1
 II,1105,1106,1,,(4-Hydrazinophenyl)-N-methylmethanesulfonamide hydrochloride,(4-Hydrazinophenyl)-N-methylmethanesulfonamide hydrochloride,81880-96-8,406-090-1,1
@@ -1195,7 +1195,7 @@ II,1193,1194,1,,"2-{]4-(2-Ammoniopropylamino)-6-[}4-hydroxy-3-(5-methyl-2-methox
 II,1194,1195,1,,5-Nitro-o-toluidine [1] 5-Nitro-o-toluidine hydrochloride [2],5-Nitro-o-toluidine [1] 5-Nitro-o-toluidine hydrochloride [2],"99-55-8, 51085-52-0","202-765-8, 256-960-8",1
 II,1195,1196,1,,1-(1-Naphthylmethyl)quinolinium chloride,1-(1-Naphthylmethyl)quinolinium chloride,65322-65-8,406-220-7,1
 II,1196,1197,1,,(R)-5-Bromo-3-(1-methyl-2-pyrrolidinylmethyl)- 1H-indole,(R)-5-Bromo-3-(1-methyl-2-pyrrolidinylmethyl)- 1H-indole,143322-57-0,422-390-5,1
-II,1197,1198,1,,Pymetrozine (ISO),Pymetrozine (ISO),123312-89-0,613-202-00-4,1
+II,1197,1198,1,,Pymetrozine (ISO),Pymetrozine (ISO),123312-89-0,,1
 II,1198,1199,1,,Oxadiargyl (ISO),Oxadiargyl (ISO),39807-15-3,254-637-6,1
 II,1199,1200,1,,"Chlorotoluron (3-(3-chloro-p-tolyl)-1,1-dimethylurea)","Chlorotoluron (3-(3-chloro-p-tolyl)-1,1-dimethylurea)",15545-48-9,239-592-2,1
 II,1200,1201,1,,N-[2-(3-Acetyl-5-nitrothiophen-2-ylazo)-5-diethylaminophenyl]acetamide,N-[2-(3-Acetyl-5-nitrothiophen-2-ylazo)-5-diethylaminophenyl]acetamide,,416-860-9,1
@@ -1422,7 +1422,7 @@ II,1419,1421,1,,Nickel matte,Nickel matte,69012-50-6,273-749-6,1
 II,1420,1422,1,,"Slimes and sludges, copper electrolytic refining, decopperised, nickel sulfate","Slimes and sludges, copper electrolytic refining, decopperised, nickel sulfate",92129-57-2,295-859-3,1
 II,1421,1423,1,,"Slimes and sludges, copper electrolyte refining, decopperised","Slimes and sludges, copper electrolyte refining, decopperised",94551-87-8,305-433-1,1
 II,1422,1424,1,,"Nickel diperchlorate; perchloric acid, nickel(II) salt","Nickel diperchlorate; perchloric acid, nickel(II) salt",13637-71-3,237-124-1,1
-II,1423,1425,1,,Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2],Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2],"13842-46-1, 15699-18-0","237-563-9, 239-793-2",1
+II,1423,1425,1,,Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2],Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2],"13842-46-1, 15699-18-0","237-563-9, 239-793-5",1
 II,1424,1426,1,,Nickel bis(sulfamidate); nickel sulfamate,Nickel bis(sulfamidate); nickel sulfamate,13770-89-3,237-396-1,1
 II,1425,1427,1,,,,,,1
 II,1426,1428,1,,"Nickel diformate [1] Formic acid, nickel salt [2] Formic acid, copper nickel salt [3]","Nickel diformate [1] Formic acid, nickel salt [2] Formic acid, copper nickel salt [3]","3349-06-2, 15843-02-4, 68134-59-8","222-101-0, 239-946-6, 268-755-0",1
@@ -1637,7 +1637,7 @@ II,1634,1636,1,,Perfluorononan-1-oic acid [1] and its sodium [2] and ammonium [3
 II,1635,1637,1,,Dicyclohexyl phthalate,Dicyclohexyl phthalate,84-61-7,201-545-9,1
 II,1636,1638,1,,"3,7-Dimethylocta-2,6-dienenitrile","3,7-Dimethylocta-2,6-dienenitrile",5146-66-7,225-918-0,1
 II,1637,1639,1,,Bupirimate (ISO); 5-butyl-2-ethylamino-6-methylpyrimidin-4-yl dimethylsulfamate,Bupirimate (ISO); 5-butyl-2-ethylamino-6-methylpyrimidin-4-yl dimethylsulfamate,41483-43-6,255-391-2,1
-II,1638,1640,1,,Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine,Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine,68694-11-1,604-708-8,1
+II,1638,1640,1,,Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine,Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine,68694-11-1,614-708-8,1
 II,1639,1641,1,,tert-Butyl hydroperoxide,tert-Butyl hydroperoxide,75-91-2,200-915-7,1
 II,1640,1642,1,,"1,2,4-Trihydroxybenzene (10) when used as a substance in hair and eyelash dye products","1,2,4-Trihydroxybenzene (10) when used as a substance in hair and eyelash dye products",533-73-3,208-575-1,1
 II,1641,1643,1,,4-Amino-3-hydroxytoluene (10) when used as a substance in hair and eyelash dye products,4-Amino-3-hydroxytoluene (10) when used as a substance in hair and eyelash dye products,2835-98-5,220-620-7,1

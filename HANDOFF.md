@@ -15,7 +15,8 @@
   conditions / footnotes / preamble 五张表，用 `annex` 区分）
   + 每附件 4 个 CSV + `data/review_queue.csv`。
 - **下一步：人工核对 `data/review_queue.csv`（59 条，原 64 条中 5 条已确认可配对并放行），
-  以及 `data/id_issues.csv` 中只标记未更正的编号（10 个 EC 校验位不对，15 个 CLP 索引号）。**
+  以及 `data/id_issues.csv` 里仍查不到权威号码的两个 EC（II/1414、III/260）。
+  线上 demo 待用预览版 https://claude.ai/artifact/SMnTxyR5xzArMbrMrPEmjd 跑完 #t1–#t28 后再更新。**
   这些是 c/d/e 三列数量对不上、代码刻意不做猜测性配对的条目，三列内容都完整保留着。
   核对完可以把结果写回 substances 表并把 split_ok 置 1。
 - 已发布：https://github.com/shenjiayi692-maker/makeup-eu （public，MIT）。
@@ -77,3 +78,11 @@ SQLite 内容也一致。
   - `Cobalt di(acetate)` 不再被当成 "acetate" 的同义词索引。
   - 问题里同时有监管用语（allowed / max / restricted…）时，不再因 formulation、toxic 等词拒答。
   - 离线测试 27/27 通过（新增 5 条回归用例）。在线页面没有重新测。
+- EC 校验位（第二轮）：用 PubChem/ECHA 逐个核对。
+  - 更正了 4 个只差一位的印错。
+  - 4 个是 ECHA 正式登记、校验位本来就不成立的号码，保持原样。
+  - 2 个查不到权威号码，仍待确认。
+  - 15 个 CLP 索引号移出 substances.ec，不补 EC 号。
+  - 详见 docs/validation.md。
+- demo 页面 `#t24`–`#t28` 为新增回归题。本地浏览器跑过 28 题（无模型模式），检索和拒答都正确，页面无报错。
+  中文题和 Lilial 两题需要模型参与，必须在 claude.ai 上测。

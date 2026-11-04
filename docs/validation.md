@@ -70,16 +70,16 @@
 
 ## 编号校验
 
-所有 CAS / EC 号都按校验位验算，结果在 `id_issues` 表和 `data/id_issues.csv`，共 27 条：
+所有 CAS / EC 号都按校验位验算，结果在 `id_issues` 表和 `data/id_issues.csv`，共 27 条。
+每个 EC 校验位不对的号码，都用 PubChem（数据由 ECHA 提供）按该条目自己的 CAS 号查过一遍（2026-11-04）：
 
-| issue | 条数 | 例 |
+| issue | 条数 | 处理 |
 |---|---|---|
-| `ec_checksum` | 10 | II/365 `202-499-6`、III/260 `146-420-6` |
-| `clp_index_in_ec_column` | 15 | II/331 `613-062-00-4` |
-| `cas_ec_swapped` | 1 | II/1712 Fluopicolide：CAS 239110-15-7 印在 EC 列，EC 607-285-6 印在 CAS 列 |
-| `corrected` | 1 | II/1137 异丁基亚硝酸酯：原文 `542-56-2` 校验位不对，更正为 542-56-3 |
-
-只标记、不更正的条目，需要对照 ECHA 数据库确认后再决定是否加进 `ERRATA`。
+| `corrected` | 5 | 已在 substances 中更正。II/1137 CAS `542-56-2`→`542-56-3`；EC：II/365 `202-499-6`→`207-499-6`、II/1425 `239-793-2`→`239-793-5`、II/1640 `604-708-8`→`614-708-8`、III/259 `415-480-1`→`415-480-0`。EC 只在 ECHA 号码与原文只差一位、且校验位成立时才改 |
+| `ec_check_digit_official` | 4 | II/1489、1535、1537、1734：校验位不成立，但 ECHA 登记的就是这个号码（ELINCS 有少数这样的正式号码），保持原样 |
+| `ec_checksum` | 2 | II/1414 `427-050-1`、III/260 `146-420-6`：查不到权威号码，保持原样，待人工确认 |
+| `clp_index_in_ec_column` | 15 | 法规在这些物质的 EC 列印的是 CLP 索引号，因为它们多半没有正式 EC 号。已从 substances.ec 移除（原文保留在 entries.ec），**不补 EC 号**：按 CAS 自动查到的 EC 不可靠，例如 II/331 藜芦碱在 PubChem 解析到的是 cevadine，它的 EC 号属于另一个物质；另有几个只有 ECHA 的 6xx 清单号，不是 EC 号 |
+| `cas_ec_swapped` | 1 | II/1712 Fluopicolide：CAS 和 EC 印反，已换回 |
 
 ## 抽查
 

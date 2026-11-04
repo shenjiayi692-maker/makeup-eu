@@ -1,28 +1,28 @@
 ﻿annex,ref_no,seq,field,value,issue,note
-II,331,1,ec,613-062-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,365,1,ec,202-499-6,ec_checksum,check digit does not match
-II,725,1,ec,611-030-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,736,1,ec,613-166-00-X,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,740,1,ec,014-017-00-6,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,755,1,ec,607-373-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,760,1,ec,616-091-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,761,1,ec,650-012-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,762,1,ec,650-013-00-6,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1019,1,ec,006-043-00-1,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1020,1,ec,606-054-00-7,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1021,1,ec,607-310-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1084,1,ec,612-182-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1091,1,ec,612-183-00-X,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1103,1,ec,607-305-00-3,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
+II,331,1,ec,613-062-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,365,1,ec,202-499-6,corrected,202-499-6 -> 207-499-6: PubChem (ECHA) lists EC 207-499-6 for CAS 475-80-9; the printed value differs in one digit
+II,725,1,ec,611-030-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,736,1,ec,613-166-00-X,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,740,1,ec,014-017-00-6,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,755,1,ec,607-373-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,760,1,ec,616-091-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,761,1,ec,650-012-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,762,1,ec,650-013-00-6,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1019,1,ec,006-043-00-1,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1020,1,ec,606-054-00-7,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1021,1,ec,607-310-00-0,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1084,1,ec,612-182-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1091,1,ec,612-183-00-X,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1103,1,ec,607-305-00-3,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
 II,1137,1,cas,542-56-2,corrected,542-56-2 -> 542-56-3: printed CAS fails its check digit; 542-56-3 is the registry number of isobutyl nitrite (EC 208-819-7)
-II,1198,1,ec,613-202-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number"
-II,1414,1,ec,427-050-1,ec_checksum,check digit does not match
-II,1425,1,ec,239-793-2,ec_checksum,check digit does not match
-II,1489,1,ec,431-520-1,ec_checksum,check digit does not match
-II,1535,1,ec,424-550-1,ec_checksum,check digit does not match
-II,1537,1,ec,435-470-1,ec_checksum,check digit does not match
-II,1640,1,ec,604-708-8,ec_checksum,check digit does not match
+II,1198,1,ec,613-202-00-4,clp_index_in_ec_column,"CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
+II,1414,1,ec,427-050-1,ec_checksum,"check digit does not match; no verified EC number found, kept as printed"
+II,1425,1,ec,239-793-2,corrected,239-793-2 -> 239-793-5: PubChem (ECHA) lists EC 239-793-5 for CAS 15699-18-0; the printed value differs in one digit
+II,1489,1,ec,431-520-1,ec_check_digit_official,"fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
+II,1535,1,ec,424-550-1,ec_check_digit_official,"fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
+II,1537,1,ec,435-470-1,ec_check_digit_official,"fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
+II,1640,1,ec,604-708-8,corrected,604-708-8 -> 614-708-8: PubChem (ECHA) lists EC 614-708-8 for CAS 68694-11-1; the printed value differs in one digit
 II,1712,1,cas,607-285-6,cas_ec_swapped,source prints CAS 239110-15-7 in the EC column and EC 607-285-6 in the CAS column
-II,1734,1,ec,433-460-1,ec_checksum,check digit does not match
-III,259,1,ec,415-480-1,ec_checksum,check digit does not match
-III,260,1,ec,146-420-6,ec_checksum,check digit does not match
+II,1734,1,ec,433-460-1,ec_check_digit_official,"fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
+III,259,1,ec,415-480-1,corrected,415-480-1 -> 415-480-0: PubChem (ECHA) lists EC 415-480-0 for CAS 86419-69-4; the printed value differs in one digit
+III,260,1,ec,146-420-6,ec_checksum,"check digit does not match; no verified EC number found, kept as printed"

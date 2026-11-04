@@ -65,13 +65,26 @@ def norm_ids(v):
 
 # Source misprints whose correct value is certain. Key: (annex, ref, field,
 # printed value). The printed value stays in entries.* and in id_issues.
+# Each EC correction below was checked on 2026-11-04 against the EC number that
+# PubChem (deposited by ECHA) lists for the entry's own CAS number. A correction
+# is only made when that number differs from the printed one in a single digit
+# and its check digit is valid, i.e. the printed value is a plain misprint.
+_PC = 'PubChem (ECHA) lists EC %s for CAS %s; the printed value differs in one digit'
 ERRATA = {
     ('II', '1137', 'cas', '542-56-2'): (
         '542-56-3', 'printed CAS fails its check digit; 542-56-3 is the '
                     'registry number of isobutyl nitrite (EC 208-819-7)'),
+    ('II', '365', 'ec', '202-499-6'): ('207-499-6', _PC % ('207-499-6', '475-80-9')),
+    ('II', '1425', 'ec', '239-793-2'): ('239-793-5', _PC % ('239-793-5', '15699-18-0')),
+    ('II', '1640', 'ec', '604-708-8'): ('614-708-8', _PC % ('614-708-8', '68694-11-1')),
+    ('III', '259', 'ec', '415-480-1'): ('415-480-0', _PC % ('415-480-0', '86419-69-4')),
 }
 
-CORRECTIONS = ('corrected', 'cas_ec_swapped')
+# ELINCS numbers that fail the check digit but are the official numbers:
+# ECHA assigned them as printed (PubChem/ECHA list the same value for the CAS).
+OFFICIAL_BAD_CHECK = {'431-520-1', '424-550-1', '435-470-1', '433-460-1'}
+
+CORRECTIONS = ('corrected', 'cas_ec_swapped', 'clp_index_in_ec_column')
 
 # ------------------------------------------------------------- 1 ref_no
 def infer_refs(ents):
@@ -183,15 +196,27 @@ def check_ids(annex, e, s, issues):
                 add('cas', v, 'cas_checksum', 'check digit does not match')
         else:
             add('cas', v, 'cas_format', 'not a CAS number')
+    keep = []
     for v in ec:
         if EC_FMT.match(v):
-            if not ec_ok(v):
-                add('ec', v, 'ec_checksum', 'check digit does not match')
+            if v in OFFICIAL_BAD_CHECK:
+                add('ec', v, 'ec_check_digit_official',
+                    'fails the check digit, but is the number ECHA assigned '
+                    '(confirmed via PubChem); kept as printed')
+            elif not ec_ok(v):
+                add('ec', v, 'ec_checksum', 'check digit does not match; '
+                    'no verified EC number found, kept as printed')
+            keep.append(v)
         elif CLP_FMT.match(v):
+            # The regulation prints the CLP index here because the substance
+            # has no EC number of its own; no EC number is invented for it.
             add('ec', v, 'clp_index_in_ec_column',
-                'CLP Annex VI index number, not an EC number')
+                'CLP Annex VI index number, not an EC number; removed from '
+                'substances.ec, kept in entries.ec and here')
         else:
             add('ec', v, 'ec_format', 'not an EC number')
+            keep.append(v)
+    s['ec'] = ", ".join(keep) or None
 
 # ------------------------------------------------------------------- main
 def finalize(annex, ents):
@@ -208,13 +233,11 @@ def finalize(annex, ents):
         for s in subs:
             s['name'] = s['inci_name'] or (
                 flat(e['chemical_name']) if len(subs) == 1 else None) or None
-        new_corr = [i for i in issues if i['issue'] in CORRECTIONS]
-        seen, merged = set(), []
-        for i in prior + new_corr + [i for i in issues if i['issue'] not in CORRECTIONS]:
-            k = (i['seq'], i['field'], i['value'], i['issue'])
-            if k not in seen:
-                seen.add(k)
-                merged.append(i)
+        # a correction removes its own evidence, so the issues recorded on an
+        # earlier pass are kept; ones regenerated now replace them
+        byk = {(i['seq'], i['field'], i['value'], i['issue']): i for i in prior}
+        byk.update({(i['seq'], i['field'], i['value'], i['issue']): i for i in issues})
+        merged = [byk[k] for k in sorted(byk)]
         e['substances'] = subs
         e['id_issues'] = merged
         e['needs_review'] = int(any(not s['split_ok'] for s in subs))

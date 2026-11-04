@@ -11244,7 +11244,7 @@
     "colour_index": null,
     "inci_name": "Veratrine, its salts and galenical preparations",
     "cas": "8051-02-3",
-    "ec": "613-062-00-4",
+    "ec": null,
     "split_ok": 1,
     "name": "Veratrine, its salts and galenical preparations"
    }
@@ -11257,7 +11257,7 @@
     "field": "ec",
     "value": "613-062-00-4",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -12408,7 +12408,7 @@
     "colour_index": null,
     "inci_name": "Aristolochic acid and its salts; Aristolochia spp. and their preparations",
     "cas": "475-80-9, 313-67-7, 15918-62-4",
-    "ec": "202-499-6, 206-238-3",
+    "ec": "207-499-6, 206-238-3",
     "split_ok": 1,
     "name": "Aristolochic acid and its salts; Aristolochia spp. and their preparations"
    }
@@ -12420,8 +12420,8 @@
     "seq": 1,
     "field": "ec",
     "value": "202-499-6",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "corrected",
+    "note": "202-499-6 -> 207-499-6: PubChem (ECHA) lists EC 207-499-6 for CAS 475-80-9; the printed value differs in one digit"
    }
   ]
  },
@@ -24622,7 +24622,7 @@
     "colour_index": null,
     "inci_name": "o-Tolidine based dyes",
     "cas": null,
-    "ec": "611-030-00-4",
+    "ec": null,
     "split_ok": 1,
     "name": "o-Tolidine based dyes"
    }
@@ -24635,7 +24635,7 @@
     "field": "ec",
     "value": "611-030-00-4",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25004,7 +25004,7 @@
     "colour_index": null,
     "inci_name": "Flumioxazin",
     "cas": "103361-09-7",
-    "ec": "613-166-00-X",
+    "ec": null,
     "split_ok": 1,
     "name": "Flumioxazin"
    }
@@ -25017,7 +25017,7 @@
     "field": "ec",
     "value": "613-166-00-X",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25148,7 +25148,7 @@
     "colour_index": null,
     "inci_name": "Flusilazole",
     "cas": "85509-19-9",
-    "ec": "014-017-00-6",
+    "ec": null,
     "split_ok": 1,
     "name": "Flusilazole"
    }
@@ -25161,7 +25161,7 @@
     "field": "ec",
     "value": "014-017-00-6",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25666,7 +25666,7 @@
     "colour_index": null,
     "inci_name": "(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate",
     "cas": "119738-06-6",
-    "ec": "607-373-00-4",
+    "ec": null,
     "split_ok": 1,
     "name": "(+/–)-Tetrahydrofurfuryl –(R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenyloxy]propionate"
    }
@@ -25679,7 +25679,7 @@
     "field": "ec",
     "value": "607-373-00-4",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25844,7 +25844,7 @@
     "colour_index": null,
     "inci_name": "1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)",
     "cas": "59653-74-6",
-    "ec": "616-091-00-0",
+    "ec": null,
     "split_ok": 1,
     "name": "1,3,5-tris-[(2S and 2R)-2,3-Epoxypropyl]-1,3,5-triazine-2,4,6-(1H,3H,5H)-trione (Teroxirone)"
    }
@@ -25857,7 +25857,7 @@
     "field": "ec",
     "value": "616-091-00-0",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25886,7 +25886,7 @@
     "colour_index": null,
     "inci_name": "Erionite",
     "cas": "12510-42-8",
-    "ec": "650-012-00-0",
+    "ec": null,
     "split_ok": 1,
     "name": "Erionite"
    }
@@ -25899,7 +25899,7 @@
     "field": "ec",
     "value": "650-012-00-0",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -25928,7 +25928,7 @@
     "colour_index": null,
     "inci_name": "Asbestos",
     "cas": "12001-28-4",
-    "ec": "650-013-00-6",
+    "ec": null,
     "split_ok": 1,
     "name": "Asbestos"
    }
@@ -25941,7 +25941,7 @@
     "field": "ec",
     "value": "650-013-00-6",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -34674,7 +34674,7 @@
     "colour_index": null,
     "inci_name": "3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA",
     "cas": "140-41-0",
-    "ec": "006-043-00-1",
+    "ec": null,
     "split_ok": 1,
     "name": "3-(4-Chlorophenyl)-1,1-dimethyluronium trichloroacetate; monuron-TCA"
    }
@@ -34687,7 +34687,7 @@
     "field": "ec",
     "value": "006-043-00-1",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -34716,7 +34716,7 @@
     "colour_index": null,
     "inci_name": "Isoxaflutole",
     "cas": "141112-29-0",
-    "ec": "606-054-00-7",
+    "ec": null,
     "split_ok": 1,
     "name": "Isoxaflutole"
    }
@@ -34729,7 +34729,7 @@
     "field": "ec",
     "value": "606-054-00-7",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -34758,7 +34758,7 @@
     "colour_index": null,
     "inci_name": "Kresoxim-methyl",
     "cas": "143390-89-0",
-    "ec": "607-310-00-0",
+    "ec": null,
     "split_ok": 1,
     "name": "Kresoxim-methyl"
    }
@@ -34771,7 +34771,7 @@
     "field": "ec",
     "value": "607-310-00-0",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -36908,7 +36908,7 @@
     "colour_index": null,
     "inci_name": "1-Ethyl-1-methylmorpholinium bromide",
     "cas": "65756-41-4",
-    "ec": "612-182-00-4",
+    "ec": null,
     "split_ok": 1,
     "name": "1-Ethyl-1-methylmorpholinium bromide"
    }
@@ -36921,7 +36921,7 @@
     "field": "ec",
     "value": "612-182-00-4",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -37154,7 +37154,7 @@
     "colour_index": null,
     "inci_name": "1-Ethyl-1-methylpyrrolidinium bromide",
     "cas": "69227-51-6",
-    "ec": "612-183-00-X",
+    "ec": null,
     "split_ok": 1,
     "name": "1-Ethyl-1-methylpyrrolidinium bromide"
    }
@@ -37167,7 +37167,7 @@
     "field": "ec",
     "value": "612-183-00-X",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -37570,7 +37570,7 @@
     "colour_index": null,
     "inci_name": "Fluazifop-P-butyl (ISO)",
     "cas": "79241-46-6",
-    "ec": "607-305-00-3",
+    "ec": null,
     "split_ok": 1,
     "name": "Fluazifop-P-butyl (ISO)"
    }
@@ -37583,7 +37583,7 @@
     "field": "ec",
     "value": "607-305-00-3",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -40816,7 +40816,7 @@
     "colour_index": null,
     "inci_name": "Pymetrozine (ISO)",
     "cas": "123312-89-0",
-    "ec": "613-202-00-4",
+    "ec": null,
     "split_ok": 1,
     "name": "Pymetrozine (ISO)"
    }
@@ -40829,7 +40829,7 @@
     "field": "ec",
     "value": "613-202-00-4",
     "issue": "clp_index_in_ec_column",
-    "note": "CLP Annex VI index number, not an EC number"
+    "note": "CLP Annex VI index number, not an EC number; removed from substances.ec, kept in entries.ec and here"
    }
   ]
  },
@@ -48156,7 +48156,7 @@
     "field": "ec",
     "value": "427-050-1",
     "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "note": "check digit does not match; no verified EC number found, kept as printed"
    }
   ]
  },
@@ -48525,7 +48525,7 @@
     "colour_index": null,
     "inci_name": "Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2]",
     "cas": "13842-46-1, 15699-18-0",
-    "ec": "237-563-9, 239-793-2",
+    "ec": "237-563-9, 239-793-5",
     "split_ok": 1,
     "name": "Nickel dipotassium bis(sulfate) [1] Diammonium nickel bis(sulfate) [2]"
    }
@@ -48537,8 +48537,8 @@
     "seq": 1,
     "field": "ec",
     "value": "239-793-2",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "corrected",
+    "note": "239-793-2 -> 239-793-5: PubChem (ECHA) lists EC 239-793-5 for CAS 15699-18-0; the printed value differs in one digit"
    }
   ]
  },
@@ -50721,8 +50721,8 @@
     "seq": 1,
     "field": "ec",
     "value": "431-520-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
    }
   ]
  },
@@ -52293,8 +52293,8 @@
     "seq": 1,
     "field": "ec",
     "value": "424-550-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
    }
   ]
  },
@@ -52369,8 +52369,8 @@
     "seq": 1,
     "field": "ec",
     "value": "435-470-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
    }
   ]
  },
@@ -55867,7 +55867,7 @@
     "colour_index": null,
     "inci_name": "Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine",
     "cas": "68694-11-1",
-    "ec": "604-708-8",
+    "ec": "614-708-8",
     "split_ok": 1,
     "name": "Triflumizole (ISO); (1E)-N-[4-chloro-2-(trifluoromethyl)phenyl]-1- (1H-imidazol-1-yl)-2-propoxyethanimine"
    }
@@ -55879,8 +55879,8 @@
     "seq": 1,
     "field": "ec",
     "value": "604-708-8",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "corrected",
+    "note": "604-708-8 -> 614-708-8: PubChem (ECHA) lists EC 614-708-8 for CAS 68694-11-1; the printed value differs in one digit"
    }
   ]
  },
@@ -59091,8 +59091,8 @@
     "seq": 1,
     "field": "ec",
     "value": "433-460-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "ec_check_digit_official",
+    "note": "fails the check digit, but is the number ECHA assigned (confirmed via PubChem); kept as printed"
    }
   ]
  },

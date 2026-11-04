@@ -272,7 +272,7 @@ button:focus-visible,textarea:focus-visible,.tag:focus-visible{outline:2px solid
   }
   window.__ask = ask;
 
-  // Test hook: a link ending in #t1 … #t23 runs that accuracy-test question on load.
+  // Test hook: a link ending in #t1 … #t28 runs that accuracy-test question on load.
   const TESTS = [
     'Max concentration of thioglycolic acid in depilatories?',
     'Thioglycolic acid limit in eyelash waving products?',
@@ -297,6 +297,11 @@ button:focus-visible,textarea:focus-visible,.tag:focus-visible{outline:2px solid
     'Is methylparaben safe for pregnant women?',
     'Is Glowmaxin-7 permitted in lipsticks?',
     'Is Lilial banned?',
+    'Max concentration of methylisothiazolinone?',
+    'Is 3-Carene restricted?',
+    'What is the max salicylic acid allowed in my leave-on formulation?',
+    'Is Fluopicolide (CAS 239110-15-7) banned?',
+    'Is lead acetate allowed?',
   ];
   const m = /^#t(\d+)$/.exec(location.hash || '');
   if (m && TESTS[+m[1] - 1]) samplePromise.then(() => ask(TESTS[+m[1] - 1]));

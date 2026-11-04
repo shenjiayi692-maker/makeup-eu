@@ -12683,7 +12683,7 @@
     "colour_index": null,
     "inci_name": "HC Yellow No 9",
     "cas": "86419-69-4",
-    "ec": "415-480-1",
+    "ec": "415-480-0",
     "split_ok": 1,
     "name": "HC Yellow No 9"
    }
@@ -12720,8 +12720,8 @@
     "seq": 1,
     "field": "ec",
     "value": "415-480-1",
-    "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "issue": "corrected",
+    "note": "415-480-1 -> 415-480-0: PubChem (ECHA) lists EC 415-480-0 for CAS 86419-69-4; the printed value differs in one digit"
    }
   ]
  },
@@ -12772,7 +12772,7 @@
     "field": "ec",
     "value": "146-420-6",
     "issue": "ec_checksum",
-    "note": "check digit does not match"
+    "note": "check digit does not match; no verified EC number found, kept as printed"
    }
   ]
  },
